@@ -1,18 +1,16 @@
 ---
 layout: base
 pagination:
-  data: suburbs
+  data: suburbsList
   size: 1
   alias: suburb
-permalink: "suburbs/{{ suburb }}/index.html"
+permalink: "suburbs/{{ suburb.slug }}/index.html"
 eleventyComputed:
-  title: "Mac Repairs in {{ suburbs[suburb].name }}"
+  title: "Mac Repairs in {{ suburb.name }}"
 hero: false
 ---
 
-{% set s = suburbs[suburb] %}
-
-We service all of **{{ s.name }}** — {% for a in s.anchors %}{{ a }}{% if not loop.last %}, {% endif %}{% endfor %}.
+We service all of **{{ suburb.name }}** — {% for a in suburb.anchors %}{{ a }}{% if not loop.last %}, {% endif %}{% endfor %}.
 
 ## Services (jump to)
 - <a href="#battery">Battery</a> • <a href="#screen">Screen</a> • <a href="#keyboard">Keyboard</a> • <a href="#ssd">SSD</a> • <a href="#data">Data Recovery</a> • <a href="#logic">Logic Board</a> • <a href="#fans">Fans</a> • <a href="#ports">Ports</a> • <a href="#os">macOS</a>
