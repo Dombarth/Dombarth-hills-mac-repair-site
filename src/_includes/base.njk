@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>{{ title or 'Hills District Mac Repair' }}</title>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <img class="logo" src="/assets/img/logo.png" alt="Hills District Mac Repair">
+    <a class="call" href="tel:0400454859">☎ 0400 454 859</a>
+  </div>
+</header>
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <a href="/">Home</a>
+    <a href="/suburbs/castle-hill/">Suburbs</a>
+    <a href="/pages/booking.html">Booking</a>
+    <a href="/pages/terms-warranty.html">Terms & Warranty</a>
+    <a href="/pages/contact.html">Contact</a>
+  </div>
+</nav>
+
+{% if hero %}
+<section class="hero" style="background-image:url('/assets/img/hero.jpg')">
+  <div class="wrap">
+    <h1>{{ title }}</h1>
+    <p class="sub">Fast, professional repairs for MacBook Air/Pro, iMac, and more.</p>
+    <p><a class="btn" href="/pages/booking.html">Book a Repair</a> <a class="btn ghost" href="tel:0400454859">Call 0400 454 859</a></p>
+  </div>
+</section>
+{% endif %}
+
+<main class="wrap">
+{{ content | safe }}
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>$150 diagnostic — waived with repair • New parts: 12 months • Used/Aftermarket: 30 days</p>
+    <small>Independent specialist — not affiliated with Apple Inc.</small>
+  </div>
+</footer>
+</body>
+</html>

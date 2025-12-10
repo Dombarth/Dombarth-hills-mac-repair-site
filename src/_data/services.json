@@ -1,0 +1,183 @@
+{
+  "battery": {
+    "name": "Battery Replacement",
+    "from": 129,
+    "symptoms": [
+      "Rapid drain",
+      "Service Battery",
+      "Swollen case",
+      "Shuts off"
+    ],
+    "causes": [
+      "Cycle wear",
+      "Heat",
+      "Chargers"
+    ],
+    "what": [
+      "Diagnostics",
+      "Install quality cells",
+      "Calibration"
+    ],
+    "turnaround": "Same day\u201348h"
+  },
+  "screen": {
+    "name": "Screen / Display Repair",
+    "from": 149,
+    "symptoms": [
+      "Cracks",
+      "Lines",
+      "No backlight"
+    ],
+    "causes": [
+      "Impact",
+      "Cable fatigue",
+      "Driver"
+    ],
+    "what": [
+      "Panel/assembly swap",
+      "Cable/hinge check",
+      "True Tone test"
+    ],
+    "turnaround": "24\u201372h"
+  },
+  "keyboard": {
+    "name": "Keyboard / Trackpad",
+    "from": 129,
+    "symptoms": [
+      "Sticky keys",
+      "No click",
+      "Cursor jumps"
+    ],
+    "causes": [
+      "Liquid",
+      "Dust",
+      "Cable wear"
+    ],
+    "what": [
+      "Topcase/keyboard/trackpad replace",
+      "Recalibrate click",
+      "Backlight test"
+    ],
+    "turnaround": "24\u201372h"
+  },
+  "logic": {
+    "name": "Logic Board Repair",
+    "from": 249,
+    "symptoms": [
+      "No power",
+      "No charge",
+      "USB\u2011C dead"
+    ],
+    "causes": [
+      "Liquid",
+      "Shorted rail",
+      "PD controller"
+    ],
+    "what": [
+      "Microscope inspection",
+      "Component repair",
+      "Stress testing"
+    ],
+    "turnaround": "2\u20137 days"
+  },
+  "ssd": {
+    "name": "SSD Upgrade / Replacement",
+    "from": 129,
+    "symptoms": [
+      "Slow boot",
+      "Beachballing",
+      "Disk full"
+    ],
+    "causes": [
+      "Aged drive",
+      "Low space",
+      "Thermal throttling"
+    ],
+    "what": [
+      "Health check",
+      "NVMe/Apple-spec SSD",
+      "Data migration"
+    ],
+    "turnaround": "Same day"
+  },
+  "data": {
+    "name": "Data Recovery (non\u2011lab)",
+    "from": 199,
+    "symptoms": [
+      "No boot",
+      "Clicking",
+      "Deleted files"
+    ],
+    "causes": [
+      "Corrupt FS",
+      "Bad sectors",
+      "Deletion"
+    ],
+    "what": [
+      "Clone failing media",
+      "FS repair",
+      "Recover to external"
+    ],
+    "turnaround": "1\u20133 days"
+  },
+  "fans": {
+    "name": "Fan / Thermal Service",
+    "from": 119,
+    "symptoms": [
+      "Loud",
+      "Overheating",
+      "Throttling"
+    ],
+    "causes": [
+      "Dust",
+      "Dry paste",
+      "Bearings"
+    ],
+    "what": [
+      "Internal clean",
+      "New paste",
+      "Fan replace"
+    ],
+    "turnaround": "Same day"
+  },
+  "ports": {
+    "name": "USB\u2011C / Ports",
+    "from": 129,
+    "symptoms": [
+      "No charge",
+      "Drops",
+      "Loose port"
+    ],
+    "causes": [
+      "Wear",
+      "Debris",
+      "Surge"
+    ],
+    "what": [
+      "Inspect/clean",
+      "Replace port/board",
+      "Test power/data"
+    ],
+    "turnaround": "24\u201348h"
+  },
+  "os": {
+    "name": "macOS Reinstall & Setup",
+    "from": 150,
+    "symptoms": [
+      "Boot loops",
+      "Very slow",
+      "Malware"
+    ],
+    "causes": [
+      "Corruption",
+      "Failed update",
+      "Adware"
+    ],
+    "what": [
+      "Backup if viable",
+      "Clean install",
+      "Updates/drivers"
+    ],
+    "turnaround": "Same day"
+  }
+}

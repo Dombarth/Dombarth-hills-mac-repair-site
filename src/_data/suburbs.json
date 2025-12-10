@@ -1,0 +1,222 @@
+{
+  "baulkham-hills": {
+    "name": "Baulkham Hills",
+    "anchors": [
+      "Crestwood",
+      "Windsor Rd",
+      "M2 access"
+    ]
+  },
+  "bella-vista": {
+    "name": "Bella Vista",
+    "anchors": [
+      "Norwest Blvd",
+      "Farm",
+      "Old Windsor Rd"
+    ]
+  },
+  "beaumont-hills": {
+    "name": "Beaumont Hills",
+    "anchors": [
+      "The Parkway",
+      "Windsor Rd link"
+    ]
+  },
+  "box-hill": {
+    "name": "Box Hill",
+    "anchors": [
+      "Terry Rd",
+      "Carmel Village"
+    ]
+  },
+  "castle-hill": {
+    "name": "Castle Hill",
+    "anchors": [
+      "Castle Towers",
+      "Old Northern Rd",
+      "Showground"
+    ]
+  },
+  "crestwood": {
+    "name": "Crestwood",
+    "anchors": [
+      "Crestwood Reserve",
+      "Windsor Rd"
+    ]
+  },
+  "kellyville": {
+    "name": "Kellyville",
+    "anchors": [
+      "Memorial Ave",
+      "Wrights Rd"
+    ]
+  },
+  "kellyville-ridge": {
+    "name": "Kellyville Ridge",
+    "anchors": [
+      "The Ponds Blvd",
+      "Stanhope Village"
+    ]
+  },
+  "kings-langley": {
+    "name": "Kings Langley",
+    "anchors": [
+      "Solander Rd",
+      "M7 entry"
+    ]
+  },
+  "kings-park": {
+    "name": "Kings Park",
+    "anchors": [
+      "Sunnyholt Rd",
+      "Marayong"
+    ]
+  },
+  "north-kellyville": {
+    "name": "North Kellyville",
+    "anchors": [
+      "Withers Rd",
+      "Hezlett Rd"
+    ]
+  },
+  "norwest": {
+    "name": "Norwest",
+    "anchors": [
+      "Marketown",
+      "Lakeside"
+    ]
+  },
+  "rouse-hill": {
+    "name": "Rouse Hill",
+    "anchors": [
+      "Town Centre",
+      "NW Metro"
+    ]
+  },
+  "seven-hills": {
+    "name": "Seven Hills",
+    "anchors": [
+      "Prospect Hwy",
+      "M2/M7 junction"
+    ]
+  },
+  "winston-hills": {
+    "name": "Winston Hills",
+    "anchors": [
+      "Winston Hills Mall",
+      "Gooden Dr"
+    ]
+  },
+  "carlingford": {
+    "name": "Carlingford",
+    "anchors": [
+      "Carlingford Court",
+      "Pennant Hills Rd"
+    ]
+  },
+  "cherrybrook": {
+    "name": "Cherrybrook",
+    "anchors": [
+      "Greenway Park",
+      "New Line Rd"
+    ]
+  },
+  "dural": {
+    "name": "Dural",
+    "anchors": [
+      "Round Corner",
+      "Old Northern Rd"
+    ]
+  },
+  "glenhaven": {
+    "name": "Glenhaven",
+    "anchors": [
+      "Glenhaven Rd",
+      "Round Corner vicinity"
+    ]
+  },
+  "glenwood": {
+    "name": "Glenwood",
+    "anchors": [
+      "Norbrik Dr",
+      "T\u2011Way"
+    ]
+  },
+  "north-rocks": {
+    "name": "North Rocks",
+    "anchors": [
+      "Shopping Centre",
+      "M2 corridor"
+    ]
+  },
+  "annangrove": {
+    "name": "Annangrove",
+    "anchors": [
+      "Annangrove Rd",
+      "Rural lots"
+    ]
+  },
+  "nelson": {
+    "name": "Nelson",
+    "anchors": [
+      "Nelson Rd",
+      "Semi\u2011rural"
+    ]
+  },
+  "middle-dural": {
+    "name": "Middle Dural",
+    "anchors": [
+      "Old Northern Rd",
+      "Rural properties"
+    ]
+  },
+  "the-ponds": {
+    "name": "The Ponds",
+    "anchors": [
+      "The Ponds Blvd",
+      "Riverbank Dr"
+    ]
+  },
+  "stanhope-gardens": {
+    "name": "Stanhope Gardens",
+    "anchors": [
+      "Stanhope Village",
+      "Sentry Dr"
+    ]
+  },
+  "quakers-hill": {
+    "name": "Quakers Hill",
+    "anchors": [
+      "Quakers Hill Pkwy",
+      "Railway"
+    ]
+  },
+  "oakhurst": {
+    "name": "Oakhurst",
+    "anchors": [
+      "Luxford Rd",
+      "Richmond Rd"
+    ]
+  },
+  "parklea": {
+    "name": "Parklea",
+    "anchors": [
+      "Marketown",
+      "Sunnyholt Rd"
+    ]
+  },
+  "pennant-hills": {
+    "name": "Pennant Hills",
+    "anchors": [
+      "Station",
+      "Thompson\u2019s Corner"
+    ]
+  },
+  "west-pennant-hills": {
+    "name": "West Pennant Hills",
+    "anchors": [
+      "Pennant Hills Rd",
+      "Koala Park"
+    ]
+  }
+}
