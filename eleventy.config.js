@@ -11,7 +11,7 @@ export default function(eleventyConfig) {
 
   eleventyConfig.addPlugin(sitemap, {
     sitemap: {
-      hostname: process.env.SITE_URL || "https://example.com"
+      hostname: "https://www.hillsmacrepair.com.au"
     }
   });
 
