@@ -1,0 +1,26 @@
+---
+layout: base
+pagination:
+  data: suburbsList
+  size: 1
+  alias: suburb
+permalink: "suburbs/{{ suburb.slug }}/index.html"
+eleventyComputed:
+  title: "Mac Repairs in {{ suburb.name }}"
+hero: false
+---
+
+We service all of **{{ suburb.name }}** — {% for a in suburb.anchors %}{{ a }}{% if not loop.last %}, {% endif %}{% endfor %}.
+
+## Services (jump to)
+- <a href="#battery">Battery</a> • <a href="#screen">Screen</a> • <a href="#keyboard">Keyboard</a> • <a href="#ssd">SSD</a> • <a href="#data">Data Recovery</a> • <a href="#logic">Logic Board</a> • <a href="#fans">Fans</a> • <a href="#ports">Ports</a> • <a href="#os">macOS</a>
+
+{% set service = "battery" %}{% include "deep_service.njk" %}
+{% set service = "screen" %}{% include "deep_service.njk" %}
+{% set service = "keyboard" %}{% include "deep_service.njk" %}
+{% set service = "ssd" %}{% include "deep_service.njk" %}
+{% set service = "data" %}{% include "deep_service.njk" %}
+{% set service = "logic" %}{% include "deep_service.njk" %}
+{% set service = "fans" %}{% include "deep_service.njk" %}
+{% set service = "ports" %}{% include "deep_service.njk" %}
+{% set service = "os" %}{% include "deep_service.njk" %}
