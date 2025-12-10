@@ -11,6 +11,9 @@ export default function() {
   
   return Object.keys(suburbs).map(key => ({
     slug: key,
-    ...suburbs[key]
+    name: suburbs[key].name,
+    anchors: suburbs[key].anchors,
+    description: suburbs[key].description,
+    localInfo: suburbs[key].localInfo
   }));
 }
