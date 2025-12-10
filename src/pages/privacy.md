@@ -8,7 +8,7 @@ permalink: /privacy/
 # Privacy Policy
 
 **Last updated:** February 2025  
-**Hills District Mac Repair** ABN: 20797451034
+ 
 
 This Privacy Policy explains how Hills District Mac Repair ("we", "us", or "our") collects, uses, discloses, and protects your personal information in accordance with the Australian Privacy Act 1988 (Cth) and the Australian Privacy Principles (APPs).
 
@@ -173,4 +173,5 @@ If you believe we have breached your privacy, you can:
 ---
 
 <p style="margin-top: 2rem;"><a href="/" class="btn">Back to Home</a> <a href="/terms/" class="btn ghost-dark">View Terms & Conditions</a></p>
+
 
