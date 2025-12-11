@@ -2,7 +2,7 @@
 <div class="card service-card-embed" id="{{ service }}">
   <div class="service-header">
     <h3><a href="/services/{{ svc.slug }}/">{{ svc.name }}</a> — From ${{ svc.from }}</h3>
-    <a href="/services/{{ svc.slug }}/" class="service-link">Full Details →</a>
+    <a href="/services/{{ svc.slug }}/" class="service-link">View full {{ svc.name | lower }} service details →</a>
   </div>
   <p class="small">Final price depends on model and inspection. Diagnostic fee is <strong>$150</strong>, waived if you proceed with the repair.</p>
   <div class="badges">
@@ -10,20 +10,28 @@
     <span class="badge">✓ 12‑month warranty</span>
     <span class="badge">📍 Hills District</span>
   </div>
-  <div class="grid" style="margin-top:12px">
-    <div class="box">
-      <h4>Common Symptoms</h4>
-      <ul>{% for s in svc.symptoms | slice(0, 4) %}<li>{{ s }}</li>{% endfor %}</ul>
+  <div class="service-details-grid">
+    <div class="box symptoms-box">
+      <h4>Common Problems We Fix</h4>
+      <ul class="symptoms-list">
+        {% for s in svc.symptoms %}
+        <li>{{ s }}</li>
+        {% endfor %}
+      </ul>
     </div>
-    <div class="box">
-      <h4>What We Do</h4>
-      <ol>{% for w in svc.what %}<li>{{ w }}</li>{% endfor %}</ol>
+    <div class="box process-box">
+      <h4>Our Repair Process</h4>
+      <ol class="process-list">
+        {% for w in svc.what %}
+        <li>{{ w }}</li>
+        {% endfor %}
+      </ol>
     </div>
   </div>
   <p class="cta-row">
-    <a class="btn" href="/services/{{ svc.slug }}/">Learn More</a>
-    <a class="btn" href="/pages/booking.html">Book Repair</a>
-    <a class="btn ghost-dark" href="tel:0400454859">Call Us</a>
+    <a class="btn" href="/services/{{ svc.slug }}/">View {{ svc.name }} Details</a>
+    <a class="btn" href="/pages/booking.html">Book {{ svc.shortName }} Repair</a>
+    <a class="btn ghost-dark" href="tel:0400454859">Call 0400 454 859</a>
   </p>
 </div>
 
@@ -73,5 +81,29 @@
   background: transparent;
   border: 2px solid #1a365d;
   color: #1a365d;
+}
+.service-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+@media (max-width: 600px) {
+  .service-details-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.symptoms-list, .process-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+.symptoms-list li, .process-list li {
+  margin-bottom: 0.35rem;
+  line-height: 1.4;
+}
+.symptoms-box h4, .process-box h4 {
+  margin: 0 0 0.75rem;
+  color: #1a365d;
+  font-size: 1rem;
 }
 </style>
