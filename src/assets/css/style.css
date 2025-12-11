@@ -11,7 +11,11 @@
 .call-icon{font-size:1.1rem}
 .call-text{font-size:1rem}
 @media(max-width:600px){.logo-svg{height:40px}.call-text{display:none}.top .call{padding:10px 14px}}
-.nav{background:#fff;box-shadow:0 6px 18px rgba(0,0,0,.06)} .nav-inner{display:flex;gap:22px} .nav a{color:var(--ink);text-decoration:none;padding:12px 0} .nav a:hover{color:var(--blue2)}
+.nav{background:#fff;box-shadow:0 6px 18px rgba(0,0,0,.06);overflow-x:auto;-webkit-overflow-scrolling:touch}
+.nav-inner{display:flex;gap:16px;min-width:max-content}
+.nav a{color:var(--ink);text-decoration:none;padding:12px 0;white-space:nowrap;font-size:0.95rem}
+.nav a:hover{color:var(--blue2)}
+@media(max-width:500px){.nav-inner{gap:12px;padding-right:16px}.nav a{font-size:0.85rem;padding:10px 0}}
 .hero{background:#0A1F44;color:#fff;background-size:cover;background-position:center}.hero .wrap{padding:48px 16px 56px}.hero h1{font-size:40px;line-height:1.15;margin:0 0 8px;color:#fff}.hero .sub{opacity:.92;margin:6px 0 18px}
 h1,h2,h3{color:var(--blue)} h2{margin-top:28px}
 .btn{display:inline-block;background:var(--orange);color:#fff;text-decoration:none;padding:12px 16px;border-radius:10px;font-weight:700}.btn.ghost{background:transparent;border:2px solid #fff;color:#fff}
