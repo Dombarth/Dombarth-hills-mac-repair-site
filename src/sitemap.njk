@@ -4,14 +4,70 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {%- for page in collections.all %}
-  {%- if page.url and not page.data.eleventyExcludeFromCollections %}
+  <!-- Homepage -->
   <url>
-    <loc>https://www.hillsmacrepair.com.au{{ page.url }}</loc>
-    <lastmod>{{ page.date | iso }}</lastmod>
-    <changefreq>{% if page.url == "/" %}daily{% elif "services" in page.url or "suburbs" in page.url %}weekly{% else %}monthly{% endif %}</changefreq>
-    <priority>{% if page.url == "/" %}1.0{% elif page.url == "/services/" or page.url == "/suburbs/" %}0.9{% elif "services" in page.url or "suburbs" in page.url %}0.8{% else %}0.6{% endif %}</priority>
+    <loc>https://www.hillsmacrepair.com.au/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
-  {%- endif %}
+  
+  <!-- Services Index -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/services/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Individual Service Pages -->
+  {%- for service in servicesList %}
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/services/{{ service.slug }}/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   {%- endfor %}
+  
+  <!-- Suburbs Index -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/suburbs/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Individual Suburb Pages -->
+  {%- for suburb in suburbsList %}
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/suburbs/{{ suburb.slug }}/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {%- endfor %}
+  
+  <!-- Terms & Conditions -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/terms/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/privacy/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Booking -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/pages/booking.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Contact -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/pages/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
