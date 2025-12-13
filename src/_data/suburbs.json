@@ -2,14 +2,14 @@
   "baulkham-hills": {
     "name": "Baulkham Hills",
     "anchors": ["Crestwood", "Windsor Rd", "M2 access"],
-    "description": "Baulkham Hills residents trust us for fast, reliable Mac repairs. Located near the M2, we're easily accessible from Crestwood and surrounding streets. Whether your MacBook has a failing battery or your iMac won't start, our certified technicians provide same-day diagnostics with transparent pricing.",
-    "localInfo": "We regularly service customers from the Crestwood area, along Windsor Road, and those commuting via the M2 motorway. Many Baulkham Hills families rely on their Macs for work-from-home setups and children's education."
+    "description": "Looking for the best Mac repair in Baulkham Hills? Our certified technicians provide affordable MacBook and iMac repairs with same-day service available. Whether your MacBook battery needs replacement, your screen is cracked, or your Mac won't turn on, we offer emergency repairs when you need them most. Conveniently located near the M2, we're the trusted Apple computer repair specialists for Baulkham Hills residents.",
+    "localInfo": "We regularly service customers from the Crestwood area, along Windsor Road, and those commuting via the M2 motorway. Many Baulkham Hills families rely on their Macs for work-from-home setups and children's education. Our Mac technicians handle everything from water damage repair to data recovery, keyboard repairs, and SSD upgrades."
   },
   "bella-vista": {
     "name": "Bella Vista",
     "anchors": ["Norwest Blvd", "Farm", "Old Windsor Rd"],
-    "description": "Serving the Bella Vista community with expert Apple Mac repairs. Our workshop is a short drive from Norwest Business Park, making us convenient for professionals whose MacBooks are essential for work. We understand downtime costs money—that's why we prioritise fast turnaround.",
-    "localInfo": "Bella Vista's growing community of professionals and families depend on reliable technology. From Norwest Boulevard offices to home studios near the old Bella Vista Farm, we provide repairs that get you back to productivity quickly."
+    "description": "Need the best Mac repair in Bella Vista? Our certified Mac technicians provide same-day service for MacBook and iMac repairs. Whether your Mac won't turn on, you need an affordable battery replacement, or require emergency screen repair, we're your trusted Apple computer repair specialists near Norwest Business Park. Fast turnaround for professionals who can't afford downtime.",
+    "localInfo": "Bella Vista's growing community of professionals and families depend on reliable technology. From Norwest Boulevard offices to home studios near Bella Vista Farm, we provide expert Mac repairs including data recovery, SSD upgrades, keyboard repairs, logic board repair, and water damage repair. Our Mac experts get you back to productivity quickly."
   },
   "beaumont-hills": {
     "name": "Beaumont Hills",
@@ -26,8 +26,8 @@
   "castle-hill": {
     "name": "Castle Hill",
     "anchors": ["Castle Towers", "Old Northern Rd", "Showground"],
-    "description": "Castle Hill is at the heart of our service area. Whether you're shopping at Castle Towers or working from home near the Showground, we're your local Mac repair specialists. Our workshop handles hundreds of repairs monthly, from simple battery swaps to complex data recovery.",
-    "localInfo": "As the Hills District's major hub, Castle Hill residents have high expectations for service quality. We meet those expectations with certified technicians, quality parts, and warranties that give you peace of mind."
+    "description": "Looking for the best Mac repair in Castle Hill? As the heart of the Hills District, we're the trusted choice for affordable MacBook and iMac repairs. Our certified Mac technicians provide same-day service for battery replacements, screen repairs, and emergency fixes when your Mac won't turn on. Near Castle Towers and the Showground, we're your local Apple computer repair specialists.",
+    "localInfo": "Castle Hill residents have high expectations for service quality—and we deliver. Our Mac experts handle everything from water damage repair to data recovery, logic board repair, keyboard fixes, and SSD upgrades. Whether you need MacBook Pro screen replacement or iMac troubleshooting, we provide honest assessments, transparent pricing, and quality repairs with warranty."
   },
   "crestwood": {
     "name": "Crestwood",
@@ -38,8 +38,8 @@
   "kellyville": {
     "name": "Kellyville",
     "anchors": ["Memorial Ave", "Wrights Rd"],
-    "description": "Kellyville's growing population deserves quality Mac repair services close to home. From Memorial Avenue to Wrights Road, we serve families and businesses with fast, affordable repairs. No appointment needed for diagnostics—just drop in.",
-    "localInfo": "Kellyville has transformed from farmland to a thriving suburb, and technology needs have grown with it. We support local schools, home offices, and creative professionals with expert Mac repairs."
+    "description": "Need affordable Mac repair in Kellyville? Our certified technicians provide the best MacBook and iMac repair services in the area. From same-day battery replacements and screen repairs to emergency fixes when your Mac won't turn on, we handle it all. Serving Memorial Avenue to Wrights Road, we're Kellyville's trusted Apple computer repair specialists.",
+    "localInfo": "Kellyville has transformed from farmland to a thriving suburb, and technology needs have grown with it. Our Mac technicians support local schools, home offices, and creative professionals with expert repairs including data recovery, water damage repair, keyboard fixes, logic board repair, and SSD upgrades. Same-day service available for urgent Mac repairs."
   },
   "kellyville-ridge": {
     "name": "Kellyville Ridge",
@@ -74,8 +74,8 @@
   "rouse-hill": {
     "name": "Rouse Hill",
     "anchors": ["Town Centre", "NW Metro"],
-    "description": "Rouse Hill residents enjoy easy access to expert Mac repairs. Near the Town Centre and Metro station, we're convenient for busy families and commuters. Drop off your Mac before catching the train and pick it up on your return.",
-    "localInfo": "Rouse Hill's excellent transport links make us accessible to the whole northwest. We service customers from across the region who appreciate our combination of quality repairs and convenient location."
+    "description": "Looking for the best Mac repair in Rouse Hill? Our certified technicians provide affordable MacBook and iMac repairs with same-day service. Near the Town Centre and Metro station, we're convenient for busy families and commuters. Drop off your Mac before catching the train and pick it up repaired. We handle emergency repairs when your Mac won't turn on, battery replacements, and screen repairs.",
+    "localInfo": "Rouse Hill's excellent transport links make us accessible to the whole northwest. Our Mac experts serve the region with quality repairs including data recovery, water damage repair, keyboard fixes, logic board repair, and SSD upgrades. Whether you need MacBook screen replacement or iMac troubleshooting, our Mac technicians provide honest assessments and transparent pricing."
   },
   "seven-hills": {
     "name": "Seven Hills",
@@ -184,5 +184,29 @@
     "anchors": ["Pennant Hills Rd", "Koala Park"],
     "description": "West Pennant Hills residents enjoy professional Mac repairs with a personal touch. This leafy suburb deserves quality local services, and we deliver exactly that. From routine maintenance to complex repairs, we handle it all.",
     "localInfo": "West Pennant Hills' family-oriented community values reliability. Many customers have been with us for years, trusting us with successive generations of Apple devices."
+  },
+  "galston": {
+    "name": "Galston",
+    "anchors": ["Galston Rd", "Glenorie", "Rural community"],
+    "description": "Need Mac repair in Galston? Our certified technicians provide affordable MacBook and iMac repairs for the Galston and Glenorie community. From emergency repairs when your Mac won't turn on, to same-day battery replacements and screen repairs, we're the trusted Apple computer repair experts serving the Hills District's northern reaches. Our mobile Mac repair service is perfect for rural properties.",
+    "localInfo": "Galston's rural-residential community relies on technology for agriculture, home businesses, and staying connected. We understand the importance of reliable Mac repairs for properties where a trip to the Apple Store isn't convenient. Our Mac technicians handle data recovery, water damage repair, SSD upgrades, and all MacBook and iMac troubleshooting needs."
+  },
+  "schofields": {
+    "name": "Schofields",
+    "anchors": ["Railway Terrace", "Alex Ave", "New developments"],
+    "description": "Schofields residents deserve the best Mac repair service close to home. Our certified Mac technicians provide affordable repairs with same-day service available. Whether you need MacBook battery replacement, screen repair, keyboard fixes, or help with a Mac that won't turn on, we're your local Apple computer repair specialists. Near the station for easy commuter access.",
+    "localInfo": "Schofields' rapidly growing community means lots of new families with Apple devices. We support the area with MacBook repairs, iMac troubleshooting, data recovery, and SSD upgrades. Young professionals and families trust us for emergency Mac repairs and honest, transparent pricing on all services."
+  },
+  "blacktown": {
+    "name": "Blacktown",
+    "anchors": ["Westpoint", "Main St", "Station"],
+    "description": "Looking for affordable Mac repair in Blacktown? Our certified technicians offer the best MacBook and iMac repair services in the area. From same-day battery replacements to emergency repairs for Macs that won't turn on, we handle it all. Conveniently located for Blacktown residents, we're your trusted Apple computer repair specialists with transparent pricing.",
+    "localInfo": "Blacktown's diverse community needs reliable, affordable Mac repairs. We serve students, professionals, and families with services including MacBook screen replacement, keyboard repair, data recovery, water damage repair, logic board repair, and SSD upgrades. Our Mac experts provide honest assessments and quality repairs with warranty."
+  },
+  "lalor-park": {
+    "name": "Lalor Park",
+    "anchors": ["Doyle Rd", "Bungaree Rd", "Kings Langley border"],
+    "description": "Lalor Park residents trust us for affordable Mac repairs with certified technicians. We offer same-day service for MacBook battery replacements, screen repairs, and emergency fixes when your Mac won't turn on. Near Kings Langley, we're accessible and convenient for all your Apple computer repair needs.",
+    "localInfo": "Lalor Park's family-friendly community values honest, affordable service. Our Mac technicians help local residents with MacBook keyboard repairs, iMac troubleshooting, data recovery, SSD upgrades, and water damage repair. We explain issues clearly and provide repairs that last."
   }
 }
