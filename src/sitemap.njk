@@ -43,6 +43,22 @@ eleventyExcludeFromCollections: true
   </url>
   {%- endfor %}
   
+  <!-- iMac Upgrades Index -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/imac-upgrades/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Individual iMac Model Upgrade Pages -->
+  {%- for imac in imacModelsList %}
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/imac-upgrades/{{ imac.slug }}/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {%- endfor %}
+  
   <!-- Terms & Conditions -->
   <url>
     <loc>https://www.hillsmacrepair.com.au/terms/</loc>
