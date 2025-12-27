@@ -7,102 +7,176 @@
 <title>Mac Repair Hills District | MacBook &amp; iMac Repairs</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1a1a1a;background:#fff}
-.container{max-width:600px;margin:0 auto;padding:0 20px}
-.hero{background:#1a1a1a;color:#fff;padding:40px 20px;text-align:center}
-.hero h1{font-size:1.8rem;margin-bottom:10px;font-weight:700}
-.hero p{font-size:1.1rem;margin-bottom:8px;color:#e0e0e0}
-.cta-buttons{display:flex;flex-direction:column;gap:12px;margin-top:24px}
-.btn{display:block;padding:18px 24px;font-size:1.1rem;font-weight:600;text-decoration:none;border-radius:8px;text-align:center;border:none;cursor:pointer}
-.btn-primary{background:#0066cc;color:#fff}
-.btn-secondary{background:#fff;color:#1a1a1a;border:2px solid #1a1a1a}
-.trust{background:#f5f5f5;padding:24px 20px;text-align:center;font-size:1rem;color:#333}
-section{padding:32px 20px}
-h2{font-size:1.4rem;margin-bottom:16px;color:#1a1a1a}
-ul{list-style:none;padding:0}
-ul li{padding:10px 0;border-bottom:1px solid #eee;font-size:1rem}
-ul li:last-child{border-bottom:none}
-.phone-block{background:#0066cc;color:#fff;padding:24px 20px;text-align:center;margin:24px 0}
-.phone-block a{color:#fff;text-decoration:none;font-size:1.4rem;font-weight:700;display:block}
-.faq-item{margin-bottom:20px}
-.faq-item h3{font-size:1.1rem;margin-bottom:8px;color:#1a1a1a}
-.faq-item p{color:#444;font-size:0.95rem}
-form{background:#f5f5f5;padding:24px;border-radius:8px}
-label{display:block;font-weight:600;margin-bottom:6px;font-size:0.95rem}
-input,textarea{width:100%;padding:14px;font-size:1rem;border:1px solid #ccc;border-radius:6px;margin-bottom:16px;font-family:inherit}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.7;color:#2d3748;background:#fff;font-size:16px}
+
+.hero{background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);color:#fff;padding:60px 24px 70px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle,rgba(255,255,255,0.03) 0%,transparent 50%);animation:pulse 15s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}
+.hero-content{position:relative;z-index:1;max-width:540px;margin:0 auto}
+.badge{display:inline-block;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.25);padding:8px 20px;border-radius:50px;font-size:0.85rem;letter-spacing:0.5px;margin-bottom:24px;backdrop-filter:blur(10px)}
+.hero h1{font-size:2.2rem;font-weight:800;margin-bottom:16px;letter-spacing:-0.5px;line-height:1.2}
+.hero-sub{font-size:1.15rem;color:rgba(255,255,255,0.9);margin-bottom:8px;font-weight:500}
+.hero-sub-2{font-size:1rem;color:rgba(255,255,255,0.7);margin-bottom:32px}
+
+.cta-phone{display:block;background:linear-gradient(135deg,#00b894 0%,#00a085 100%);color:#fff;text-decoration:none;padding:20px 32px;border-radius:12px;font-size:1.4rem;font-weight:700;margin-bottom:16px;box-shadow:0 4px 20px rgba(0,184,148,0.4);transition:transform 0.2s,box-shadow 0.2s}
+.cta-phone:hover{transform:translateY(-2px);box-shadow:0 6px 30px rgba(0,184,148,0.5)}
+.cta-phone span{display:block;font-size:0.85rem;font-weight:500;opacity:0.9;margin-bottom:4px}
+.cta-secondary{display:inline-block;color:rgba(255,255,255,0.9);text-decoration:none;padding:14px 28px;border:2px solid rgba(255,255,255,0.3);border-radius:10px;font-size:1rem;font-weight:600;transition:all 0.2s}
+.cta-secondary:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.5)}
+
+.trust-bar{background:#f8fafc;border-bottom:1px solid #e2e8f0;padding:20px 24px}
+.trust-content{max-width:540px;margin:0 auto;display:flex;flex-direction:column;gap:12px;text-align:center}
+.trust-item{display:flex;align-items:center;justify-content:center;gap:10px;font-size:0.95rem;color:#4a5568}
+.trust-icon{width:20px;height:20px;background:#00b894;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.trust-icon::after{content:"";width:6px;height:10px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg);margin-top:-2px}
+
+.phone-banner{background:linear-gradient(135deg,#00b894 0%,#00a085 100%);padding:28px 24px;text-align:center}
+.phone-banner a{color:#fff;text-decoration:none;font-size:1.6rem;font-weight:700;display:block;letter-spacing:0.5px}
+.phone-banner p{color:rgba(255,255,255,0.9);font-size:0.95rem;margin-bottom:8px}
+
+section{padding:48px 24px}
+.container{max-width:540px;margin:0 auto}
+h2{font-size:1.5rem;font-weight:700;margin-bottom:24px;color:#1a202c;letter-spacing:-0.3px}
+.section-light{background:#f8fafc}
+
+.services-grid{display:grid;gap:12px}
+.service-item{background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:16px 20px;font-size:1rem;color:#2d3748;display:flex;align-items:center;gap:12px;transition:border-color 0.2s,box-shadow 0.2s}
+.service-item:hover{border-color:#00b894;box-shadow:0 2px 8px rgba(0,184,148,0.1)}
+.service-dot{width:8px;height:8px;background:#00b894;border-radius:50%;flex-shrink:0}
+
+.area-box{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);border-radius:16px;padding:32px 24px;color:#fff;text-align:center}
+.area-box h2{color:#fff;margin-bottom:16px}
+.area-box p{font-size:1rem;opacity:0.95;margin-bottom:12px}
+.area-suburbs{font-size:1.05rem;font-weight:600;line-height:1.8}
+
+.why-list{display:flex;flex-direction:column;gap:16px}
+.why-item{display:flex;gap:16px;align-items:flex-start}
+.why-num{width:36px;height:36px;background:linear-gradient(135deg,#1a1a2e 0%,#0f3460 100%);color:#fff;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.95rem;flex-shrink:0}
+.why-text{font-size:1rem;color:#4a5568;padding-top:6px}
+.why-text strong{color:#1a202c;display:block;margin-bottom:2px}
+
+.faq-list{display:flex;flex-direction:column;gap:20px}
+.faq-item{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:20px 24px}
+.faq-item h3{font-size:1.05rem;font-weight:600;color:#1a202c;margin-bottom:8px}
+.faq-item p{font-size:0.95rem;color:#4a5568;line-height:1.6}
+
+.contact-section{background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);color:#fff;padding:56px 24px}
+.contact-section h2{color:#fff;text-align:center}
+.contact-phone{text-align:center;margin-bottom:32px}
+.contact-phone a{color:#00b894;text-decoration:none;font-size:1.8rem;font-weight:700}
+.contact-phone p{color:rgba(255,255,255,0.7);font-size:0.95rem;margin-top:8px}
+
+form{background:#fff;border-radius:16px;padding:32px 24px;max-width:440px;margin:0 auto}
+label{display:block;font-weight:600;margin-bottom:8px;font-size:0.9rem;color:#1a202c}
+input,textarea{width:100%;padding:16px;font-size:1rem;border:2px solid #e2e8f0;border-radius:10px;margin-bottom:20px;font-family:inherit;transition:border-color 0.2s}
+input:focus,textarea:focus{outline:none;border-color:#00b894}
 textarea{min-height:100px;resize:vertical}
-.btn-submit{width:100%;background:#1a1a1a;color:#fff;padding:18px;font-size:1.1rem;font-weight:600;border:none;border-radius:8px;cursor:pointer}
-.final-cta{background:#1a1a1a;color:#fff;padding:32px 20px;text-align:center}
-.final-cta p{margin-bottom:16px;font-size:1.1rem}
-.final-cta a{color:#fff;text-decoration:none;font-size:1.5rem;font-weight:700;display:block;background:#0066cc;padding:18px;border-radius:8px}
-@media(min-width:480px){.cta-buttons{flex-direction:row;justify-content:center}.btn{min-width:160px}}
+.btn-submit{width:100%;background:linear-gradient(135deg,#00b894 0%,#00a085 100%);color:#fff;padding:18px;font-size:1.1rem;font-weight:700;border:none;border-radius:10px;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s}
+.btn-submit:hover{transform:translateY(-2px);box-shadow:0 4px 20px rgba(0,184,148,0.4)}
+
+.final-cta{background:#0f3460;padding:48px 24px;text-align:center}
+.final-cta p{color:rgba(255,255,255,0.9);font-size:1.1rem;margin-bottom:20px}
+.final-cta a{display:inline-block;background:linear-gradient(135deg,#00b894 0%,#00a085 100%);color:#fff;text-decoration:none;padding:20px 40px;border-radius:12px;font-size:1.3rem;font-weight:700;box-shadow:0 4px 20px rgba(0,184,148,0.4)}
+
+@media(min-width:480px){
+.hero h1{font-size:2.6rem}
+.trust-content{flex-direction:row;justify-content:center;gap:24px}
+.services-grid{grid-template-columns:1fr 1fr}
+}
 </style>
 </head>
 <body>
 <header class="hero">
-<div class="container">
+<div class="hero-content">
+<div class="badge">Hills District Mac Specialists</div>
 <h1>Mac Repair Hills District</h1>
-<p>MacBook &amp; iMac Repair Specialists</p>
-<p>Fast, local service in the Hills District</p>
-<div class="cta-buttons">
-<a href="tel:0400454859" class="btn btn-primary">Call Now</a>
-<a href="#book" class="btn btn-secondary">Book a Repair</a>
-</div>
+<p class="hero-sub">MacBook &amp; iMac Repair Specialists</p>
+<p class="hero-sub-2">Fast, local service in the Hills District</p>
+<a href="tel:0400454859" class="cta-phone">
+<span>Call Now</span>
+0400 454 859
+</a>
+<a href="#book" class="cta-secondary">Book a Repair</a>
 </div>
 </header>
 
-<div class="trust">
-<p>Local Hills District Mac repair specialist.<br>Mac computers only. No call centres.</p>
+<div class="trust-bar">
+<div class="trust-content">
+<div class="trust-item"><span class="trust-icon"></span>Mac Computers Only</div>
+<div class="trust-item"><span class="trust-icon"></span>No Call Centres</div>
+<div class="trust-item"><span class="trust-icon"></span>Local Technician</div>
+</div>
 </div>
 
-<div class="phone-block">
+<div class="phone-banner">
+<p>Speak directly with a Mac specialist</p>
 <a href="tel:0400454859">0400 454 859</a>
 </div>
 
 <section>
 <div class="container">
 <h2>Our Services</h2>
-<ul>
-<li>MacBook Air repairs</li>
-<li>MacBook Pro repairs</li>
-<li>iMac repairs</li>
-<li>Screen replacement</li>
-<li>Battery replacement</li>
-<li>SSD upgrades</li>
-<li>Logic board repair</li>
-<li>Diagnostics and macOS issues</li>
-</ul>
+<div class="services-grid">
+<div class="service-item"><span class="service-dot"></span>MacBook Air Repairs</div>
+<div class="service-item"><span class="service-dot"></span>MacBook Pro Repairs</div>
+<div class="service-item"><span class="service-dot"></span>iMac Repairs</div>
+<div class="service-item"><span class="service-dot"></span>Screen Replacement</div>
+<div class="service-item"><span class="service-dot"></span>Battery Replacement</div>
+<div class="service-item"><span class="service-dot"></span>SSD Upgrades</div>
+<div class="service-item"><span class="service-dot"></span>Logic Board Repair</div>
+<div class="service-item"><span class="service-dot"></span>macOS Diagnostics</div>
+</div>
 </div>
 </section>
 
-<section style="background:#f9f9f9">
+<section class="section-light">
 <div class="container">
+<div class="area-box">
 <h2>Service Area</h2>
 <p>Servicing the Hills District including:</p>
-<p style="margin-top:12px"><strong>Castle Hill, Baulkham Hills, Kellyville, Bella Vista, Norwest</strong> and surrounding suburbs.</p>
+<p class="area-suburbs">Castle Hill, Baulkham Hills, Kellyville, Bella Vista, Norwest and surrounding suburbs</p>
+</div>
 </div>
 </section>
 
-<div class="phone-block">
+<div class="phone-banner">
+<p>Ready to get your Mac fixed?</p>
 <a href="tel:0400454859">0400 454 859</a>
 </div>
 
 <section>
 <div class="container">
 <h2>Why Choose Us</h2>
-<ul>
-<li>Mac specialists only</li>
-<li>Fast diagnostics</li>
-<li>Clear communication</li>
-<li>Local Hills based service</li>
-<li>Speak directly with a technician</li>
-</ul>
+<div class="why-list">
+<div class="why-item">
+<span class="why-num">1</span>
+<p class="why-text"><strong>Mac Specialists Only</strong>We focus exclusively on Mac repairs</p>
+</div>
+<div class="why-item">
+<span class="why-num">2</span>
+<p class="why-text"><strong>Fast Diagnostics</strong>Quick assessment of your Mac issues</p>
+</div>
+<div class="why-item">
+<span class="why-num">3</span>
+<p class="why-text"><strong>Clear Communication</strong>No jargon, just honest advice</p>
+</div>
+<div class="why-item">
+<span class="why-num">4</span>
+<p class="why-text"><strong>Local Hills Service</strong>Based right here in the Hills District</p>
+</div>
+<div class="why-item">
+<span class="why-num">5</span>
+<p class="why-text"><strong>Direct Contact</strong>Speak directly with your technician</p>
+</div>
+</div>
 </div>
 </section>
 
-<section style="background:#f9f9f9">
+<section class="section-light">
 <div class="container">
 <h2>Frequently Asked Questions</h2>
+<div class="faq-list">
 <div class="faq-item">
 <h3>Do you repair all Mac models?</h3>
 <p>We service most MacBook Air, MacBook Pro, and iMac models. Contact us with your model details for confirmation.</p>
@@ -120,17 +194,16 @@ textarea{min-height:100px;resize:vertical}
 <p>Repair costs vary depending on the issue. Contact us for a diagnostic assessment and quote.</p>
 </div>
 </div>
+</div>
 </section>
 
-<div class="phone-block">
-<p style="margin-bottom:12px;font-size:1.1rem">Call now to book your Mac repair.</p>
-<a href="tel:0400454859">0400 454 859</a>
-</div>
-
-<section id="book">
+<section class="contact-section" id="book">
 <div class="container">
 <h2>Contact Us</h2>
-<p style="margin-bottom:20px"><a href="tel:0400454859" style="color:#0066cc;font-weight:600;font-size:1.2rem;text-decoration:none">0400 454 859</a></p>
+<div class="contact-phone">
+<a href="tel:0400454859">0400 454 859</a>
+<p>Call now to book your Mac repair</p>
+</div>
 <form name="ads-contact" method="POST" data-netlify="true">
 <input type="hidden" name="form-name" value="ads-contact">
 <label for="name">Name</label>
@@ -138,7 +211,7 @@ textarea{min-height:100px;resize:vertical}
 <label for="phone">Phone</label>
 <input type="tel" id="phone" name="phone" required>
 <label for="message">Message</label>
-<textarea id="message" name="message"></textarea>
+<textarea id="message" name="message" placeholder="Tell us about your Mac issue..."></textarea>
 <button type="submit" class="btn-submit">Book My Repair</button>
 </form>
 </div>
@@ -146,7 +219,7 @@ textarea{min-height:100px;resize:vertical}
 
 <footer class="final-cta">
 <p>Ready to get your Mac repaired?</p>
-<a href="tel:0400454859">Call Now: 0400 454 859</a>
+<a href="tel:0400454859">Call 0400 454 859</a>
 </footer>
 </body>
 </html>
