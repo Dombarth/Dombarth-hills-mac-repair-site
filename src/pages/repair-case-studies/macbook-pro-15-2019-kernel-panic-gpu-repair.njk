@@ -1,0 +1,136 @@
+---
+title: "Case Study: MacBook Pro 15\" 2019 - Random Kernel Panics GPU Fault Repair"
+description: "MacBook Pro 15-inch 2019 (A1990) with random kernel panics caused by GPU power management fault. Component repair resolved stability issues."
+layout: base.njk
+permalink: /repair-case-studies/macbook-pro-15-2019-kernel-panic-gpu-repair/
+---
+
+<article class="case-study-detail">
+
+<p class="breadcrumb-nav">← Back to <a href="/repair-case-studies/">Repair Case Studies</a></p>
+
+<h1>MacBook Pro 15" 2019: Random Kernel Panics and GPU Issues</h1>
+
+<div class="case-meta">
+  <span class="case-date">July 2024</span>
+  <span class="case-device">MacBook Pro 15-inch 2019 (A1990)</span>
+  <span class="case-category">GPU / Stability Repair</span>
+</div>
+
+<section class="case-overview">
+<h2>Overview</h2>
+<p>An architect from Rouse Hill brought in their MacBook Pro 15-inch experiencing frequent <a href="/macbook-glossary/kernel-panic/">kernel panics</a>—sometimes multiple times per day. The Mac would crash during graphics-intensive work in CAD software, showing the "Your computer restarted because of a problem" message. Apple diagnostics were inconclusive. Component-level analysis identified a failing GPU power management circuit.</p>
+</section>
+
+<section class="case-symptoms">
+<h2>Initial Symptoms</h2>
+<ul>
+  <li>Random kernel panics 2-5 times daily</li>
+  <li>Crashes more frequent during 3D rendering or external display use</li>
+  <li>Panic logs referenced GPU and graphics drivers</li>
+  <li>Sometimes screen artifacts appeared before crash</li>
+  <li>Apple Diagnostics showed no errors</li>
+  <li>Fresh macOS install didn't resolve issues</li>
+</ul>
+</section>
+
+<section class="case-diagnosis">
+<h2>Diagnostic Process</h2>
+
+<h3>Panic Log Analysis</h3>
+<p>Examining kernel panic logs in Console revealed consistent patterns:</p>
+<ul>
+  <li>Crashes referenced AMD GPU driver (AppleGFXHDA)</li>
+  <li>GPU hang detection triggered many panics</li>
+  <li>Power management entries suggested voltage issues</li>
+</ul>
+
+<h3>Hardware Testing</h3>
+<ul>
+  <li><strong>Memory test:</strong> Passed extended testing</li>
+  <li><strong>Storage test:</strong> No errors, healthy SMART status</li>
+  <li><strong>Thermal monitoring:</strong> Normal temperatures during crash</li>
+  <li><strong>GPU stress test:</strong> Crashed within 10 minutes every time</li>
+</ul>
+
+<h3>Board-Level Analysis</h3>
+<p>The MacBook Pro 15-inch 2019 uses AMD Radeon Pro Vega 20 graphics with dedicated power circuitry. Examining the GPU power delivery system:</p>
+<ul>
+  <li>GPU VCORE voltage: Unstable, showing 0.05V fluctuation</li>
+  <li>ISL95338 GPU power controller: Showed abnormal behaviour</li>
+  <li>Capacitors around GPU power circuit: One capacitor showing elevated ESR</li>
+</ul>
+
+<h3>Root Cause</h3>
+<p>A failed capacitor in the GPU power filtering circuit was causing voltage ripple. When GPU load increased, the unstable voltage triggered GPU hangs that escalated to kernel panics.</p>
+</section>
+
+<section class="case-repair">
+<h2>Repair Process</h2>
+
+<h3>Component Replacement</h3>
+<ol>
+  <li>Removed failed filtering capacitor (tantalum, 100µF)</li>
+  <li>Tested remaining capacitors in circuit—one showed marginal ESR</li>
+  <li>Replaced both capacitors with new low-ESR tantalum components</li>
+  <li>Verified stable voltage output under load</li>
+</ol>
+
+<h3>Testing Protocol</h3>
+<ol>
+  <li>GPU stress test: 2 hours continuous, no issues</li>
+  <li>Video rendering test: Full project render, stable</li>
+  <li>External display test: 4K display with GPU acceleration, passed</li>
+  <li>Thermal cycling: Hot/cold cycles to verify solder integrity</li>
+</ol>
+</section>
+
+<section class="case-outcome">
+<h2>Outcome</h2>
+
+<div class="outcome-summary">
+  <div class="outcome-item"><strong>Repair Status:</strong> Complete Success</div>
+  <div class="outcome-item"><strong>Stability:</strong> Zero kernel panics in follow-up period</div>
+  <div class="outcome-item"><strong>Cost:</strong> Component repair vs $1,199 board replacement</div>
+  <div class="outcome-item"><strong>Turnaround:</strong> 2 business days</div>
+</div>
+
+<p>The architect's MacBook Pro has been stable for 8 months (to March 2025) with no further kernel panics. Full GPU performance restored for CAD and rendering work.</p>
+</section>
+
+<section class="case-lessons">
+<h2>Key Takeaways</h2>
+<ul>
+  <li><strong><a href="/macbook-glossary/kernel-panic/">Kernel panics</a> have hardware causes:</strong> When fresh OS installs don't help, hardware diagnosis is needed.</li>
+  <li><strong>Panic logs provide clues:</strong> GPU-related panics point to graphics hardware or power.</li>
+  <li><strong>Small components cause big problems:</strong> A single capacitor failure disabled a $3,000 machine.</li>
+  <li><strong>Apple diagnostics miss component issues:</strong> Basic diagnostics can't detect all faults.</li>
+</ul>
+</section>
+
+<section class="case-related">
+<h2>Related Information</h2>
+<ul>
+  <li><a href="/macbook-glossary/kernel-panic/">What is a Kernel Panic?</a></li>
+  <li><a href="/macbook-startup-errors/">MacBook Startup Errors</a></li>
+  <li><a href="/macbook-performance-problems/">MacBook Performance Problems</a></li>
+</ul>
+</section>
+
+<section class="cta-section">
+<div class="diagnostic-cta">
+  <h3>MacBook Crashing Randomly?</h3>
+  <p>Frequent kernel panics indicate hardware or software issues. Proper diagnosis identifies the cause.</p>
+  <p><a href="/pages/booking.html" class="btn">Request Diagnostic</a></p>
+</div>
+</section>
+
+</article>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"MacBook Pro 15\" 2019 Kernel Panic GPU Repair","datePublished":"2024-07-20"}
+</script>
+
+<style>
+.case-study-detail{max-width:800px;margin:0 auto}.case-study-detail h1{font-size:1.9rem;color:#1a365d;margin-bottom:1rem}.case-meta{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:2rem;padding-bottom:1rem;border-bottom:1px solid #e2e8f0}.case-meta span{background:#f1f5f9;padding:.25rem .75rem;border-radius:4px;font-size:.9rem;color:#475569}.case-date{background:#fff7ed!important;color:#c2410c!important}.case-study-detail h2{font-size:1.4rem;color:#1a365d;margin-top:2rem;margin-bottom:1rem}.case-study-detail h3{font-size:1.1rem;color:#334155;margin-top:1.5rem;margin-bottom:.75rem}.case-study-detail p,.case-study-detail li{line-height:1.7;color:#4a5568}.case-study-detail ul,.case-study-detail ol{margin:1rem 0;padding-left:1.5rem}.case-study-detail li{margin-bottom:.5rem}.outcome-summary{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:1.5rem;margin:1rem 0}.outcome-item{margin-bottom:.5rem;color:#166534}.breadcrumb-nav{margin-bottom:1.5rem;color:#64748b}.breadcrumb-nav a{color:#FF7A00}.diagnostic-cta{background:linear-gradient(135deg,#1a365d 0%,#2c5282 100%);color:#fff;padding:2rem;border-radius:12px;text-align:center;margin-top:2rem}.diagnostic-cta h3{color:#fff;margin-top:0}.diagnostic-cta p{color:rgba(255,255,255,.9)}.diagnostic-cta .btn{display:inline-block;background:#FF7A00;color:#fff;padding:.75rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:600}.case-related ul{list-style:none;padding:0}.case-related li{padding:.5rem 0;border-bottom:1px solid #e2e8f0}.case-related a{color:#2563eb;text-decoration:none}
+</style>

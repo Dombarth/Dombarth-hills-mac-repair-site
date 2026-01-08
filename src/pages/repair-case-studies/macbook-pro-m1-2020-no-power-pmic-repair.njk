@@ -1,0 +1,139 @@
+---
+title: "Case Study: MacBook Pro 13\" M1 2020 - No Power PMIC Failure Repair"
+description: "MacBook Pro 13-inch M1 2020 (A2338) completely dead, diagnosed as PMIC failure. Component-level repair restored full functionality."
+layout: base.njk
+permalink: /repair-case-studies/macbook-pro-m1-2020-no-power-pmic-repair/
+---
+
+<article class="case-study-detail">
+
+<p class="breadcrumb-nav">← Back to <a href="/repair-case-studies/">Repair Case Studies</a></p>
+
+<h1>MacBook Pro 13" M1 2020: Complete Power Failure</h1>
+
+<div class="case-meta">
+  <span class="case-date">May 2024</span>
+  <span class="case-device">MacBook Pro 13-inch M1 2020 (A2338)</span>
+  <span class="case-category">No Power / Component Repair</span>
+</div>
+
+<section class="case-overview">
+<h2>Overview</h2>
+<p>A consultant from Glenhaven found their MacBook Pro M1 completely dead one morning. It had been working fine the night before. No charging light, no response to any button, completely unresponsive. Apple diagnosed logic board failure and quoted $899 for replacement. Component-level diagnosis revealed a failed power management IC (PMIC) that we repaired, saving the machine and all data.</p>
+</section>
+
+<section class="case-symptoms">
+<h2>Initial Symptoms</h2>
+<ul>
+  <li>Complete <a href="/macbook-not-turning-on/">failure to power on</a>—no signs of life</li>
+  <li>No MagSafe LED when charger connected</li>
+  <li>No response to power button, long press, or key combinations</li>
+  <li>No warmth anywhere on the chassis</li>
+  <li>Worked perfectly until sudden failure</li>
+  <li>No drops, spills, or obvious damage</li>
+</ul>
+</section>
+
+<section class="case-diagnosis">
+<h2>Diagnostic Process</h2>
+
+<h3>M1 MacBook Power Architecture</h3>
+<p>The MacBook Pro M1 power system includes:</p>
+<ul>
+  <li><strong>MagSafe charging circuit:</strong> Handles power input negotiation</li>
+  <li><strong>Primary PMIC:</strong> Distributes power to system components</li>
+  <li><strong>M1 chip:</strong> Contains additional power management</li>
+  <li><strong>Battery management:</strong> Controls charging and discharge</li>
+</ul>
+
+<h3>Power Analysis</h3>
+<p>With USB-C power meter and multimeter:</p>
+<ul>
+  <li><strong>PPBUS_G3H (main rail):</strong> 0V — should be ~12V from charger</li>
+  <li><strong>USB-C CC lines:</strong> No power negotiation activity</li>
+  <li><strong>Battery voltage:</strong> 11.2V — battery fine, not delivering power</li>
+</ul>
+
+<h3>Component Testing</h3>
+<p>Tracing the power path on the <a href="/macbook-glossary/logic-board/">logic board</a>:</p>
+<ul>
+  <li>MagSafe port and circuit: Functional, passing power</li>
+  <li>Primary PMIC (SN650839): Not responding to enable signals</li>
+  <li>Secondary rails: All dead due to primary PMIC failure</li>
+</ul>
+
+<h3>Root Cause</h3>
+<p>The SN650839 power management IC had failed internally. This chip is responsible for initial power sequencing—without it, no power reaches the M1 chip or any other component. These chips can fail from manufacturing defects, voltage spikes, or age.</p>
+</section>
+
+<section class="case-repair">
+<h2>Repair Process</h2>
+
+<h3>PMIC Replacement</h3>
+<ol>
+  <li>Removed failed SN650839 using hot air at 350°C with preheating</li>
+  <li>Cleaned pads thoroughly, inspected for trace damage</li>
+  <li>Installed replacement PMIC from donor board</li>
+  <li>Reflowed with precise temperature profile</li>
+  <li>Inspected all connections under microscope</li>
+</ol>
+
+<h3>Testing</h3>
+<ul>
+  <li>Connected charger: MagSafe LED illuminated (amber)</li>
+  <li>Power button: Mac powered on immediately</li>
+  <li>Boot: Normal boot to login screen</li>
+  <li>All data intact—no recovery needed</li>
+  <li>Extended testing: All functions verified</li>
+</ul>
+</section>
+
+<section class="case-outcome">
+<h2>Outcome</h2>
+
+<div class="outcome-summary">
+  <div class="outcome-item"><strong>Repair Status:</strong> Complete Success</div>
+  <div class="outcome-item"><strong>Data:</strong> 100% intact—no data loss</div>
+  <div class="outcome-item"><strong>Cost vs Apple:</strong> ~70% less than board replacement</div>
+  <div class="outcome-item"><strong>Turnaround:</strong> 3 business days</div>
+</div>
+
+<p>The consultant's MacBook Pro was returned fully functional with all data intact. The Mac has worked perfectly for 10 months since repair (to March 2025).</p>
+</section>
+
+<section class="case-lessons">
+<h2>Key Takeaways</h2>
+<ul>
+  <li><strong>"Dead" Macs are often repairable:</strong> Complete power failure doesn't mean the whole board is bad.</li>
+  <li><strong>M1 Macs can have component failures:</strong> Despite improved reliability, individual components can still fail.</li>
+  <li><strong>Data survives power failures:</strong> Unlike storage failures, power circuit issues leave data untouched.</li>
+  <li><strong>Board replacement isn't always needed:</strong> Component-level repair can save significant cost.</li>
+</ul>
+</section>
+
+<section class="case-related">
+<h2>Related Information</h2>
+<ul>
+  <li><a href="/macbook-not-turning-on/">MacBook Not Turning On Guide</a></li>
+  <li><a href="/macbook-glossary/logic-board/">What is a Logic Board?</a></li>
+  <li><a href="/macbook-repair-options-guide/">Repair Options Guide</a></li>
+</ul>
+</section>
+
+<section class="cta-section">
+<div class="diagnostic-cta">
+  <h3>MacBook Completely Dead?</h3>
+  <p>A Mac that won't power on may have a repairable fault. Diagnosis can identify the cause.</p>
+  <p><a href="/pages/booking.html" class="btn">Request Diagnostic</a></p>
+</div>
+</section>
+
+</article>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"MacBook Pro M1 2020 No Power PMIC Repair","datePublished":"2024-05-15"}
+</script>
+
+<style>
+.case-study-detail{max-width:800px;margin:0 auto}.case-study-detail h1{font-size:1.9rem;color:#1a365d;margin-bottom:1rem}.case-meta{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:2rem;padding-bottom:1rem;border-bottom:1px solid #e2e8f0}.case-meta span{background:#f1f5f9;padding:.25rem .75rem;border-radius:4px;font-size:.9rem;color:#475569}.case-date{background:#fff7ed!important;color:#c2410c!important}.case-study-detail h2{font-size:1.4rem;color:#1a365d;margin-top:2rem;margin-bottom:1rem}.case-study-detail h3{font-size:1.1rem;color:#334155;margin-top:1.5rem;margin-bottom:.75rem}.case-study-detail p,.case-study-detail li{line-height:1.7;color:#4a5568}.case-study-detail ul,.case-study-detail ol{margin:1rem 0;padding-left:1.5rem}.case-study-detail li{margin-bottom:.5rem}.outcome-summary{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:1.5rem;margin:1rem 0}.outcome-item{margin-bottom:.5rem;color:#166534}.breadcrumb-nav{margin-bottom:1.5rem;color:#64748b}.breadcrumb-nav a{color:#FF7A00}.diagnostic-cta{background:linear-gradient(135deg,#1a365d 0%,#2c5282 100%);color:#fff;padding:2rem;border-radius:12px;text-align:center;margin-top:2rem}.diagnostic-cta h3{color:#fff;margin-top:0}.diagnostic-cta p{color:rgba(255,255,255,.9)}.diagnostic-cta .btn{display:inline-block;background:#FF7A00;color:#fff;padding:.75rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:600}.case-related ul{list-style:none;padding:0}.case-related li{padding:.5rem 0;border-bottom:1px solid #e2e8f0}.case-related a{color:#2563eb;text-decoration:none}
+</style>

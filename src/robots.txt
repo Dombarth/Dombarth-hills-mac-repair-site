@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.hillsmacrepair.com.au/sitemap.xml

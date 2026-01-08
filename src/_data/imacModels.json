@@ -1,0 +1,486 @@
+{
+  "imac-27-2020-retina-5k": {
+    "name": "iMac 27\" 5K (2020)",
+    "modelId": "iMac20,1 / iMac20,2",
+    "modelNumbers": ["A2115"],
+    "slug": "imac-27-2020-retina-5k",
+    "year": "2020",
+    "size": "27\"",
+    "processors": ["Core i5 3.1GHz", "Core i5 3.3GHz", "Core i7 3.8GHz", "Core i9 3.6GHz"],
+    "image": "/assets/img/imac-27-2020.jpg",
+    "upgrades": {
+      "ram": {
+        "upgradeable": true,
+        "userServiceable": true,
+        "maxRam": "128GB",
+        "slots": 4,
+        "type": "DDR4 2666MHz SO-DIMM",
+        "defaultRam": "8GB",
+        "notes": "Easy access door on back. No tools required.",
+        "price": 149
+      },
+      "ssd": {
+        "upgradeable": true,
+        "userServiceable": false,
+        "type": "Apple proprietary NVMe",
+        "defaultStorage": "256GB-512GB SSD",
+        "maxStorage": "8TB",
+        "notes": "Requires display removal. Professional installation recommended.",
+        "price": 199
+      },
+      "cpu": {
+        "upgradeable": false,
+        "notes": "CPU is soldered to logic board"
+      },
+      "gpu": {
+        "upgradeable": false,
+        "notes": "GPU is soldered to logic board"
+      }
+    },
+    "commonSymptoms": ["Running slow", "Out of storage", "Need more RAM for video editing", "Fusion Drive failing"],
+    "recommended": ["RAM upgrade to 32GB or 64GB", "Fusion Drive to SSD replacement"],
+    "description": "The last Intel iMac 27\". Excellent upgrade candidate with easy RAM access and SSD upgrades available.",
+    "discontinued": "March 2022"
+  },
+  "imac-27-2019-retina-5k": {
+    "name": "iMac 27\" 5K (2019)",
+    "modelId": "iMac19,1",
+    "modelNumbers": ["A2115"],
+    "slug": "imac-27-2019-retina-5k",
+    "year": "2019",
+    "size": "27\"",
+    "processors": ["Core i5 3.0GHz", "Core i5 3.1GHz", "Core i5 3.7GHz", "Core i9 3.6GHz"],
+    "upgrades": {
+      "ram": {
+        "upgradeable": true,
+        "userServiceable": true,
+        "maxRam": "128GB",
+        "slots": 4,
+        "type": "DDR4 2666MHz SO-DIMM",
+        "defaultRam": "8GB",
+        "notes": "Easy access door on back. Officially supports 64GB but 128GB works.",
+        "price": 149
+      },
+      "ssd": {
+        "upgradeable": true,
+        "userServiceable": false,
+        "type": "Apple proprietary blade SSD",
+        "defaultStorage": "1TB Fusion Drive",
+        "maxStorage": "4TB",
+        "notes": "Can replace Fusion Drive HDD with SSD. Blade SSD also replaceable.",
+        "price": 199
+      },
+      "cpu": {
+        "upgradeable": false,
+        "notes": "CPU is soldered to logic board"
+      }
+    },
+    "commonSymptoms": ["Fusion Drive slow", "Spinning beach ball", "Need more RAM", "Running out of space"],
+    "recommended": ["RAM upgrade to 32GB-64GB", "Fusion Drive to pure SSD conversion"],
+    "description": "Popular iMac with easy RAM upgrades and Fusion Drive to SSD conversion available.",
+    "discontinued": "August 2020"
+  },
+  "imac-27-2017-retina-5k": {
+    "name": "iMac 27\" 5K (Mid-2017)",
+    "modelId": "iMac18,3",
+    "modelNumbers": ["A1419"],
+    "slug": "imac-27-2017-retina-5k",
+    "year": "2017",
+    "size": "27\"",
+    "processors": ["Core i5 3.4GHz", "Core i5 3.5GHz", "Core i5 3.8GHz", "Core i7 4.2GHz"],
+    "upgrades": {
+      "ram": {
+        "upgradeable": true,
+        "userServiceable": true,
+        "maxRam": "64GB",
+        "slots": 4,
+        "type": "DDR4 2400MHz SO-DIMM",
+        "defaultRam": "8GB",
+        "notes": "Easy access door on back. Great value upgrade.",
+        "price": 129
+      },
+      "ssd": {
+        "upgradeable": true,
+        "userServiceable": false,
+        "type": "Apple blade SSD / SATA HDD",
+        "defaultStorage": "1-2TB Fusion Drive",
+        "maxStorage": "4TB",
+        "notes": "Fusion Drive HDD can be replaced with SSD. PCIe blade also upgradeable.",
+        "price": 179
+      }
+    },
+    "commonSymptoms": ["Slow Fusion Drive", "Beach ball cursor", "Apps taking long to load", "Storage full"],
+    "recommended": ["RAM upgrade to 32GB", "Replace Fusion HDD with SSD"],
+    "description": "Well-supported model with excellent upgrade potential. Common choice for creative professionals.",
+    "discontinued": "March 2019"
+  },
+  "imac-27-2015-retina-5k": {
+    "name": "iMac 27\" 5K (Late 2015)",
+    "modelId": "iMac17,1",
+    "modelNumbers": ["A1419"],
+    "slug": "imac-27-2015-retina-5k",
+    "year": "2015",
+    "size": "27\"",
+    "processors": ["Core i5 3.2GHz", "Core i5 3.3GHz", "Core i7 4.0GHz"],
+    "upgrades": {
+      "ram": {
+        "upgradeable": true,
+        "userServiceable": true,
+        "maxRam": "64GB",
+        "slots": 4,
+        "type": "DDR3 1867MHz SO-DIMM",
+        "defaultRam": "8GB",
+        "notes": "Easy access door. DDR3 RAM still available and affordable.",
+        "price": 119
+      },
+      "ssd": {
+        "upgradeable": true,
+        "userServiceable": false,
+        "type": "PCIe blade SSD / SATA HDD",
+        "defaultStorage": "1-2TB Fusion Drive or 256GB SSD",
+        "maxStorage": "2TB",
+        "notes": "HDD to SSD conversion dramatically improves speed. Still great machine.",
+        "price": 169
+      }
+    },
+    "commonSymptoms": ["Very slow startup", "Fusion Drive degrading", "Not enough RAM for modern apps"],
+    "recommended": ["RAM upgrade to 32GB", "Fusion Drive to SSD conversion"],
+    "description": "First 5K Retina iMac generation still capable for many tasks. Excellent upgrade value.",
+    "discontinued": "October 2015"
+  },
+  "imac-27-2014-retina-5k": {
+    "name": "iMac 27\" 5K (Late 2014)",
+    "modelId": "iMac15,1",
+    "modelNumbers": ["A1419"],
+    "slug": "imac-27-2014-retina-5k",
+    "year": "2014",
+    "size": "27\"",
+    "processors": ["Core i5 3.5GHz", "Core i7 4.0GHz"],
+    "upgrades": {
+      "ram": {
+        "upgradeable": true,
+        "userServiceable": true,
+        "maxRam": "32GB",
+        "slots": 4,
+        "type": "DDR3 1600MHz SO-DIMM",
+        "defaultRam": "8GB",
+        "notes": "Easy access door on back.",
+        "price": 99
+      },
+      "ssd": {
+        "upgradeable": true,
+        "userServiceable": false,
+        "type": "PCIe blade SSD / SATA HDD",
+        "defaultStorage": "1TB Fusion Drive",
+        "maxStorage": "2TB",
+        "notes": "SSD upgrade breathes new life into this first-gen 5K model.",
+        "price": 169
+      }
+    },
+    "commonSymptoms": ["Fusion Drive very slow", "System feels dated", "macOS updates slow"],
+    "recommended": ["Max RAM to 32GB", "Full SSD conversion"],
+    "description": "The original 5K iMac. Still gorgeous display, benefits greatly from SSD upgrade.",
+    "discontinued": "October 2015"
+  },
+  "imac-27-2013-late": {
+    "name": "iMac 27\" (Late 2013)",
+    "modelId": "iMac14,2",
+    "modelNumbers": ["A1419"],
+    "slug": "imac-27-2013-late",
+    "year": "2013",
+    "size": "27\"",
+    "processors": ["Core i5 3.2GHz", "Core i5 3.4GHz", "Core i7 3.5GHz"],
+    "upgrades": {
+      "ram": {
+        "upgradeable": true,
+        "userServiceable": true,
+        "maxRam": "32GB",
+        "slots": 4,
+        "type": "DDR3 1600MHz SO-DIMM",
+        "defaultRam": "8GB",
+        "notes": "Easy access via memory door on back.",
+        "price": 89
+      },
+      "ssd": {
+        "upgradeable": true,
+        "userServiceable": false,
+        "type": "PCIe blade SSD / SATA HDD",
+        "defaultStorage": "1TB HDD or 1TB Fusion",
+        "maxStorage": "2TB SSD",
+        "notes": "Adding SSD transforms performance. Can add as second drive or replace HDD.",
+        "price": 159
+      }
+    },
+    "commonSymptoms": ["Very slow HDD", "Long boot times", "Apps freeze frequently"],
+    "recommended": ["Add SSD boot drive", "Max RAM to 32GB"],
+    "description": "Thin design 27\" iMac. HDD models desperately need SSD upgrade.",
+    "discontinued": "September 2013"
+  },
+  "imac-27-2012-late": {
+    "name": "iMac 27\" (Late 2012)",
+    "modelId": "iMac13,2",
+    "modelNumbers": ["A1419"],
+    "slug": "imac-27-2012-late",
+    "year": "2012",
+    "size": "27\"",
+    "processors": ["Core i5 2.9GHz", "Core i5 3.2GHz", "Core i7 3.4GHz"],
+    "upgrades": {
+      "ram": {
+        "upgradeable": true,
+        "userServiceable": true,
+        "maxRam": "32GB",
+        "slots": 4,
+        "type": "DDR3 1600MHz SO-DIMM",
+        "defaultRam": "8GB",
+        "notes": "Easy access door. Last model before thin redesign for 21.5\".",
+        "price": 89
+      },
+      "ssd": {
+        "upgradeable": true,
+        "userServiceable": false,
+        "type": "SATA blade SSD / SATA HDD",
+        "defaultStorage": "1TB HDD or Fusion",
+        "maxStorage": "2TB SSD",
+        "notes": "First thin iMac design. SSD upgrade highly recommended.",
+        "price": 159
+      }
+    },
+    "commonSymptoms": ["Painfully slow HDD", "10+ minute boot", "Beachball constantly"],
+    "recommended": ["SSD upgrade essential", "RAM to 16-32GB"],
+    "description": "First thin iMac 27\". HDD makes it feel ancient - SSD upgrade is transformative.",
+    "discontinued": "September 2013"
+  },
+  "imac-21-2019-4k": {
+    "name": "iMac 21.5\" 4K (2019)",
+    "modelId": "iMac19,2",
+    "modelNumbers": ["A2116"],
+    "slug": "imac-21-2019-4k",
+    "year": "2019",
+    "size": "21.5\"",
+    "processors": ["Core i3 3.6GHz", "Core i5 3.0GHz", "Core i7 3.2GHz"],
+    "upgrades": {
+      "ram": {
+        "upgradeable": true,
+        "userServiceable": false,
+        "maxRam": "32GB",
+        "slots": 2,
+        "type": "DDR4 2666MHz SO-DIMM",
+        "defaultRam": "8GB",
+        "notes": "Requires display removal - no easy access door on 21.5\" models.",
+        "price": 179
+      },
+      "ssd": {
+        "upgradeable": true,
+        "userServiceable": false,
+        "type": "Apple proprietary blade SSD",
+        "defaultStorage": "1TB Fusion or 256GB SSD",
+        "maxStorage": "2TB",
+        "notes": "Can upgrade blade SSD or convert Fusion to pure SSD.",
+        "price": 199
+      }
+    },
+    "commonSymptoms": ["8GB RAM not enough", "Fusion Drive slow", "Storage filling up"],
+    "recommended": ["RAM upgrade to 16-32GB", "Fusion to SSD conversion"],
+    "description": "Last 21.5\" iMac with Intel. RAM and SSD upgrades require professional service.",
+    "discontinued": "April 2021"
+  },
+  "imac-21-2017-4k": {
+    "name": "iMac 21.5\" 4K (Mid-2017)",
+    "modelId": "iMac18,2",
+    "modelNumbers": ["A1418"],
+    "slug": "imac-21-2017-4k",
+    "year": "2017",
+    "size": "21.5\"",
+    "processors": ["Core i5 3.0GHz", "Core i5 3.4GHz", "Core i7 3.6GHz"],
+    "upgrades": {
+      "ram": {
+        "upgradeable": true,
+        "userServiceable": false,
+        "maxRam": "32GB",
+        "slots": 2,
+        "type": "DDR4 2400MHz SO-DIMM",
+        "defaultRam": "8GB",
+        "notes": "No user access - requires display removal and professional tools.",
+        "price": 169
+      },
+      "ssd": {
+        "upgradeable": true,
+        "userServiceable": false,
+        "type": "Apple blade SSD / SATA HDD",
+        "defaultStorage": "1TB Fusion or 1TB HDD",
+        "maxStorage": "2TB",
+        "notes": "Fusion Drive HDD can be replaced. Blade SSD also upgradeable.",
+        "price": 179
+      }
+    },
+    "commonSymptoms": ["Slow performance", "Fusion Drive failing", "Not enough RAM"],
+    "recommended": ["32GB RAM upgrade", "Pure SSD conversion"],
+    "description": "Popular 4K iMac. Upgrades require opening the machine but very worthwhile.",
+    "discontinued": "March 2019"
+  },
+  "imac-21-2015-4k": {
+    "name": "iMac 21.5\" 4K (Late 2015)",
+    "modelId": "iMac16,2",
+    "modelNumbers": ["A1418"],
+    "slug": "imac-21-2015-4k",
+    "year": "2015",
+    "size": "21.5\"",
+    "processors": ["Core i5 3.1GHz", "Core i7 3.3GHz"],
+    "upgrades": {
+      "ram": {
+        "upgradeable": true,
+        "userServiceable": false,
+        "maxRam": "16GB",
+        "slots": 2,
+        "type": "DDR3 1867MHz SO-DIMM",
+        "defaultRam": "8GB",
+        "notes": "Soldered in some configs. Check specific model before ordering.",
+        "price": 149
+      },
+      "ssd": {
+        "upgradeable": true,
+        "userServiceable": false,
+        "type": "PCIe blade SSD / SATA HDD",
+        "defaultStorage": "1TB HDD or Fusion",
+        "maxStorage": "1TB",
+        "notes": "SSD upgrade makes a huge difference on this model.",
+        "price": 169
+      }
+    },
+    "commonSymptoms": ["Very slow HDD", "Constant beach ball", "macOS updates painful"],
+    "recommended": ["SSD upgrade priority", "Max RAM if upgradeable"],
+    "description": "First 4K 21.5\" iMac. Some models have soldered RAM - verify before ordering.",
+    "discontinued": "June 2017"
+  },
+  "imac-21-2017-non-retina": {
+    "name": "iMac 21.5\" (Mid-2017)",
+    "modelId": "iMac18,1",
+    "modelNumbers": ["A1418"],
+    "slug": "imac-21-2017-non-retina",
+    "year": "2017",
+    "size": "21.5\"",
+    "processors": ["Core i5 2.3GHz"],
+    "upgrades": {
+      "ram": {
+        "upgradeable": false,
+        "userServiceable": false,
+        "maxRam": "8GB",
+        "type": "Soldered",
+        "defaultRam": "8GB",
+        "notes": "RAM is permanently soldered. Cannot be upgraded.",
+        "price": null
+      },
+      "ssd": {
+        "upgradeable": true,
+        "userServiceable": false,
+        "type": "SATA 2.5\" HDD",
+        "defaultStorage": "1TB HDD",
+        "maxStorage": "2TB",
+        "notes": "HDD can be replaced with 2.5\" SATA SSD. Huge speed improvement.",
+        "price": 149
+      }
+    },
+    "commonSymptoms": ["Extremely slow HDD", "Long boot times", "Apps freeze"],
+    "recommended": ["SSD upgrade essential - HDD is the bottleneck"],
+    "description": "Entry-level 21.5\" with soldered RAM. SSD upgrade is the only option but very effective.",
+    "discontinued": "October 2021"
+  },
+  "imac-24-m1-2021": {
+    "name": "iMac 24\" M1 (2021)",
+    "modelId": "iMac21,1 / iMac21,2",
+    "modelNumbers": ["A2438", "A2439"],
+    "slug": "imac-24-m1-2021",
+    "year": "2021",
+    "size": "24\"",
+    "processors": ["Apple M1 8-core"],
+    "upgrades": {
+      "ram": {
+        "upgradeable": false,
+        "userServiceable": false,
+        "maxRam": "16GB",
+        "type": "Unified Memory (soldered)",
+        "defaultRam": "8GB or 16GB",
+        "notes": "RAM is part of M1 chip package. Must be configured at purchase.",
+        "price": null
+      },
+      "ssd": {
+        "upgradeable": false,
+        "userServiceable": false,
+        "type": "Integrated",
+        "defaultStorage": "256GB-2TB",
+        "notes": "Storage is soldered. Cannot be upgraded after purchase.",
+        "price": null
+      }
+    },
+    "commonSymptoms": [],
+    "recommended": ["Buy with maximum RAM/storage you may need"],
+    "description": "Beautiful Apple Silicon iMac but NO upgrades possible. Choose configuration carefully.",
+    "discontinued": "October 2023",
+    "notUpgradeable": true
+  },
+  "imac-24-m3-2023": {
+    "name": "iMac 24\" M3 (2023)",
+    "modelId": "Mac15,4 / Mac15,5",
+    "modelNumbers": ["A2873", "A2874"],
+    "slug": "imac-24-m3-2023",
+    "year": "2023",
+    "size": "24\"",
+    "processors": ["Apple M3 8-core"],
+    "upgrades": {
+      "ram": {
+        "upgradeable": false,
+        "userServiceable": false,
+        "maxRam": "24GB",
+        "type": "Unified Memory (soldered)",
+        "defaultRam": "8GB or 16GB or 24GB",
+        "notes": "RAM cannot be upgraded. Configure at purchase.",
+        "price": null
+      },
+      "ssd": {
+        "upgradeable": false,
+        "userServiceable": false,
+        "type": "Integrated",
+        "defaultStorage": "256GB-2TB",
+        "notes": "Storage cannot be upgraded after purchase.",
+        "price": null
+      }
+    },
+    "commonSymptoms": [],
+    "recommended": ["Configure with adequate RAM and storage at purchase"],
+    "description": "Latest M3 iMac. Excellent performance but completely non-upgradeable.",
+    "discontinued": "October 2024",
+    "notUpgradeable": true
+  },
+  "imac-24-m4-2024": {
+    "name": "iMac 24\" M4 (2024)",
+    "modelId": "Mac16,2 / Mac16,3",
+    "modelNumbers": ["A3137", "A3247"],
+    "slug": "imac-24-m4-2024",
+    "year": "2024",
+    "size": "24\"",
+    "processors": ["Apple M4 8-core", "Apple M4 10-core"],
+    "upgrades": {
+      "ram": {
+        "upgradeable": false,
+        "userServiceable": false,
+        "maxRam": "32GB",
+        "type": "Unified Memory (soldered)",
+        "defaultRam": "16GB or 24GB or 32GB",
+        "notes": "RAM integrated with chip. Not upgradeable.",
+        "price": null
+      },
+      "ssd": {
+        "upgradeable": false,
+        "userServiceable": false,
+        "type": "Integrated",
+        "defaultStorage": "256GB-2TB",
+        "notes": "Storage soldered. Choose wisely at purchase.",
+        "price": null
+      }
+    },
+    "commonSymptoms": [],
+    "recommended": ["Buy max storage/RAM you anticipate needing"],
+    "description": "Current iMac with M4 chip. Powerful but no upgrade path - choose specs at purchase.",
+    "notUpgradeable": true
+  }
+}

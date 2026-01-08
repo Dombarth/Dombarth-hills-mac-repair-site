@@ -1,0 +1,131 @@
+---
+title: "Case Study: iMac 24\" M1 2021 - Power Supply and Startup Issues"
+description: "iMac 24-inch M1 2021 with intermittent power failures. Diagnosis revealed power supply unit issue, not logic board failure."
+layout: base.njk
+permalink: /repair-case-studies/imac-24-m1-2021-power-supply-failure/
+---
+
+<article class="case-study-detail">
+
+<p class="breadcrumb-nav">← Back to <a href="/repair-case-studies/">Repair Case Studies</a></p>
+
+<h1>iMac 24" M1 2021: Power Supply Failure</h1>
+
+<div class="case-meta">
+  <span class="case-date">January 2025</span>
+  <span class="case-device">iMac 24-inch M1 2021</span>
+  <span class="case-category">Power / Hardware Repair</span>
+</div>
+
+<section class="case-overview">
+<h2>Overview</h2>
+<p>A small business owner from Norwest brought in their 3-year-old iMac 24-inch M1 that was experiencing random shutdowns and sometimes wouldn't power on at all. The symptoms suggested logic board failure, which would be expensive on this all-in-one design. Careful diagnosis identified the external power adapter as the culprit—a much simpler fix.</p>
+</section>
+
+<section class="case-symptoms">
+<h2>Initial Symptoms</h2>
+<ul>
+  <li>Random shutdowns during normal use</li>
+  <li>Sometimes wouldn't power on—required multiple attempts</li>
+  <li>No warning before shutdowns (not thermal)</li>
+  <li>Power LED would flicker occasionally</li>
+  <li>Problem worsened over 2 weeks from occasional to frequent</li>
+  <li>All data intact when it did run</li>
+</ul>
+</section>
+
+<section class="case-diagnosis">
+<h2>Diagnostic Process</h2>
+
+<h3>iMac 24" M1 Power Architecture</h3>
+<p>The 2021 iMac 24-inch has a unique power design:</p>
+<ul>
+  <li><strong>External power adapter:</strong> 143W brick with magnetic connector</li>
+  <li><strong>Ethernet option:</strong> Built into power adapter on some models</li>
+  <li><strong>Internal power board:</strong> Minimal—mostly distribution from adapter</li>
+  <li><strong>M1 chip:</strong> Very efficient, low power requirements</li>
+</ul>
+
+<h3>Testing Approach</h3>
+<p>We methodically tested each component in the power chain:</p>
+<ul>
+  <li><strong>Wall outlet:</strong> Stable power, tested with meter</li>
+  <li><strong>Power adapter output:</strong> Intermittent voltage drops detected</li>
+  <li><strong>Adapter cable:</strong> Showed resistance changes when flexed</li>
+  <li><strong>iMac internal:</strong> Worked perfectly with known-good adapter</li>
+</ul>
+
+<h3>Root Cause</h3>
+<p>The power adapter had an internal fault causing intermittent output. When voltage dropped below threshold, the iMac would shut down instantly. The fault was in the adapter's internal cable connection—likely from thermal cycling over 3 years.</p>
+</section>
+
+<section class="case-repair">
+<h2>Repair Process</h2>
+
+<h3>Solution</h3>
+<p>Replacement of the power adapter resolved all issues:</p>
+<ol>
+  <li>Confirmed diagnosis with test adapter—ran 48 hours without issue</li>
+  <li>Sourced replacement 143W adapter (same Ethernet configuration)</li>
+  <li>Installed and tested under various loads</li>
+  <li>Verified stable power delivery over extended period</li>
+</ol>
+
+<h3>Testing</h3>
+<ul>
+  <li>Stress tested for 24 hours—no shutdowns</li>
+  <li>Multiple cold starts—100% success rate</li>
+  <li>Verified Ethernet through adapter working</li>
+  <li>Power delivery stable under CPU/GPU load</li>
+</ul>
+</section>
+
+<section class="case-outcome">
+<h2>Outcome</h2>
+
+<div class="outcome-summary">
+  <div class="outcome-item"><strong>Repair Status:</strong> Complete Success</div>
+  <div class="outcome-item"><strong>Solution:</strong> Power adapter replacement only</div>
+  <div class="outcome-item"><strong>Cost:</strong> Fraction of logic board repair cost</div>
+  <div class="outcome-item"><strong>Turnaround:</strong> 2 business days</div>
+</div>
+
+<p>The business owner's iMac was returned fully functional. The simple adapter replacement resolved what initially appeared to be a serious hardware failure. The machine has run without issues since.</p>
+</section>
+
+<section class="case-lessons">
+<h2>Key Takeaways</h2>
+<ul>
+  <li><strong>Power supplies fail:</strong> Even relatively new external adapters can develop faults.</li>
+  <li><strong>Symptoms mimic worse problems:</strong> Random shutdowns often suggest logic board issues but can have simpler causes.</li>
+  <li><strong>Systematic diagnosis saves money:</strong> Testing each component identifies the actual fault.</li>
+  <li><strong>iMac 24" M1 power is external:</strong> Unlike older iMacs, the power supply is replaceable separately.</li>
+</ul>
+</section>
+
+<section class="case-related">
+<h2>Related Information</h2>
+<ul>
+  <li><a href="/macbook-not-turning-on/">Mac Not Turning On Guide</a></li>
+  <li><a href="/macbook-startup-errors/">Startup Errors</a></li>
+  <li><a href="/macbook-repair-options-guide/">Repair Options Guide</a></li>
+</ul>
+</section>
+
+<section class="cta-section">
+<div class="diagnostic-cta">
+  <h3>iMac Shutting Down Randomly?</h3>
+  <p>Random shutdowns can have various causes. Proper diagnosis identifies the actual problem.</p>
+  <p><a href="/pages/booking.html" class="btn">Request Diagnostic</a></p>
+</div>
+</section>
+
+</article>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"iMac 24\" M1 2021 Power Supply Failure","datePublished":"2025-01-20"}
+</script>
+
+<style>
+.case-study-detail{max-width:800px;margin:0 auto}.case-study-detail h1{font-size:1.9rem;color:#1a365d;margin-bottom:1rem}.case-meta{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:2rem;padding-bottom:1rem;border-bottom:1px solid #e2e8f0}.case-meta span{background:#f1f5f9;padding:.25rem .75rem;border-radius:4px;font-size:.9rem;color:#475569}.case-date{background:#fff7ed!important;color:#c2410c!important}.case-study-detail h2{font-size:1.4rem;color:#1a365d;margin-top:2rem;margin-bottom:1rem}.case-study-detail h3{font-size:1.1rem;color:#334155;margin-top:1.5rem;margin-bottom:.75rem}.case-study-detail p,.case-study-detail li{line-height:1.7;color:#4a5568}.case-study-detail ul,.case-study-detail ol{margin:1rem 0;padding-left:1.5rem}.case-study-detail li{margin-bottom:.5rem}.outcome-summary{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:1.5rem;margin:1rem 0}.outcome-item{margin-bottom:.5rem;color:#166534}.breadcrumb-nav{margin-bottom:1.5rem;color:#64748b}.breadcrumb-nav a{color:#FF7A00}.diagnostic-cta{background:linear-gradient(135deg,#1a365d 0%,#2c5282 100%);color:#fff;padding:2rem;border-radius:12px;text-align:center;margin-top:2rem}.diagnostic-cta h3{color:#fff;margin-top:0}.diagnostic-cta p{color:rgba(255,255,255,.9)}.diagnostic-cta .btn{display:inline-block;background:#FF7A00;color:#fff;padding:.75rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:600}.case-related ul{list-style:none;padding:0}.case-related li{padding:.5rem 0;border-bottom:1px solid #e2e8f0}.case-related a{color:#2563eb;text-decoration:none}
+</style>

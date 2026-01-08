@@ -1,0 +1,351 @@
+---
+layout: base
+title: "Mac Repair Services | Pricing | Hills Mac Repair"
+description: "All Mac repair services with transparent pricing. Battery, screen, keyboard, logic board, data recovery. Workshop based repairs in Hills District Sydney. 12 month warranty."
+permalink: /services/index.html
+hero: false
+---
+
+<h1>Mac Repair Services in the Hills District</h1>
+
+<p class="page-intro">Professional repair services for all Apple Mac computers at our Hills District workshop. From quick battery swaps to complex logic board repairs, we handle it all with transparent pricing and quality warranties. This is a workshop-based service—bring your Mac in and well diagnose it properly.</p>
+
+<div class="services-overview">
+  <div class="overview-item">
+    <span class="overview-icon">⏱️</span>
+    <span><strong>Same-Day Service</strong> available for many repairs</span>
+  </div>
+  <div class="overview-item">
+    <span class="overview-icon">💰</span>
+    <span><strong>Free Phone Estimate</strong> call for pricing</span>
+  </div>
+  <div class="overview-item">
+    <span class="overview-icon">✓</span>
+    <span><strong>12-Month Warranty</strong> on new parts</span>
+  </div>
+</div>
+
+<h2>Our Repair Services</h2>
+
+<div class="services-grid">
+  {% for service in servicesList %}
+  <a href="/services/{{ service.slug }}/" class="service-card">
+    <div class="service-card-header">
+      <h3>{{ service.name }}</h3>
+      <span class="service-price">From ${{ service.from }}</span>
+    </div>
+    <p>{{ service.description | truncate(120) }}</p>
+    <div class="service-meta-small">
+      <span>⏱️ {{ service.turnaround }}</span>
+    </div>
+    <ul class="service-symptoms">
+      {% for symptom in service.symptoms | slice(0, 3) %}
+      <li>{{ symptom }}</li>
+      {% endfor %}
+    </ul>
+    <span class="learn-more">View {{ service.name }} Services →</span>
+  </a>
+  {% endfor %}
+</div>
+
+<h2>Service Areas</h2>
+
+<p>We provide all Mac repair services across the Hills District. Popular suburbs we service:</p>
+
+<div class="suburb-grid-compact">
+  <a href="/suburbs/castle-hill/">Castle Hill</a>
+  <a href="/suburbs/baulkham-hills/">Baulkham Hills</a>
+  <a href="/suburbs/kellyville/">Kellyville</a>
+  <a href="/suburbs/bella-vista/">Bella Vista</a>
+  <a href="/suburbs/rouse-hill/">Rouse Hill</a>
+  <a href="/suburbs/cherrybrook/">Cherrybrook</a>
+  <a href="/suburbs/carlingford/">Carlingford</a>
+  <a href="/suburbs/dural/">Dural</a>
+  <a href="/suburbs/north-kellyville/">North Kellyville</a>
+  <a href="/suburbs/the-ponds/">The Ponds</a>
+  <a href="/suburbs/winston-hills/">Winston Hills</a>
+  <a href="/suburbs/pennant-hills/">Pennant Hills</a>
+  <a href="/suburbs/" class="view-all">View All 31 Suburbs →</a>
+</div>
+
+<h2>Mac Models We Repair</h2>
+
+<div class="models-section">
+  <div class="model-category">
+    <h3>MacBook Air</h3>
+    <ul>
+      <li><a href="/services/battery-replacement/">MacBook Air battery replacement service</a></li>
+      <li><a href="/services/screen-display-repair/">MacBook Air screen repair service</a></li>
+      <li><a href="/services/keyboard-trackpad-repair/">MacBook Air keyboard repair service</a></li>
+      <li><a href="/services/ssd-upgrade-replacement/">MacBook Air SSD upgrade service</a></li>
+    </ul>
+  </div>
+  <div class="model-category">
+    <h3>MacBook Pro</h3>
+    <ul>
+      <li><a href="/services/battery-replacement/">MacBook Pro battery replacement service</a></li>
+      <li><a href="/services/screen-display-repair/">MacBook Pro screen repair service</a></li>
+      <li><a href="/services/logic-board-repair/">MacBook Pro logic board repair service</a></li>
+      <li><a href="/services/usb-c-port-repair/">MacBook Pro USB-C port repair service</a></li>
+    </ul>
+  </div>
+  <div class="model-category">
+    <h3>iMac</h3>
+    <ul>
+      <li><a href="/services/screen-display-repair/">iMac display repair service</a></li>
+      <li><a href="/services/ssd-upgrade-replacement/">iMac SSD upgrade service</a></li>
+      <li><a href="/services/fan-thermal-service/">iMac thermal and fan service</a></li>
+      <li><a href="/services/data-recovery/">iMac data recovery service</a></li>
+    </ul>
+  </div>
+  <div class="model-category">
+    <h3>Mac mini & Studio</h3>
+    <ul>
+      <li><a href="/services/ssd-upgrade-replacement/">Mac mini storage upgrade service</a></li>
+      <li><a href="/services/fan-thermal-service/">Mac mini fan cleaning service</a></li>
+      <li><a href="/services/logic-board-repair/">Mac mini board repair service</a></li>
+      <li><a href="/services/macos-reinstall-setup/">Mac mini macOS setup service</a></li>
+    </ul>
+  </div>
+</div>
+
+<h2>How It Works</h2>
+
+<div class="process-steps">
+  <div class="step">
+    <span class="step-num">1</span>
+    <h3>Bring In or Send</h3>
+    <p>Drop off your Mac at our workshop or arrange courier pickup. No appointment needed for drop-offs.</p>
+  </div>
+  <div class="step">
+    <span class="step-num">2</span>
+    <h3>Free Quote</h3>
+    <p>We diagnose the issue and provide a detailed quote before any work begins. Call for a free phone estimate.</p>
+  </div>
+  <div class="step">
+    <span class="step-num">3</span>
+    <h3>Expert Repair</h3>
+    <p>Our technicians perform the repair using quality parts. Most repairs completed same day to 72 hours.</p>
+  </div>
+  <div class="step">
+    <span class="step-num">4</span>
+    <h3>Collect & Go</h3>
+    <p>Pick up your repaired Mac with warranty documentation. We explain what was done and how to prevent future issues.</p>
+  </div>
+</div>
+
+<div class="cta-section">
+  <h2>Ready to Get Your Mac Fixed?</h2>
+  <p>Contact us today for expert Mac repair services in the Hills District.</p>
+  <p>
+    <a class="btn large" href="/pages/booking.html">Book a Repair</a>
+    <a class="btn large ghost" href="tel:0400454859">Call 0400 454 859</a>
+  </p>
+</div>
+
+<style>
+.page-intro {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #4a5568;
+  margin-bottom: 2rem;
+}
+.services-overview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+.overview-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 1;
+  min-width: 200px;
+}
+.overview-icon {
+  font-size: 1.5rem;
+}
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+.service-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.service-card:hover {
+  border-color: #FF7A00;
+  box-shadow: 0 4px 12px rgba(255, 122, 0, 0.1);
+}
+.service-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+.service-card h3 {
+  margin: 0;
+  color: #1a365d;
+  font-size: 1.1rem;
+}
+.service-price {
+  background: #9c4000;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+.service-card p {
+  color: #4a5568;
+  font-size: 0.95rem;
+  margin: 0 0 0.75rem;
+  flex-grow: 1;
+}
+.service-meta-small {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.75rem;
+}
+.service-symptoms {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+.service-symptoms li {
+  margin-bottom: 0.25rem;
+}
+.learn-more {
+  color: #9c4000;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+.suburb-grid-compact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 2rem;
+}
+.suburb-grid-compact a {
+  padding: 12px 16px;
+  background: #e2e8f0;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #1a365d;
+  font-size: 1rem;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.suburb-grid-compact a:hover {
+  background: #cbd5e0;
+}
+.suburb-grid-compact .view-all {
+  background: #1a365d;
+  color: white;
+}
+.models-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+.model-category {
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+.model-category h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  color: #1a365d;
+}
+.model-category ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.model-category li {
+  margin-bottom: 0.5rem;
+}
+.model-category a {
+  color: #1a365d;
+  text-decoration: underline;
+  display: block;
+  padding: 10px 12px;
+  min-height: 44px;
+  border-radius: 4px;
+}
+.model-category a:hover {
+  background: #e2e8f0;
+  color: #9c4000;
+}
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+.step {
+  text-align: center;
+  padding: 1.5rem;
+}
+.step-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: #9c4000;
+  color: white;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.step h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+.step p {
+  margin: 0;
+  color: #4a5568;
+  font-size: 0.95rem;
+}
+.cta-section {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+}
+.cta-section h2 {
+  color: white;
+  margin-top: 0;
+}
+.btn.large {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+.cta-section .btn.ghost {
+  border-color: white;
+  color: white;
+}
+</style>

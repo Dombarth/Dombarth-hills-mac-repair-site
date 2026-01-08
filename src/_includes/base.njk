@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.hillsmacrepair.com.au{{ page.url }}">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23FF7A00'/%3E%3Crect x='8' y='7' width='16' height='12' rx='2' fill='%23fff'/%3E%3Crect x='10' y='9' width='12' height='8' fill='%230B3C7B'/%3E%3Cpolygon points='11,20 21,20 19,23 13,23' fill='%23fff'/%3E%3Crect x='12' y='23' width='8' height='2' rx='1' fill='%23fff'/%3E%3Ccircle cx='22' cy='18' r='5' fill='%23fff'/%3E%3Cpath d='M20,16 L22,14 L24,16 L22,18 Z' fill='%23FF7A00'/%3E%3C/svg%3E">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Crect width='180' height='180' rx='40' fill='%23FF7A00'/%3E%3Crect x='40' y='35' width='100' height='70' rx='8' fill='%23fff'/%3E%3Crect x='50' y='45' width='80' height='50' fill='%230B3C7B'/%3E%3Cpolygon points='55,110 125,110 115,130 65,130' fill='%23fff'/%3E%3Crect x='70' y='130' width='40' height='10' rx='3' fill='%23fff'/%3E%3Ccircle cx='130' cy='100' r='25' fill='%23fff'/%3E%3Cpath d='M120,90 L130,80 L140,90 L130,100 Z' fill='%23FF7A00'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#FF7A00">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>{{ title or 'Hills District Mac Repair' }}</title>
+  <meta name="description" content="{{ description or 'Professional Mac repair services in the Hills District Sydney. MacBook, iMac repairs with same-day service. Battery, screen, keyboard, data recovery. Call 0400 454 859.' }}">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a href="/" class="logo-link" aria-label="Hills Mac Repair - Home">
+      <svg class="logo-svg" viewBox="0 0 280 50" xmlns="http://www.w3.org/2000/svg">
+        <!-- Mac laptop icon -->
+        <rect x="4" y="6" width="34" height="24" rx="3" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+        <rect x="7" y="9" width="28" height="18" rx="1" fill="#1a365d"/>
+        <!-- Apple-style apple on screen -->
+        <path d="M21,14 C21,12 23,11 24,11 C24,12 23,13 23,14 C23,15 24,16 24,17 C24,19 22,20 21,20 C20,20 18,19 18,17 C18,16 19,15 19,14 C19,13 18,12 18,11 C19,11 21,12 21,14 Z" fill="#fff"/>
+        <path d="M22,10 C22.5,9.5 23.5,9 24,9.5 C24,10 23,10.5 22,10 Z" fill="#fff"/>
+        <!-- Laptop base -->
+        <polygon points="2,32 40,32 38,36 4,36" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+        <!-- Orange gear/wrench accent -->
+        <circle cx="34" cy="28" r="8" fill="#FF7A00"/>
+        <path d="M31,26 L34,23 L37,26 L34,29 Z" fill="#fff"/>
+        <circle cx="34" cy="28" r="2" fill="#FF7A00"/>
+        <!-- Text -->
+        <text x="48" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="800" fill="#fff">Hills Mac Repair</text>
+        <text x="48" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#e2e8f0">MacBook &amp; iMac Specialists</text>
+      </svg>
+    </a>
+    <a class="call" href="tel:0400454859" aria-label="Call us at 0400 454 859">
+      <span class="call-icon" aria-hidden="true">📞</span>
+      <span class="call-text">0400 454 859</span>
+    </a>
+  </div>
+</header>
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <a href="/">Home</a>
+    <a href="/macbook-problems/">MacBook Problems</a>
+    <div class="dropdown">
+      <a href="/services/" class="dropdown-trigger">Services ▾</a>
+      <div class="dropdown-menu">
+        <a href="/services/">All Services</a>
+        {% for service in servicesList %}
+        <a href="/services/{{ service.slug }}/">{{ service.shortName }}</a>
+        {% endfor %}
+        <div class="dropdown-divider"></div>
+        <a href="/imac-upgrades/">iMac Upgrades</a>
+      </div>
+    </div>
+    <a href="/suburbs/">Suburbs</a>
+    <a href="/pages/booking.html">Booking</a>
+    <a href="/pages/contact.html">Contact</a>
+  </div>
+</nav>
+
+{% if hero %}
+<section class="hero" style="background-image:url('/assets/img/hero.jpg')">
+  <div class="wrap">
+    <h1>{{ title }}</h1>
+    <p class="sub">Fast, professional repairs for MacBook Air/Pro, iMac, and more.</p>
+    <p><a class="btn" href="/pages/booking.html">Book a Repair</a> <a class="btn ghost" href="tel:0400454859">Call 0400 454 859</a></p>
+  </div>
+</section>
+{% endif %}
+
+<main class="wrap">
+{{ content | safe }}
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>Call for a free phone estimate • New parts: 12 months • Used/Aftermarket: 30 days</p>
+    <p class="footer-links">
+      <a href="/terms/">Terms & Conditions</a> • 
+      <a href="/privacy/">Privacy Policy</a> • 
+      <a href="/pages/contact.html">Contact</a>
+    </p>
+    <small>Independent specialist — not affiliated with Apple Inc.</small>
+  </div>
+</footer>
+<script>
+// Mobile dropdown toggle
+document.addEventListener('DOMContentLoaded', function() {
+  const dropdowns = document.querySelectorAll('.dropdown');
+  
+  dropdowns.forEach(function(dropdown) {
+    const trigger = dropdown.querySelector('.dropdown-trigger');
+    
+    trigger.addEventListener('click', function(e) {
+      // Only prevent default on mobile (touch devices)
+      if (window.innerWidth <= 768 || 'ontouchstart' in window) {
+        e.preventDefault();
+        dropdown.classList.toggle('open');
+      }
+    });
+  });
+  
+  // Close dropdown when clicking outside
+  document.addEventListener('click', function(e) {
+    dropdowns.forEach(function(dropdown) {
+      if (!dropdown.contains(e.target)) {
+        dropdown.classList.remove('open');
+      }
+    });
+  });
+  
+  // Close dropdown when a menu item is clicked
+  document.querySelectorAll('.dropdown-menu a').forEach(function(link) {
+    link.addEventListener('click', function() {
+      dropdowns.forEach(function(dropdown) {
+        dropdown.classList.remove('open');
+      });
+    });
+  });
+});
+</script>
+</body>
+</html>

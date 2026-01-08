@@ -1,0 +1,347 @@
+---
+layout: base
+pagination:
+  data: suburbsList
+  size: 1
+  alias: suburb
+permalink: "suburbs/{{ suburb.slug }}/index.html"
+eleventyComputed:
+  title: "Mac Repair {{ suburb.name }} | {{ suburb.titleDriver }}"
+  description: "Mac repair in {{ suburb.name }}. MacBook and iMac repairs with honest diagnostics and transparent pricing. Battery, screen, data recovery, logic board repair. Workshop based service."
+hero: false
+---
+
+<h1>Mac Repair in {{ suburb.name }}</h1>
+
+{# Section 2: Localised Intro Paragraph - 90-120 words #}
+<section class="intro-section">
+<p class="intro">{{ suburb.name }} is an area where Macs are commonly used for work, study, and everyday tasks. Many customers from {{ suburb.name }} rely on their MacBook or iMac daily, so unexpected issues can quickly become disruptive.</p>
+
+<p>Our workshop regularly services Macs from {{ suburb.name }}, handling problems such as battery degradation, display faults, performance slowdowns, and logic board issues. We focus on accurate diagnostics, transparent explanations, and practical repair outcomes so local customers know exactly what to expect before any work begins.</p>
+</section>
+
+{# Section 3: Why Customers Choose Us - 4 bullets with variation #}
+<section class="why-choose-section">
+<h2>Why Customers in {{ suburb.name }} Choose Hills Mac Repair</h2>
+
+<ul class="trust-bullets">
+  <li>Mac only repair experience</li>
+  <li>Clear diagnostics and upfront pricing</li>
+  <li>Repairs performed in a dedicated workshop</li>
+  {# Vary the 4th bullet based on suburb characteristics #}
+  {% if suburb.slug == "castle-hill" or suburb.slug == "rouse-hill" or suburb.slug == "bella-vista" %}
+  <li>Convenient for local professionals who need fast turnaround</li>
+  {% elif suburb.slug == "cherrybrook" or suburb.slug == "carlingford" or suburb.slug == "pennant-hills" %}
+  <li>Student friendly pricing and priority for education devices</li>
+  {% elif suburb.slug == "dural" or suburb.slug == "galston" or suburb.slug == "glenhaven" or suburb.slug == "annangrove" %}
+  <li>Accessible service for semi rural properties</li>
+  {% elif suburb.slug == "norwest" or suburb.slug == "blacktown" or suburb.slug == "seven-hills" %}
+  <li>Same day repairs available for business critical devices</li>
+  {% elif suburb.slug == "schofields" or suburb.slug == "the-ponds" or suburb.slug == "kellyville-ridge" %}
+  <li>Serving the growing families in newer developments</li>
+  {% else %}
+  <li>Practical turnaround times for local customers</li>
+  {% endif %}
+</ul>
+</section>
+
+{# Section 4: Common Mac Repairs We See - 3-5 scenario paragraphs #}
+<section class="common-repairs-section">
+<h2>Common Mac Repairs We See from {{ suburb.name }}</h2>
+
+{% if suburb.slug == "castle-hill" or suburb.slug == "baulkham-hills" or suburb.slug == "bella-vista" %}
+<p>We frequently see MacBooks from {{ suburb.name }} with battery health issues caused by age and daily charging cycles, particularly on Intel based models still in regular use. Many local professionals rely on their MacBook Pro for work and notice the battery no longer lasting through meetings.</p>
+
+<p>Display damage is also common, often related to transport or accidental pressure on the lid. These cases usually require full panel replacement rather than glass only repair.</p>
+
+<p>For iMacs and Mac minis, storage upgrades and thermal servicing are frequent requests where systems have slowed down over time. Fusion Drive failures on older iMacs are something we handle regularly.</p>
+
+<p>Logic board issues come in from {{ suburb.name }} when Macs stop charging or wont turn on. We diagnose at component level to determine if repair is practical.</p>
+
+{% elif suburb.slug == "cherrybrook" or suburb.slug == "carlingford" or suburb.slug == "pennant-hills" or suburb.slug == "west-pennant-hills" %}
+<p>MacBooks from {{ suburb.name }} students often come in with keyboard issues from heavy use, or screens damaged during transport to school. We see a lot of MacBook Airs in this area.</p>
+
+<p>Battery replacements are common on devices that have been used through several years of study. The original battery typically degrades after 500 to 800 charge cycles.</p>
+
+<p>Data recovery requests come through when drives fail before assignments are backed up. We prioritise these cases understanding the urgency for students.</p>
+
+<p>For home office setups, iMac thermal issues and SSD upgrades are frequent. Older iMacs with spinning hard drives benefit significantly from solid state upgrades.</p>
+
+{% elif suburb.slug == "dural" or suburb.slug == "galston" or suburb.slug == "glenhaven" or suburb.slug == "annangrove" or suburb.slug == "middle-dural" %}
+<p>Rural property owners from {{ suburb.name }} often use Macs for property management and home businesses. We see MacBooks with dust ingress affecting fans and thermal performance.</p>
+
+<p>Power related issues are more common in semi rural areas where power fluctuations can affect charging circuits. We repair MacBooks that wont charge or show erratic battery behaviour.</p>
+
+<p>iMacs used in sheds or workshops sometimes develop display issues from temperature extremes. We assess whether repair or replacement makes more sense.</p>
+
+<p>Data recovery is particularly important for {{ suburb.name }} customers running businesses from home where records may not be backed up to cloud services.</p>
+
+{% elif suburb.slug == "norwest" or suburb.slug == "blacktown" or suburb.slug == "seven-hills" %}
+<p>Business users from {{ suburb.name }} bring in MacBooks needing fast turnaround. Keyboard failures and battery issues are common on machines in constant professional use.</p>
+
+<p>Display repairs come through regularly, often from devices transported between office and home. Cracked screens and backlight issues are typical.</p>
+
+<p>USB C port problems affect MacBook Pros used with docking stations and multiple peripherals. We repair and replace damaged Thunderbolt ports.</p>
+
+<p>For offices with iMacs, SSD upgrades transform slow machines into responsive workstations. This is often more practical than replacement for older Intel models.</p>
+
+{% elif suburb.slug == "kellyville" or suburb.slug == "north-kellyville" or suburb.slug == "kellyville-ridge" or suburb.slug == "the-ponds" or suburb.slug == "stanhope-gardens" %}
+<p>Young families in {{ suburb.name }} often have multiple Macs in the household. We see MacBook Airs used for school and MacBook Pros for working parents.</p>
+
+<p>Liquid damage is unfortunately common with children around. Coffee spills, juice, and water damage all come through our workshop from this area.</p>
+
+<p>Screen repairs are frequent, particularly on MacBook Airs where the display is more vulnerable to accidental damage.</p>
+
+<p>iMac storage upgrades are popular for family computers that have become slow over years of photos, videos, and applications accumulating.</p>
+
+{% else %}
+<p>We frequently see MacBooks from {{ suburb.name }} with battery health issues caused by age and daily charging cycles, particularly on Intel based models still in regular use.</p>
+
+<p>Display damage is also common, often related to transport or accidental pressure on the lid. These cases usually require full panel replacement rather than glass only repair.</p>
+
+<p>For iMacs and Mac minis, storage upgrades and thermal servicing are frequent requests where systems have slowed down over time.</p>
+
+<p>Logic board repairs come in when Macs stop charging or wont power on. We diagnose at component level to determine if repair is cost effective.</p>
+{% endif %}
+</section>
+
+{# Section 5: Services Available - one sentence each #}
+<section class="services-section">
+<h2>Services Available for {{ suburb.name }} Customers</h2>
+
+<div class="services-list">
+  <div class="service-item">
+    <h3>MacBook Battery Replacement</h3>
+    <p>Battery replacements for all MacBook Air and MacBook Pro models, restoring full capacity and cycle count.</p>
+  </div>
+  
+  <div class="service-item">
+    <h3>Screen and Display Repair</h3>
+    <p>Full display assembly replacement for cracked screens, backlight issues, and Flexgate cable problems.</p>
+  </div>
+  
+  <div class="service-item">
+    <h3>Keyboard and Trackpad Repair</h3>
+    <p>Keyboard replacement for stuck or unresponsive keys, and trackpad repairs for click or cursor issues.</p>
+  </div>
+  
+  <div class="service-item">
+    <h3>Logic Board Repair</h3>
+    <p>Component level diagnosis and repair for Macs that wont turn on, wont charge, or have no display output.</p>
+  </div>
+  
+  <div class="service-item">
+    <h3>Data Recovery</h3>
+    <p>Data extraction from failed drives, liquid damaged Macs, and devices that wont boot.</p>
+  </div>
+  
+  <div class="service-item">
+    <h3>SSD Upgrades and Replacements</h3>
+    <p>Storage upgrades for faster performance, and SSD replacements when drives fail or develop errors.</p>
+  </div>
+</div>
+</section>
+
+{# Section 6: Suburb Specific FAQs #}
+<section class="faq-section">
+<h2>Frequently Asked Questions for {{ suburb.name }}</h2>
+
+<div class="faq-list">
+  <div class="faq-item">
+    <h3>Do you service customers from {{ suburb.name }}?</h3>
+    <p>Yes. Many of our customers are based in {{ suburb.name }} and visit our workshop by appointment.</p>
+  </div>
+  
+  <div class="faq-item">
+    <h3>How long do repairs usually take?</h3>
+    <p>Turnaround depends on the issue, but many common repairs are completed the same day after diagnosis.</p>
+  </div>
+  
+  <div class="faq-item">
+    <h3>Is my data safe during repair?</h3>
+    <p>We take care to protect data, but we always recommend a backup before repair where possible.</p>
+  </div>
+  
+  {# Vary the 4th FAQ based on suburb #}
+  {% if suburb.slug == "castle-hill" or suburb.slug == "rouse-hill" or suburb.slug == "bella-vista" or suburb.slug == "norwest" %}
+  <div class="faq-item">
+    <h3>Do you offer same day repairs for urgent business needs?</h3>
+    <p>Yes, we prioritise business critical repairs where possible. Contact us to discuss your timeline.</p>
+  </div>
+  {% elif suburb.slug == "cherrybrook" or suburb.slug == "carlingford" or suburb.slug == "pennant-hills" %}
+  <div class="faq-item">
+    <h3>Do you offer student discounts?</h3>
+    <p>We offer competitive pricing for students and prioritise repairs during exam periods when possible.</p>
+  </div>
+  {% elif suburb.slug == "dural" or suburb.slug == "galston" or suburb.slug == "glenhaven" or suburb.slug == "annangrove" %}
+  <div class="faq-item">
+    <h3>Is pickup available for rural properties?</h3>
+    <p>We are workshop based, but can discuss arrangements for customers who have difficulty travelling.</p>
+  </div>
+  {% else %}
+  <div class="faq-item">
+    <h3>Do I need an appointment?</h3>
+    <p>Appointments are preferred so we can allocate time for your device, but walk ins are welcome when space allows.</p>
+  </div>
+  {% endif %}
+</div>
+</section>
+
+{# Section 7: Customer Feedback Placeholder #}
+<section class="feedback-section">
+<h2>Customer Feedback from {{ suburb.name }}</h2>
+<p>We regularly receive positive feedback from customers in {{ suburb.name }} for clear communication, accurate diagnostics, and reliable Mac repairs.</p>
+</section>
+
+{# Section 8: How to Reach Us #}
+<section class="location-section">
+<h2>How to Reach Our Workshop from {{ suburb.name }}</h2>
+<p>Our workshop is a short drive from {{ suburb.name }}. Most customers reach us via major local roads, with drop off handled by appointment to ensure efficient service and minimal waiting. We are close to {% for a in suburb.anchors %}{{ a }}{% if not loop.last %}, {% endif %}{% endfor %}.</p>
+</section>
+
+{# Section 9: CTA #}
+<section class="cta-section">
+<div class="cta-box">
+  <h3>{{ suburb.ctaHeadingPrefix }} in {{ suburb.name }}?</h3>
+  <p>If you need Mac repair in {{ suburb.name }}, contact us to discuss the issue and arrange a diagnostic.</p>
+  <p class="cta-buttons">
+    <a class="btn" href="/pages/booking.html">Book Assessment</a>
+    <a class="btn ghost" href="tel:0400454859">Call 0400 454 859</a>
+  </p>
+</div>
+</section>
+
+<style>
+.intro-section {
+  margin-bottom: 2rem;
+}
+.intro {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+.intro-section p {
+  line-height: 1.7;
+  color: #4a5568;
+  margin-bottom: 1rem;
+}
+.why-choose-section {
+  margin-bottom: 2rem;
+}
+.trust-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+.trust-bullets li {
+  padding: 0.75rem 0 0.75rem 2rem;
+  position: relative;
+  border-bottom: 1px solid #e2e8f0;
+}
+.trust-bullets li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #166534;
+  font-weight: bold;
+}
+.common-repairs-section {
+  margin-bottom: 2rem;
+}
+.common-repairs-section p {
+  line-height: 1.7;
+  color: #4a5568;
+  margin-bottom: 1rem;
+}
+.services-section {
+  margin-bottom: 2rem;
+}
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.service-item {
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+.service-item h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: #1a365d;
+}
+.service-item p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #4a5568;
+  line-height: 1.5;
+}
+.faq-section {
+  margin-bottom: 2rem;
+}
+.faq-list {
+  margin-top: 1rem;
+}
+.faq-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+.faq-item h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: #1a365d;
+}
+.faq-item p {
+  margin: 0;
+  color: #4a5568;
+  line-height: 1.6;
+}
+.feedback-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f0fdf4;
+  border-radius: 8px;
+}
+.feedback-section h2 {
+  margin-top: 0;
+}
+.feedback-section p {
+  margin: 0;
+  color: #166534;
+}
+.location-section {
+  margin-bottom: 2rem;
+}
+.location-section p {
+  line-height: 1.7;
+  color: #4a5568;
+}
+.cta-section {
+  margin-top: 2rem;
+}
+.cta-box {
+  padding: 2rem;
+  background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+}
+.cta-box h3 {
+  margin-top: 0;
+  color: white;
+}
+.cta-box p {
+  color: rgba(255,255,255,0.9);
+}
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.cta-box .btn.ghost {
+  border-color: white;
+  color: white;
+}
+</style>

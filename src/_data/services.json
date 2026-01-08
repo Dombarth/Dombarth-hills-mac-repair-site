@@ -1,0 +1,173 @@
+{
+  "battery": {
+    "name": "Battery Replacement",
+    "slug": "battery-replacement",
+    "shortName": "Battery",
+    "from": 129,
+    "symptoms": ["Rapid drain", "Service Battery warning", "Swollen case", "Random shutdowns", "Won't turn on", "Only works plugged in"],
+    "causes": ["Cycle wear", "Heat damage", "Third-party chargers", "Age degradation", "Manufacturing defect"],
+    "what": ["Full diagnostics", "Quality cell installation", "Battery calibration", "System health check"],
+    "turnaround": "Same day–48h",
+    "description": "Is your MacBook battery draining too fast or showing 'Service Battery' warnings? Our professional battery replacement service restores your Mac's portability and reliability. We use quality replacement cells that meet or exceed Apple specifications, backed by our 12-month warranty on new parts.",
+    "longDescription": "A failing MacBook battery doesn't just affect portability—it can cause unexpected shutdowns, data loss, and even physical damage if the battery swells. Our certified technicians diagnose battery issues accurately, distinguishing between genuine battery failure and other power-related problems that might masquerade as battery issues.\n\nWe replace batteries in all MacBook Air and MacBook Pro models, from older 2012 Retina models through to the latest M3 machines. Each replacement includes a full system health check, proper calibration, and verification of charging circuitry.",
+    "models": ["MacBook Air 13\" (all years)", "MacBook Air 15\" M2/M3", "MacBook Pro 13\" (all years)", "MacBook Pro 14\" M1/M2/M3", "MacBook Pro 15\" (2012-2019)", "MacBook Pro 16\" (all years)"],
+    "faq": [
+      {"q": "How long does a MacBook battery last?", "a": "Typically 3-5 years or 1000 charge cycles. Heavy users may need replacement sooner."},
+      {"q": "Can I replace my own MacBook battery?", "a": "Modern MacBooks have glued-in batteries requiring special tools and expertise. DIY attempts often damage the device."},
+      {"q": "Will replacing the battery void my warranty?", "a": "If your Mac is out of Apple warranty, our repairs won't affect anything. We provide our own warranty on parts and labour."}
+    ],
+    "relatedServices": ["logic", "ports", "fans"]
+  },
+  "screen": {
+"name": "Screen and Display Repair",
+    "slug": "screen-display-repair",
+    "shortName": "Screen",
+    "from": 149,
+    "symptoms": ["Cracked glass", "Lines on display", "No backlight", "Flickering", "Dead pixels", "Pink/green tint"],
+    "causes": ["Physical impact", "Flex cable fatigue", "Liquid damage", "Hinge wear", "Manufacturing defect"],
+    "what": ["Display assessment", "Panel/assembly replacement", "Cable/hinge inspection", "True Tone calibration"],
+    "turnaround": "24–72h",
+    "description": "Cracked MacBook screen or iMac display issues? We repair and replace screens for all Mac models, from LCD panels to the latest Liquid Retina XDR displays. Our repairs restore your display to factory quality with proper calibration.",
+    "longDescription": "Screen damage is one of the most common MacBook repairs we perform. Whether your screen is cracked from a drop, showing coloured lines from cable damage, or completely black, we can help. We stock screens for most popular MacBook models and can source parts for older machines.\n\nFor iMacs, we handle both older LCD displays and the newer 4K/5K Retina panels. Our technicians are experienced with the delicate adhesive removal and resealing process required for iMac screen repairs.\n\nAll screen repairs include proper calibration to ensure accurate colours and brightness. For MacBooks with True Tone, we preserve this functionality where possible.",
+    "models": ["MacBook Air 13\" Retina", "MacBook Air 15\"", "MacBook Pro 13\" Retina", "MacBook Pro 14\"", "MacBook Pro 15\" Retina", "MacBook Pro 16\"", "iMac 21.5\"/24\"", "iMac 27\"/5K"],
+    "faq": [
+      {"q": "Can you fix just the glass on a MacBook screen?", "a": "Modern MacBook screens are fused assemblies—the glass, LCD, and backlight are one unit. We replace the complete assembly for reliability."},
+      {"q": "How long does a screen replacement take?", "a": "Most MacBook screens are replaced within 24-48 hours once parts arrive. We stock common models."},
+      {"q": "Will my screen look the same after repair?", "a": "Yes—we use quality replacement screens that match factory specifications for resolution, colour accuracy, and brightness."}
+    ],
+    "relatedServices": ["battery", "keyboard", "logic"]
+  },
+  "keyboard": {
+"name": "Keyboard and Trackpad Repair",
+    "slug": "keyboard-trackpad-repair",
+    "shortName": "Keyboard",
+    "from": 129,
+    "symptoms": ["Sticky keys", "Keys not working", "No click response", "Cursor jumping", "Double typing", "Backlight issues"],
+    "causes": ["Liquid spills", "Dust accumulation", "Butterfly mechanism failure", "Cable wear", "Trackpad swelling"],
+    "what": ["Keyboard/topcase replacement", "Trackpad recalibration", "Backlight testing", "Full assembly swap"],
+    "turnaround": "24–72h",
+    "description": "Sticky keys, unresponsive trackpad, or keyboard backlight problems? We repair and replace keyboards and trackpads for all MacBook models, including the notorious butterfly keyboard issues on 2016-2019 MacBooks.",
+    "longDescription": "Keyboard and trackpad issues can make your MacBook frustrating or impossible to use. Liquid spills are the most common cause, but dust, wear, and manufacturing defects (especially on butterfly keyboards) also cause problems.\n\nOn most MacBook models, the keyboard is part of the 'topcase' assembly, which includes the keyboard, trackpad, battery, and top aluminium casing. We replace this as a complete unit for the most reliable repair.\n\nFor butterfly keyboard MacBooks (2016-2019), we can often repair or replace just the keyboard mechanism, saving significant cost compared to full topcase replacement.",
+    "models": ["MacBook Air (all years)", "MacBook Pro 13\" (all years)", "MacBook Pro 14\"/16\"", "MacBook Pro 15\" (2012-2019)", "MacBook 12\""],
+    "faq": [
+      {"q": "Why is keyboard replacement expensive?", "a": "On modern MacBooks, the keyboard is integrated with the topcase (including battery and trackpad). This assembly approach means more parts but ensures a complete, reliable repair."},
+      {"q": "Can you fix liquid damage to keyboards?", "a": "Sometimes, but liquid damage often affects more than just the keyboard. We assess the full extent before recommending repairs."},
+      {"q": "Do you fix butterfly keyboards?", "a": "Yes—we're experts at butterfly keyboard repairs and can often repair them more affordably than Apple."}
+    ],
+    "relatedServices": ["battery", "screen", "logic"]
+  },
+  "ssd": {
+"name": "SSD Upgrade and Replacement",
+    "slug": "ssd-upgrade-replacement",
+    "shortName": "SSD",
+    "from": 129,
+    "symptoms": ["Slow boot times", "Beach ball spinning", "Disk full errors", "Apps freezing", "Files corrupting", "System crashes"],
+    "causes": ["Aged SSD", "Low storage space", "Thermal throttling", "Bad sectors", "Controller failure"],
+    "what": ["Drive health check", "NVMe/Apple-spec SSD", "Data migration", "Fresh macOS install"],
+    "turnaround": "Same day",
+    "description": "Running out of storage or dealing with a slow, failing drive? We upgrade and replace SSDs in MacBooks and iMacs, migrating your data seamlessly. Get more space and faster performance.",
+    "longDescription": "Storage upgrades are one of the best value improvements you can make to an older Mac. We can replace failing drives or upgrade working drives to larger capacities, giving your Mac years more useful life.\n\nFor older MacBooks (pre-2016), we can often install standard NVMe SSDs with adapters, providing excellent performance at lower cost than Apple-proprietary drives. For newer soldered-storage Macs, we offer external SSD solutions.\n\nAll SSD replacements include full data migration (when the original drive is readable) and a fresh macOS installation for optimal performance.",
+    "models": ["MacBook Air 2012-2017", "MacBook Pro 2012-2015 Retina", "MacBook Pro 2016-2019", "iMac 21.5\"/27\" (2012+)", "Mac mini (2012-2018)", "Mac Pro"],
+    "faq": [
+      {"q": "Can you upgrade M1/M2/M3 Mac storage?", "a": "Unfortunately, Apple Silicon Macs have soldered storage that cannot be upgraded. We can help with external SSD solutions."},
+      {"q": "Will I lose my data during an upgrade?", "a": "No—we migrate all your data to the new drive. Your Mac will boot up looking exactly as it did, just faster and with more space."},
+      {"q": "How much faster will my Mac be?", "a": "Most customers see dramatic improvements—especially in boot time and app launches. It's often the single best upgrade for older Macs."}
+    ],
+    "relatedServices": ["data", "os", "fans"]
+  },
+  "data": {
+    "name": "Data Recovery",
+    "slug": "data-recovery",
+    "shortName": "Data Recovery",
+    "from": 199,
+    "symptoms": ["Mac won't boot", "Clicking sounds from drive", "Files disappeared", "Accidental deletion", "Encrypted drive locked out", "Fusion Drive failure"],
+    "causes": ["Corrupt file system", "Bad sectors", "Accidental deletion", "Drive failure", "Liquid damage", "Encryption issues"],
+    "what": ["Drive imaging/cloning", "File system repair", "File recovery", "Transfer to external drive"],
+    "turnaround": "1–3 days",
+    "description": "Lost precious photos, important documents, or critical work files? Our data recovery service retrieves data from failing drives, corrupted systems, and accidentally deleted files. Don't lose irreplaceable memories.",
+    "longDescription": "Data loss is stressful, but many situations are recoverable. We perform in-house data recovery for logical failures (file system corruption, accidental deletion, software issues) and mechanical issues that don't require cleanroom intervention.\n\nOur process starts with creating a complete image of your drive to prevent further data loss. We then work on the copy to recover your files, ensuring the original drive isn't stressed further.\n\nFor severe mechanical failures (head crashes, motor failure), we partner with specialist cleanroom facilities and can coordinate lab-level recovery when needed.",
+    "models": ["All MacBooks", "All iMacs", "Mac mini", "Mac Pro", "External drives", "Time Machine backups"],
+    "faq": [
+      {"q": "What's the success rate for data recovery?", "a": "For logical failures (corruption, deletion), success rates exceed 90%. Physical damage success varies depending on severity."},
+      {"q": "Should I try recovery software first?", "a": "If your drive is failing, running software can cause further damage. Professional recovery creates a safe image first."},
+      {"q": "How long does data recovery take?", "a": "Simple recoveries complete in 1-2 days. Complex cases may take longer, especially if lab recovery is needed."}
+    ],
+    "relatedServices": ["ssd", "logic", "os"]
+  },
+  "logic": {
+    "name": "Logic Board Repair",
+    "slug": "logic-board-repair",
+    "shortName": "Logic Board",
+    "from": 249,
+    "symptoms": ["No power", "No charging", "USB-C ports dead", "No video output", "Random kernel panics", "Overheating"],
+    "causes": ["Liquid damage", "Power surge", "Component failure", "Corrosion", "Manufacturing defect"],
+    "what": ["Microscope inspection", "Component-level repair", "Board cleaning", "Stress testing"],
+    "turnaround": "2–7 days",
+    "description": "Mac won't turn on? No charging? USB-C ports not working? Our logic board repair service fixes component-level issues that other shops say require expensive board replacement. Save hundreds compared to Apple's prices.",
+    "longDescription": "Logic board problems don't always mean you need a new board. Many issues—especially those caused by liquid damage—can be repaired at the component level by skilled technicians with proper equipment.\n\nOur workshop is equipped with microscopes, hot air rework stations, and diagnostic equipment needed for board-level repairs. We can replace individual chips, capacitors, and connectors rather than scrapping the entire board.\n\nCommon repairs include power delivery IC replacement, USB-C port controller repair, and cleaning corrosion from liquid damage. These repairs typically cost a fraction of board replacement while achieving the same result.",
+    "models": ["MacBook Air (all years)", "MacBook Pro (all years)", "iMac", "Mac mini", "Mac Studio", "Mac Pro"],
+    "faq": [
+      {"q": "Is board repair reliable?", "a": "When performed correctly with quality parts, board repairs are as reliable as replacements. We warranty our board repairs."},
+      {"q": "What if the board can't be repaired?", "a": "Some damage is too severe for repair. We'll advise honestly and can source replacement boards if needed."},
+      {"q": "How do you diagnose board problems?", "a": "We use schematics, boardview software, and diagnostic tools to trace faults to specific components. It's detective work at the microscopic level."}
+    ],
+    "relatedServices": ["battery", "ports", "data"]
+  },
+  "fans": {
+"name": "Fan and Thermal Service",
+    "slug": "fan-thermal-service",
+    "shortName": "Fans",
+    "from": 119,
+    "symptoms": ["Loud fan noise", "Overheating", "Performance throttling", "Hot to touch", "Fan not spinning", "Unexpected shutdowns"],
+    "causes": ["Dust buildup", "Dried thermal paste", "Worn fan bearings", "Blocked vents", "Sensor malfunction"],
+    "what": ["Internal cleaning", "Thermal paste replacement", "Fan replacement", "Thermal sensor check"],
+    "turnaround": "Same day",
+    "description": "Mac running hot and loud? Our thermal service cleans dust buildup, replaces dried thermal paste, and installs new fans when needed. Restore quiet, cool operation and prevent heat-related damage.",
+    "longDescription": "Heat is the enemy of electronics. Over time, dust accumulates inside your Mac, blocking airflow and insulating heat-generating components. Thermal paste between the CPU/GPU and heatsink dries out, reducing heat transfer. Fan bearings wear, causing noise or failure.\n\nOur thermal service addresses all these issues. We completely disassemble your Mac, clean all dust from fans and vents, replace thermal paste with quality compound, and test fan operation. For worn fans, we have replacements for most models.\n\nProper thermal maintenance extends your Mac's life, improves performance (by preventing thermal throttling), and eliminates annoying fan noise.",
+    "models": ["MacBook Air (all years)", "MacBook Pro (all years)", "iMac", "Mac mini", "Mac Pro"],
+    "faq": [
+      {"q": "How often should thermal paste be replaced?", "a": "Every 3-5 years is typical. If your Mac runs hot or throttles under load, it's time."},
+      {"q": "Will cleaning stop my Mac from being loud?", "a": "Usually yes—most fan noise is caused by dust buildup making fans work harder. Cleaning often restores quiet operation."},
+      {"q": "Can overheating damage my Mac?", "a": "Yes—prolonged overheating can degrade components and shorten your Mac's lifespan. Address thermal issues promptly."}
+    ],
+    "relatedServices": ["battery", "ssd", "logic"]
+  },
+  "ports": {
+"name": "USB-C and Port Repair",
+    "slug": "usb-c-port-repair",
+    "shortName": "Ports",
+    "from": 129,
+    "symptoms": ["No charging", "Connection drops", "Loose port feel", "No data transfer", "Devices not recognized", "Burning smell"],
+    "causes": ["Physical wear", "Debris in port", "Power surge", "Liquid damage", "Cable damage"],
+    "what": ["Port inspection/cleaning", "Port replacement", "Controller chip repair", "Power testing"],
+    "turnaround": "24–48h",
+    "description": "USB-C port not charging or connecting? Loose Thunderbolt port? We repair and replace ports on MacBooks, often fixing charging and data issues without expensive logic board replacement.",
+    "longDescription": "USB-C/Thunderbolt ports take daily abuse—constant plugging and unplugging, cable strain, and occasional debris. Over time, ports can become loose, damaged, or stop working entirely.\n\nMany port issues are repairable without replacing the entire logic board. We can clean debris, repair damaged connectors, and in many cases replace just the port assembly. For controller chip failures, we perform board-level repairs.\n\nWe test all ports thoroughly after repair, verifying both power delivery (charging) and data transfer at full Thunderbolt speeds.",
+    "models": ["MacBook Air USB-C (2018+)", "MacBook Pro USB-C (2016+)", "MacBook Pro MagSafe 3", "iMac USB-C", "Mac mini", "Mac Studio"],
+    "faq": [
+      {"q": "Why did my USB-C port stop working?", "a": "Common causes include debris, worn contacts, liquid exposure, or power surge damage. We diagnose the exact cause."},
+      {"q": "Can you fix just one port?", "a": "Often yes—we can repair individual ports without touching working ones."},
+      {"q": "Should I use both ports for charging?", "a": "On MacBooks with multiple ports, alternating can distribute wear. But quality cables matter more than port rotation."}
+    ],
+    "relatedServices": ["logic", "battery", "data"]
+  },
+  "os": {
+"name": "macOS Reinstall and Setup",
+    "slug": "macos-reinstall-setup",
+    "shortName": "macOS",
+    "from": 150,
+    "symptoms": ["Boot loops", "Very slow performance", "Malware/adware", "Constant crashes", "Failed update", "Forgot password"],
+    "causes": ["System corruption", "Failed macOS update", "Adware infection", "Full disk", "Permission issues"],
+    "what": ["Data backup", "Clean macOS install", "System updates", "User setup", "Software installation"],
+    "turnaround": "Same day",
+    "description": "Mac stuck in a boot loop? Painfully slow? Infected with adware? Our macOS reinstall service gives your Mac a fresh start while preserving your important data. Includes setup and software installation.",
+    "longDescription": "Sometimes a Mac just needs a fresh start. Accumulated system cruft, failed updates, adware infections, and corrupted preferences can make macOS progressively slower and less stable. A clean installation solves these problems.\n\nOur service includes backing up your important data (documents, photos, music), performing a complete clean installation of macOS, applying all updates, and restoring your data. We can also reinstall common applications and help configure settings.\n\nFor business users, we offer deployment services including user account setup, network configuration, and security software installation.",
+    "models": ["All Macs capable of running macOS Ventura, Sonoma, or Sequoia"],
+    "faq": [
+      {"q": "Will I lose my files?", "a": "No—we back up your important data before reinstalling. Documents, photos, and music are restored to your fresh system."},
+      {"q": "Will my apps still work?", "a": "You'll need to reinstall applications, but most store licenses in the cloud (Adobe, Microsoft) or in your Apple ID (App Store purchases)."},
+      {"q": "How is this different from Recovery Mode reinstall?", "a": "We perform a true clean install, eliminating all system issues. Recovery Mode reinstalls over existing problems, often not solving them."}
+    ],
+    "relatedServices": ["ssd", "data", "fans"]
+  }
+}

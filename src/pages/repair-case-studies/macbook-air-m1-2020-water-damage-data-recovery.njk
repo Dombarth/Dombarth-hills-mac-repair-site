@@ -1,0 +1,127 @@
+---
+title: "MacBook Air M1 2020 - Water Damage Data Recovery"
+description: "Data recovery from a water damaged MacBook Air M1 with failed logic board. Getting thesis files off an M1 Mac that wouldnt turn on."
+layout: base.njk
+permalink: /repair-case-studies/macbook-air-m1-2020-water-damage-data-recovery/
+---
+
+<article class="case-study-detail">
+
+<p class="breadcrumb-nav">← Back to <a href="/repair-case-studies/">Repair Case Studies</a></p>
+
+<h1>MacBook Air M1 2020: Water Damage Data Recovery</h1>
+
+<div class="case-meta">
+  <span class="case-date">February 2025</span>
+  <span class="case-device">MacBook Air M1 2020 (A2337)</span>
+  <span class="case-category">Data Recovery / Liquid Damage</span>
+</div>
+
+<section class="case-overview">
+<h2>What Happened</h2>
+<p>Had a uni student from Baulkham Hills bring in their M1 MacBook Air. Got caught in the rain apparently and the thing was completely dead. Wouldnt respond to the charger at all, no lights nothing. The problem was her thesis was on there. Months of work and no backup.</p>
+
+<p>Apple wanted $899 to replace the logic board but that would mean losing everything anyway. New board new storage thats how M1s work. She just needed the data off it.</p>
+</section>
+
+<section class="case-symptoms">
+<h2>What We Found</h2>
+<p>Opened it up and there was corrosion all over the board. Rain had gotten in through the keyboard and made its way down to the power circuits. The charging IC was cooked, shorted to ground. Thats why the charger wasnt doing anything.</p>
+
+<p>The good news was the storage area looked fine. No corrosion on the NAND chips. The M1 itself seemed okay too. So the data was probably still there we just had to figure out how to get to it.</p>
+
+<p>Heres the thing with M1 Macs. You cant just pull the SSD out and read it in another machine like you could with the old Intel ones. The storage is built into the board. The M1 chip is the storage controller. So if the board doesnt boot at all the data is stuck.</p>
+</section>
+
+<section class="case-diagnosis">
+<h2>The Repair</h2>
+<p>We didnt need to fully fix the Mac. Just needed to get it working enough to boot into DFU mode and pull the data off. So we focused on the power circuits.</p>
+
+<p>Cleaned the board ultrasonically first to stop the corrosion spreading. Then replaced the charging IC and a couple of MOSFETs that had failed. Once the power rails came back the Mac started showing signs of life. Fan spun up briefly, backlight came on.</p>
+
+<p>Connected it to another Mac running Apple Configurator and it showed up in DFU mode. From there we could boot it to an external recovery drive and the internal storage mounted. Copied everything off to an external drive.</p>
+</section>
+
+<section class="case-outcome">
+<h2>Result</h2>
+
+<div class="outcome-summary">
+  <div class="outcome-item">
+    <strong>Data:</strong> Everything recovered, thesis and all
+  </div>
+  <div class="outcome-item">
+    <strong>Mac:</strong> Not worth fully repairing, she got a new one
+  </div>
+  <div class="outcome-item">
+    <strong>Time:</strong> 2 days
+  </div>
+</div>
+
+<p>Got all her files off. Thesis, research, photos, the lot. The Mac itself wasnt really worth fixing properly because thered be more failures down the track from all that water damage. She ended up getting a new MacBook Air and we transferred everything over to that.</p>
+</section>
+
+<section class="case-lessons">
+<h2>Notes</h2>
+<p>M1 data recovery is tricky because the storage is integrated. You need some level of board repair to even access it. In this case we didnt fix the Mac fully just enough to boot it and copy files. Apples solution would have been $899 for a new board which wouldve meant losing all the data anyway.</p>
+</section>
+
+<section class="case-related">
+<h2>Related</h2>
+<ul>
+  <li><a href="/macbook-data-recovery/">MacBook Data Recovery</a></li>
+  <li><a href="/macbook-liquid-damage/">MacBook Liquid Damage</a></li>
+  <li><a href="/macbook-not-turning-on/">MacBook Not Turning On</a></li>
+  <li><a href="/macbook-glossary/dfu-mode/">DFU Mode</a></li>
+</ul>
+</section>
+
+<section class="cta-section">
+<div class="diagnostic-cta">
+  <h3>Data Recovery</h3>
+  <p>If your Macs dead but you need the data bring it into the workshop. Even M1 and M2 Macs with integrated storage theres usually something we can do.</p>
+  <p><a href="/pages/booking.html" class="btn">Book Assessment</a> <span class="cta-divider">or</span> <a href="tel:0400454859" class="cta-phone">call 0400 454 859</a></p>
+</div>
+</section>
+
+</article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "MacBook Air M1 2020: Water Damage Data Recovery",
+  "description": "Data recovery from water damaged M1 MacBook Air with integrated storage.",
+  "datePublished": "2025-02-10",
+  "author": {
+    "@type": "Organization",
+    "name": "Hills Mac Repair"
+  }
+}
+</script>
+
+<style>
+.case-study-detail { max-width: 800px; margin: 0 auto; }
+.case-study-detail h1 { font-size: 1.9rem; color: #1a365d; margin-bottom: 1rem; }
+.case-meta { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid #e2e8f0; }
+.case-meta span { background: #f1f5f9; padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.9rem; color: #475569; }
+.case-date { background: #fff7ed !important; color: #c2410c !important; }
+.case-study-detail h2 { font-size: 1.4rem; color: #1a365d; margin-top: 2rem; margin-bottom: 1rem; }
+.case-study-detail p { line-height: 1.7; color: #4a5568; margin-bottom: 1rem; }
+.case-study-detail ul { margin: 1rem 0; padding-left: 1.5rem; }
+.case-study-detail li { margin-bottom: 0.5rem; line-height: 1.6; color: #4a5568; }
+.outcome-summary { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 1.5rem; margin: 1rem 0; }
+.outcome-item { margin-bottom: 0.5rem; color: #166534; }
+.outcome-item:last-child { margin-bottom: 0; }
+.breadcrumb-nav { margin-bottom: 1.5rem; color: #64748b; }
+.breadcrumb-nav a { color: #FF7A00; }
+.diagnostic-cta { background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%); color: white; padding: 2rem; border-radius: 12px; text-align: center; margin-top: 2rem; }
+.diagnostic-cta h3 { color: white; margin-top: 0; }
+.diagnostic-cta p { color: rgba(255,255,255,0.9); }
+.diagnostic-cta .btn { display: inline-block; background: #FF7A00; color: white; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600; }
+.diagnostic-cta .cta-divider { margin: 0 0.75rem; opacity: 0.7; }
+.diagnostic-cta .cta-phone { color: white; font-weight: 600; }
+.case-related ul { list-style: none; padding: 0; }
+.case-related li { padding: 0.5rem 0; border-bottom: 1px solid #e2e8f0; }
+.case-related a { color: #2563eb; text-decoration: none; }
+.case-related a:hover { color: #FF7A00; }
+</style>

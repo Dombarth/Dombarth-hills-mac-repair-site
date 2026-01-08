@@ -1,0 +1,151 @@
+---
+title: "Case Study: iMac 27\" 2019 - Fusion Drive Failure and SSD Upgrade"
+description: "iMac 27-inch 2019 (A2115) with Fusion Drive failure causing boot issues. Upgraded to pure SSD with data recovery and massive performance improvement."
+layout: base.njk
+permalink: /repair-case-studies/imac-27-2019-fusion-drive-failure-ssd-upgrade/
+---
+
+<article class="case-study-detail">
+
+<p class="breadcrumb-nav">← Back to <a href="/repair-case-studies/">Repair Case Studies</a></p>
+
+<h1>iMac 27" 2019: Fusion Drive Failure and SSD Upgrade</h1>
+
+<div class="case-meta">
+  <span class="case-date">October 2024</span>
+  <span class="case-device">iMac 27-inch 2019 (A2115)</span>
+  <span class="case-category">Storage Upgrade / Data Recovery</span>
+</div>
+
+<section class="case-overview">
+<h2>Overview</h2>
+<p>A home business owner from West Pennant Hills brought in their iMac 27-inch that had become extremely slow and was showing <a href="/macbook-startup-errors/">startup errors</a>. The Fusion Drive had partially failed—the HDD component was dying while the SSD portion still worked. This caused boot problems and data corruption. We recovered all data and upgraded to a fast NVMe SSD, transforming the machine's performance.</p>
+</section>
+
+<section class="case-symptoms">
+<h2>Initial Symptoms</h2>
+<ul>
+  <li>Boot times over 5 minutes (was under 30 seconds when new)</li>
+  <li>Frequent spinning beach ball during normal use</li>
+  <li>Applications taking 30+ seconds to launch</li>
+  <li>Occasional question mark folder at startup</li>
+  <li>Disk Utility showing SMART errors on HDD component</li>
+  <li>iMac only 5 years old—shouldn't be this slow</li>
+</ul>
+</section>
+
+<section class="case-diagnosis">
+<h2>Diagnostic Process</h2>
+
+<h3>Understanding Fusion Drive</h3>
+<p>Apple's Fusion Drive combines a small SSD (typically 24-128GB) with a larger HDD (1-3TB) into a single logical volume. macOS manages file placement, keeping frequently-used files on the faster SSD. Problems occur when:</p>
+<ul>
+  <li>Either drive component fails</li>
+  <li>The Fusion Drive "splits" into two separate volumes</li>
+  <li>Data corruption affects the bridging system</li>
+</ul>
+
+<h3>Drive Analysis</h3>
+<p>Using diagnostic tools:</p>
+<ul>
+  <li><strong>Blade SSD (128GB):</strong> SMART status good, no errors</li>
+  <li><strong>Mechanical HDD (2TB):</strong> 847 reallocated sectors, pending failures, SMART failing</li>
+  <li><strong>Fusion status:</strong> Split—appearing as two separate volumes</li>
+  <li><strong>Data location:</strong> Critical files scattered across both drives</li>
+</ul>
+
+<h3>Risk Assessment</h3>
+<p>The HDD was in active failure mode. Continued use risked complete data loss. Priority: image the drives and recover data before any repair attempts.</p>
+</section>
+
+<section class="case-repair">
+<h2>Repair and Upgrade Process</h2>
+
+<h3>Data Recovery</h3>
+<ol>
+  <li>Created sector-by-sector images of both drives (slow due to HDD errors)</li>
+  <li>Rebuilt file system structure from images</li>
+  <li>Extracted all user data: Documents, Photos library, Mail, applications data</li>
+  <li>Verified data integrity—all critical files recovered</li>
+</ol>
+
+<h3>Upgrade Decision</h3>
+<p>We recommended replacing the Fusion Drive with a single NVMe SSD. Benefits:</p>
+<ul>
+  <li>No mechanical failure risk</li>
+  <li>Consistently fast performance (not just cached files)</li>
+  <li>Quieter operation</li>
+  <li>Lower power consumption</li>
+</ul>
+<p>Customer chose 1TB NVMe SSD—less than original capacity but more than their actual usage.</p>
+
+<h3>Installation</h3>
+<ol>
+  <li>Removed iMac display using specialized suction tools and heat</li>
+  <li>Installed 1TB NVMe SSD in blade slot (replacing original 128GB)</li>
+  <li>Removed failed mechanical HDD</li>
+  <li>Installed fresh macOS on new SSD</li>
+  <li>Migrated all recovered data</li>
+  <li>Reattached display with new adhesive strips</li>
+</ol>
+
+<h3>Performance Results</h3>
+<table>
+  <tr><th>Metric</th><th>Before (Fusion)</th><th>After (NVMe)</th></tr>
+  <tr><td>Boot time</td><td>5+ minutes</td><td>18 seconds</td></tr>
+  <tr><td>App launch (Photoshop)</td><td>45 seconds</td><td>8 seconds</td></tr>
+  <tr><td>Sequential read</td><td>~80 MB/s</td><td>2,800 MB/s</td></tr>
+  <tr><td>Random read</td><td>~1 MB/s</td><td>250 MB/s</td></tr>
+</table>
+</section>
+
+<section class="case-outcome">
+<h2>Outcome</h2>
+
+<div class="outcome-summary">
+  <div class="outcome-item"><strong>Repair Status:</strong> Complete Success + Major Upgrade</div>
+  <div class="outcome-item"><strong>Data:</strong> 100% recovered</div>
+  <div class="outcome-item"><strong>Performance:</strong> 5-10x faster than original configuration</div>
+  <div class="outcome-item"><strong>Turnaround:</strong> 3 business days</div>
+</div>
+
+<p>The business owner reported the iMac "feels like a brand new machine." Boot times dropped from 5+ minutes to under 20 seconds. The upgrade extends the useful life of this 5-year-old iMac significantly.</p>
+</section>
+
+<section class="case-lessons">
+<h2>Key Takeaways</h2>
+<ul>
+  <li><strong>Fusion Drives have a weak point:</strong> The mechanical HDD component eventually fails, affecting the whole system.</li>
+  <li><strong>Slow iMacs often have storage issues:</strong> <a href="/macbook-performance-problems/">Performance problems</a> frequently trace to failing drives.</li>
+  <li><strong>SSD upgrades transform older iMacs:</strong> Even 5-year-old iMacs become fast with SSD upgrades.</li>
+  <li><strong>Early intervention saves data:</strong> Acting when SMART warnings appear prevents data loss.</li>
+</ul>
+</section>
+
+<section class="case-related">
+<h2>Related Information</h2>
+<ul>
+  <li><a href="/macbook-data-recovery/">Data Recovery Guide</a></li>
+  <li><a href="/macbook-performance-problems/">Performance Problems</a></li>
+  <li><a href="/macbook-startup-errors/">Startup Errors</a></li>
+  <li><a href="/imac-upgrades/">iMac Upgrade Services</a></li>
+</ul>
+</section>
+
+<section class="cta-section">
+<div class="diagnostic-cta">
+  <h3>Slow iMac? Consider an SSD Upgrade</h3>
+  <p>We upgrade iMac storage to fast SSDs, often with significant performance improvements and data migration included.</p>
+  <p><a href="/pages/booking.html" class="btn">Request Quote</a></p>
+</div>
+</section>
+
+</article>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"iMac 27\" 2019 Fusion Drive Failure and SSD Upgrade","datePublished":"2024-10-25"}
+</script>
+
+<style>
+.case-study-detail{max-width:800px;margin:0 auto}.case-study-detail h1{font-size:1.9rem;color:#1a365d;margin-bottom:1rem}.case-meta{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:2rem;padding-bottom:1rem;border-bottom:1px solid #e2e8f0}.case-meta span{background:#f1f5f9;padding:.25rem .75rem;border-radius:4px;font-size:.9rem;color:#475569}.case-date{background:#fff7ed!important;color:#c2410c!important}.case-study-detail h2{font-size:1.4rem;color:#1a365d;margin-top:2rem;margin-bottom:1rem}.case-study-detail h3{font-size:1.1rem;color:#334155;margin-top:1.5rem;margin-bottom:.75rem}.case-study-detail p,.case-study-detail li{line-height:1.7;color:#4a5568}.case-study-detail ul,.case-study-detail ol{margin:1rem 0;padding-left:1.5rem}.case-study-detail li{margin-bottom:.5rem}.case-study-detail table{width:100%;border-collapse:collapse;margin:1rem 0}.case-study-detail th,.case-study-detail td{border:1px solid #e2e8f0;padding:.5rem;text-align:left}.case-study-detail th{background:#f8fafc}.outcome-summary{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:1.5rem;margin:1rem 0}.outcome-item{margin-bottom:.5rem;color:#166534}.breadcrumb-nav{margin-bottom:1.5rem;color:#64748b}.breadcrumb-nav a{color:#FF7A00}.diagnostic-cta{background:linear-gradient(135deg,#1a365d 0%,#2c5282 100%);color:#fff;padding:2rem;border-radius:12px;text-align:center;margin-top:2rem}.diagnostic-cta h3{color:#fff;margin-top:0}.diagnostic-cta p{color:rgba(255,255,255,.9)}.diagnostic-cta .btn{display:inline-block;background:#FF7A00;color:#fff;padding:.75rem 1.5rem;border-radius:6px;text-decoration:none;font-weight:600}.case-related ul{list-style:none;padding:0}.case-related li{padding:.5rem 0;border-bottom:1px solid #e2e8f0}.case-related a{color:#2563eb;text-decoration:none}
+</style>

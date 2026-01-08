@@ -1,0 +1,528 @@
+---
+layout: base
+pagination:
+  data: imacModelsList
+  size: 1
+  alias: imac
+permalink: "imac-upgrades/{{ imac.slug }}/index.html"
+eleventyComputed:
+  title: "{{ imac.name }} Upgrade | RAM SSD | Hills Mac Repair"
+  description: "Professional {{ imac.name }} RAM and SSD upgrade service. Check what upgrades are possible for your iMac model. Workshop based installation with 12 month warranty."
+hero: false
+---
+
+<nav class="breadcrumb">
+  <a href="/">Home</a> → <a href="/imac-upgrades/">iMac Upgrades</a> → {{ imac.name }}
+</nav>
+
+<h1>{{ imac.name }} Upgrade Guide & Service</h1>
+
+<div class="imac-hero">
+  <div class="imac-info">
+    <p class="imac-description">{{ imac.description }}</p>
+    
+    <div class="imac-specs">
+      <div class="spec-item">
+        <span class="spec-label">Model ID</span>
+        <span class="spec-value">{{ imac.modelId }}</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-label">Model Numbers</span>
+        <span class="spec-value">{{ imac.modelNumbers | join(", ") }}</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-label">Year</span>
+        <span class="spec-value">{{ imac.year }}</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-label">Display</span>
+        <span class="spec-value">{{ imac.size }}</span>
+      </div>
+      <div class="spec-item">
+        <span class="spec-label">Processors</span>
+        <span class="spec-value">{{ imac.processors | join(", ") }}</span>
+      </div>
+      {% if imac.discontinued %}
+      <div class="spec-item">
+        <span class="spec-label">Discontinued</span>
+        <span class="spec-value">{{ imac.discontinued }}</span>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% if imac.notUpgradeable %}
+<div class="warning-box">
+  <h2>⚠️ This iMac Cannot Be Upgraded</h2>
+  <p>The {{ imac.name }} uses Apple Silicon with integrated memory and storage that cannot be upgraded after purchase. All RAM and storage is permanently soldered to the logic board.</p>
+  <p><strong>Recommendation:</strong> {{ imac.recommended[0] }}</p>
+</div>
+{% else %}
+
+<h2>Available Upgrades for {{ imac.name }}</h2>
+
+<div class="upgrade-grid">
+  {% if imac.upgrades.ram %}
+  <div class="upgrade-card {% if imac.upgrades.ram.upgradeable %}available{% else %}unavailable{% endif %}">
+    <div class="upgrade-header">
+      <h3>🧠 RAM Upgrade</h3>
+      {% if imac.upgrades.ram.upgradeable and imac.upgrades.ram.price %}
+      <span class="upgrade-price">From ${{ imac.upgrades.ram.price }}</span>
+      {% endif %}
+    </div>
+    
+    {% if imac.upgrades.ram.upgradeable %}
+    <div class="upgrade-status available">✓ Upgradeable</div>
+    <table class="upgrade-specs">
+      <tr>
+        <td>Maximum RAM</td>
+        <td><strong>{{ imac.upgrades.ram.maxRam }}</strong></td>
+      </tr>
+      <tr>
+        <td>RAM Slots</td>
+        <td>{{ imac.upgrades.ram.slots }}</td>
+      </tr>
+      <tr>
+        <td>RAM Type</td>
+        <td>{{ imac.upgrades.ram.type }}</td>
+      </tr>
+      <tr>
+        <td>Default RAM</td>
+        <td>{{ imac.upgrades.ram.defaultRam }}</td>
+      </tr>
+      {% if imac.upgrades.ram.userServiceable %}
+      <tr>
+        <td>DIY Friendly</td>
+        <td><span class="badge-yes">Yes - Easy access door</span></td>
+      </tr>
+      {% else %}
+      <tr>
+        <td>Installation</td>
+        <td><span class="badge-pro">Professional required</span></td>
+      </tr>
+      {% endif %}
+    </table>
+    <p class="upgrade-notes">{{ imac.upgrades.ram.notes }}</p>
+    {% else %}
+    <div class="upgrade-status unavailable">✗ Not Upgradeable</div>
+    <p class="upgrade-notes">{{ imac.upgrades.ram.notes }}</p>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if imac.upgrades.ssd %}
+  <div class="upgrade-card {% if imac.upgrades.ssd.upgradeable %}available{% else %}unavailable{% endif %}">
+    <div class="upgrade-header">
+      <h3>💾 SSD / Storage Upgrade</h3>
+      {% if imac.upgrades.ssd.upgradeable and imac.upgrades.ssd.price %}
+      <span class="upgrade-price">From ${{ imac.upgrades.ssd.price }}</span>
+      {% endif %}
+    </div>
+    
+    {% if imac.upgrades.ssd.upgradeable %}
+    <div class="upgrade-status available">✓ Upgradeable</div>
+    <table class="upgrade-specs">
+      <tr>
+        <td>Storage Type</td>
+        <td>{{ imac.upgrades.ssd.type }}</td>
+      </tr>
+      <tr>
+        <td>Default Storage</td>
+        <td>{{ imac.upgrades.ssd.defaultStorage }}</td>
+      </tr>
+      <tr>
+        <td>Maximum</td>
+        <td><strong>{{ imac.upgrades.ssd.maxStorage }}</strong></td>
+      </tr>
+      {% if imac.upgrades.ssd.userServiceable %}
+      <tr>
+        <td>DIY Friendly</td>
+        <td><span class="badge-yes">Yes</span></td>
+      </tr>
+      {% else %}
+      <tr>
+        <td>Installation</td>
+        <td><span class="badge-pro">Professional required</span></td>
+      </tr>
+      {% endif %}
+    </table>
+    <p class="upgrade-notes">{{ imac.upgrades.ssd.notes }}</p>
+    {% else %}
+    <div class="upgrade-status unavailable">✗ Not Upgradeable</div>
+    <p class="upgrade-notes">{{ imac.upgrades.ssd.notes }}</p>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if imac.upgrades.cpu %}
+  <div class="upgrade-card unavailable">
+    <div class="upgrade-header">
+      <h3>⚡ CPU</h3>
+    </div>
+    <div class="upgrade-status unavailable">✗ Not Upgradeable</div>
+    <p class="upgrade-notes">{{ imac.upgrades.cpu.notes }}</p>
+  </div>
+  {% endif %}
+
+  {% if imac.upgrades.gpu %}
+  <div class="upgrade-card unavailable">
+    <div class="upgrade-header">
+      <h3>🎮 GPU</h3>
+    </div>
+    <div class="upgrade-status unavailable">✗ Not Upgradeable</div>
+    <p class="upgrade-notes">{{ imac.upgrades.gpu.notes }}</p>
+  </div>
+  {% endif %}
+</div>
+
+{% if imac.commonSymptoms.length > 0 %}
+<h2>Common Problems We Solve</h2>
+<p>If your {{ imac.name }} is experiencing any of these issues, an upgrade could help:</p>
+<ul class="symptoms-list">
+  {% for symptom in imac.commonSymptoms %}
+  <li>{{ symptom }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if imac.recommended.length > 0 %}
+<h2>Our Recommendations for {{ imac.name }}</h2>
+<div class="recommendations">
+  {% for rec in imac.recommended %}
+  <div class="recommendation-item">
+    <span class="rec-icon">✓</span>
+    <span>{{ rec }}</span>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% endif %}
+
+<h2>Why Upgrade Your iMac With Us?</h2>
+<div class="benefits-grid">
+  <div class="benefit">
+    <h3>🔧 Expert Technicians</h3>
+    <p>Our team has upgraded hundreds of iMacs. We know the quirks of each model and use proper tools and techniques.</p>
+  </div>
+  <div class="benefit">
+    <h3>💰 Quality Parts</h3>
+    <p>We use premium RAM and SSDs that meet or exceed Apple specifications. No cheap components that fail early.</p>
+  </div>
+  <div class="benefit">
+    <h3>✓ 12-Month Warranty</h3>
+    <p>All upgrades include a 12-month warranty on parts and labour. If something fails, we fix it free.</p>
+  </div>
+  <div class="benefit">
+    <h3>📋 Data Preserved</h3>
+    <p>Your files, apps, and settings stay intact. We migrate everything to your new drive seamlessly.</p>
+  </div>
+</div>
+
+<h2>How It Works</h2>
+<div class="process-steps">
+  <div class="step">
+    <span class="step-num">1</span>
+    <h3>Free Quote</h3>
+    <p>Tell us your iMac model and what you'd like to upgrade. We'll provide a detailed quote.</p>
+  </div>
+  <div class="step">
+    <span class="step-num">2</span>
+    <h3>Drop Off or Ship</h3>
+    <p>Bring your iMac to our Hills District workshop or arrange courier pickup.</p>
+  </div>
+  <div class="step">
+    <span class="step-num">3</span>
+    <h3>Expert Upgrade</h3>
+    <p>We perform the upgrade, test thoroughly, and migrate your data if needed.</p>
+  </div>
+  <div class="step">
+    <span class="step-num">4</span>
+    <h3>Collect & Enjoy</h3>
+    <p>Pick up your upgraded iMac and enjoy the improved performance!</p>
+  </div>
+</div>
+
+<div class="cta-section">
+  <h2>Ready to Upgrade Your {{ imac.name }}?</h2>
+  <p>Contact us today for a free quote on your iMac upgrade.</p>
+  <p>
+    <a class="btn large" href="/pages/booking.html">Get a Quote for {{ imac.name }} Upgrade</a>
+    <a class="btn large ghost" href="tel:0400454859">Call 0400 454 859</a>
+  </p>
+</div>
+
+<h2>Other iMac Models We Service</h2>
+<div class="related-models">
+  {% for model in imacModelsList %}
+  {% if model.slug != imac.slug %}
+  <a href="/imac-upgrades/{{ model.slug }}/" class="related-model">{{ model.name }}</a>
+  {% endif %}
+  {% endfor %}
+</div>
+
+<style>
+.breadcrumb {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+.breadcrumb a {
+  color: #1a365d;
+  text-decoration: none;
+}
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+.imac-hero {
+  margin-bottom: 2rem;
+}
+.imac-description {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+}
+.imac-specs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+.spec-item {
+  display: flex;
+  flex-direction: column;
+}
+.spec-label {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+.spec-value {
+  font-weight: 600;
+  color: #1a365d;
+}
+.warning-box {
+  padding: 2rem;
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+.warning-box h2 {
+  margin-top: 0;
+  color: #856404;
+}
+.upgrade-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+.upgrade-card {
+  padding: 1.5rem;
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+}
+.upgrade-card.available {
+  border-color: #48bb78;
+}
+.upgrade-card.unavailable {
+  border-color: #e2e8f0;
+  background: #f8f9fa;
+}
+.upgrade-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+.upgrade-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+.upgrade-price {
+  background: #48bb78;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.upgrade-status {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.upgrade-status.available {
+  background: #c6f6d5;
+  color: #276749;
+}
+.upgrade-status.unavailable {
+  background: #e2e8f0;
+  color: #718096;
+}
+.upgrade-specs {
+  width: 100%;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.upgrade-specs td {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+.upgrade-specs td:first-child {
+  color: #666;
+  width: 40%;
+}
+.badge-yes {
+  background: #c6f6d5;
+  color: #276749;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+.badge-pro {
+  background: #bee3f8;
+  color: #2c5282;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+.upgrade-notes {
+  font-size: 0.9rem;
+  color: #4a5568;
+  margin: 0;
+  font-style: italic;
+}
+.symptoms-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 2rem;
+}
+.symptoms-list li {
+  padding: 0.75rem 1rem;
+  background: #fed7d7;
+  color: #c53030;
+  border-radius: 6px;
+}
+.symptoms-list li::before {
+  content: "⚠️ ";
+}
+.recommendations {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+}
+.recommendation-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: #c6f6d5;
+  border-radius: 6px;
+}
+.rec-icon {
+  font-size: 1.25rem;
+  color: #276749;
+}
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+.benefit {
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+.benefit h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+.benefit p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+.step {
+  text-align: center;
+  padding: 1.5rem;
+}
+.step-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: #FF7A00;
+  color: white;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.step h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+.step p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+.cta-section {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+}
+.cta-section h2 {
+  color: white;
+  margin-top: 0;
+}
+.btn.large {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+.cta-section .btn.ghost {
+  border-color: white;
+  color: white;
+}
+.related-models {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 2rem;
+}
+.related-model {
+  padding: 0.5rem 1rem;
+  background: #e2e8f0;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #1a365d;
+  font-size: 0.9rem;
+}
+.related-model:hover {
+  background: #cbd5e0;
+}
+</style>

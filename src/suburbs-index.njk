@@ -1,0 +1,50 @@
+---
+layout: base
+title: "Suburbs We Service | Hills Mac Repair"
+description: "Mac repair services across the Hills District and surrounding areas. Find your suburb for local repair information. Workshop based service with 12 month warranty."
+permalink: /suburbs/index.html
+hero: false
+---
+
+<h1>Suburbs We Service</h1>
+<p>Our workshop services Mac repairs for customers across the Hills District and surrounding areas. This is a workshop-based service—bring your Mac in for diagnosis and repair. Select your suburb below:</p>
+
+<div class="suburbs-grid">
+{% for suburb in suburbsList %}
+  <a class="suburb-card" href="/suburbs/{{ suburb.slug }}/">
+    <strong>{{ suburb.name }}</strong>
+    <span class="anchors">{{ suburb.anchors | join(", ") }}</span>
+  </a>
+{% endfor %}
+</div>
+
+<style>
+.suburbs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.suburb-card {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+.suburb-card:hover {
+  border-color: #007bff;
+  box-shadow: 0 2px 8px rgba(0,123,255,0.15);
+}
+.suburb-card strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+.suburb-card .anchors {
+  font-size: 0.85rem;
+  color: #666;
+}
+</style>

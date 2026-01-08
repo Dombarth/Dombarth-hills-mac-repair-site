@@ -1,0 +1,434 @@
+---
+layout: base
+title: "iMac Upgrades | RAM SSD by Model | Hills Mac Repair"
+description: "Complete iMac upgrade guide by model. See which iMacs can be upgraded with RAM and SSD. Professional installation with 12 month warranty. Workshop based service."
+permalink: /imac-upgrades/index.html
+hero: false
+---
+
+<h1>iMac RAM & SSD Upgrade Services</h1>
+
+<p class="page-intro">Professional iMac upgrade services in the Hills District. We upgrade RAM, replace Fusion Drives with fast SSDs, and breathe new life into your iMac. Find your model below to see available upgrades and pricing.</p>
+
+<div class="upgrade-overview">
+  <div class="overview-item">
+    <span class="overview-icon">🧠</span>
+    <span><strong>RAM Upgrades</strong> from $89</span>
+  </div>
+  <div class="overview-item">
+    <span class="overview-icon">💾</span>
+    <span><strong>SSD Upgrades</strong> from $149</span>
+  </div>
+  <div class="overview-item">
+    <span class="overview-icon">✓</span>
+    <span><strong>12-Month Warranty</strong> on all upgrades</span>
+  </div>
+</div>
+
+<h2>Select Your iMac Model</h2>
+<p>Click on your iMac model to see detailed upgrade options, specifications, and pricing.</p>
+
+<h3>iMac 27" Models (Upgradeable)</h3>
+<p>All 27" iMacs from 2012-2020 have user-accessible RAM slots. SSD upgrades require professional installation.</p>
+
+<div class="imac-grid">
+  {% for imac in imacModelsList %}
+  {% if imac.size == '27"' and not imac.notUpgradeable %}
+  <a href="/imac-upgrades/{{ imac.slug }}/" class="imac-card upgradeable">
+    <div class="imac-card-header">
+      <h4>{{ imac.name }}</h4>
+      <span class="year-badge">{{ imac.year }}</span>
+    </div>
+    <div class="imac-card-body">
+      <div class="upgrade-badges">
+        {% if imac.upgrades.ram.upgradeable %}
+        <span class="badge ram">RAM to {{ imac.upgrades.ram.maxRam }}</span>
+        {% endif %}
+        {% if imac.upgrades.ssd.upgradeable %}
+        <span class="badge ssd">SSD to {{ imac.upgrades.ssd.maxStorage }}</span>
+        {% endif %}
+      </div>
+      <p class="imac-desc">{{ imac.description | truncate(100) }}</p>
+      <div class="imac-meta">
+        <span>{{ imac.processors[0] }}</span>
+        {% if imac.upgrades.ram.userServiceable %}
+        <span class="diy-badge">DIY RAM ✓</span>
+        {% endif %}
+      </div>
+    </div>
+    <span class="view-link">View {{ imac.name }} upgrade options →</span>
+  </a>
+  {% endif %}
+  {% endfor %}
+</div>
+
+<h3>iMac 21.5" Models (Upgradeable)</h3>
+<p>21.5" iMacs require display removal for upgrades - professional installation recommended.</p>
+
+<div class="imac-grid">
+  {% for imac in imacModelsList %}
+  {% if imac.size == '21.5"' and not imac.notUpgradeable %}
+  <a href="/imac-upgrades/{{ imac.slug }}/" class="imac-card upgradeable">
+    <div class="imac-card-header">
+      <h4>{{ imac.name }}</h4>
+      <span class="year-badge">{{ imac.year }}</span>
+    </div>
+    <div class="imac-card-body">
+      <div class="upgrade-badges">
+        {% if imac.upgrades.ram.upgradeable %}
+        <span class="badge ram">RAM to {{ imac.upgrades.ram.maxRam }}</span>
+        {% endif %}
+        {% if imac.upgrades.ssd.upgradeable %}
+        <span class="badge ssd">SSD to {{ imac.upgrades.ssd.maxStorage }}</span>
+        {% endif %}
+      </div>
+      <p class="imac-desc">{{ imac.description | truncate(100) }}</p>
+      <div class="imac-meta">
+        <span>{{ imac.processors[0] }}</span>
+      </div>
+    </div>
+    <span class="view-link">View {{ imac.name }} upgrade options →</span>
+  </a>
+  {% endif %}
+  {% endfor %}
+</div>
+
+<h3>Apple Silicon iMacs (Not Upgradeable)</h3>
+<p>M1, M3, and M4 iMacs have soldered RAM and storage that cannot be upgraded after purchase.</p>
+
+<div class="imac-grid">
+  {% for imac in imacModelsList %}
+  {% if imac.notUpgradeable %}
+  <a href="/imac-upgrades/{{ imac.slug }}/" class="imac-card not-upgradeable">
+    <div class="imac-card-header">
+      <h4>{{ imac.name }}</h4>
+      <span class="year-badge">{{ imac.year }}</span>
+    </div>
+    <div class="imac-card-body">
+      <div class="upgrade-badges">
+        <span class="badge none">No upgrades available</span>
+      </div>
+      <p class="imac-desc">{{ imac.description | truncate(100) }}</p>
+      <div class="imac-meta">
+        <span>{{ imac.processors[0] }}</span>
+      </div>
+    </div>
+    <span class="view-link">View {{ imac.name }} specifications →</span>
+  </a>
+  {% endif %}
+  {% endfor %}
+</div>
+
+<h2>Why Upgrade Instead of Replace?</h2>
+
+<div class="comparison-table">
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Upgrade Existing iMac</th>
+        <th>Buy New iMac</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Cost</td>
+        <td class="pro">$150-$500</td>
+        <td class="con">$1,899+</td>
+      </tr>
+      <tr>
+        <td>Performance Boost</td>
+        <td class="pro">5-10x faster (SSD)</td>
+        <td class="pro">Varies by model</td>
+      </tr>
+      <tr>
+        <td>Data Migration</td>
+        <td class="pro">Seamless - keep everything</td>
+        <td class="con">Manual setup required</td>
+      </tr>
+      <tr>
+        <td>Environmental Impact</td>
+        <td class="pro">Minimal</td>
+        <td class="con">New device production</td>
+      </tr>
+      <tr>
+        <td>Time to Complete</td>
+        <td class="pro">Same day - 48 hours</td>
+        <td class="con">Order + setup time</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Most Popular iMac Upgrades</h2>
+
+<div class="popular-upgrades">
+  <div class="popular-upgrade">
+    <h3>🔥 Fusion Drive to SSD Conversion</h3>
+    <p><strong>Best for:</strong> iMac 27" 2012-2019, iMac 21.5" 2012-2019</p>
+    <p>Replace your slow Fusion Drive with a pure SSD. Dramatically improves boot time, app launches, and overall responsiveness.</p>
+    <p><strong>From $179</strong> (includes 500GB SSD + installation)</p>
+  </div>
+  <div class="popular-upgrade">
+    <h3>🧠 RAM Upgrade to 32GB or 64GB</h3>
+    <p><strong>Best for:</strong> iMac 27" 2012-2020 (DIY-friendly)</p>
+    <p>More RAM means smoother multitasking, better video editing performance, and faster handling of large files.</p>
+    <p><strong>From $89</strong> (27" DIY) or <strong>$169</strong> (21.5" installed)</p>
+  </div>
+  <div class="popular-upgrade">
+    <h3>⚡ Combo: SSD + RAM Upgrade</h3>
+    <p><strong>Best for:</strong> Any upgradeable iMac still on original specs</p>
+    <p>The ultimate refresh - new SSD plus maximum RAM. Your iMac will feel like a new machine.</p>
+    <p><strong>From $299</strong> (package pricing available)</p>
+  </div>
+</div>
+
+<h2>How to Find Your iMac Model</h2>
+
+<div class="how-to-box">
+  <ol>
+    <li>Click the <strong>Apple menu</strong> () in the top-left corner</li>
+    <li>Select <strong>"About This Mac"</strong></li>
+    <li>Look for the model name (e.g., "iMac (27-inch, 2020)")</li>
+    <li>For detailed info, click <strong>"More Info"</strong> or <strong>"System Report"</strong></li>
+  </ol>
+  <p><strong>Still not sure?</strong> Just call us with your serial number and we'll identify your model instantly.</p>
+</div>
+
+<div class="cta-section">
+  <h2>Ready to Upgrade Your iMac?</h2>
+  <p>Contact us for a free quote. We'll help you choose the right upgrades for your needs and budget.</p>
+  <p>
+    <a class="btn large" href="/pages/booking.html">Get a Free iMac Upgrade Quote</a>
+    <a class="btn large ghost" href="tel:0400454859">Call 0400 454 859</a>
+  </p>
+</div>
+
+<style>
+.page-intro {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #4a5568;
+  margin-bottom: 2rem;
+}
+.upgrade-overview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+.overview-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 1;
+  min-width: 200px;
+}
+.overview-icon {
+  font-size: 1.5rem;
+}
+.imac-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 2.5rem;
+}
+.imac-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s;
+}
+.imac-card.upgradeable:hover {
+  border-color: #48bb78;
+  box-shadow: 0 4px 12px rgba(72, 187, 120, 0.15);
+}
+.imac-card.not-upgradeable {
+  background: #f8f9fa;
+  border-color: #e2e8f0;
+}
+.imac-card.not-upgradeable:hover {
+  border-color: #cbd5e0;
+}
+.imac-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+.imac-card-header h4 {
+  margin: 0;
+  color: #1a365d;
+  font-size: 1.05rem;
+}
+.year-badge {
+  background: #1a365d;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.imac-card-body {
+  flex-grow: 1;
+}
+.upgrade-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+.badge {
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.badge.ram {
+  background: #c6f6d5;
+  color: #276749;
+}
+.badge.ssd {
+  background: #bee3f8;
+  color: #2c5282;
+}
+.badge.none {
+  background: #e2e8f0;
+  color: #718096;
+}
+.imac-desc {
+  color: #4a5568;
+  font-size: 0.9rem;
+  margin: 0 0 0.75rem;
+  line-height: 1.5;
+}
+.imac-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+.diy-badge {
+  background: #faf089;
+  color: #744210;
+  padding: 0.15rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.75rem;
+}
+.view-link {
+  margin-top: 1rem;
+  color: #48bb78;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.imac-card.not-upgradeable .view-link {
+  color: #718096;
+}
+.comparison-table {
+  overflow-x: auto;
+  margin: 1.5rem 0 2rem;
+}
+.comparison-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.comparison-table th,
+.comparison-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+.comparison-table th {
+  background: #1a365d;
+  color: white;
+}
+.comparison-table th:first-child {
+  width: 25%;
+}
+.comparison-table td:first-child {
+  font-weight: 600;
+  color: #1a365d;
+}
+.comparison-table .pro {
+  color: #276749;
+  background: #f0fff4;
+}
+.comparison-table .con {
+  color: #c53030;
+  background: #fff5f5;
+}
+.popular-upgrades {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+.popular-upgrade {
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border-left: 4px solid #FF7A00;
+}
+.popular-upgrade h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+}
+.popular-upgrade p {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+  color: #4a5568;
+}
+.popular-upgrade p:last-child {
+  margin-bottom: 0;
+  color: #1a365d;
+  font-weight: 600;
+}
+.how-to-box {
+  padding: 1.5rem;
+  background: #ebf8ff;
+  border-radius: 8px;
+  margin: 1.5rem 0 2rem;
+}
+.how-to-box ol {
+  margin: 0 0 1rem;
+  padding-left: 1.5rem;
+}
+.how-to-box li {
+  margin-bottom: 0.5rem;
+}
+.how-to-box p {
+  margin: 0;
+}
+.cta-section {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+}
+.cta-section h2 {
+  color: white;
+  margin-top: 0;
+}
+.btn.large {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+.cta-section .btn.ghost {
+  border-color: white;
+  color: white;
+}
+</style>

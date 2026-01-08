@@ -1,0 +1,270 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Services Index -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/services/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Individual Service Pages -->
+  {%- for service in servicesList %}
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/services/{{ service.slug }}/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {%- endfor %}
+  
+  <!-- Suburbs Index -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/suburbs/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Individual Suburb Pages -->
+  {%- for suburb in suburbsList %}
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/suburbs/{{ suburb.slug }}/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {%- endfor %}
+  
+  <!-- MacBook Problems - Diagnostic Authority Root -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/macbook-problems/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- MacBook Problem Pillar Pages -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/macbook-not-turning-on/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/macbook-screen-issues/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/macbook-liquid-damage/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/macbook-battery-issues/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/macbook-startup-errors/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/macbook-data-recovery/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/macbook-performance-problems/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- MacBook Glossary -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/macbook-glossary/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/macbook-glossary/kernel-panic/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/macbook-glossary/flexgate/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/macbook-glossary/logic-board/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/macbook-glossary/dfu-mode/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/macbook-glossary/swollen-battery/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Repair Case Studies -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- MacBook Case Studies -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/macbook-pro-16-2019-liquid-damage-usb-c-repair/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/macbook-air-m1-2020-water-damage-data-recovery/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/macbook-pro-14-2021-display-cable-flexgate/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/macbook-pro-13-2019-t2-chip-bridgeos-failure/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/macbook-air-2019-swollen-battery-trackpad-failure/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/macbook-pro-13-2020-intel-thermal-throttling-repair/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/macbook-air-m2-2022-screen-crack-replacement/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/macbook-pro-16-2021-m1-max-no-charge-thunderbolt-repair/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/macbook-pro-15-2019-kernel-panic-gpu-repair/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/macbook-pro-m1-2020-no-power-pmic-repair/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- iMac Case Studies -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/imac-27-2019-fusion-drive-failure-ssd-upgrade/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/imac-21-2017-gpu-failure-logic-board-repair/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/imac-27-2015-backlight-failure-repair/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/imac-24-m1-2021-power-supply-failure/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/imac-27-2020-ram-upgrade-thermal-issues/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/repair-case-studies/imac-21-2013-hdd-to-ssd-upgrade/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Repair Options Guide -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/macbook-repair-options-guide/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- About the Technician -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/about-the-technician/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- iMac Upgrades Index -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/imac-upgrades/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Individual iMac Model Upgrade Pages -->
+  {%- for imac in imacModelsList %}
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/imac-upgrades/{{ imac.slug }}/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {%- endfor %}
+  
+  <!-- Terms & Conditions -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/terms/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/privacy/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Booking -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/pages/booking.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Contact -->
+  <url>
+    <loc>https://www.hillsmacrepair.com.au/pages/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>

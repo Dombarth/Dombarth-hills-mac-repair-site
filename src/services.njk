@@ -1,0 +1,310 @@
+---
+layout: base
+pagination:
+  data: servicesList
+  size: 1
+  alias: service
+permalink: "services/{{ service.slug }}/index.html"
+eleventyComputed:
+  title: "{{ service.name }} | {{ service.titleDriver }}"
+  description: "Professional {{ service.name | lower }} in Hills District Sydney. {{ service.turnaround }} turnaround. Workshop based repair with 12 month warranty. Honest diagnosis before any work begins."
+hero: false
+---
+
+<nav class="breadcrumb">
+  <a href="/">Home</a> › <a href="/services/">Services</a> › {{ service.shortName }}
+</nav>
+
+<h1>{{ service.name }} in the Hills District</h1>
+
+<div class="service-intro">
+  <div class="intro-content">
+    <p class="lead">{{ service.description }}</p>
+    <div class="price-box">
+      <span class="price-label">From</span>
+      <span class="price">${{ service.from }}</span>
+      <span class="price-note">Final price after diagnosis</span>
+    </div>
+  </div>
+</div>
+
+<div class="service-meta">
+  <div class="meta-item">
+    <strong>⏱️ Turnaround:</strong> {{ service.turnaround }}
+  </div>
+  <div class="meta-item">
+    <strong>✓ Warranty:</strong> 12 months (new parts)
+  </div>
+  <div class="meta-item">
+    <strong>📍 Service Area:</strong> All Hills District
+  </div>
+</div>
+
+<h2>Common {{ service.shortName }} Problems We Fix</h2>
+
+<div class="symptoms-grid">
+  {% for symptom in service.symptoms %}
+  <div class="symptom-card">
+    <span class="symptom-icon">⚠️</span>
+    <span>{{ symptom }}</span>
+  </div>
+  {% endfor %}
+</div>
+
+<p>Experiencing any of these issues? Don't wait—{{ service.shortName | lower }} problems often worsen over time. <a href="/pages/booking.html">Book a diagnostic</a> or <a href="tel:0400454859">call us</a> to discuss your Mac's symptoms.</p>
+
+<h2>What Causes {{ service.shortName }} Issues?</h2>
+
+<ul class="cause-list">
+  {% for cause in service.causes %}
+  <li>{{ cause }}</li>
+  {% endfor %}
+</ul>
+
+<h2>Our {{ service.shortName }} Repair Process</h2>
+
+{{ service.longDescription | safe }}
+
+<h3>What We Do:</h3>
+<ol class="process-list">
+  {% for step in service.what %}
+  <li>{{ step }}</li>
+  {% endfor %}
+</ol>
+
+<h2>Mac Models We Service</h2>
+
+<div class="models-grid">
+  {% for model in service.models %}
+  <span class="model-tag">{{ model }}</span>
+  {% endfor %}
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-section">
+  {% for item in service.faq %}
+  <div class="faq-item">
+    <h3>{{ item.q }}</h3>
+    <p>{{ item.a }}</p>
+  </div>
+  {% endfor %}
+</div>
+
+<h2>{{ service.shortName }} Repair in Your Suburb</h2>
+
+<p>We provide {{ service.name | lower }} services across the Hills District. Find your suburb:</p>
+
+<div class="suburb-links-compact">
+  {% for suburb in suburbsList | slice(0, 12) %}
+  <a href="/suburbs/{{ suburb.slug }}/#{{ service.key }}">{{ suburb.name }}</a>
+  {% endfor %}
+  <a href="/suburbs/" class="view-all">View All Suburbs →</a>
+</div>
+
+<h2>Related Services</h2>
+
+<p>Customers who need {{ service.name | lower }} often also require:</p>
+
+<div class="related-services">
+  {% for relatedKey in service.relatedServices %}
+  {% set related = services[relatedKey] %}
+  <a href="/services/{{ related.slug }}/" class="related-card">
+    <strong>{{ related.name }}</strong>
+    <span>From ${{ related.from }}</span>
+  </a>
+  {% endfor %}
+</div>
+
+<div class="cta-section">
+  <h2>Get Your {{ service.shortName }} Fixed Today</h2>
+  <p>Call for a free phone estimate. No appointment needed for drop-offs.</p>
+  <p>
+    <a class="btn large" href="/pages/booking.html">Book {{ service.shortName }} Repair</a>
+    <a class="btn large ghost" href="tel:0400454859">Call 0400 454 859</a>
+  </p>
+</div>
+
+<style>
+.breadcrumb {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+.breadcrumb a {
+  color: #666;
+}
+.service-intro {
+  margin-bottom: 2rem;
+}
+.lead {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+.price-box {
+  display: inline-flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #FF7A00, #ff9933);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+.price-label {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+.price {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+.price-note {
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+.service-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+.meta-item {
+  flex: 1;
+  min-width: 150px;
+}
+.symptoms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.symptom-card {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: #fff3cd;
+  border-radius: 6px;
+  border-left: 3px solid #ffc107;
+}
+.cause-list {
+  columns: 2;
+  column-gap: 2rem;
+}
+.cause-list li {
+  margin-bottom: 0.5rem;
+}
+.process-list li {
+  margin-bottom: 0.75rem;
+  padding-left: 0.5rem;
+}
+.models-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 2rem;
+}
+.model-tag {
+  padding: 0.4rem 0.8rem;
+  background: #e2e8f0;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+.faq-section {
+  margin: 1.5rem 0 2rem;
+}
+.faq-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+.faq-item h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.faq-item p {
+  margin: 0;
+  color: #4a5568;
+}
+.suburb-links-compact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 2rem;
+}
+.suburb-links-compact a {
+  padding: 0.4rem 0.8rem;
+  background: #e2e8f0;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #2d3748;
+  font-size: 0.9rem;
+}
+.suburb-links-compact a:hover {
+  background: #cbd5e0;
+}
+.suburb-links-compact .view-all {
+  background: #1a365d;
+  color: white;
+}
+.related-services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+.related-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: #f8f9fa;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s;
+}
+.related-card:hover {
+  border-color: #FF7A00;
+}
+.related-card strong {
+  color: #1a365d;
+}
+.related-card span {
+  font-size: 0.9rem;
+  color: #666;
+}
+.cta-section {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+}
+.cta-section h2 {
+  color: white;
+  margin-top: 0;
+}
+.btn.large {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+.cta-section .btn.ghost {
+  border-color: white;
+  color: white;
+}
+@media (max-width: 600px) {
+  .cause-list {
+    columns: 1;
+  }
+  .service-meta {
+    flex-direction: column;
+  }
+}
+</style>

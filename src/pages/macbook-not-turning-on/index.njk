@@ -1,0 +1,517 @@
+---
+title: MacBook Not Turning On | Diagnosis & Repair
+description: Why your MacBook won't turn on, what causes power failures, and how to diagnose the real problem. Expert guide from Hills District Mac repair specialists.
+layout: base.njk
+permalink: /macbook-not-turning-on/
+---
+
+<article class="diagnostic-authority">
+
+<h1>MacBook Not Turning On: Understanding Power Failures</h1>
+
+<p class="lead">A MacBook that won't turn on is one of the most stressful problems you can face. You press the power button and nothing happens—no sounds, no lights, no Apple logo. Your immediate thought might be that the Mac is dead, but in our experience, "dead" MacBooks are rarely beyond repair. The real question is understanding what's actually failing.</p>
+
+<p>We see MacBooks with power issues every week in our Hills District workshop. Some turn out to be simple fixes that take minutes. Others require component-level <a href="/macbook-glossary/logic-board/">logic board</a> repair. The difference between these outcomes isn't luck—it's proper diagnosis. This guide will help you understand why MacBooks fail to power on and what can realistically be done about it.</p>
+
+<p class="breadcrumb-nav">← Back to <a href="/macbook-problems/">MacBook Problems</a></p>
+
+<nav class="toc">
+  <h2>On This Page</h2>
+  <ul>
+    <li><a href="#what-wont-turn-on-means">What "Won't Turn On" Actually Means</a></li>
+    <li><a href="#common-causes">Common Causes of Power Failure</a></li>
+    <li><a href="#symptoms-breakdown">Breaking Down the Symptoms</a></li>
+    <li><a href="#safe-things-to-try">Safe Things to Try at Home</a></li>
+    <li><a href="#what-not-to-do">What Not to Do</a></li>
+    <li><a href="#when-professional-needed">When Professional Repair Is Needed</a></li>
+    <li><a href="#diagnosis-process">How We Diagnose Power Issues</a></li>
+    <li><a href="#repair-options">Typical Repair Solutions</a></li>
+    <li><a href="#affected-models">Affected Mac Models</a></li>
+  </ul>
+</nav>
+
+<section id="what-wont-turn-on-means">
+<h2>What "Won't Turn On" Actually Means</h2>
+
+<p>When someone tells us their MacBook won't turn on, we need to understand exactly what's happening—because "won't turn on" can mean several different things, each pointing to different problems.</p>
+
+<h3>Completely Dead</h3>
+<p>No response at all when you press the power button. No sounds, no fans spinning, no lights, nothing on the screen. The Mac appears completely lifeless. This is what most people mean when they say it won't turn on.</p>
+
+<h3>Shows Signs of Life But No Display</h3>
+<p>The power button triggers something—maybe you hear a startup chime, fans spin up, the caps lock key responds—but the screen stays black. This is actually a different problem, usually related to the display or GPU rather than power.</p>
+
+<h3>Starts But Doesn't Boot</h3>
+<p>The Mac powers on, shows the Apple logo, but never fully loads macOS. It might get stuck at a loading bar, show a prohibitory symbol, or restart repeatedly. These are startup problems rather than power problems.</p>
+
+<h3>Only Works When Plugged In</h3>
+<p>The Mac works fine connected to power but won't turn on when running on battery. This typically indicates a battery issue rather than a fundamental power problem.</p>
+
+<p>Understanding which category your Mac falls into is the first step in diagnosis. A completely dead Mac has different causes than one that shows signs of life but won't display anything.</p>
+</section>
+
+<section id="common-causes">
+<h2>Common Causes of Power Failure</h2>
+
+<p>A MacBook that won't power on can have causes ranging from trivially simple to genuinely complex. Here's what we see most often, roughly in order of frequency.</p>
+
+<h3>Drained or Depleted Battery</h3>
+<p>If a MacBook sits unused for weeks or months, the battery can drain so completely that it won't respond to the power button even when connected to a charger. The battery needs time to regain enough charge to allow startup. We see this regularly with Macs that have been in storage or unused after a move.</p>
+
+<h3>Faulty Charger or Charging Cable</h3>
+<p>Chargers fail more often than people expect. The cable can have internal breaks that aren't visible, the MagSafe or USB-C connector can be damaged, or the power adapter itself can fail. If the battery is depleted and the charger isn't working, the Mac will appear dead.</p>
+
+<h3>Charging Port Issues</h3>
+<p>Debris in the charging port can prevent proper connection. On USB-C MacBooks, the port can develop issues that prevent charging. On older MagSafe models, the port can have damaged pins or corrosion.</p>
+
+<h3>SMC or T2/M-Series Chip Issues</h3>
+<p>The System Management Controller (on Intel Macs) or the T2/M-series chip manages power functions. If these components get into a confused state, the Mac might not respond to the power button. Sometimes a reset can resolve this; sometimes it indicates deeper problems.</p>
+
+<h3>Power Management IC (PMIC) Failures</h3>
+<p>This is what Apple and most repair guides won't tell you: many "dead" MacBooks have a failed component costing under $20 to replace. The Power Management IC (PMIC)—chips like the ISL9240, ISL95857, or on M1/M2 Macs proprietary Apple silicon—controls the power-on sequence. When this chip fails, the Mac appears completely dead even though the rest of the logic board is fine. We diagnose this by measuring voltage rails like PPBUS_G3H and PP3V3_S5. Apple's solution is a $600-$1,200 logic board replacement; component-level repair can fix this for a fraction of that cost. See our <a href="/repair-case-studies/macbook-pro-m1-2020-no-power-pmic-repair/">M1 MacBook PMIC repair case study</a> for a real example.</p>
+
+<h3>Failed Battery</h3>
+<p>MacBook batteries have a limited lifespan and eventually fail. A battery that's completely failed won't hold any charge, and in some cases can prevent the Mac from powering on even when connected to a charger. <a href="/macbook-glossary/swollen-battery/">Swollen batteries</a> are a particular concern and safety issue. See our <a href="/macbook-battery-issues/">battery issues guide</a> for more detail.</p>
+
+<h3>Liquid Damage</h3>
+<p>Even small amounts of liquid can cause power failures if they reach critical components. <a href="/macbook-liquid-damage/">Liquid damage</a> often affects the power management circuitry on the logic board. The tricky part is that liquid damage can cause delayed failures—a Mac might work fine initially after a spill, then fail days or weeks later as corrosion develops.</p>
+
+<h3>Logic Board Failure</h3>
+<p>Various components on the logic board can fail, preventing power-on. This includes power management chips, voltage regulators, capacitors, and other components in the power delivery path. Logic board failures can be caused by age, manufacturing defects, electrical issues, or physical damage.</p>
+
+<h3>Keyboard or Power Button Issues</h3>
+<p>On most MacBooks, the power button is part of the keyboard assembly. If the keyboard has failed or the ribbon cable connecting it to the logic board is damaged, pressing the power button won't actually send a signal to the Mac. We see this with liquid-damaged keyboards and keyboards that have worn out.</p>
+</section>
+
+<section id="symptoms-breakdown">
+<h2>Breaking Down the Symptoms</h2>
+
+<p>Different symptoms point to different problems. Here's how to interpret what you're seeing.</p>
+
+<h3>No Charging Light or Indicator</h3>
+<p>If you connect the charger and see no LED indicator (on MagSafe) or no response at all (on USB-C), the problem could be the charger, the charging port, or the charging circuit on the logic board. Try a different charger first if possible.</p>
+
+<h3>Charging Light But No Power-On</h3>
+<p>If the charger shows an amber or green light but the Mac won't respond to the power button, power is reaching the Mac but something is preventing startup. This could be a severely depleted battery that needs time, an SMC issue, a keyboard/power button problem, or a logic board issue.</p>
+
+<h3>Brief Fan Spin Then Nothing</h3>
+<p>If pressing the power button causes fans to briefly spin or the screen to briefly flash before everything stops, this often indicates a short circuit on the logic board. The Mac is trying to start but detecting a fault and shutting down protectively.</p>
+
+<h3>Caps Lock Key Responds But Screen Black</h3>
+<p>If you press the power button and later pressing caps lock makes the light toggle on and off, the Mac is actually running—it's just not displaying anything. This is typically a display or GPU issue rather than a power issue.</p>
+
+<h3>Random Shutdowns Then Won't Restart</h3>
+<p>If the Mac was shutting down unexpectedly before it stopped turning on completely, this history is important. It could indicate a failing battery that finally gave out, overheating issues, or progressive logic board failure.</p>
+</section>
+
+<section id="safe-things-to-try">
+<h2>Safe Things to Try at Home</h2>
+
+<p>Before seeking professional repair, there are some safe troubleshooting steps you can try. These won't fix hardware problems, but they can resolve some common situations.</p>
+
+<h3>Charge for an Extended Period</h3>
+<p>If the Mac has been unused for a while, connect it to a known-good charger and leave it for at least 30 minutes to an hour before trying the power button. Severely depleted batteries need time to regain enough charge for startup.</p>
+
+<h3>Try a Different Charger</h3>
+<p>If possible, try borrowing a known-working charger. This is one of the quickest ways to rule out a charger problem. Make sure you're using the correct wattage charger for your model.</p>
+
+<h3>Check the Charging Port</h3>
+<p>Look for debris in the charging port. On USB-C ports, lint and dust can accumulate and prevent proper connection. Use a wooden or plastic toothpick to gently remove any debris—never use metal.</p>
+
+<h3>Reset the SMC (Intel Macs)</h3>
+<p>For Intel MacBooks, an SMC reset can sometimes resolve power issues. The process varies by model—generally involving holding specific key combinations while connecting power. This resets low-level hardware management but won't fix actual hardware failures.</p>
+
+<h3>Force Restart Attempt</h3>
+<p>Hold the power button for 10 seconds. If the Mac was in some confused state, this forced shutdown might allow a fresh start. Then wait a few seconds and try pressing the power button normally.</p>
+
+<h3>Check for Swollen Battery Signs</h3>
+<p>Look at your MacBook from the side on a flat surface. If the bottom case is raised, if the trackpad seems elevated or doesn't click properly, or if there are gaps around the edges, you may have a swollen battery. If you suspect this, do not attempt to use or charge the Mac—seek professional help immediately.</p>
+</section>
+
+<section id="what-not-to-do">
+<h2>What Not to Do</h2>
+
+<p>Some common reactions can make the situation worse. Here's what to avoid.</p>
+
+<h3>Don't Open the Mac Without Proper Knowledge</h3>
+<p>Modern MacBooks are complex, and improper disassembly can cause additional damage. Ribbon cables are fragile, components can be damaged by static electricity, and battery connectors require proper handling. If you're not experienced with electronics repair, leave it to professionals.</p>
+
+<h3>Don't Attempt to Jump-Start the Battery</h3>
+<p>We've seen people try to bypass the battery or connect external power directly to internal components. This can cause serious damage to the logic board and creates safety risks.</p>
+
+<h3>Don't Force Chargers or Connections</h3>
+<p>If a charger isn't fitting properly or you're not getting a connection, forcing it can damage the port. USB-C and MagSafe connections should be smooth and easy.</p>
+
+<h3>Don't Assume It's the Battery and Order Parts</h3>
+<p>Many people order replacement batteries assuming that's the problem, only to install them and find the issue persists. Without proper diagnosis, you might spend money on parts you don't need while the actual problem remains unfixed.</p>
+
+<h3>Don't Use Rice If There Was Liquid Exposure</h3>
+<p>Rice doesn't effectively dry electronics, and the starch dust can create additional problems. If liquid damage is suspected, professional assessment is needed to properly clean and address any corrosion.</p>
+</section>
+
+<section id="when-professional-needed">
+<h2>When Professional Repair Is Needed</h2>
+
+<p>If the basic troubleshooting steps don't work, or if any of the following apply, professional diagnosis is the appropriate next step.</p>
+
+<ul>
+  <li>The Mac still won't respond after trying a different charger and extended charging</li>
+  <li>There was any liquid exposure, even minor, even if it was weeks ago</li>
+  <li>You notice any signs of a swollen battery</li>
+  <li>The Mac shows brief signs of life (fans, lights) then shuts down</li>
+  <li>There's any burning smell or unusual heat from specific areas</li>
+  <li>The Mac stopped working during a power surge or electrical storm</li>
+  <li>You have important data on the Mac that isn't backed up</li>
+  <li>You've tried resets and other basic steps without success</li>
+</ul>
+
+<p>Professional diagnosis can identify the actual cause and determine whether repair is feasible and economical. Many power issues that seem catastrophic turn out to be repairable at reasonable cost.</p>
+</section>
+
+<section id="diagnosis-process">
+<h2>How We Diagnose Power Issues</h2>
+
+<p>When you bring a Mac with power issues to our workshop, here's how we approach diagnosis.</p>
+
+<h3>Initial Assessment</h3>
+<p>We start by understanding the history—when did it stop working, was there any event that preceded it, any liquid exposure, any unusual behavior before the failure. This context helps guide our investigation.</p>
+
+<h3>Power Path Testing</h3>
+<p>Using specialized equipment, we measure the power path from the charging port through to the logic board. We can identify where power is flowing, where it's being blocked, and measure voltages at various points. This tells us which part of the power chain has failed.</p>
+
+<h3>Visual Inspection</h3>
+<p>We open the Mac and inspect for obvious issues—corrosion, burnt components, damaged cables, swollen batteries, debris. Many problems are visible on careful inspection.</p>
+
+<h3>Component Testing</h3>
+<p>If initial testing points to the logic board, we can test individual components in the power management circuitry. This determines whether the issue is repairable at component level or requires board replacement.</p>
+
+<h3>Data Assessment</h3>
+<p>If data recovery is a concern, we assess whether the drive can be accessed. Sometimes we can recover data even from a Mac that won't boot by accessing the drive directly.</p>
+</section>
+
+<section id="repair-options">
+<h2>Typical Repair Solutions</h2>
+
+<p>Depending on diagnosis, here are the common repair paths for Macs that won't turn on.</p>
+
+<h3>Battery Replacement</h3>
+<p>If the battery has failed, replacement restores normal operation. This is common in MacBooks that are several years old or have high cycle counts. Battery replacement is generally straightforward.</p>
+
+<h3>Charging Port Repair</h3>
+<p>Damaged or corroded charging ports can often be repaired or replaced. On some models the port is a separate component; on others it's part of a larger assembly.</p>
+
+<h3>Keyboard/Power Button Repair</h3>
+<p>If the power button or keyboard ribbon cable is the issue, keyboard replacement resolves it. On newer MacBooks this can be more involved due to the integrated design.</p>
+
+<h3>Logic Board Repair</h3>
+<p>Many logic board power issues can be repaired at component level—replacing a failed chip, capacitor, or other component rather than the entire board. This is typically far more economical than board replacement.</p>
+
+<h3>Logic Board Replacement</h3>
+<p>In cases of extensive damage or failure of components that can't be individually replaced, board replacement may be necessary. We can often source quality used boards as a more economical option than new.</p>
+
+<h3>Liquid Damage Cleaning and Repair</h3>
+<p>For liquid damage, thorough cleaning to remove corrosion followed by repair of any damaged components. Success depends on the extent of the damage and how quickly it's addressed.</p>
+</section>
+
+<section id="affected-models">
+<h2>Affected Mac Models</h2>
+
+<p>Power issues can affect any MacBook, but certain models have known patterns.</p>
+
+<h3>MacBook Air</h3>
+<ul>
+  <li>MacBook Air 11-inch (2010-2015) - Various models</li>
+  <li>MacBook Air 13-inch (2010-2017) - Various models</li>
+  <li>MacBook Air 13-inch Retina (2018-2020) - Intel models</li>
+  <li>MacBook Air M1 (2020), M2 (2022), M3 (2024)</li>
+</ul>
+
+<h3>MacBook Pro 13-inch</h3>
+<ul>
+  <li>MacBook Pro 13-inch (2009-2012) - Non-Retina models</li>
+  <li>MacBook Pro 13-inch Retina (2012-2015)</li>
+  <li>MacBook Pro 13-inch with Touch Bar (2016-2020)</li>
+  <li>MacBook Pro 13-inch M1 (2020), M2 (2022)</li>
+  <li>MacBook Pro 14-inch M1 Pro/Max (2021), M3 series (2023)</li>
+</ul>
+
+<h3>MacBook Pro 15-inch and 16-inch</h3>
+<ul>
+  <li>MacBook Pro 15-inch (2008-2012) - Non-Retina models</li>
+  <li>MacBook Pro 15-inch Retina (2012-2015)</li>
+  <li>MacBook Pro 15-inch with Touch Bar (2016-2019)</li>
+  <li>MacBook Pro 16-inch (2019-2021) - Intel and M1 models</li>
+  <li>MacBook Pro 16-inch M3 series (2023)</li>
+</ul>
+
+<h3>Model-Specific Issues</h3>
+<p>Some models have known issues—certain 2016-2017 MacBook Pro models had keyboard issues that could affect the power button. Some 2011-2013 MacBook Pro models had GPU failures that could prevent startup. Knowing your specific model helps in diagnosis.</p>
+</section>
+
+<section id="related-problems">
+<h2>Related Problems</h2>
+
+<p>Power issues often overlap with or lead to other MacBook problems. These related guides may also be helpful:</p>
+
+<ul>
+  <li><a href="/macbook-battery-issues/">MacBook Battery Issues</a> - When the problem is specifically battery-related</li>
+  <li><a href="/macbook-liquid-damage/">MacBook Liquid Damage</a> - If there was any liquid exposure</li>
+  <li><a href="/macbook-startup-errors/">MacBook Startup Errors</a> - When the Mac powers on but won't boot properly</li>
+  <li><a href="/macbook-screen-issues/">MacBook Screen Issues</a> - If the Mac powers on but the display doesn't work</li>
+  <li><a href="/macbook-data-recovery/">MacBook Data Recovery</a> - When data access is the priority</li>
+</ul>
+
+<p>For help understanding technical terms, see our <a href="/macbook-glossary/">MacBook Repair Glossary</a>. For real repair examples, see our <a href="/repair-case-studies/">Repair Case Studies</a>. If you're weighing your options, our <a href="/macbook-repair-options-guide/">Repair Options Guide</a> compares Apple repair to independent repair.</p>
+</section>
+
+<section class="cta-section">
+<div class="diagnostic-cta">
+  <h3>MacBook Won't Turn On?</h3>
+  <p>If your MacBook isn't powering on and basic troubleshooting hasn't helped, professional diagnosis can identify the cause and determine the best repair path. We see power issues regularly and can usually pinpoint the problem quickly.</p>
+  <p><a href="/pages/booking.html" class="btn">Request a Diagnostic Assessment</a> <span class="cta-divider">or</span> <a href="tel:0400454859" class="cta-phone">call 0400 454 859</a></p>
+</div>
+</section>
+
+</article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "MacBook Not Turning On - Causes, Diagnosis and Repair",
+  "description": "Why your MacBook won't turn on, what causes power failures, and how to diagnose the real problem.",
+  "author": {
+    "@type": "Organization",
+    "name": "Hills Mac Repair"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hills Mac Repair",
+    "url": "https://www.hillsmacrepair.com.au"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.hillsmacrepair.com.au/macbook-not-turning-on/"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why won't my MacBook turn on even when plugged in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A MacBook that won't turn on when plugged in could have a severely depleted battery needing 30+ minutes to charge, a faulty charger or cable, debris in the charging port, a failed Power Management IC (PMIC), or liquid damage affecting the power circuitry. Try a different charger first, then charge for at least 30 minutes before pressing the power button."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to fix a MacBook that won't turn on?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Repair costs vary significantly based on the cause. Simple fixes like battery replacement range from $150-$350. Component-level logic board repairs for failed power management ICs typically cost $200-$500—far less than Apple's $600-$1,200 logic board replacement quotes. Proper diagnosis is essential to determine the actual repair needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can data be recovered from a MacBook that won't turn on?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In most cases, yes. Even if the MacBook won't boot, the SSD often remains intact. On Intel Macs, the drive can often be accessed directly. On M1/M2 Macs with integrated storage, specialized recovery techniques like DFU mode or board-level repair may be needed to access data. Professional diagnosis can determine the best recovery approach."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What causes a MacBook to suddenly stop turning on?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common causes include: failed Power Management IC (PMIC chips like ISL9240 or ISL95857), liquid damage affecting power circuitry even from minor spills weeks earlier, completely depleted battery, failed charger, swollen battery preventing proper contact, or keyboard/power button failure. Many causes are repairable without full logic board replacement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I replace the logic board if my MacBook won't turn on?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not necessarily. Many power failures are caused by individual failed components (capacitors, power management ICs, charging circuits) that can be replaced for $100-$400, rather than the $600-$1,200 full board replacement Apple typically quotes. Component-level diagnosis can identify if a targeted repair is possible before committing to expensive board replacement."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.hillsmacrepair.com.au/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "MacBook Problems",
+      "item": "https://www.hillsmacrepair.com.au/macbook-problems/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "MacBook Not Turning On",
+      "item": "https://www.hillsmacrepair.com.au/macbook-not-turning-on/"
+    }
+  ]
+}
+</script>
+
+<style>
+.diagnostic-authority {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.diagnostic-authority h1 {
+  font-size: 2rem;
+  color: #1a365d;
+  margin-bottom: 1.5rem;
+}
+
+.diagnostic-authority .lead {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+}
+
+.diagnostic-authority h2 {
+  font-size: 1.5rem;
+  color: #1a365d;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.diagnostic-authority h3 {
+  font-size: 1.15rem;
+  color: #2d3748;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.diagnostic-authority p {
+  line-height: 1.7;
+  color: #4a5568;
+  margin-bottom: 1rem;
+}
+
+.diagnostic-authority ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.diagnostic-authority li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  color: #4a5568;
+}
+
+.diagnostic-authority section {
+  margin-bottom: 2rem;
+}
+
+.toc {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.toc h2 {
+  font-size: 1.1rem;
+  margin: 0 0 1rem 0;
+  padding: 0;
+  border: none;
+}
+
+.toc ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style-type: none;
+}
+
+.toc li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 0.5rem;
+}
+
+.toc li::before {
+  content: "→";
+  position: absolute;
+  left: -1rem;
+  color: #FF7A00;
+}
+
+.toc a {
+  color: #2d3748;
+  text-decoration: none;
+}
+
+.toc a:hover {
+  color: #FF7A00;
+}
+
+.diagnostic-cta {
+  background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.diagnostic-cta h3 {
+  color: white;
+  margin-top: 0;
+}
+
+.diagnostic-cta p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.diagnostic-cta a {
+  color: white;
+}
+
+.diagnostic-cta .btn {
+  display: inline-block;
+  background: #FF7A00;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.diagnostic-cta .btn:hover {
+  background: #e66d00;
+}
+
+.diagnostic-cta .cta-divider {
+  margin: 0 0.75rem;
+  opacity: 0.7;
+}
+
+.diagnostic-cta .cta-phone {
+  font-weight: 600;
+}
+</style>

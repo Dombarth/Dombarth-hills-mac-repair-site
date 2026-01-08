@@ -1,0 +1,10 @@
+# Project Rules for Hills Mac Repair Site
+
+## Git Workflow
+- Always commit and push changes to GitHub after completing any task
+- Use descriptive commit messages that explain what was changed
+- Run: git add . && git commit -m "message" && git push (or separate commands on Windows)
+
+## Deployment
+- This site uses Netlify with automatic deployments from GitHub
+- After pushing to GitHub, Netlify will automatically build and deploy the site
