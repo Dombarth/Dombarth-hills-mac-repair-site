@@ -23,6 +23,13 @@ All customers are required to read and accept the following terms before any wor
 - Final quotes are confirmed after inspection and diagnosis of the device.
 - There is no obligation to proceed with repair after receiving a quote.
 
+### 1.1 Hands-On Diagnostic Fee
+
+- A **$150 hands-on diagnostic fee** applies when your device is left for physical inspection, testing and diagnosis.
+- This fee covers the time spent disassembling, inspecting, testing and assessing the device.
+- The diagnostic fee is **fully waived** if you approve and proceed with the recommended repair.
+- If you decline the repair or the device is deemed uneconomical to repair, the $150 diagnostic fee remains payable.
+
 ---
 
 ## 2. Repair Approval & Quotes
