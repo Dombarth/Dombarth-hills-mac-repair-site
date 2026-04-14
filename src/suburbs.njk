@@ -13,16 +13,16 @@ hero: false
 
 <h1>Mac Repair in {{ suburb.name }}</h1>
 
-{# Section 2: Localised Intro Paragraph - 90-120 words #}
+{# Section 2: Localised Intro Paragraph - location mentioned once here only #}
 <section class="intro-section">
-<p class="intro">{{ suburb.name }} is an area where Macs are commonly used for work, study, and everyday tasks. Many customers from {{ suburb.name }} rely on their MacBook or iMac daily, so unexpected issues can quickly become disruptive.</p>
+<p class="intro">If your MacBook or iMac has stopped working properly and you live in {{ suburb.name }}, our independent repair workshop can help. We fix issues like batteries that no longer hold a charge, cracked or flickering screens, keyboards with unresponsive keys, and Macs that won't turn on at all. Every repair starts with a hands-on diagnostic so you understand exactly what went wrong and what it costs to fix before we begin any work.</p>
 
-<p>Our workshop regularly services Macs from {{ suburb.name }}, handling problems such as battery degradation, display faults, performance slowdowns, and logic board issues. We focus on accurate diagnostics, transparent explanations, and practical repair outcomes so local customers know exactly what to expect before any work begins.</p>
+<p>Our technician works at component level on logic boards, replaces genuine-spec batteries, recovers data from failing drives, and upgrades older Macs with solid state storage. Whether you use your Mac for work, university, or managing daily life, we aim to return it in reliable working condition with a clear explanation of what was done and why.</p>
 </section>
 
 {# Section 3: Why Customers Choose Us - 4 bullets with variation #}
 <section class="why-choose-section">
-<h2>Why Customers in {{ suburb.name }} Choose Hills Mac Repair</h2>
+<h2>Why Customers Choose Us</h2>
 
 <ul class="trust-bullets">
   <li>Mac only repair experience</li>
@@ -45,21 +45,21 @@ hero: false
 </ul>
 </section>
 
-{# Section 4: Common Mac Repairs We See - 3-5 scenario paragraphs #}
+{# Section 4: Common Fixes We Handle Daily - 3-5 scenario paragraphs #}
 <section class="common-repairs-section">
-<h2>Common Mac Repairs We See from {{ suburb.name }}</h2>
+<h2>Common Fixes We Handle Daily</h2>
 
 {% if suburb.slug == "castle-hill" or suburb.slug == "baulkham-hills" or suburb.slug == "bella-vista" %}
-<p>We frequently see MacBooks from {{ suburb.name }} with battery health issues caused by age and daily charging cycles, particularly on Intel based models still in regular use. Many local professionals rely on their MacBook Pro for work and notice the battery no longer lasting through meetings.</p>
+<p>We frequently see MacBooks with battery health issues caused by age and daily charging cycles, particularly on Intel based models still in regular use. Many local professionals rely on their MacBook Pro for work and notice the battery no longer lasting through meetings.</p>
 
 <p>Display damage is also common, often related to transport or accidental pressure on the lid. These cases usually require full panel replacement rather than glass only repair.</p>
 
 <p>For iMacs and Mac minis, storage upgrades and thermal servicing are frequent requests where systems have slowed down over time. Fusion Drive failures on older iMacs are something we handle regularly.</p>
 
-<p>Logic board issues come in from {{ suburb.name }} when Macs stop charging or wont turn on. We diagnose at component level to determine if repair is practical.</p>
+<p>Logic board issues come in when Macs stop charging or wont turn on. We diagnose at component level to determine if repair is practical.</p>
 
 {% elif suburb.slug == "cherrybrook" or suburb.slug == "carlingford" or suburb.slug == "pennant-hills" or suburb.slug == "west-pennant-hills" %}
-<p>MacBooks from {{ suburb.name }} students often come in with keyboard issues from heavy use, or screens damaged during transport to school. We see a lot of MacBook Airs in this area.</p>
+<p>MacBooks from students often come in with keyboard issues from heavy use, or screens damaged during transport to school. We see a lot of MacBook Airs in this area.</p>
 
 <p>Battery replacements are common on devices that have been used through several years of study. The original battery typically degrades after 500 to 800 charge cycles.</p>
 
@@ -68,16 +68,16 @@ hero: false
 <p>For home office setups, iMac thermal issues and SSD upgrades are frequent. Older iMacs with spinning hard drives benefit significantly from solid state upgrades.</p>
 
 {% elif suburb.slug == "dural" or suburb.slug == "galston" or suburb.slug == "glenhaven" or suburb.slug == "annangrove" or suburb.slug == "middle-dural" %}
-<p>Rural property owners from {{ suburb.name }} often use Macs for property management and home businesses. We see MacBooks with dust ingress affecting fans and thermal performance.</p>
+<p>Rural property owners often use Macs for property management and home businesses. We see MacBooks with dust ingress affecting fans and thermal performance.</p>
 
 <p>Power related issues are more common in semi rural areas where power fluctuations can affect charging circuits. We repair MacBooks that wont charge or show erratic battery behaviour.</p>
 
 <p>iMacs used in sheds or workshops sometimes develop display issues from temperature extremes. We assess whether repair or replacement makes more sense.</p>
 
-<p>Data recovery is particularly important for {{ suburb.name }} customers running businesses from home where records may not be backed up to cloud services.</p>
+<p>Data recovery is particularly important for customers running businesses from home where records may not be backed up to cloud services.</p>
 
 {% elif suburb.slug == "norwest" or suburb.slug == "blacktown" or suburb.slug == "seven-hills" %}
-<p>Business users from {{ suburb.name }} bring in MacBooks needing fast turnaround. Keyboard failures and battery issues are common on machines in constant professional use.</p>
+<p>Business users bring in MacBooks needing fast turnaround. Keyboard failures and battery issues are common on machines in constant professional use.</p>
 
 <p>Display repairs come through regularly, often from devices transported between office and home. Cracked screens and backlight issues are typical.</p>
 
@@ -86,16 +86,16 @@ hero: false
 <p>For offices with iMacs, SSD upgrades transform slow machines into responsive workstations. This is often more practical than replacement for older Intel models.</p>
 
 {% elif suburb.slug == "kellyville" or suburb.slug == "north-kellyville" or suburb.slug == "kellyville-ridge" or suburb.slug == "the-ponds" or suburb.slug == "stanhope-gardens" %}
-<p>Young families in {{ suburb.name }} often have multiple Macs in the household. We see MacBook Airs used for school and MacBook Pros for working parents.</p>
+<p>Young families often have multiple Macs in the household. We see MacBook Airs used for school and MacBook Pros for working parents.</p>
 
-<p>Liquid damage is unfortunately common with children around. Coffee spills, juice, and water damage all come through our workshop from this area.</p>
+<p>Liquid damage is unfortunately common with children around. Coffee spills, juice, and water damage all come through our workshop regularly.</p>
 
 <p>Screen repairs are frequent, particularly on MacBook Airs where the display is more vulnerable to accidental damage.</p>
 
 <p>iMac storage upgrades are popular for family computers that have become slow over years of photos, videos, and applications accumulating.</p>
 
 {% else %}
-<p>We frequently see MacBooks from {{ suburb.name }} with battery health issues caused by age and daily charging cycles, particularly on Intel based models still in regular use.</p>
+<p>We frequently see MacBooks with battery health issues caused by age and daily charging cycles, particularly on Intel based models still in regular use.</p>
 
 <p>Display damage is also common, often related to transport or accidental pressure on the lid. These cases usually require full panel replacement rather than glass only repair.</p>
 
@@ -105,9 +105,9 @@ hero: false
 {% endif %}
 </section>
 
-{# Section 5: Services Available - one sentence each #}
+{# Section 5: Services We Provide - one sentence each #}
 <section class="services-section">
-<h2>Services Available for {{ suburb.name }} Customers</h2>
+<h2>Services We Provide</h2>
 
 <div class="services-list">
   <div class="service-item">
@@ -142,14 +142,14 @@ hero: false
 </div>
 </section>
 
-{# Section 6: Suburb Specific FAQs #}
+{# Section 6: Frequently Asked Questions #}
 <section class="faq-section">
-<h2>Frequently Asked Questions for {{ suburb.name }}</h2>
+<h2>Frequently Asked Questions</h2>
 
 <div class="faq-list">
   <div class="faq-item">
-    <h3>Do you service customers from {{ suburb.name }}?</h3>
-    <p>Yes. Many of our customers are based in {{ suburb.name }} and visit our workshop by appointment.</p>
+    <h3>Do you service customers in this area?</h3>
+    <p>Yes. Many of our customers are based locally and visit our workshop by appointment.</p>
   </div>
   
   <div class="faq-item">
@@ -187,23 +187,23 @@ hero: false
 </div>
 </section>
 
-{# Section 7: Customer Feedback Placeholder #}
+{# Section 7: What Our Customers Say #}
 <section class="feedback-section">
-<h2>Customer Feedback from {{ suburb.name }}</h2>
-<p>We regularly receive positive feedback from customers in {{ suburb.name }} for clear communication, accurate diagnostics, and reliable Mac repairs.</p>
+<h2>What Our Customers Say</h2>
+<p>We regularly receive positive feedback from local customers for clear communication, accurate diagnostics, and reliable Mac repairs.</p>
 </section>
 
 {# Section 8: How to Reach Us #}
 <section class="location-section">
-<h2>How to Reach Our Workshop from {{ suburb.name }}</h2>
-<p>Our workshop is a short drive from {{ suburb.name }}. Most customers reach us via major local roads, with drop off handled by appointment to ensure efficient service and minimal waiting. We are close to {% for a in suburb.anchors %}{{ a }}{% if not loop.last %}, {% endif %}{% endfor %}.</p>
+<h2>How to Reach Our Workshop</h2>
+<p>Our workshop is a short drive from the local area. Most customers reach us via major local roads, with drop off handled by appointment to ensure efficient service and minimal waiting. We are close to {% for a in suburb.anchors %}{{ a }}{% if not loop.last %}, {% endif %}{% endfor %}.</p>
 </section>
 
 {# Section 9: CTA #}
 <section class="cta-section">
 <div class="cta-box">
-  <h3>{{ suburb.ctaHeadingPrefix }} in {{ suburb.name }}?</h3>
-  <p>If you need Mac repair in {{ suburb.name }}, contact us to discuss the issue and arrange a diagnostic.</p>
+  <h3>Need Your Mac Repaired?</h3>
+  <p>Contact us to discuss the issue and arrange a diagnostic appointment.</p>
   <p class="cta-buttons">
     <a class="btn" href="/pages/booking.html">Book Assessment</a>
     <a class="btn ghost" href="tel:0400454859">Call 0400 454 859</a>
