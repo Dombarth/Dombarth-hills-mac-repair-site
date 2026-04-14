@@ -42,7 +42,13 @@ export default function() {
     anchors: suburbs[key].anchors,
     description: suburbs[key].description,
     localInfo: suburbs[key].localInfo,
-    titleDriver: titleDrivers[index % titleDrivers.length],
-    ctaHeadingPrefix: ctaHeadingPrefixes[index % ctaHeadingPrefixes.length]
+    titleDriver: suburbs[key].titleDriver || titleDrivers[index % titleDrivers.length],
+    ctaHeadingPrefix: ctaHeadingPrefixes[index % ctaHeadingPrefixes.length],
+    introParagraph: suburbs[key].introParagraph || '',
+    whatWeFix: suburbs[key].whatWeFix || [],
+    commonIssues: suburbs[key].commonIssues || [],
+    whyChoose: suburbs[key].whyChoose || [],
+    faqs: suburbs[key].faqs || [],
+    ctaText: suburbs[key].ctaText || ''
   }));
 }
