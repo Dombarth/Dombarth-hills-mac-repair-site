@@ -1,160 +1,1652 @@
 {
   "baulkham-hills": {
     "name": "Baulkham Hills",
-    "anchors": ["Crestwood", "Windsor Rd", "M2 access"],
+    "anchors": [
+      "Crestwood",
+      "Windsor Rd",
+      "M2 access"
+    ],
     "description": "Looking for the best Mac repair in Baulkham Hills? Our certified technicians provide affordable MacBook and iMac repairs with same-day service available. Whether your MacBook battery needs replacement, your screen is cracked, or your Mac won't turn on, we offer emergency repairs when you need them most. Conveniently located near the M2, we're the trusted Apple computer repair specialists for Baulkham Hills residents.",
-    "localInfo": "We regularly service customers from the Crestwood area, along Windsor Road, and those commuting via the M2 motorway. Many Baulkham Hills families rely on their Macs for work-from-home setups and children's education. Our Mac technicians handle everything from water damage repair to data recovery, keyboard repairs, and SSD upgrades."
+    "localInfo": "We regularly service customers from the Crestwood area, along Windsor Road, and those commuting via the M2 motorway. Many Baulkham Hills families rely on their Macs for work-from-home setups and children's education. Our Mac technicians handle everything from water damage repair to data recovery, keyboard repairs, and SSD upgrades.",
+    "titleDriver": "Expert Mac Repairs for Busy Families",
+    "introParagraph": "Our technician diagnoses at component level — reflowing solder joints, replacing thermal paste, and swapping failed capacitors to restore full board function. Ideal for households juggling remote work and school devices simultaneously.",
+    "whatWeFix": [
+      {
+        "name": "Battery Replacement",
+        "desc": "Genuine cells fitted with calibration for full-day runtime on commuter laptops."
+      },
+      {
+        "name": "Screen Repair",
+        "desc": "LCD and Retina panel swaps with pressure-tested seals to prevent dust ingress."
+      },
+      {
+        "name": "Logic Board Repair",
+        "desc": "Component-level soldering to fix power and GPU failures without full board cost."
+      },
+      {
+        "name": "SSD Upgrade",
+        "desc": "NVMe drive migration with cloned boot volume — zero data loss."
+      },
+      {
+        "name": "Keyboard Replacement",
+        "desc": "Butterfly and scissor mechanism swaps including top-case transfers."
+      },
+      {
+        "name": "Water Damage Recovery",
+        "desc": "Ultrasonic board cleaning and corroded connector replacement within 48 hours."
+      }
+    ],
+    "commonIssues": [
+      "Mac randomly shuts down during video calls or heavy multitasking.",
+      "Battery drains within two hours despite low screen brightness.",
+      "Sticky or unresponsive keys after crumbs fall into the keyboard.",
+      "Spinning wheel and slow boot after macOS update.",
+      "Fan runs loud continuously even at idle desktop."
+    ],
+    "whyChoose": [
+      "90-day warranty on every part we install.",
+      "Free diagnostic before any paid work begins.",
+      "Same-day turnaround on most common repairs.",
+      "Transparent flat-rate pricing — no hidden charges."
+    ],
+    "faqs": [
+      {
+        "q": "How long does a MacBook battery replacement take?",
+        "a": "Most battery swaps are completed within 1-2 hours. We test charge cycles before returning your machine."
+      },
+      {
+        "q": "Can you recover data from a Mac that won't boot?",
+        "a": "Yes. We pull data directly from the SSD or use donor boards to access encrypted volumes."
+      },
+      {
+        "q": "Do you use genuine Apple parts?",
+        "a": "We use genuine or OEM-equivalent parts rated to Apple spec. Every component is tested before fitting."
+      },
+      {
+        "q": "Is there a pickup or drop-off option?",
+        "a": "We offer local pickup and return for customers who can't visit during work hours."
+      }
+    ],
+    "ctaText": "Book a free diagnostic and get your Mac fixed fast — most repairs done same day."
   },
   "bella-vista": {
     "name": "Bella Vista",
-    "anchors": ["Norwest Blvd", "Farm", "Old Windsor Rd"],
+    "anchors": [
+      "Norwest Blvd",
+      "Farm",
+      "Old Windsor Rd"
+    ],
     "description": "Need the best Mac repair in Bella Vista? Our certified Mac technicians provide same-day service for MacBook and iMac repairs. Whether your Mac won't turn on, you need an affordable battery replacement, or require emergency screen repair, we're your trusted Apple computer repair specialists near Norwest Business Park. Fast turnaround for professionals who can't afford downtime.",
-    "localInfo": "Bella Vista's growing community of professionals and families depend on reliable technology. From Norwest Boulevard offices to home studios near Bella Vista Farm, we provide expert Mac repairs including data recovery, SSD upgrades, keyboard repairs, logic board repair, and water damage repair. Our Mac experts get you back to productivity quickly."
+    "localInfo": "Bella Vista's growing community of professionals and families depend on reliable technology. From Norwest Boulevard offices to home studios near Bella Vista Farm, we provide expert Mac repairs including data recovery, SSD upgrades, keyboard repairs, logic board repair, and water damage repair. Our Mac experts get you back to productivity quickly.",
+    "titleDriver": "Fast Mac Fixes for Working Professionals",
+    "introParagraph": "We trace faults to individual ICs and MOSFETs on your logic board, replacing failed voltage regulators and reflowing BGA chips under controlled heat. Built for dual-income households that need zero downtime on critical work machines.",
+    "whatWeFix": [
+      {
+        "name": "Logic Board Repair",
+        "desc": "Micro-soldering failed power ICs and GPU chips to restore full operation."
+      },
+      {
+        "name": "Screen Replacement",
+        "desc": "Retina display and True Tone calibration for colour-accurate professional work."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "Encrypted drive extraction and file recovery from failed or corrupted volumes."
+      },
+      {
+        "name": "Battery Service",
+        "desc": "Full cell replacement with health diagnostics and charge cycle reset."
+      },
+      {
+        "name": "Thermal Repaste",
+        "desc": "Premium compound application to eliminate throttling under sustained workloads."
+      },
+      {
+        "name": "Port Repair",
+        "desc": "USB-C and Thunderbolt connector replacement for reliable peripheral connections."
+      }
+    ],
+    "commonIssues": [
+      "MacBook overheats and throttles during long spreadsheet or CAD sessions.",
+      "External display flickering or not detected through USB-C hub.",
+      "Trackpad registers ghost clicks or stops responding entirely.",
+      "Startup chime plays but screen stays black with no backlight.",
+      "Wi-Fi drops repeatedly when switching between office and home networks."
+    ],
+    "whyChoose": [
+      "Priority turnaround for business-critical machines.",
+      "Component-level repair saves board replacement cost.",
+      "All work backed by a 90-day parts warranty.",
+      "Honest assessment — we recommend only needed repairs."
+    ],
+    "faqs": [
+      {
+        "q": "Can you repair a Mac while I wait?",
+        "a": "Simple fixes like battery and SSD swaps can often be done within an hour. Board repairs may take 24-48 hours."
+      },
+      {
+        "q": "My Mac overheats during Zoom — is that fixable?",
+        "a": "Usually yes. Dried thermal paste or clogged fans are the most common cause, and both are straightforward to fix."
+      },
+      {
+        "q": "Do you offer corporate or bulk repair rates?",
+        "a": "Yes, we provide volume pricing for businesses with multiple machines needing service."
+      }
+    ],
+    "ctaText": "Get a no-obligation quote today — priority service for professionals who need their Mac back fast."
   },
   "beaumont-hills": {
     "name": "Beaumont Hills",
-    "anchors": ["The Parkway", "Windsor Rd link"],
+    "anchors": [
+      "The Parkway",
+      "Windsor Rd link"
+    ],
     "description": "Beaumont Hills locals choose us for trusted Mac repairs with honest pricing. Our technicians handle everything from cracked MacBook screens to complex logic board repairs. We know your Mac is essential—whether for remote work or keeping the family connected.",
-    "localInfo": "The Beaumont Hills community along The Parkway and connecting streets values quality service. We've helped many local residents extend the life of their Macs rather than face expensive replacements."
+    "localInfo": "The Beaumont Hills community along The Parkway and connecting streets values quality service. We've helped many local residents extend the life of their Macs rather than face expensive replacements.",
+    "titleDriver": "Reliable Mac Repairs for Remote Workers",
+    "introParagraph": "Our process starts with board-level fault isolation — probing voltage rails and testing individual capacitors to pinpoint the exact failed component. Perfect for remote workers who depend on a single machine and cannot tolerate extended downtime.",
+    "whatWeFix": [
+      {
+        "name": "SSD Upgrade",
+        "desc": "Faster storage with full system migration — boot in under ten seconds."
+      },
+      {
+        "name": "Battery Replacement",
+        "desc": "Swollen or degraded cells replaced with capacity-matched units and testing."
+      },
+      {
+        "name": "Screen Repair",
+        "desc": "Cracked glass and dead-pixel panel replacements for all MacBook models."
+      },
+      {
+        "name": "Charging Issues",
+        "desc": "MagSafe and USB-C port diagnosis with DC-in board or connector swap."
+      },
+      {
+        "name": "RAM Upgrade",
+        "desc": "Memory expansion on eligible iMacs and older MacBooks for smoother multitasking."
+      },
+      {
+        "name": "Logic Board Repair",
+        "desc": "Targeted IC replacement instead of costly whole-board swaps."
+      }
+    ],
+    "commonIssues": [
+      "MacBook won't charge or only charges intermittently with cable wiggling.",
+      "Slow performance and rainbow wheel after years without maintenance.",
+      "Distorted audio or no sound from internal speakers.",
+      "Screen flickers with horizontal lines during normal use."
+    ],
+    "whyChoose": [
+      "Extend your Mac's life instead of replacing it.",
+      "Free initial diagnosis with no obligation to proceed.",
+      "Parts sourced to Apple-spec quality standards.",
+      "Flexible scheduling around remote work hours."
+    ],
+    "faqs": [
+      {
+        "q": "Is it worth repairing an older Mac?",
+        "a": "Often yes. An SSD and battery swap can make a 2015 MacBook feel new for a fraction of replacement cost."
+      },
+      {
+        "q": "How do you handle data during repairs?",
+        "a": "Your data stays on your drive. We never access personal files — repairs focus strictly on hardware."
+      },
+      {
+        "q": "Can you fix charging port issues?",
+        "a": "Yes. We replace DC-in boards, USB-C ports, and MagSafe connectors regularly."
+      },
+      {
+        "q": "What if the repair costs more than expected?",
+        "a": "We quote upfront after diagnosis. If costs change, we contact you before doing any additional work."
+      }
+    ],
+    "ctaText": "Schedule your free Mac diagnostic — repairs done right so you can get back to work."
   },
   "box-hill": {
     "name": "Box Hill",
-    "anchors": ["Terry Rd", "Carmel Village"],
+    "anchors": [
+      "Terry Rd",
+      "Carmel Village"
+    ],
     "description": "Box Hill residents benefit from our convenient Mac repair services. From the Terry Road area to Carmel Village, we provide pickup options and fast diagnostics. Your MacBook Pro battery replacement or iMac repair is in experienced hands.",
-    "localInfo": "Box Hill's mix of established homes and new developments means diverse Mac repair needs. We service everything from older iMacs to the latest M-series MacBooks, always with genuine care for your device."
+    "localInfo": "Box Hill's mix of established homes and new developments means diverse Mac repair needs. We service everything from older iMacs to the latest M-series MacBooks, always with genuine care for your device.",
+    "titleDriver": "Mac Repair for Every Model and Generation",
+    "introParagraph": "We work across every Mac generation — from vintage 2012 boards with discrete GPUs to M-series unified memory architectures. Component-level diagnostics let us isolate faults to specific chips, saving the cost of full replacements on any model.",
+    "whatWeFix": [
+      {
+        "name": "iMac Repair",
+        "desc": "Display, power supply, and hard drive upgrades for all iMac generations."
+      },
+      {
+        "name": "Battery Replacement",
+        "desc": "Capacity-tested cells installed with adhesive resealing to factory standard."
+      },
+      {
+        "name": "Keyboard Repair",
+        "desc": "Individual key and full top-case replacements for stuck or broken mechanisms."
+      },
+      {
+        "name": "Water Damage",
+        "desc": "Board-level ultrasonic cleaning and corroded trace repair within 48 hours."
+      },
+      {
+        "name": "Screen Replacement",
+        "desc": "Anti-reflective coating and LCD panel swaps for MacBook and iMac."
+      },
+      {
+        "name": "Startup Failure",
+        "desc": "SMC, NVRAM, and firmware-level troubleshooting for Macs that won't power on."
+      }
+    ],
+    "commonIssues": [
+      "iMac powers on but display stays dark — no chime or fan activity.",
+      "MacBook keyboard has dead keys or types repeated characters.",
+      "Severe screen coating delamination (staingate) obscuring display.",
+      "Hard drive clicking noise with frequent beachball on older iMacs.",
+      "Mac stuck on progress bar during startup and won't reach desktop."
+    ],
+    "whyChoose": [
+      "Pickup and return available for local residents.",
+      "We service both Intel and M-series machines.",
+      "Flat-rate quotes — no surprises on your invoice.",
+      "Experienced with iMac and MacBook repair equally."
+    ],
+    "faqs": [
+      {
+        "q": "Can you upgrade my old iMac to an SSD?",
+        "a": "Yes. We swap spinning drives for SSDs in most iMac models, dramatically improving speed and reliability."
+      },
+      {
+        "q": "Do you fix vintage or discontinued Mac models?",
+        "a": "We repair Macs from 2012 onward. For older machines we can advise on cost-effectiveness before proceeding."
+      },
+      {
+        "q": "My Mac screen has a coating issue — can that be fixed?",
+        "a": "Yes. We remove damaged anti-reflective coating or replace the full display panel depending on severity."
+      }
+    ],
+    "ctaText": "Reach out for a free assessment — we handle every Mac model from vintage to current."
   },
   "castle-hill": {
     "name": "Castle Hill",
-    "anchors": ["Castle Towers", "Old Northern Rd", "Showground"],
+    "anchors": [
+      "Castle Towers",
+      "Old Northern Rd",
+      "Showground"
+    ],
     "description": "Looking for the best Mac repair in Castle Hill? As the heart of the Hills District, we're the trusted choice for affordable MacBook and iMac repairs. Our certified Mac technicians provide same-day service for battery replacements, screen repairs, and emergency fixes when your Mac won't turn on. Near Castle Towers and the Showground, we're your local Apple computer repair specialists.",
-    "localInfo": "Castle Hill residents have high expectations for service quality—and we deliver. Our Mac experts handle everything from water damage repair to data recovery, logic board repair, keyboard fixes, and SSD upgrades. Whether you need MacBook Pro screen replacement or iMac troubleshooting, we provide honest assessments, transparent pricing, and quality repairs with warranty."
+    "localInfo": "Castle Hill residents have high expectations for service quality—and we deliver. Our Mac experts handle everything from water damage repair to data recovery, logic board repair, keyboard fixes, and SSD upgrades. Whether you need MacBook Pro screen replacement or iMac troubleshooting, we provide honest assessments, transparent pricing, and quality repairs with warranty.",
+    "titleDriver": "Trusted Mac Specialists in the Hills District",
+    "introParagraph": "Our technicians use schematic-guided diagnostics to trace faults across power rails, backlight circuits, and T2/M-series controllers at chip level. For a community with high standards, we match them with precision soldering and thorough post-repair testing.",
+    "whatWeFix": [
+      {
+        "name": "Screen Repair",
+        "desc": "Full Retina assembly replacement with hinge calibration and seal integrity check."
+      },
+      {
+        "name": "Logic Board Repair",
+        "desc": "Schematic-guided chip-level diagnosis and micro-soldering of failed components."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "T2-chip and FileVault encrypted drive recovery from non-booting Macs."
+      },
+      {
+        "name": "Battery Replacement",
+        "desc": "Premium cells with post-install health calibration and cycle count verification."
+      },
+      {
+        "name": "Keyboard Replacement",
+        "desc": "Top-case and individual mechanism swaps with backlight testing included."
+      },
+      {
+        "name": "Performance Upgrade",
+        "desc": "SSD and RAM upgrades paired with clean macOS install for peak speed."
+      }
+    ],
+    "commonIssues": [
+      "MacBook screen has a bright line or band across the display.",
+      "Mac asks for FileVault key on every restart unexpectedly.",
+      "Touchbar flickers or shows dead segments on MacBook Pro.",
+      "Sudden kernel panic reboots during resource-intensive tasks.",
+      "Bluetooth drops connection to mouse and keyboard intermittently."
+    ],
+    "whyChoose": [
+      "Highest-rated independent Mac repair in the district.",
+      "Warranty-backed parts on every single repair.",
+      "Emergency same-day service for urgent failures.",
+      "Detailed post-repair report for your records."
+    ],
+    "faqs": [
+      {
+        "q": "Can you fix a MacBook Pro Touch Bar?",
+        "a": "Yes. We replace failed Touch Bar flex cables and OLED strips. Full function testing is included before return."
+      },
+      {
+        "q": "How quickly can you diagnose my Mac?",
+        "a": "Initial diagnosis usually takes 30-60 minutes. Complex board faults may require overnight component-level testing."
+      },
+      {
+        "q": "Do you provide a warranty on repairs?",
+        "a": "Every repair comes with a 90-day warranty covering both parts and labour."
+      },
+      {
+        "q": "Can I drop off my Mac without an appointment?",
+        "a": "Walk-ins are welcome during business hours. Appointments guarantee same-day assessment if booked early."
+      }
+    ],
+    "ctaText": "Contact us now for same-day Mac diagnostics — expert repairs backed by warranty."
   },
   "crestwood": {
     "name": "Crestwood",
-    "anchors": ["Crestwood Reserve", "Windsor Rd"],
+    "anchors": [
+      "Crestwood Reserve",
+      "Windsor Rd"
+    ],
     "description": "Crestwood families and professionals trust us for reliable Mac repairs. Just off Windsor Road, our service is convenient and efficient. We specialise in MacBook battery replacements, screen repairs, and performance upgrades that breathe new life into your Apple devices.",
-    "localInfo": "The Crestwood community values local service providers who understand their needs. We've built lasting relationships with residents who return for all their Mac repair and maintenance needs."
+    "localInfo": "The Crestwood community values local service providers who understand their needs. We've built lasting relationships with residents who return for all their Mac repair and maintenance needs.",
+    "titleDriver": "Community-Trusted Mac Repair Service",
+    "introParagraph": "We focus on extending Mac lifespan through targeted component repair — replacing individual SMD capacitors, re-balling BGA solder joints, and restoring trace damage rather than discarding repairable boards. A repair-first approach that repeat customers rely on year after year.",
+    "whatWeFix": [
+      {
+        "name": "Battery Replacement",
+        "desc": "Worn cells swapped and adhesive resealed to maintain structural integrity."
+      },
+      {
+        "name": "Screen Repair",
+        "desc": "Cracked cover glass and full LCD assembly replacement on all portables."
+      },
+      {
+        "name": "Performance Tune-Up",
+        "desc": "Thermal service, storage cleanup, and SSD migration for ageing machines."
+      },
+      {
+        "name": "Trackpad Repair",
+        "desc": "Force Touch sensor calibration and swollen-battery trackpad fix."
+      },
+      {
+        "name": "Speaker Repair",
+        "desc": "Blown or crackling speaker replacement for MacBook and iMac models."
+      },
+      {
+        "name": "macOS Recovery",
+        "desc": "Corrupted install repair, firmware restore, and clean reinstallation."
+      }
+    ],
+    "commonIssues": [
+      "Trackpad clicks on its own or won't register force clicks.",
+      "Speakers produce crackling or distorted audio at any volume.",
+      "macOS fails to install updates and rolls back repeatedly.",
+      "Mac runs hot and battery lasts under ninety minutes."
+    ],
+    "whyChoose": [
+      "Locals return to us year after year.",
+      "Repair-first philosophy — we never upsell replacements.",
+      "Transparent pricing agreed before work starts.",
+      "Quick turnaround even on complex board repairs."
+    ],
+    "faqs": [
+      {
+        "q": "Why does my trackpad click by itself?",
+        "a": "A swollen battery pushes against the trackpad from below. Replacing the battery resolves the false clicks immediately."
+      },
+      {
+        "q": "Can you speed up my old MacBook?",
+        "a": "Yes. An SSD upgrade and fresh thermal paste typically make older models feel significantly faster."
+      },
+      {
+        "q": "Do I need to back up before bringing my Mac in?",
+        "a": "We recommend backing up if possible, but we take care to preserve your data during all repairs."
+      },
+      {
+        "q": "How often should a Mac have maintenance?",
+        "a": "A thermal clean and health check every 2-3 years keeps most Macs running well beyond their expected lifespan."
+      }
+    ],
+    "ctaText": "Bring your Mac to the team locals trust — free diagnosis and honest pricing on every repair."
   },
   "kellyville": {
     "name": "Kellyville",
-    "anchors": ["Memorial Ave", "Wrights Rd"],
+    "anchors": [
+      "Memorial Ave",
+      "Wrights Rd"
+    ],
     "description": "Need affordable Mac repair in Kellyville? Our certified technicians provide the best MacBook and iMac repair services in the area. From same-day battery replacements and screen repairs to emergency fixes when your Mac won't turn on, we handle it all. Serving Memorial Avenue to Wrights Road, we're Kellyville's trusted Apple computer repair specialists.",
-    "localInfo": "Kellyville has transformed from farmland to a thriving suburb, and technology needs have grown with it. Our Mac technicians support local schools, home offices, and creative professionals with expert repairs including data recovery, water damage repair, keyboard fixes, logic board repair, and SSD upgrades. Same-day service available for urgent Mac repairs."
+    "localInfo": "Kellyville has transformed from farmland to a thriving suburb, and technology needs have grown with it. Our Mac technicians support local schools, home offices, and creative professionals with expert repairs including data recovery, water damage repair, keyboard fixes, logic board repair, and SSD upgrades. Same-day service available for urgent Mac repairs.",
+    "titleDriver": "Affordable Mac Repair for Growing Families",
+    "introParagraph": "From school-issued MacBooks to creative workstations, we handle every repair at board level — replacing power management ICs, reballing display connectors, and recovering data from encrypted APFS volumes. Built for families managing multiple Apple devices across work and education.",
+    "whatWeFix": [
+      {
+        "name": "Water Damage",
+        "desc": "Full board disassembly, ultrasonic bath, and corroded component replacement."
+      },
+      {
+        "name": "Screen Repair",
+        "desc": "Retina and standard LCD swaps with factory-grade adhesive resealing."
+      },
+      {
+        "name": "Battery Replacement",
+        "desc": "Cycle-tested cells installed with safe adhesive removal — no case damage."
+      },
+      {
+        "name": "Logic Board Repair",
+        "desc": "Power management IC and GPU chip-level replacement under microscope."
+      },
+      {
+        "name": "SSD Upgrade",
+        "desc": "Bootable clone migration to faster NVMe storage with zero downtime."
+      },
+      {
+        "name": "Keyboard Repair",
+        "desc": "Butterfly and Magic Keyboard mechanism replacement with full backlight test."
+      }
+    ],
+    "commonIssues": [
+      "Child spilled liquid on MacBook — keys unresponsive and screen dim.",
+      "Mac takes five or more minutes to boot from old spinning hard drive.",
+      "Multiple user accounts causing storage to fill up and slow the system.",
+      "Screen hinge is loose or cracks near the display cable.",
+      "AirDrop and Handoff stopped working after macOS update."
+    ],
+    "whyChoose": [
+      "Family-friendly pricing with no hidden fees.",
+      "Same-day service for most common Mac repairs.",
+      "Safe data handling — your files stay private.",
+      "90-day warranty on all parts and labour."
+    ],
+    "faqs": [
+      {
+        "q": "My child spilled water on our MacBook — what should I do?",
+        "a": "Power it off immediately and don't charge it. Bring it in as soon as possible — fast action improves recovery rates significantly."
+      },
+      {
+        "q": "Can you set up a Mac for multiple family users?",
+        "a": "Yes. We configure separate accounts with parental controls and optimise storage allocation per user."
+      },
+      {
+        "q": "Is it cheaper to repair or replace an old Mac?",
+        "a": "Repairs are typically 30-50% of replacement cost. We'll advise honestly after diagnosis."
+      },
+      {
+        "q": "Do you handle school or education-issued MacBooks?",
+        "a": "Yes. We repair education models and can coordinate with school IT if needed for asset-tagged devices."
+      }
+    ],
+    "ctaText": "Request a free quote — affordable Mac repairs with same-day service available."
   },
   "kellyville-ridge": {
     "name": "Kellyville Ridge",
-    "anchors": ["The Ponds Blvd", "Stanhope Village"],
+    "anchors": [
+      "The Ponds Blvd",
+      "Stanhope Village"
+    ],
     "description": "Kellyville Ridge residents enjoy convenient access to expert Mac repairs. Our services cover everything from MacBook keyboard issues to iMac display problems. We understand modern families rely heavily on their Apple devices for work, school, and entertainment.",
-    "localInfo": "This newer suburb has a high concentration of tech-savvy families. We frequently help Kellyville Ridge residents with MacBook Pro repairs, iMac upgrades, and data recovery from failing drives."
+    "localInfo": "This newer suburb has a high concentration of tech-savvy families. We frequently help Kellyville Ridge residents with MacBook Pro repairs, iMac upgrades, and data recovery from failing drives.",
+    "titleDriver": "Precision Mac Repair for Tech-Savvy Households",
+    "introParagraph": "We approach every repair with the technical depth modern users expect — thermal imaging for fault detection, schematic-referenced probing of signal lines, and firmware-level recovery for T2 and Apple Silicon Macs. Engineered for households that know their hardware and demand proper fixes.",
+    "whatWeFix": [
+      {
+        "name": "Data Recovery",
+        "desc": "APFS and T2-encrypted volume recovery from dead or failing drives."
+      },
+      {
+        "name": "Battery Replacement",
+        "desc": "High-capacity cell fitting with post-install calibration and health report."
+      },
+      {
+        "name": "Logic Board Repair",
+        "desc": "Signal-line tracing and IC replacement using thermal imaging for hidden faults."
+      },
+      {
+        "name": "Screen Repair",
+        "desc": "Full display assembly including Touch ID cable and ambient sensor recalibration."
+      },
+      {
+        "name": "Firmware Recovery",
+        "desc": "Bricked Mac restoration via DFU revive and Apple Configurator-based reflash."
+      },
+      {
+        "name": "Upgrade Service",
+        "desc": "SSD, RAM, and thermal upgrades to maximise performance on eligible models."
+      }
+    ],
+    "commonIssues": [
+      "Mac bricked after interrupted macOS update — won't enter recovery mode.",
+      "Touch ID stopped recognising fingerprints after screen replacement elsewhere.",
+      "Thunderbolt peripherals not detected or causing kernel panics.",
+      "Fan noise and thermal throttling during gaming or video editing."
+    ],
+    "whyChoose": [
+      "Technical depth beyond surface-level troubleshooting.",
+      "We explain exactly what failed and why.",
+      "Firmware and chip-level repair capability in-house.",
+      "Post-repair performance benchmarks provided free."
+    ],
+    "faqs": [
+      {
+        "q": "Can you fix a Mac bricked by a failed update?",
+        "a": "Yes. We use DFU restore and Apple Configurator to reflash firmware on T2 and Apple Silicon Macs."
+      },
+      {
+        "q": "Why did Touch ID stop working after a screen repair?",
+        "a": "Touch ID is paired to the logic board. Improper screen swaps can break this pairing — we restore it correctly."
+      },
+      {
+        "q": "Do you benchmark Macs after repair?",
+        "a": "Yes. We run CPU, GPU, and storage benchmarks post-repair to confirm your Mac performs to spec."
+      },
+      {
+        "q": "Can you upgrade an M-series Mac's storage?",
+        "a": "M-series storage is soldered, but we can advise on external solutions and optimise existing capacity."
+      }
+    ],
+    "ctaText": "Book your diagnostic today — thorough Mac repairs with benchmarked results before handback."
   },
   "kings-langley": {
     "name": "Kings Langley",
-    "anchors": ["Solander Rd", "M7 entry"],
+    "anchors": [
+      "Solander Rd",
+      "M7 entry"
+    ],
     "description": "Kings Langley locals benefit from our accessible Mac repair services near the M7. Whether you're a tradesperson needing your MacBook fixed or a family dealing with a slow iMac, we provide honest assessments and competitive pricing.",
-    "localInfo": "Kings Langley's convenient location means residents can easily drop off devices on their commute. We service the full range of Apple Macs, from vintage models to the latest releases."
+    "localInfo": "Kings Langley's convenient location means residents can easily drop off devices on their commute. We service the full range of Apple Macs, from vintage models to the latest releases.",
+    "titleDriver": "Tough Mac Repairs for Working Pros",
+    "introParagraph": "We repair at the component level — corroded charge controllers, cracked solder joints from vibration, and dust-packed thermal systems. Tradespeople and commuters need devices that survive real-world punishment, and we rebuild them to last.",
+    "whatWeFix": [
+      {
+        "name": "MacBook Battery",
+        "desc": "Depleted cells swapped for full-shift portable power."
+      },
+      {
+        "name": "Cracked Screen",
+        "desc": "Impact-damaged Retina panels replaced with tested units."
+      },
+      {
+        "name": "Charging Port",
+        "desc": "Worn USB-C and MagSafe connectors rebuilt or replaced."
+      },
+      {
+        "name": "Dust Damage",
+        "desc": "Worksite grime cleared from fans, boards, and heatsinks."
+      },
+      {
+        "name": "Logic Board",
+        "desc": "Failed power ICs and corroded traces repaired under microscope."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "Job files pulled from drives damaged by drops or dust."
+      }
+    ],
+    "commonIssues": [
+      "MacBooks clogged with construction dust causing thermal shutdown",
+      "Charging ports worn from daily van plug-unplug cycles",
+      "Screens cracked from toolbox impacts during transit",
+      "Batteries failing mid-quote on job sites without power access",
+      "iMacs at home offices freezing during invoicing and scheduling"
+    ],
+    "whyChoose": [
+      "Built to handle tradies' real-world damage",
+      "Drop off on your M7 commute",
+      "Competitive pricing with no markup games",
+      "Repairs warranted and built to last"
+    ],
+    "faqs": [
+      {
+        "q": "My MacBook is full of plaster dust — can you clean it?",
+        "a": "Yes. We do thorough internal cleaning including fans, heatsinks, and board surfaces. This prevents overheating and extends your Mac's lifespan significantly."
+      },
+      {
+        "q": "Can I drop off before work and collect after?",
+        "a": "That's how most of our customers do it. Most repairs finish same-day, ready for evening collection."
+      },
+      {
+        "q": "Is it worth repairing my 2016 MacBook Pro?",
+        "a": "Usually yes. An SSD and battery refresh gives it years more life at a fraction of replacement cost. We'll advise honestly if it's not."
+      }
+    ],
+    "ctaText": "Get a no-nonsense diagnostic and honest quote — built for people who work hard."
   },
   "kings-park": {
     "name": "Kings Park",
-    "anchors": ["Sunnyholt Rd", "Marayong"],
+    "anchors": [
+      "Sunnyholt Rd",
+      "Marayong"
+    ],
     "description": "Kings Park residents trust us for straightforward, reliable Mac repairs. Located conveniently near Sunnyholt Road, we offer quick turnaround on common repairs like battery replacements and screen fixes. Honest pricing with no hidden fees.",
-    "localInfo": "The Kings Park community appreciates transparent service. We explain exactly what's wrong with your Mac, what it costs to fix, and how long it will take—no surprises."
+    "localInfo": "The Kings Park community appreciates transparent service. We explain exactly what's wrong with your Mac, what it costs to fix, and how long it will take—no surprises.",
+    "titleDriver": "Budget-Friendly Mac Fixes",
+    "introParagraph": "We isolate faults to the exact chip — dead PMIC, failing NAND controller, shorted backlight fuse. Budget-conscious households deserve a technician who repairs precisely rather than billing for entire assemblies.",
+    "whatWeFix": [
+      {
+        "name": "MacBook Battery",
+        "desc": "Affordable cell replacement restoring reliable all-day use."
+      },
+      {
+        "name": "Screen Repair",
+        "desc": "Cost-effective LCD and Retina panel swaps available."
+      },
+      {
+        "name": "Keyboard Failure",
+        "desc": "Stuck or dead keys fixed without unnecessary top-case markup."
+      },
+      {
+        "name": "Slow Performance",
+        "desc": "HDD-to-SSD conversion for dramatic speed improvement."
+      },
+      {
+        "name": "Mac Won't Start",
+        "desc": "SMC and power rail faults traced and resolved."
+      },
+      {
+        "name": "Water Damage",
+        "desc": "Corrosion cleaned and failed components replaced individually."
+      }
+    ],
+    "commonIssues": [
+      "Older MacBooks kept in service because replacement isn't in the budget",
+      "iMacs grinding to a halt on original spinning hard drives",
+      "Shared family devices with worn keyboards and depleted batteries",
+      "Macs freezing after macOS updates on limited storage",
+      "Kids' laptops with cracked screens from everyday handling"
+    ],
+    "whyChoose": [
+      "Transparent flat-rate quotes before work starts",
+      "We fix at component level to save you money",
+      "No upselling or unnecessary part replacements",
+      "Every repair backed by written warranty"
+    ],
+    "faqs": [
+      {
+        "q": "Will you push me to buy a new Mac instead?",
+        "a": "Never. We recommend the most cost-effective path. If a repair makes sense, we'll do it. If it doesn't, we'll explain why honestly."
+      },
+      {
+        "q": "How much does a basic MacBook battery replacement cost?",
+        "a": "Costs vary by model but we always quote upfront. No hidden fees — the price you're quoted is the price you pay."
+      },
+      {
+        "q": "Can you speed up my old iMac cheaply?",
+        "a": "Yes. An SSD upgrade is the single most impactful and affordable improvement. Most older iMacs run like new afterwards."
+      },
+      {
+        "q": "Do you offer any discounts for multiple repairs?",
+        "a": "We keep pricing fair across the board. Bring multiple devices and we'll provide a combined quote with the best value."
+      }
+    ],
+    "ctaText": "Transparent pricing, no pressure — get a clear quote before any work begins."
   },
   "north-kellyville": {
     "name": "North Kellyville",
-    "anchors": ["Withers Rd", "Hezlett Rd"],
+    "anchors": [
+      "Withers Rd",
+      "Hezlett Rd"
+    ],
     "description": "North Kellyville's newest residents deserve reliable Mac repair services. Our technicians handle repairs for young families and professionals in this growing area. From Withers Road to Hezlett Road, we're your local Apple repair solution.",
-    "localInfo": "North Kellyville's modern homes often feature dedicated home offices. We help residents keep their Mac setups running smoothly with repairs, upgrades, and preventive maintenance."
+    "localInfo": "North Kellyville's modern homes often feature dedicated home offices. We help residents keep their Mac setups running smoothly with repairs, upgrades, and preventive maintenance.",
+    "titleDriver": "Home Office Mac Specialist",
+    "introParagraph": "We diagnose at board level — failed Thunderbolt controllers, degraded thermal compounds, and worn storage chips. Young professionals running businesses from brand-new home offices can't afford downtime from vague diagnosis or slow turnaround.",
+    "whatWeFix": [
+      {
+        "name": "MacBook Battery",
+        "desc": "Fresh cells so your laptop lasts through the workday."
+      },
+      {
+        "name": "Display Issues",
+        "desc": "Flickering, dimming, and cracked Retina panels resolved."
+      },
+      {
+        "name": "Thunderbolt Ports",
+        "desc": "Monitor and dock connectivity faults traced and fixed."
+      },
+      {
+        "name": "Logic Board",
+        "desc": "Component-level repair on M-series and Intel boards."
+      },
+      {
+        "name": "SSD Upgrade",
+        "desc": "Storage expanded for growing file libraries and projects."
+      },
+      {
+        "name": "Thermal Service",
+        "desc": "Fan and heatsink maintenance to stop throttling under load."
+      }
+    ],
+    "commonIssues": [
+      "New MacBooks overheating during video calls in warm upstairs offices",
+      "External monitor setups dropping connection through USB-C hubs",
+      "Home office Macs needing rapid setup after moving into new builds",
+      "MacBook Pro keyboards failing under heavy daily professional typing"
+    ],
+    "whyChoose": [
+      "Understands home office setups and peripherals",
+      "Priority turnaround for work-critical machines",
+      "Modern Mac and M-series expertise",
+      "Warranty-backed repairs with quality parts"
+    ],
+    "faqs": [
+      {
+        "q": "My Mac keeps disconnecting from my monitor — can you fix that?",
+        "a": "Yes. We diagnose Thunderbolt and USB-C controller faults, test with known-good peripherals, and repair or replace the faulty component."
+      },
+      {
+        "q": "Can you help set up my home office Mac properly?",
+        "a": "Absolutely. We handle peripheral configuration, display calibration, and performance optimisation for professional workflows."
+      },
+      {
+        "q": "How fast can you turn around a work laptop repair?",
+        "a": "Most common repairs complete same-day. For complex board work, we provide a loaner timeline so you can plan around the downtime."
+      }
+    ],
+    "ctaText": "Keep your home office running — get a same-day diagnostic on your work Mac."
   },
   "norwest": {
     "name": "Norwest",
-    "anchors": ["Marketown", "Lakeside"],
+    "anchors": [
+      "Marketown",
+      "Lakeside"
+    ],
     "description": "Norwest professionals count on us for fast Mac repairs that minimise business disruption. Our workshop understands the urgency when your MacBook is your livelihood. Same-day service available for common repairs.",
-    "localInfo": "Norwest Business Park is home to countless Mac users. We've built a reputation for quick, quality repairs that get professionals back to work fast. Corporate pickup and delivery available."
+    "localInfo": "Norwest Business Park is home to countless Mac users. We've built a reputation for quick, quality repairs that get professionals back to work fast. Corporate pickup and delivery available.",
+    "titleDriver": "Corporate Mac Repair Express",
+    "introParagraph": "We perform schematic-level diagnostics — isolating failed GPU die, shorted voltage rails, and degraded PCIe links. Corporate users losing billable hours to a dead Mac need precision repair, not a week-long wait at a retail queue.",
+    "whatWeFix": [
+      {
+        "name": "MacBook Battery",
+        "desc": "Fast swap so your laptop lasts through back-to-back meetings."
+      },
+      {
+        "name": "Screen Replacement",
+        "desc": "Retina displays replaced with colour-accurate panels."
+      },
+      {
+        "name": "Keyboard Repair",
+        "desc": "Non-responsive keys restored without multi-day delays."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "Presentations and client files recovered from failed drives."
+      },
+      {
+        "name": "Logic Board",
+        "desc": "GPU and CPU power delivery faults repaired at chip level."
+      },
+      {
+        "name": "Performance Upgrade",
+        "desc": "SSD and RAM upgrades to handle enterprise workloads."
+      }
+    ],
+    "commonIssues": [
+      "Executive MacBooks failing before critical client presentations",
+      "Corporate iMacs needing fleet-wide SSD upgrades for productivity",
+      "Finance team Macs with encrypted drive failures needing data extraction",
+      "Creative agency MacBook Pros throttling during video rendering"
+    ],
+    "whyChoose": [
+      "Same-day service for business-critical machines",
+      "Corporate pickup and delivery available",
+      "NDA-compliant handling of sensitive devices",
+      "Invoice and PO billing for businesses"
+    ],
+    "faqs": [
+      {
+        "q": "Can you service our entire office fleet?",
+        "a": "Yes. We handle corporate fleet maintenance, bulk upgrades, and ongoing repair agreements. Contact us to discuss your company's specific requirements."
+      },
+      {
+        "q": "Do you offer priority service for urgent business repairs?",
+        "a": "Absolutely. Business-critical machines get priority scheduling. Most common repairs complete same-day with advance booking."
+      },
+      {
+        "q": "Is client data safe during corporate Mac repairs?",
+        "a": "We follow strict data handling protocols. Drives are never accessed beyond diagnostic necessity. We can work under NDA if required."
+      },
+      {
+        "q": "Can you invoice our company directly?",
+        "a": "Yes. We provide tax invoices and can set up accounts for businesses needing regular service. PO numbers accepted."
+      }
+    ],
+    "ctaText": "Minimise downtime — get priority business Mac repair with same-day turnaround."
   },
   "rouse-hill": {
     "name": "Rouse Hill",
-    "anchors": ["Town Centre", "NW Metro"],
+    "anchors": [
+      "Town Centre",
+      "NW Metro"
+    ],
     "description": "Looking for the best Mac repair in Rouse Hill? Our certified technicians provide affordable MacBook and iMac repairs with same-day service. Near the Town Centre and Metro station, we're convenient for busy families and commuters. Drop off your Mac before catching the train and pick it up repaired. We handle emergency repairs when your Mac won't turn on, battery replacements, and screen repairs.",
-    "localInfo": "Rouse Hill's excellent transport links make us accessible to the whole northwest. Our Mac experts serve the region with quality repairs including data recovery, water damage repair, keyboard fixes, logic board repair, and SSD upgrades. Whether you need MacBook screen replacement or iMac troubleshooting, our Mac technicians provide honest assessments and transparent pricing."
+    "localInfo": "Rouse Hill's excellent transport links make us accessible to the whole northwest. Our Mac experts serve the region with quality repairs including data recovery, water damage repair, keyboard fixes, logic board repair, and SSD upgrades. Whether you need MacBook screen replacement or iMac troubleshooting, our Mac technicians provide honest assessments and transparent pricing.",
+    "titleDriver": "Metro-Convenient Mac Repair",
+    "introParagraph": "We trace faults to individual components — blown backlight fuses, corroded antenna connectors, failed audio codecs. Busy commuters and families juggling school runs and work deadlines need a repair service that matches their pace.",
+    "whatWeFix": [
+      {
+        "name": "MacBook Battery",
+        "desc": "Depleted cells replaced so your Mac survives the commute."
+      },
+      {
+        "name": "Cracked Screen",
+        "desc": "Shattered displays restored with precise panel fitting."
+      },
+      {
+        "name": "Keyboard Failure",
+        "desc": "Dead or sticky keys repaired at mechanism level."
+      },
+      {
+        "name": "Mac Won't Turn On",
+        "desc": "Power circuit and EFI firmware faults diagnosed."
+      },
+      {
+        "name": "Water Damage",
+        "desc": "Spill damage cleaned and corroded ICs replaced."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "School projects and work files rescued from dead storage."
+      }
+    ],
+    "commonIssues": [
+      "Commuter laptops with batteries draining before reaching the office",
+      "Kids' MacBooks damaged in bags during the school-to-aftercare shuffle",
+      "Family iMacs overloaded with photos and running out of storage space",
+      "Macs stuck in boot loops after interrupted overnight software updates",
+      "Coffee spills on laptops during rushed weekday morning routines"
+    ],
+    "whyChoose": [
+      "Drop off on the way to the Metro",
+      "Same-day service on most standard repairs",
+      "Family-friendly pricing across all models",
+      "All work warranted with quality parts"
+    ],
+    "faqs": [
+      {
+        "q": "Can I drop off before my train and collect after work?",
+        "a": "Yes — that's how many customers use our service. Most repairs are ready same-day, timed perfectly for your return commute."
+      },
+      {
+        "q": "Do you handle school MacBook repairs?",
+        "a": "Regularly. We fix cracked screens, dead batteries, and keyboard issues on student devices with fast turnaround during term."
+      },
+      {
+        "q": "My iMac is running out of space — can you help?",
+        "a": "Yes. We upgrade internal storage and can migrate your data to a larger, faster SSD. No files lost in the process."
+      },
+      {
+        "q": "What if my Mac was damaged by a liquid spill this morning?",
+        "a": "Bring it in immediately — don't try to turn it on. Fast board-level cleaning dramatically improves recovery chances."
+      }
+    ],
+    "ctaText": "Drop off before the train, collect after work — fast Mac repair that fits your day."
   },
   "seven-hills": {
     "name": "Seven Hills",
-    "anchors": ["Prospect Hwy", "M2/M7 junction"],
+    "anchors": [
+      "Prospect Hwy",
+      "M2/M7 junction"
+    ],
     "description": "Seven Hills locals benefit from our centrally located Mac repair services. Near the M2/M7 junction, we're easy to reach from anywhere in Western Sydney. Affordable repairs with quality parts and experienced technicians.",
-    "localInfo": "Seven Hills has a diverse community with varied Mac repair needs. From students to retirees, freelancers to small business owners, we provide personalised service for every customer."
+    "localInfo": "Seven Hills has a diverse community with varied Mac repair needs. From students to retirees, freelancers to small business owners, we provide personalised service for every customer.",
+    "titleDriver": "Central Western Sydney Mac Repair",
+    "introParagraph": "We work with schematics and microscopy to identify the exact failing component — not the whole module. A diverse population from students to retirees means every Mac and every budget is different, and cookie-cutter quotes don't cut it.",
+    "whatWeFix": [
+      {
+        "name": "MacBook Battery",
+        "desc": "New cells fitted for dependable daily portable use."
+      },
+      {
+        "name": "Screen Repair",
+        "desc": "Budget and premium Retina panel options for every model."
+      },
+      {
+        "name": "Keyboard Issues",
+        "desc": "Scissor and butterfly mechanisms repaired or swapped."
+      },
+      {
+        "name": "Logic Board",
+        "desc": "Microsoldering repairs that save boards others discard."
+      },
+      {
+        "name": "SSD Upgrade",
+        "desc": "Spinning drives replaced with fast solid-state storage."
+      },
+      {
+        "name": "Virus & Malware",
+        "desc": "Adware and malicious profiles removed, security restored."
+      }
+    ],
+    "commonIssues": [
+      "Student MacBooks failing mid-semester with no backup plan",
+      "Retirees' iMacs slowing to a crawl after years of use",
+      "Freelancers losing billable hours to unexpected Mac failures",
+      "Budget Macs needing affordable targeted upgrades over full replacement",
+      "Shared household devices with multiple user accounts causing slowdowns"
+    ],
+    "whyChoose": [
+      "Centrally located — easy from any direction",
+      "Pricing tailored to every budget level",
+      "From student Airs to pro iMac Pros",
+      "Component-level repair saves unnecessary cost"
+    ],
+    "faqs": [
+      {
+        "q": "Do you offer affordable options for pensioners?",
+        "a": "We always recommend the most cost-effective repair. Our component-level approach naturally keeps costs lower than shops replacing whole assemblies."
+      },
+      {
+        "q": "Can you help a complete beginner understand what's wrong?",
+        "a": "Of course. We explain every issue in plain language and only recommend repairs that genuinely make sense for your situation."
+      },
+      {
+        "q": "My freelance Mac died — how quickly can you fix it?",
+        "a": "We prioritise work-critical machines. Most common repairs finish same-day. Complex board work takes 2-3 days with clear communication throughout."
+      }
+    ],
+    "ctaText": "Central, affordable, and thorough — book a Mac diagnostic that fits your budget."
   },
   "winston-hills": {
     "name": "Winston Hills",
-    "anchors": ["Winston Hills Mall", "Gooden Dr"],
+    "anchors": [
+      "Winston Hills Mall",
+      "Gooden Dr"
+    ],
     "description": "Winston Hills families trust us for dependable Mac repairs. Close to Winston Hills Mall, we offer convenient drop-off and collection. Our technicians treat every Mac with care, whether it's a student's MacBook Air or a professional's iMac Pro.",
-    "localInfo": "Winston Hills' established community values reliable local services. Many customers have been returning to us for years, trusting us with their family's Apple devices."
+    "localInfo": "Winston Hills' established community values reliable local services. Many customers have been returning to us for years, trusting us with their family's Apple devices.",
+    "titleDriver": "Dependable Family Mac Service",
+    "introParagraph": "We diagnose down to the resistor — failed GPU solder joints, worn LVDS connectors, degraded storage controllers. Established households with Macs spanning multiple generations need a technician who can service every model in the house.",
+    "whatWeFix": [
+      {
+        "name": "MacBook Battery",
+        "desc": "Aging batteries replaced to restore original runtime."
+      },
+      {
+        "name": "iMac Display",
+        "desc": "5K and 4K panel replacements with full calibration."
+      },
+      {
+        "name": "Keyboard Repair",
+        "desc": "Worn key travel and failed mechanisms restored properly."
+      },
+      {
+        "name": "Mac Won't Boot",
+        "desc": "Firmware corruption and failing NAND diagnosed precisely."
+      },
+      {
+        "name": "Data Migration",
+        "desc": "Full transfers from old Mac to new, apps and settings intact."
+      },
+      {
+        "name": "SSD Upgrade",
+        "desc": "Legacy hard drives swapped for responsive solid-state storage."
+      }
+    ],
+    "commonIssues": [
+      "Long-owned family iMacs needing storage and performance overhauls",
+      "Teenage students' MacBooks with worn batteries and cracked hinges",
+      "Parents' work laptops overheating after years without thermal service",
+      "Older Macs handed down between siblings needing a full refresh"
+    ],
+    "whyChoose": [
+      "Trusted by returning families year after year",
+      "Handles every Mac model from 2009 onward",
+      "Personal service — speak to the actual technician",
+      "Repairs extend lifespan instead of forcing upgrades"
+    ],
+    "faqs": [
+      {
+        "q": "Can you service both our old iMac and the kids' MacBooks?",
+        "a": "Yes. Bring everything in at once — we'll diagnose each device and give you a clear combined quote before starting any work."
+      },
+      {
+        "q": "My teenager's MacBook hinge is loose — is that fixable?",
+        "a": "Usually yes. We replace hinge assemblies and reinforce the mounting. It's far cheaper than a new machine."
+      },
+      {
+        "q": "We've been coming to you for years — do you keep repair records?",
+        "a": "We maintain repair history for returning customers. This helps us track recurring issues and advise on long-term maintenance."
+      }
+    ],
+    "ctaText": "Bring the whole family's Macs in — one visit, one clear quote, quality repairs."
   },
   "carlingford": {
     "name": "Carlingford",
-    "anchors": ["Carlingford Court", "Pennant Hills Rd"],
+    "anchors": [
+      "Carlingford Court",
+      "Pennant Hills Rd"
+    ],
     "description": "Carlingford residents choose us for professional Mac repairs with personal service. Near Carlingford Court, we're accessible and established. Our expertise covers all Mac models, from classic MacBooks to the latest M-series chips.",
-    "localInfo": "Carlingford's academic community—students and educators alike—relies heavily on Mac computers. We provide student-friendly pricing and fast turnaround to minimise study disruption."
+    "localInfo": "Carlingford's academic community—students and educators alike—relies heavily on Mac computers. We provide student-friendly pricing and fast turnaround to minimise study disruption.",
+    "titleDriver": "Academic Mac Repair Expert",
+    "introParagraph": "We read board schematics and use thermal imaging to find faults invisible to general repair shops. Students mid-assignment and educators preparing curriculum materials need their Mac back fast — with data intact and performance restored.",
+    "whatWeFix": [
+      {
+        "name": "MacBook Battery",
+        "desc": "Quick replacement so lectures and study aren't interrupted."
+      },
+      {
+        "name": "Screen Repair",
+        "desc": "Cracked or dimming displays swapped with precision."
+      },
+      {
+        "name": "Keyboard Failure",
+        "desc": "Essay-worn keys and spill damage repaired at board level."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "Thesis drafts and research files recovered from failed storage."
+      },
+      {
+        "name": "Logic Board",
+        "desc": "Thermal imaging used to locate hidden component faults."
+      },
+      {
+        "name": "Performance Boost",
+        "desc": "RAM and SSD upgrades to handle research-heavy workflows."
+      }
+    ],
+    "commonIssues": [
+      "Student MacBooks crashing during exam submission deadlines",
+      "Educator iMacs struggling with screen-sharing and presentation software",
+      "Research Macs with failing drives holding irreplaceable academic data",
+      "Caffeine-fuelled study sessions ending in laptop liquid spills",
+      "Ageing campus-era Macs needing affordable upgrades to stay relevant"
+    ],
+    "whyChoose": [
+      "Fast turnaround timed to academic deadlines",
+      "Student-friendly pricing on all repairs",
+      "Data preservation is always the priority",
+      "Experienced with education-sector Mac configurations"
+    ],
+    "faqs": [
+      {
+        "q": "Can you recover my thesis from a dead MacBook?",
+        "a": "In most cases yes. If the storage chip is physically intact, we can extract your files — even from Macs that won't power on at all."
+      },
+      {
+        "q": "Do you offer faster service during exam periods?",
+        "a": "We understand academic urgency. Let us know your deadline and we'll schedule the repair to meet it wherever possible."
+      },
+      {
+        "q": "My Mac is slow with all my research software — can you speed it up?",
+        "a": "Yes. An SSD upgrade and RAM expansion dramatically improve performance for data-heavy academic applications."
+      },
+      {
+        "q": "I spilled coffee on my MacBook during a study session — what now?",
+        "a": "Don't turn it on. Bring it in immediately. Fast ultrasonic cleaning prevents corrosion spread and greatly improves repair outcomes."
+      }
+    ],
+    "ctaText": "Protect your research and deadlines — get an expert Mac diagnostic today."
   },
   "cherrybrook": {
     "name": "Cherrybrook",
-    "anchors": ["Greenway Park", "New Line Rd"],
+    "anchors": [
+      "Greenway Park",
+      "New Line Rd"
+    ],
     "description": "Cherrybrook families depend on us for trusted Mac repairs. This family-focused suburb has high Mac adoption, and we're here to keep those devices running. From Greenway Park to New Line Road, quality repairs are close to home.",
-    "localInfo": "Cherrybrook's excellent schools mean many households have multiple Macs. We offer family discounts and prioritise repairs that support students' education needs."
+    "localInfo": "Cherrybrook's excellent schools mean many households have multiple Macs. We offer family discounts and prioritise repairs that support students' education needs.",
+    "titleDriver": "Family Mac Specialists",
+    "introParagraph": "We diagnose at board level — resoldering fractured BGA joints, replacing blown backlight fuses, and recovering corrupted NAND. Households with three or four Apple devices need a technician who understands cumulative wear across shared machines.",
+    "whatWeFix": [
+      {
+        "name": "MacBook Battery",
+        "desc": "Depleted student cells swapped for full-day classroom runtime."
+      },
+      {
+        "name": "Cracked Screen",
+        "desc": "Retina panel replacement for school-bag damage."
+      },
+      {
+        "name": "Keyboard Failure",
+        "desc": "Worn keys from heavy student typing restored."
+      },
+      {
+        "name": "Mac Won't Turn On",
+        "desc": "SMC and power rail faults traced and repaired."
+      },
+      {
+        "name": "Slow Performance",
+        "desc": "SSD upgrades and RAM expansion for aging family Macs."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "Schoolwork and family photos pulled from failing drives."
+      }
+    ],
+    "commonIssues": [
+      "Student MacBook Airs with batteries that die before the school day ends",
+      "Family iMacs choking on years of accumulated photos and school projects",
+      "MacBook screens cracked from being tossed into overstuffed school bags",
+      "Shared household Macs with degraded keyboards from multi-user daily typing",
+      "Parental work laptops overheating during back-to-back video conferences"
+    ],
+    "whyChoose": [
+      "Multi-device family discounts available",
+      "Priority turnaround during school term",
+      "Component-level repairs, not part swapping",
+      "All work backed by warranty"
+    ],
+    "faqs": [
+      {
+        "q": "Do you offer discounts for multiple family devices?",
+        "a": "Yes. Bring in more than one Mac and we provide a combined quote with family pricing. It's designed for multi-device households."
+      },
+      {
+        "q": "How fast can you fix a student's MacBook?",
+        "a": "Most student repairs — batteries, SSDs, keyboards — are same-day. We prioritise school devices during term to minimise study disruption."
+      },
+      {
+        "q": "Can you upgrade an older iMac instead of replacing it?",
+        "a": "Usually yes. An SSD and fresh thermal paste can make a 2013-2017 iMac feel close to new at a fraction of replacement cost."
+      },
+      {
+        "q": "Is my child's data safe during the repair?",
+        "a": "We never access personal files. If a repair risks data loss, we advise beforehand and offer a backup before proceeding."
+      }
+    ],
+    "ctaText": "Get your family's Macs diagnosed fast — no-obligation quotes on every device."
   },
   "dural": {
     "name": "Dural",
-    "anchors": ["Round Corner", "Old Northern Rd"],
+    "anchors": [
+      "Round Corner",
+      "Old Northern Rd"
+    ],
     "description": "Dural residents appreciate our personalised Mac repair service. We understand rural-residential properties rely on technology for both work and connectivity. From Round Corner to the surrounding acreages, we're your local Mac specialists.",
-    "localInfo": "Dural's larger properties often mean home-based businesses and remote work setups. We help residents maintain reliable Mac systems, including network troubleshooting and peripheral support."
+    "localInfo": "Dural's larger properties often mean home-based businesses and remote work setups. We help residents maintain reliable Mac systems, including network troubleshooting and peripheral support.",
+    "titleDriver": "Acreage Mac Support",
+    "introParagraph": "We work at IC level — swapping failed USB-C controllers, repairing corroded power delivery circuits, and diagnosing intermittent faults caused by rural power fluctuations. Home businesses on larger lots can't afford multi-day downtime waiting for a distant Apple Store appointment.",
+    "whatWeFix": [
+      {
+        "name": "MacBook Battery",
+        "desc": "Long-lasting cells for all-day use across large properties."
+      },
+      {
+        "name": "Screen Repair",
+        "desc": "LCD and Retina panels replaced with calibrated displays."
+      },
+      {
+        "name": "Logic Board",
+        "desc": "Power surge damage repaired at component level."
+      },
+      {
+        "name": "Network Issues",
+        "desc": "Wi-Fi and Ethernet faults diagnosed on Mac hardware."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "Business files extracted from dead or corrupted drives."
+      },
+      {
+        "name": "SSD Upgrade",
+        "desc": "Faster storage for property management applications."
+      }
+    ],
+    "commonIssues": [
+      "Home office Macs failing after electrical surges on rural supply lines",
+      "MacBooks with corroded ports from humid shed or workshop environments",
+      "Slow iMacs struggling with accounting and property management software",
+      "Remote workers losing connectivity due to failing Wi-Fi hardware",
+      "Dust-clogged fans causing thermal shutdowns during long work sessions"
+    ],
+    "whyChoose": [
+      "Understands acreage and home-business needs",
+      "Thorough repairs that reduce return visits",
+      "Network and peripheral troubleshooting included",
+      "Honest repair-vs-replace recommendations"
+    ],
+    "faqs": [
+      {
+        "q": "Can you fix surge damage to a Mac logic board?",
+        "a": "Yes. Power surges typically blow specific voltage regulators. We identify and replace the failed components rather than swapping the entire board."
+      },
+      {
+        "q": "Do you support Macs used in home business setups?",
+        "a": "Regularly. We handle everything from basic repairs to network troubleshooting and multi-monitor configuration for home offices."
+      },
+      {
+        "q": "My Mac overheats in my workshop — can you help?",
+        "a": "Yes. We do deep internal cleaning, fan replacement, and thermal paste renewal. We can also advise on placement to reduce dust intake."
+      }
+    ],
+    "ctaText": "Book a thorough diagnostic — reliable repairs that last on rural properties."
   },
   "glenhaven": {
     "name": "Glenhaven",
-    "anchors": ["Glenhaven Rd", "Round Corner vicinity"],
+    "anchors": [
+      "Glenhaven Rd",
+      "Round Corner vicinity"
+    ],
     "description": "Glenhaven locals trust us for quality Mac repairs with country service values. Our technicians understand that Glenhaven residents value reliability and honest communication. No unnecessary repairs—just what your Mac needs.",
-    "localInfo": "Glenhaven's semi-rural character doesn't mean compromising on tech support. We provide the same expert service to acreage properties as we do to suburban homes."
+    "localInfo": "Glenhaven's semi-rural character doesn't mean compromising on tech support. We provide the same expert service to acreage properties as we do to suburban homes.",
+    "titleDriver": "Honest Mac Repair Service",
+    "introParagraph": "We read schematics and probe circuits to find the actual fault — not guess. Residents on acreage who value straightforward communication deserve a technician who explains what failed, quotes accurately, and doesn't push unnecessary work.",
+    "whatWeFix": [
+      {
+        "name": "MacBook Battery",
+        "desc": "Quality cells installed with proper calibration cycle."
+      },
+      {
+        "name": "Cracked Display",
+        "desc": "Full panel assembly swap with tested replacements."
+      },
+      {
+        "name": "Keyboard Issues",
+        "desc": "Top-case repairs that restore original key response."
+      },
+      {
+        "name": "Mac Won't Boot",
+        "desc": "EFI firmware and NAND faults diagnosed systematically."
+      },
+      {
+        "name": "Water Damage",
+        "desc": "Ultrasonic cleaning and corroded trace restoration."
+      },
+      {
+        "name": "Thermal Service",
+        "desc": "Fan overhaul and thermal compound replacement."
+      }
+    ],
+    "commonIssues": [
+      "Macs running hot after years without internal cleaning on dusty properties",
+      "Household iMacs with failing hard drives needing SSD conversions",
+      "MacBook Pro keyboards degrading from daily professional writing workloads",
+      "Older Macs unable to run current macOS requiring hardware optimisation"
+    ],
+    "whyChoose": [
+      "No unnecessary upselling — ever",
+      "Plain-English explanations of every fault",
+      "Repairs built to last in rural conditions",
+      "Flat diagnostic fee credited toward repair"
+    ],
+    "faqs": [
+      {
+        "q": "Will you recommend repairs I don't actually need?",
+        "a": "Never. We diagnose the specific fault, quote for that repair only, and explain your options. We only proceed with your approval."
+      },
+      {
+        "q": "How do you handle Macs from dusty environments?",
+        "a": "We do thorough internal cleaning, replace degraded thermal paste, and check fan bearings. This prevents recurring overheating issues."
+      },
+      {
+        "q": "Can you fix an old Mac that's running slowly?",
+        "a": "Usually. An SSD upgrade and clean macOS install resolve most performance issues on 2012-2017 Macs for a fraction of replacement cost."
+      },
+      {
+        "q": "Do you provide a warranty on repairs?",
+        "a": "Yes. Every repair is backed by warranty covering parts and labour. We stand behind our work completely."
+      }
+    ],
+    "ctaText": "Get an honest assessment — we only recommend what your Mac actually needs."
   },
   "glenwood": {
     "name": "Glenwood",
-    "anchors": ["Norbrik Dr", "T‑Way"],
+    "anchors": [
+      "Norbrik Dr",
+      "T-Way"
+    ],
     "description": "Glenwood families benefit from our accessible Mac repair services. Near the T-Way for easy public transport access, we serve this family-oriented suburb with fast, affordable repairs. Your children's MacBooks and your work iMac are in good hands.",
-    "localInfo": "Glenwood's young families often have multiple Apple devices. We offer efficient service that respects your time and budget, with transparent pricing on all repairs."
+    "localInfo": "Glenwood's young families often have multiple Apple devices. We offer efficient service that respects your time and budget, with transparent pricing on all repairs.",
+    "titleDriver": "Quick Multi-Device Repairs",
+    "introParagraph": "We isolate faults to individual components — failed display driver ICs, shorted USB controllers, degraded battery management chips. Families managing four or five Apple devices across work and school need cost-effective repairs, not expensive whole-board replacements.",
+    "whatWeFix": [
+      {
+        "name": "MacBook Battery",
+        "desc": "Budget-friendly cell replacement for kids' and parents' laptops."
+      },
+      {
+        "name": "Screen Replacement",
+        "desc": "Cracked student and work displays restored same-day."
+      },
+      {
+        "name": "Keyboard Repair",
+        "desc": "Food debris and key mechanism failures fixed properly."
+      },
+      {
+        "name": "Charging Problems",
+        "desc": "USB-C and MagSafe port faults diagnosed and resolved."
+      },
+      {
+        "name": "Slow Mac Fix",
+        "desc": "SSD swaps and macOS optimisation for ageing devices."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "Assignments and work files rescued from failing storage."
+      }
+    ],
+    "commonIssues": [
+      "Kids' MacBook Airs with keyboards clogged by food crumbs and debris",
+      "Family iMacs freezing during homework sessions with too many open apps",
+      "Parents' work MacBooks with USB-C ports worn from daily docking routines",
+      "Multiple household devices needing battery replacements in the same term",
+      "Older hand-me-down Macs requiring affordable upgrades for younger children"
+    ],
+    "whyChoose": [
+      "Multi-device quotes save families money",
+      "T-Way accessible for public transport users",
+      "Fast turnaround respects busy family schedules",
+      "Transparent pricing before any work begins"
+    ],
+    "faqs": [
+      {
+        "q": "Can you fix several family devices at once?",
+        "a": "Yes. Bring everything in together and we'll diagnose each Mac, then provide a consolidated quote so you can prioritise repairs within your budget."
+      },
+      {
+        "q": "My child spilled juice on their MacBook — is it fixable?",
+        "a": "Usually. Liquid damage needs prompt board-level cleaning. The sooner you bring it in, the better the chance of a full recovery."
+      },
+      {
+        "q": "Are your repairs affordable for families on a budget?",
+        "a": "We keep costs down with component-level work instead of replacing entire assemblies. We'll always quote the most cost-effective option first."
+      }
+    ],
+    "ctaText": "Bring the whole family's devices in — consolidated quotes and fast turnaround."
   },
   "north-rocks": {
     "name": "North Rocks",
-    "anchors": ["Shopping Centre", "M2 corridor"],
+    "anchors": [
+      "Shopping Centre",
+      "M2 corridor"
+    ],
     "description": "North Rocks residents enjoy convenient Mac repairs near the Shopping Centre. Our M2 corridor location means easy access for commuters. Quick drop-off, expert repair, hassle-free collection.",
-    "localInfo": "North Rocks' convenient location attracts busy professionals. We cater to time-poor customers with efficient service, clear communication, and flexible pickup options."
+    "localInfo": "North Rocks' convenient location attracts busy professionals. We cater to time-poor customers with efficient service, clear communication, and flexible pickup options.",
+    "titleDriver": "Commuter Mac Repair Experts",
+    "introParagraph": "We use thermal imaging and microsocopy to pinpoint faults invisible to the naked eye — cracked solder joints, overheating voltage regulators, failing storage controllers. Professionals commuting via the M2 need a service that fits a repair into a workday, not one that demands a day off.",
+    "whatWeFix": [
+      {
+        "name": "MacBook Battery",
+        "desc": "Replaced during your workday — ready by evening pickup."
+      },
+      {
+        "name": "Retina Display",
+        "desc": "Anti-glare delamination and cracked panel replacement."
+      },
+      {
+        "name": "Keyboard Failure",
+        "desc": "Scissor and butterfly key mechanisms rebuilt."
+      },
+      {
+        "name": "Logic Board",
+        "desc": "Microsolder repair of failed ICs and cracked joints."
+      },
+      {
+        "name": "SSD Upgrade",
+        "desc": "NVMe storage for noticeably faster boot and app loading."
+      },
+      {
+        "name": "Port Repair",
+        "desc": "Thunderbolt and USB-C connector replacement."
+      }
+    ],
+    "commonIssues": [
+      "Commuter MacBooks with batteries draining before afternoon meetings finish",
+      "Professional laptops with intermittent Thunderbolt dock disconnections",
+      "Work iMacs displaying graphical artefacts during presentations",
+      "Macs stuck in boot loops after rushed overnight macOS updates"
+    ],
+    "whyChoose": [
+      "Drop off on your M2 commute",
+      "Professional-grade diagnostics with clear reporting",
+      "Same-day service on standard repairs",
+      "Flexible collection times for busy schedules"
+    ],
+    "faqs": [
+      {
+        "q": "Can I drop off before work and collect after?",
+        "a": "Absolutely. Most standard repairs complete same-day. We'll text you when it's ready so you can collect on your way home."
+      },
+      {
+        "q": "Do you repair Macs used for corporate work?",
+        "a": "Yes. We handle professional MacBook Pros and iMacs daily. We understand the urgency when your livelihood depends on the device."
+      },
+      {
+        "q": "What if my Mac needs parts you don't stock?",
+        "a": "We carry common components. Specialist parts typically arrive within one to two business days — we'll confirm the timeline upfront."
+      },
+      {
+        "q": "Do you provide a detailed repair report?",
+        "a": "Yes. Every repair includes a clear explanation of the fault, what was done, and what to watch for going forward."
+      }
+    ],
+    "ctaText": "Drop off on your commute — professional Mac diagnostics with same-day turnaround."
   },
   "annangrove": {
     "name": "Annangrove",
-    "anchors": ["Annangrove Rd", "Rural lots"],
+    "anchors": [
+      "Annangrove Rd",
+      "Rural lots"
+    ],
     "description": "Annangrove property owners trust us for reliable Mac repairs. We understand rural properties depend on technology for both business and daily life. Our technicians provide thorough, lasting repairs that reduce the need for return visits.",
-    "localInfo": "Annangrove's acreage lifestyle often includes home offices and agricultural technology. We service the full range of Mac needs, from basic repairs to complex system setups."
+    "localInfo": "Annangrove's acreage lifestyle often includes home offices and agricultural technology. We service the full range of Mac needs, from basic repairs to complex system setups.",
+    "titleDriver": "Property-Ready Mac Repairs",
+    "introParagraph": "We repair at component level — reflowing BGAs, replacing failed power MOSFETs, and restoring boards damaged by environmental exposure. Properties running livestock management software or home studios need Macs that work reliably without regular trips to a workshop.",
+    "whatWeFix": [
+      {
+        "name": "MacBook Battery",
+        "desc": "Heavy-use cells replaced for all-day property work."
+      },
+      {
+        "name": "Screen Repair",
+        "desc": "Damaged displays swapped with colour-accurate panels."
+      },
+      {
+        "name": "Logic Board",
+        "desc": "Environmental corrosion and power faults repaired on-board."
+      },
+      {
+        "name": "Dust Damage",
+        "desc": "Deep internal cleaning and fan bearing replacement."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "Agricultural records and business data recovered intact."
+      },
+      {
+        "name": "Performance Upgrade",
+        "desc": "SSD and RAM fitted for demanding property software."
+      }
+    ],
+    "commonIssues": [
+      "Macs in sheds and outbuildings accumulating dust that causes thermal failure",
+      "Home studio Macs with hard drives failing under large audio or video projects",
+      "Livestock management software running slowly on outdated Mac hardware",
+      "Power fluctuations on rural supply damaging charging circuits overnight",
+      "MacBooks with corroded connectors from exposure to moisture and chemicals"
+    ],
+    "whyChoose": [
+      "Built for rural conditions — thorough, lasting fixes",
+      "Reduces need for repeat workshop visits",
+      "Handles agricultural and creative Mac setups",
+      "Straightforward pricing with no hidden costs"
+    ],
+    "faqs": [
+      {
+        "q": "Can you fix Macs damaged by dust and moisture?",
+        "a": "Yes. We do ultrasonic board cleaning, replace corroded components, and seal vulnerable connectors. We see these environmental faults regularly on rural properties."
+      },
+      {
+        "q": "Do you support agricultural management Macs?",
+        "a": "Regularly. We upgrade storage and RAM to handle property management, livestock, and accounting software smoothly on older Macs."
+      },
+      {
+        "q": "How do I prevent dust damage to my Mac?",
+        "a": "Elevate the machine off surfaces, use filtered enclosures in sheds, and schedule periodic internal cleaning. We offer maintenance services for this."
+      }
+    ],
+    "ctaText": "Book a thorough repair that holds up to the demands of acreage life."
   },
   "nelson": {
     "name": "Nelson",
-    "anchors": ["Nelson Rd", "Semi‑rural"],
+    "anchors": [
+      "Nelson Rd",
+      "Semi-rural"
+    ],
     "description": "Nelson residents benefit from our personalised Mac repair approach. This quiet semi-rural area deserves quality tech support close to home. We provide honest assessments and quality repairs for all Mac models.",
-    "localInfo": "Nelson's peaceful setting doesn't mean isolation from quality services. We bring professional Mac repairs to this semi-rural community with the same expertise we offer everywhere."
+    "localInfo": "Nelson's peaceful setting doesn't mean isolation from quality services. We bring professional Mac repairs to this semi-rural community with the same expertise we offer everywhere.",
+    "titleDriver": "Personalised Mac Care",
+    "introParagraph": "We diagnose using schematics and board-level inspection — identifying failed capacitors, damaged flex cables, and degraded thermal interfaces. Smaller communities deserve the same calibre of technical expertise available in metro workshops, without the drive.",
+    "whatWeFix": [
+      {
+        "name": "MacBook Battery",
+        "desc": "Fresh cells restoring portable use across the property."
+      },
+      {
+        "name": "Display Repair",
+        "desc": "Flickering backlights and cracked panels resolved."
+      },
+      {
+        "name": "Keyboard Repair",
+        "desc": "Worn or stuck keys replaced with lasting mechanisms."
+      },
+      {
+        "name": "Mac Won't Start",
+        "desc": "Power button circuits and DC-in board diagnosis."
+      },
+      {
+        "name": "Water Damage",
+        "desc": "Board-level corrosion cleaned and damaged ICs replaced."
+      },
+      {
+        "name": "SSD Upgrade",
+        "desc": "Mechanical drives replaced with fast solid-state storage."
+      }
+    ],
+    "commonIssues": [
+      "Older Macs still in daily use needing targeted upgrades to stay viable",
+      "Home office setups with display flickering during extended work sessions",
+      "Macs damaged by moisture ingress from semi-rural environmental conditions",
+      "Retired professionals' iMacs running slow after years of deferred maintenance",
+      "MacBooks with degraded hinges and chassis from long-term daily use"
+    ],
+    "whyChoose": [
+      "Metro-quality expertise without the commute",
+      "Personal service — speak directly to the technician",
+      "Repairs tailored to extend your Mac's lifespan",
+      "No-obligation diagnostic on every device"
+    ],
+    "faqs": [
+      {
+        "q": "Is it worth repairing my older Mac?",
+        "a": "Often yes. We assess honestly — if an SSD upgrade or board repair can give you years more use at low cost, we'll recommend it. If not, we'll say so."
+      },
+      {
+        "q": "Do you explain the repair in detail?",
+        "a": "Always. We walk through the fault, show you what failed, and explain the fix in plain language before starting any work."
+      },
+      {
+        "q": "Can you handle Macs affected by damp or moisture?",
+        "a": "Yes. We do board-level cleaning and component replacement for moisture damage. Early treatment significantly improves recovery outcomes."
+      },
+      {
+        "q": "What happens if my Mac isn't worth repairing?",
+        "a": "We'll tell you straight. We can still recover your data and advise on the best replacement options for your needs."
+      }
+    ],
+    "ctaText": "Get expert-level Mac diagnostics without the long drive — book now."
   },
   "middle-dural": {
     "name": "Middle Dural",
-    "anchors": ["Old Northern Rd", "Rural properties"],
+    "anchors": [
+      "Old Northern Rd",
+      "Rural properties"
+    ],
     "description": "Middle Dural property owners choose us for trusted Mac repairs. Large rural properties rely on technology for property management, business operations, and family connectivity. We understand these needs and deliver accordingly.",
-    "localInfo": "Middle Dural's spacious properties often house home businesses and creative studios. We support these enterprises with reliable Mac repairs and practical tech advice."
+    "localInfo": "Middle Dural's spacious properties often house home businesses and creative studios. We support these enterprises with reliable Mac repairs and practical tech advice.",
+    "titleDriver": "Creative & Business Mac Repairs",
+    "introParagraph": "We work with microsoldering stations and oscilloscopes to diagnose GPU failures, storage controller faults, and power delivery issues at chip level. Creative professionals and home business operators running resource-intensive workflows need repairs that restore full performance, not compromises.",
+    "whatWeFix": [
+      {
+        "name": "MacBook Battery",
+        "desc": "High-capacity cells for uninterrupted creative sessions."
+      },
+      {
+        "name": "Retina Screen",
+        "desc": "Colour-accurate panel replacement for design work."
+      },
+      {
+        "name": "Logic Board",
+        "desc": "GPU and Thunderbolt controller faults repaired on-board."
+      },
+      {
+        "name": "Storage Failure",
+        "desc": "Failed SSDs replaced with high-speed alternatives."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "Project files and client work recovered from dead Macs."
+      },
+      {
+        "name": "Thermal Overhaul",
+        "desc": "Full heatsink, fan, and thermal paste service."
+      }
+    ],
+    "commonIssues": [
+      "Creative studio Macs with GPU failures during rendering and export tasks",
+      "Home business iMacs with hard drives failing under heavy database workloads",
+      "MacBook Pros throttling during sustained audio production or video editing",
+      "Macs on rural power experiencing intermittent charging circuit damage",
+      "Ageing studio machines needing performance upgrades to run current software"
+    ],
+    "whyChoose": [
+      "Experienced with creative and business Mac workflows",
+      "GPU and Thunderbolt-level repair capability",
+      "Minimises downtime for revenue-dependent machines",
+      "Parts stocked for faster rural-area turnaround"
+    ],
+    "faqs": [
+      {
+        "q": "Can you repair GPU faults on MacBook Pros?",
+        "a": "Yes. We diagnose GPU issues at board level — reballing, reflow, and replacement of failed graphics ICs depending on the specific fault."
+      },
+      {
+        "q": "My Mac is critical for client work — how fast can you turn it around?",
+        "a": "We offer priority service for business-critical machines. Contact us with the model and symptoms and we'll give you a realistic timeline immediately."
+      },
+      {
+        "q": "Do you understand creative software workflows?",
+        "a": "Yes. We optimise Macs for Final Cut, Logic Pro, Photoshop, and similar tools — ensuring repairs restore full performance for professional use."
+      },
+      {
+        "q": "Can you upgrade my studio Mac's storage and RAM?",
+        "a": "Where the model allows, absolutely. We fit high-speed SSDs and maximum RAM to handle large project files and real-time rendering."
+      }
+    ],
+    "ctaText": "Protect your creative and business workflow — get a priority Mac diagnostic today."
   },
   "the-ponds": {
     "name": "The Ponds",
-    "anchors": ["The Ponds Blvd", "Riverbank Dr"],
+    "anchors": [
+      "The Ponds Blvd",
+      "Riverbank Dr"
+    ],
     "titleDriver": "Fast MacBook Repairs",
     "introParagraph": "We diagnose at component level — failed SMC chips, shorted capacitors, and degraded NAND storage. Modern households with multiple Apple devices need a technician who understands how these machines actually work, not someone who swaps whole boards.",
     "whatWeFix": [
-      {"name": "MacBook Battery", "desc": "Swollen or depleted cells replaced with quality parts."},
-      {"name": "Cracked Screen", "desc": "LCD and Retina panel replacement, same-day available."},
-      {"name": "Keyboard Failure", "desc": "Butterfly and Magic Keyboard top-case repairs."},
-      {"name": "Mac Won't Turn On", "desc": "Power circuit and logic board fault diagnosis."},
-      {"name": "Slow Performance", "desc": "SSD upgrades and thermal paste renewal."},
-      {"name": "Data Recovery", "desc": "Files retrieved from failing drives or dead Macs."}
+      {
+        "name": "MacBook Battery",
+        "desc": "Swollen or depleted cells replaced with quality parts."
+      },
+      {
+        "name": "Cracked Screen",
+        "desc": "LCD and Retina panel replacement, same-day available."
+      },
+      {
+        "name": "Keyboard Failure",
+        "desc": "Butterfly and Magic Keyboard top-case repairs."
+      },
+      {
+        "name": "Mac Won't Turn On",
+        "desc": "Power circuit and logic board fault diagnosis."
+      },
+      {
+        "name": "Slow Performance",
+        "desc": "SSD upgrades and thermal paste renewal."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "Files retrieved from failing drives or dead Macs."
+      }
     ],
     "commonIssues": [
       "Student MacBook Airs with depleted batteries lasting under two hours",
@@ -170,10 +1662,22 @@
       "All repairs backed by warranty"
     ],
     "faqs": [
-      {"q": "How long does a typical MacBook repair take?", "a": "Most common repairs like batteries and SSDs are completed same-day. Logic board work may take 2-3 business days depending on parts."},
-      {"q": "Do you repair Macs still under Apple warranty?", "a": "We repair all Macs, but if yours is under warranty we recommend Apple first. Out-of-warranty and vintage Macs are our specialty."},
-      {"q": "Can you recover data from a Mac that won't boot?", "a": "Yes. We extract data from dead logic boards and failing drives. If the storage chip is intact, your files are almost always recoverable."},
-      {"q": "What does a diagnostic cost?", "a": "Diagnostics are a flat fee, credited toward the repair if you proceed. No hidden charges and no obligation."}
+      {
+        "q": "How long does a typical MacBook repair take?",
+        "a": "Most common repairs like batteries and SSDs are completed same-day. Logic board work may take 2-3 business days depending on parts."
+      },
+      {
+        "q": "Do you repair Macs still under Apple warranty?",
+        "a": "We repair all Macs, but if yours is under warranty we recommend Apple first. Out-of-warranty and vintage Macs are our specialty."
+      },
+      {
+        "q": "Can you recover data from a Mac that won't boot?",
+        "a": "Yes. We extract data from dead logic boards and failing drives. If the storage chip is intact, your files are almost always recoverable."
+      },
+      {
+        "q": "What does a diagnostic cost?",
+        "a": "Diagnostics are a flat fee, credited toward the repair if you proceed. No hidden charges and no obligation."
+      }
     ],
     "ctaText": "Get a no-obligation diagnostic and know exactly what's wrong before you pay.",
     "description": "The Ponds families trust us for efficient Mac repairs. This modern suburb has embraced technology, and we're here to support that. From MacBook repairs for students to iMac fixes for home offices, we cover all needs.",
@@ -181,16 +1685,37 @@
   },
   "stanhope-gardens": {
     "name": "Stanhope Gardens",
-    "anchors": ["Stanhope Village", "Sentry Dr"],
+    "anchors": [
+      "Stanhope Village",
+      "Sentry Dr"
+    ],
     "titleDriver": "Reliable Mac Service",
     "introParagraph": "Our workshop handles microsoldering, chip-level GPU diagnosis, and precision screen calibration. Families juggling work deadlines and school assignments need their devices back fast — we prioritise turnaround without cutting corners.",
     "whatWeFix": [
-      {"name": "MacBook Battery", "desc": "Worn cells causing shutdowns replaced efficiently."},
-      {"name": "Screen Repair", "desc": "Retina display replacement with colour-accurate panels."},
-      {"name": "Keyboard Issues", "desc": "Sticky or unresponsive keys fixed at top-case level."},
-      {"name": "Logic Board", "desc": "Component-level fault finding and microsoldering."},
-      {"name": "SSD Upgrade", "desc": "Faster storage fitted to extend your Mac's usable life."},
-      {"name": "Water Damage", "desc": "Ultrasonic cleaning and corroded component replacement."}
+      {
+        "name": "MacBook Battery",
+        "desc": "Worn cells causing shutdowns replaced efficiently."
+      },
+      {
+        "name": "Screen Repair",
+        "desc": "Retina display replacement with colour-accurate panels."
+      },
+      {
+        "name": "Keyboard Issues",
+        "desc": "Sticky or unresponsive keys fixed at top-case level."
+      },
+      {
+        "name": "Logic Board",
+        "desc": "Component-level fault finding and microsoldering."
+      },
+      {
+        "name": "SSD Upgrade",
+        "desc": "Faster storage fitted to extend your Mac's usable life."
+      },
+      {
+        "name": "Water Damage",
+        "desc": "Ultrasonic cleaning and corroded component replacement."
+      }
     ],
     "commonIssues": [
       "Family iMacs slowing down with years of accumulated files and updates",
@@ -205,10 +1730,22 @@
       "Genuine and quality-equivalent parts used"
     ],
     "faqs": [
-      {"q": "Can I drop off my Mac while running errands?", "a": "Absolutely. Leave your device with us, handle your tasks, and we'll have a diagnosis ready when you return. Same-day for most jobs."},
-      {"q": "Do you fix older iMacs?", "a": "Yes. We repair iMacs going back to 2009 models including RAM upgrades, HDD-to-SSD conversions, and display repairs."},
-      {"q": "Is my data safe during repairs?", "a": "We never access personal files. If a repair risks data, we advise you beforehand and can back up your drive first."},
-      {"q": "What payment methods do you accept?", "a": "Card, bank transfer, and cash. Payment is due on collection after you've confirmed the repair meets your expectations."}
+      {
+        "q": "Can I drop off my Mac while running errands?",
+        "a": "Absolutely. Leave your device with us, handle your tasks, and we'll have a diagnosis ready when you return. Same-day for most jobs."
+      },
+      {
+        "q": "Do you fix older iMacs?",
+        "a": "Yes. We repair iMacs going back to 2009 models including RAM upgrades, HDD-to-SSD conversions, and display repairs."
+      },
+      {
+        "q": "Is my data safe during repairs?",
+        "a": "We never access personal files. If a repair risks data, we advise you beforehand and can back up your drive first."
+      },
+      {
+        "q": "What payment methods do you accept?",
+        "a": "Card, bank transfer, and cash. Payment is due on collection after you've confirmed the repair meets your expectations."
+      }
     ],
     "ctaText": "Drop off your Mac today and get a clear diagnosis before any work begins.",
     "description": "Stanhope Gardens residents enjoy convenient Mac repairs near Stanhope Village. Our services suit busy families balancing work, school, and life. Fast turnaround, fair pricing, and quality parts on every repair.",
@@ -216,16 +1753,37 @@
   },
   "quakers-hill": {
     "name": "Quakers Hill",
-    "anchors": ["Quakers Hill Pkwy", "Railway"],
+    "anchors": [
+      "Quakers Hill Pkwy",
+      "Railway"
+    ],
     "titleDriver": "Commuter-Friendly Mac Repair",
     "introParagraph": "We trace faults to the individual chip — failed power ICs, degraded thermal sensors, corroded connectors. Commuters and shift workers need a repair service that fits around their schedule, not the other way around.",
     "whatWeFix": [
-      {"name": "MacBook Battery", "desc": "Cells replaced so your laptop lasts the full commute."},
-      {"name": "Screen Replacement", "desc": "Cracked or dim displays restored to full brightness."},
-      {"name": "Keyboard Repair", "desc": "Non-responsive keys fixed without replacing the whole Mac."},
-      {"name": "Charging Issues", "desc": "MagSafe and USB-C port faults diagnosed and repaired."},
-      {"name": "Data Recovery", "desc": "Critical files pulled from drives that won't mount."},
-      {"name": "Performance Upgrade", "desc": "RAM and SSD upgrades for noticeably faster daily use."}
+      {
+        "name": "MacBook Battery",
+        "desc": "Cells replaced so your laptop lasts the full commute."
+      },
+      {
+        "name": "Screen Replacement",
+        "desc": "Cracked or dim displays restored to full brightness."
+      },
+      {
+        "name": "Keyboard Repair",
+        "desc": "Non-responsive keys fixed without replacing the whole Mac."
+      },
+      {
+        "name": "Charging Issues",
+        "desc": "MagSafe and USB-C port faults diagnosed and repaired."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "Critical files pulled from drives that won't mount."
+      },
+      {
+        "name": "Performance Upgrade",
+        "desc": "RAM and SSD upgrades for noticeably faster daily use."
+      }
     ],
     "commonIssues": [
       "Laptops running flat before the end of a train commute each day",
@@ -241,9 +1799,18 @@
       "Clear pricing upfront — no bill shock"
     ],
     "faqs": [
-      {"q": "Can I drop off before work and collect after?", "a": "Yes. We accommodate commuter schedules. Most repairs are ready same-day, so you can collect on your way home."},
-      {"q": "Do you offer affordable options for older Macs?", "a": "Always. We recommend the most cost-effective path — sometimes an SSD upgrade gives an old Mac another three to four years of solid use."},
-      {"q": "What if my Mac needs a part you don't have in stock?", "a": "We carry common parts. Specialist components are usually sourced within 1-2 business days. We'll give you a clear timeline upfront."}
+      {
+        "q": "Can I drop off before work and collect after?",
+        "a": "Yes. We accommodate commuter schedules. Most repairs are ready same-day, so you can collect on your way home."
+      },
+      {
+        "q": "Do you offer affordable options for older Macs?",
+        "a": "Always. We recommend the most cost-effective path — sometimes an SSD upgrade gives an old Mac another three to four years of solid use."
+      },
+      {
+        "q": "What if my Mac needs a part you don't have in stock?",
+        "a": "We carry common parts. Specialist components are usually sourced within 1-2 business days. We'll give you a clear timeline upfront."
+      }
     ],
     "ctaText": "Book a diagnosis that works around your commute — fast, honest, affordable.",
     "description": "Quakers Hill locals benefit from our accessible Mac repair services. Near the railway station, we're convenient for commuters. Drop your Mac on the way to work, collect it on the way home—often the same day.",
@@ -251,16 +1818,37 @@
   },
   "oakhurst": {
     "name": "Oakhurst",
-    "anchors": ["Luxford Rd", "Richmond Rd"],
+    "anchors": [
+      "Luxford Rd",
+      "Richmond Rd"
+    ],
     "titleDriver": "Honest Affordable Repairs",
     "introParagraph": "Every repair starts with a proper hands-on diagnostic — not guesswork. We identify the exact failed component, quote accurately, and only proceed with your approval. Straightforward service for people who value transparency.",
     "whatWeFix": [
-      {"name": "MacBook Battery", "desc": "Genuine-quality cells at fair prices, fitted same-day."},
-      {"name": "Screen Damage", "desc": "Full LCD assembly replacement for cracked displays."},
-      {"name": "Keyboard Problems", "desc": "Individual key mechanisms or full top-case swaps."},
-      {"name": "Mac Won't Start", "desc": "Power rail and SMC fault tracing on logic boards."},
-      {"name": "Hard Drive Failure", "desc": "Data recovery and SSD replacement for dead drives."},
-      {"name": "Overheating", "desc": "Fan replacement and thermal compound reapplication."}
+      {
+        "name": "MacBook Battery",
+        "desc": "Genuine-quality cells at fair prices, fitted same-day."
+      },
+      {
+        "name": "Screen Damage",
+        "desc": "Full LCD assembly replacement for cracked displays."
+      },
+      {
+        "name": "Keyboard Problems",
+        "desc": "Individual key mechanisms or full top-case swaps."
+      },
+      {
+        "name": "Mac Won't Start",
+        "desc": "Power rail and SMC fault tracing on logic boards."
+      },
+      {
+        "name": "Hard Drive Failure",
+        "desc": "Data recovery and SSD replacement for dead drives."
+      },
+      {
+        "name": "Overheating",
+        "desc": "Fan replacement and thermal compound reapplication."
+      }
     ],
     "commonIssues": [
       "Older MacBooks kept going with affordable targeted repairs",
@@ -275,10 +1863,22 @@
       "Repairs backed by a solid warranty"
     ],
     "faqs": [
-      {"q": "Will you try to upsell me on things I don't need?", "a": "No. We diagnose the actual fault, quote for that specific repair, and explain your options honestly. No pressure, no unnecessary extras."},
-      {"q": "Can you repair a Mac that another shop said was unrepairable?", "a": "Often yes. Many shops replace whole boards instead of fixing the fault. We do component-level work that can save machines others write off."},
-      {"q": "Do you charge for the diagnostic if I don't go ahead?", "a": "There's a small flat diagnostic fee. If you proceed with the repair, it's credited toward the total cost."},
-      {"q": "How long do your repairs typically last?", "a": "Our repairs are built to last. We use quality parts and proper technique, and back everything with a warranty for your peace of mind."}
+      {
+        "q": "Will you try to upsell me on things I don't need?",
+        "a": "No. We diagnose the actual fault, quote for that specific repair, and explain your options honestly. No pressure, no unnecessary extras."
+      },
+      {
+        "q": "Can you repair a Mac that another shop said was unrepairable?",
+        "a": "Often yes. Many shops replace whole boards instead of fixing the fault. We do component-level work that can save machines others write off."
+      },
+      {
+        "q": "Do you charge for the diagnostic if I don't go ahead?",
+        "a": "There's a small flat diagnostic fee. If you proceed with the repair, it's credited toward the total cost."
+      },
+      {
+        "q": "How long do your repairs typically last?",
+        "a": "Our repairs are built to last. We use quality parts and proper technique, and back everything with a warranty for your peace of mind."
+      }
     ],
     "ctaText": "Get an honest quote with no obligation — just straightforward Mac repair.",
     "description": "Oakhurst residents trust us for honest, affordable Mac repairs. We believe quality repairs should be accessible to everyone. Our transparent pricing and no-pressure approach have earned loyal customers throughout the area.",
@@ -286,16 +1886,37 @@
   },
   "parklea": {
     "name": "Parklea",
-    "anchors": ["Marketown", "Sunnyholt Rd"],
+    "anchors": [
+      "Marketown",
+      "Sunnyholt Rd"
+    ],
     "titleDriver": "Convenient Mac Fixes",
     "introParagraph": "We work at the board level — resoldering BGA chips, replacing failed voltage regulators, and recovering data from corrupted storage. Convenient location means you can fit a Mac repair into your regular errands without a dedicated trip.",
     "whatWeFix": [
-      {"name": "MacBook Battery", "desc": "Quick battery swaps while you handle other tasks."},
-      {"name": "Cracked Screen", "desc": "Display assemblies replaced with tested panels."},
-      {"name": "Keyboard Faults", "desc": "Unresponsive or repeating keys repaired properly."},
-      {"name": "Logic Board", "desc": "Voltage regulator and GPU faults fixed at chip level."},
-      {"name": "SSD Upgrade", "desc": "Breathe new life into any Mac with faster storage."},
-      {"name": "Water Damage", "desc": "Board-level cleaning and damaged IC replacement."}
+      {
+        "name": "MacBook Battery",
+        "desc": "Quick battery swaps while you handle other tasks."
+      },
+      {
+        "name": "Cracked Screen",
+        "desc": "Display assemblies replaced with tested panels."
+      },
+      {
+        "name": "Keyboard Faults",
+        "desc": "Unresponsive or repeating keys repaired properly."
+      },
+      {
+        "name": "Logic Board",
+        "desc": "Voltage regulator and GPU faults fixed at chip level."
+      },
+      {
+        "name": "SSD Upgrade",
+        "desc": "Breathe new life into any Mac with faster storage."
+      },
+      {
+        "name": "Water Damage",
+        "desc": "Board-level cleaning and damaged IC replacement."
+      }
     ],
     "commonIssues": [
       "MacBooks needing quick battery swaps squeezed between weekend errands",
@@ -311,10 +1932,22 @@
       "Fair pricing with no diagnostic surprises"
     ],
     "faqs": [
-      {"q": "How quickly can you replace a MacBook battery?", "a": "Most MacBook battery replacements take one to two hours. Drop off in the morning and collect the same afternoon."},
-      {"q": "Do you work on iMacs as well as MacBooks?", "a": "Yes. We service all Mac models — MacBook Air, MacBook Pro, iMac, Mac Mini, and Mac Pro. All generations."},
-      {"q": "Can you upgrade my old Mac instead of replacing it?", "a": "In most cases, yes. An SSD and RAM upgrade can make a 2012-2015 Mac feel close to new for a fraction of replacement cost."},
-      {"q": "What warranty do you provide on repairs?", "a": "All repairs come with a warranty covering parts and labour. Specific duration depends on the repair type — we'll confirm before you approve."}
+      {
+        "q": "How quickly can you replace a MacBook battery?",
+        "a": "Most MacBook battery replacements take one to two hours. Drop off in the morning and collect the same afternoon."
+      },
+      {
+        "q": "Do you work on iMacs as well as MacBooks?",
+        "a": "Yes. We service all Mac models — MacBook Air, MacBook Pro, iMac, Mac Mini, and Mac Pro. All generations."
+      },
+      {
+        "q": "Can you upgrade my old Mac instead of replacing it?",
+        "a": "In most cases, yes. An SSD and RAM upgrade can make a 2012-2015 Mac feel close to new for a fraction of replacement cost."
+      },
+      {
+        "q": "What warranty do you provide on repairs?",
+        "a": "All repairs come with a warranty covering parts and labour. Specific duration depends on the repair type — we'll confirm before you approve."
+      }
     ],
     "ctaText": "Fit a Mac repair into your day — quick diagnosis, clear pricing, quality work.",
     "description": "Parklea locals choose us for reliable Mac repairs near Marketown. Whether you're visiting the markets or running errands on Sunnyholt Road, convenient Mac repair is nearby. Quality service without the trip to a distant Apple Store.",
@@ -322,16 +1955,37 @@
   },
   "pennant-hills": {
     "name": "Pennant Hills",
-    "anchors": ["Station", "Thompson's Corner"],
+    "anchors": [
+      "Station",
+      "Thompson's Corner"
+    ],
     "titleDriver": "Expert Mac Diagnostics",
     "introParagraph": "Our technicians read schematics and use oscilloscopes to pinpoint faults other shops miss entirely. Professionals and students alike need accurate diagnosis — not guesswork that wastes time and money on unnecessary replacements.",
     "whatWeFix": [
-      {"name": "MacBook Battery", "desc": "Precision cell replacement preserving battery health data."},
-      {"name": "Retina Display", "desc": "Anti-glare coating issues and full panel swaps."},
-      {"name": "Keyboard Repair", "desc": "Top-case replacement with proper key feel restored."},
-      {"name": "Logic Board", "desc": "Schematic-based fault tracing using professional tooling."},
-      {"name": "Data Recovery", "desc": "Recovered from encrypted drives and T2/M-series chips."},
-      {"name": "Thermal Issues", "desc": "Fan bearing replacement and heatsink reseating."}
+      {
+        "name": "MacBook Battery",
+        "desc": "Precision cell replacement preserving battery health data."
+      },
+      {
+        "name": "Retina Display",
+        "desc": "Anti-glare coating issues and full panel swaps."
+      },
+      {
+        "name": "Keyboard Repair",
+        "desc": "Top-case replacement with proper key feel restored."
+      },
+      {
+        "name": "Logic Board",
+        "desc": "Schematic-based fault tracing using professional tooling."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "Recovered from encrypted drives and T2/M-series chips."
+      },
+      {
+        "name": "Thermal Issues",
+        "desc": "Fan bearing replacement and heatsink reseating."
+      }
     ],
     "commonIssues": [
       "Professional MacBook Pros throttling during resource-heavy consulting work",
@@ -346,10 +2000,22 @@
       "Detailed explanations so you understand the repair"
     ],
     "faqs": [
-      {"q": "Can you repair a Mac with a T2 or M-series chip?", "a": "Yes. We work on all Apple silicon Macs including T2, M1, M2, M3, and M4. These require specialised tools and knowledge, which we have."},
-      {"q": "I need my Mac for work urgently — can you prioritise?", "a": "We offer priority service for urgent professional needs. Contact us and we'll give you an honest timeframe based on the likely repair."},
-      {"q": "Do you provide written quotes?", "a": "Every repair gets a written quote after diagnosis. No work proceeds without your written approval. No exceptions."},
-      {"q": "Can you explain what went wrong with my Mac?", "a": "Always. We walk you through the fault in plain language and show you exactly what failed and why. Knowledge helps you prevent future issues."}
+      {
+        "q": "Can you repair a Mac with a T2 or M-series chip?",
+        "a": "Yes. We work on all Apple silicon Macs including T2, M1, M2, M3, and M4. These require specialised tools and knowledge, which we have."
+      },
+      {
+        "q": "I need my Mac for work urgently — can you prioritise?",
+        "a": "We offer priority service for urgent professional needs. Contact us and we'll give you an honest timeframe based on the likely repair."
+      },
+      {
+        "q": "Do you provide written quotes?",
+        "a": "Every repair gets a written quote after diagnosis. No work proceeds without your written approval. No exceptions."
+      },
+      {
+        "q": "Can you explain what went wrong with my Mac?",
+        "a": "Always. We walk you through the fault in plain language and show you exactly what failed and why. Knowledge helps you prevent future issues."
+      }
     ],
     "ctaText": "Request a professional diagnostic — detailed fault analysis before any repair begins.",
     "description": "Pennant Hills professionals and families trust us for expert Mac repairs. This established suburb has a strong community of Mac users, from home-based professionals to students at local schools. We serve them all with consistent quality.",
@@ -357,16 +2023,37 @@
   },
   "west-pennant-hills": {
     "name": "West Pennant Hills",
-    "anchors": ["Pennant Hills Rd", "Koala Park"],
+    "anchors": [
+      "Pennant Hills Rd",
+      "Koala Park"
+    ],
     "titleDriver": "Trusted Local Mac Repair",
     "introParagraph": "We repair at the component level — replacing individual ICs, reflowing solder joints, and restoring boards other technicians discard. Established families who've relied on Macs for years deserve a repair service that matches their expectations for quality.",
     "whatWeFix": [
-      {"name": "MacBook Battery", "desc": "Aging cells swapped to restore full-day battery life."},
-      {"name": "Screen Issues", "desc": "Flickering, dead pixels, and cracked glass resolved."},
-      {"name": "Keyboard Failure", "desc": "Complete top-case rebuild for lasting key response."},
-      {"name": "Mac Won't Boot", "desc": "NAND, EFI, and firmware faults diagnosed and repaired."},
-      {"name": "SSD Replacement", "desc": "Failed or slow internal storage swapped seamlessly."},
-      {"name": "Port Repair", "desc": "USB-C, Thunderbolt, and headphone jack fixes."}
+      {
+        "name": "MacBook Battery",
+        "desc": "Aging cells swapped to restore full-day battery life."
+      },
+      {
+        "name": "Screen Issues",
+        "desc": "Flickering, dead pixels, and cracked glass resolved."
+      },
+      {
+        "name": "Keyboard Failure",
+        "desc": "Complete top-case rebuild for lasting key response."
+      },
+      {
+        "name": "Mac Won't Boot",
+        "desc": "NAND, EFI, and firmware faults diagnosed and repaired."
+      },
+      {
+        "name": "SSD Replacement",
+        "desc": "Failed or slow internal storage swapped seamlessly."
+      },
+      {
+        "name": "Port Repair",
+        "desc": "USB-C, Thunderbolt, and headphone jack fixes."
+      }
     ],
     "commonIssues": [
       "Long-owned iMacs needing storage upgrades to keep pace with modern software",
@@ -382,9 +2069,18 @@
       "Quality parts with proper warranty coverage"
     ],
     "faqs": [
-      {"q": "My Mac is from 2014 — is it still worth repairing?", "a": "Often yes. A 2014 Mac with an SSD upgrade and fresh thermal paste can run well for years more. We'll advise honestly if it's not worth it."},
-      {"q": "Do you handle multiple devices for one household?", "a": "Regularly. Families often bring in several Macs at once. We can diagnose and repair them efficiently with streamlined logistics."},
-      {"q": "Can you migrate data from an old Mac to a new one?", "a": "Yes. We handle full data migrations including applications, settings, and files. Everything transferred cleanly to your new machine."}
+      {
+        "q": "My Mac is from 2014 — is it still worth repairing?",
+        "a": "Often yes. A 2014 Mac with an SSD upgrade and fresh thermal paste can run well for years more. We'll advise honestly if it's not worth it."
+      },
+      {
+        "q": "Do you handle multiple devices for one household?",
+        "a": "Regularly. Families often bring in several Macs at once. We can diagnose and repair them efficiently with streamlined logistics."
+      },
+      {
+        "q": "Can you migrate data from an old Mac to a new one?",
+        "a": "Yes. We handle full data migrations including applications, settings, and files. Everything transferred cleanly to your new machine."
+      }
     ],
     "ctaText": "Bring your Mac to a technician who treats it like their own — book a diagnostic now.",
     "description": "West Pennant Hills residents enjoy professional Mac repairs with a personal touch. This leafy suburb deserves quality local services, and we deliver exactly that. From routine maintenance to complex repairs, we handle it all.",
@@ -392,16 +2088,38 @@
   },
   "galston": {
     "name": "Galston",
-    "anchors": ["Galston Rd", "Glenorie", "Rural community"],
+    "anchors": [
+      "Galston Rd",
+      "Glenorie",
+      "Rural community"
+    ],
     "titleDriver": "Rural Mac Repair Specialist",
     "introParagraph": "We handle everything from corroded logic boards to failed storage controllers — the kind of faults rural properties encounter from dust, humidity, and power fluctuations. When the nearest Apple Store is an hour away, you need a technician who gets it right the first time.",
     "whatWeFix": [
-      {"name": "MacBook Battery", "desc": "Reliable cells for laptops used on remote properties."},
-      {"name": "Screen Repair", "desc": "Retina and standard displays replaced with tested panels."},
-      {"name": "Water & Dust Damage", "desc": "Board cleaning and corroded trace repair."},
-      {"name": "Logic Board", "desc": "Power surge and corrosion damage repaired at chip level."},
-      {"name": "Data Recovery", "desc": "Files rescued from failed drives on business-critical Macs."},
-      {"name": "SSD Upgrade", "desc": "Faster, more reliable storage for property management work."}
+      {
+        "name": "MacBook Battery",
+        "desc": "Reliable cells for laptops used on remote properties."
+      },
+      {
+        "name": "Screen Repair",
+        "desc": "Retina and standard displays replaced with tested panels."
+      },
+      {
+        "name": "Water & Dust Damage",
+        "desc": "Board cleaning and corroded trace repair."
+      },
+      {
+        "name": "Logic Board",
+        "desc": "Power surge and corrosion damage repaired at chip level."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "Files rescued from failed drives on business-critical Macs."
+      },
+      {
+        "name": "SSD Upgrade",
+        "desc": "Faster, more reliable storage for property management work."
+      }
     ],
     "commonIssues": [
       "Macs affected by power surges common on rural electrical supply",
@@ -417,10 +2135,22 @@
       "Honest advice — repair vs. replace assessed fairly"
     ],
     "faqs": [
-      {"q": "Do you understand the issues rural Macs face?", "a": "Yes. Dust, power fluctuations, and humidity cause specific failures. We see these regularly and know how to repair and prevent them."},
-      {"q": "Can you help if my Mac is critical for running my property?", "a": "We prioritise business-critical machines. Let us know the urgency and we'll work to get your Mac back as fast as possible."},
-      {"q": "Is it worth upgrading my older Mac for farm use?", "a": "Usually yes. An SSD upgrade and clean thermal service can extend an older Mac's life by years at a fraction of replacement cost."},
-      {"q": "Do you handle Macs damaged by power surges?", "a": "Regularly. Power surges damage voltage regulators and charging circuits. We diagnose the specific failed components and replace them."}
+      {
+        "q": "Do you understand the issues rural Macs face?",
+        "a": "Yes. Dust, power fluctuations, and humidity cause specific failures. We see these regularly and know how to repair and prevent them."
+      },
+      {
+        "q": "Can you help if my Mac is critical for running my property?",
+        "a": "We prioritise business-critical machines. Let us know the urgency and we'll work to get your Mac back as fast as possible."
+      },
+      {
+        "q": "Is it worth upgrading my older Mac for farm use?",
+        "a": "Usually yes. An SSD upgrade and clean thermal service can extend an older Mac's life by years at a fraction of replacement cost."
+      },
+      {
+        "q": "Do you handle Macs damaged by power surges?",
+        "a": "Regularly. Power surges damage voltage regulators and charging circuits. We diagnose the specific failed components and replace them."
+      }
     ],
     "ctaText": "Get your Mac diagnosed by a technician who understands rural property demands.",
     "description": "Need Mac repair in Galston? Our certified technicians provide affordable MacBook and iMac repairs for the Galston and Glenorie community. From emergency repairs when your Mac won't turn on, to same-day battery replacements and screen repairs, we're the trusted Apple computer repair experts serving the Hills District's northern reaches. Our mobile Mac repair service is perfect for rural properties.",
@@ -428,16 +2158,38 @@
   },
   "schofields": {
     "name": "Schofields",
-    "anchors": ["Railway Terrace", "Alex Ave", "New developments"],
+    "anchors": [
+      "Railway Terrace",
+      "Alex Ave",
+      "New developments"
+    ],
     "titleDriver": "Same-Day Mac Service",
     "introParagraph": "We diagnose down to the individual component — failed MOSFET, blown fuse, degraded thermal interface. New households setting up home offices and kids' study spaces need reliable tech support that's accessible and straightforward.",
     "whatWeFix": [
-      {"name": "MacBook Battery", "desc": "Fast replacement so new setups stay powered all day."},
-      {"name": "Screen Repair", "desc": "Cracked or pressure-damaged displays swapped cleanly."},
-      {"name": "Keyboard Issues", "desc": "Debris-clogged or failed key mechanisms restored."},
-      {"name": "Charging Faults", "desc": "USB-C and MagSafe charging circuit repairs."},
-      {"name": "Data Recovery", "desc": "Files retrieved when new Macs fail unexpectedly."},
-      {"name": "Performance Tuning", "desc": "macOS optimisation and storage upgrades for speed."}
+      {
+        "name": "MacBook Battery",
+        "desc": "Fast replacement so new setups stay powered all day."
+      },
+      {
+        "name": "Screen Repair",
+        "desc": "Cracked or pressure-damaged displays swapped cleanly."
+      },
+      {
+        "name": "Keyboard Issues",
+        "desc": "Debris-clogged or failed key mechanisms restored."
+      },
+      {
+        "name": "Charging Faults",
+        "desc": "USB-C and MagSafe charging circuit repairs."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "Files retrieved when new Macs fail unexpectedly."
+      },
+      {
+        "name": "Performance Tuning",
+        "desc": "macOS optimisation and storage upgrades for speed."
+      }
     ],
     "commonIssues": [
       "Brand-new MacBooks with setup issues or early hardware defects",
@@ -453,10 +2205,22 @@
       "Warranty-backed repairs using quality parts"
     ],
     "faqs": [
-      {"q": "My Mac is practically new — should I go to Apple instead?", "a": "If it's under warranty, try Apple first. For out-of-warranty or accidental damage not covered by AppleCare, we're often faster and more affordable."},
-      {"q": "Can you help set up a new Mac for a home office?", "a": "Yes. We handle data migration, peripheral setup, and optimisation to ensure your new Mac runs efficiently from day one."},
-      {"q": "How do I protect my Mac from construction dust?", "a": "We recommend regular compressed air cleaning and keeping the Mac elevated. If dust has already entered, we do thorough internal cleaning."},
-      {"q": "Do you repair Macs on weekends?", "a": "Contact us to arrange weekend drop-off or collection. We accommodate busy schedules wherever possible."}
+      {
+        "q": "My Mac is practically new — should I go to Apple instead?",
+        "a": "If it's under warranty, try Apple first. For out-of-warranty or accidental damage not covered by AppleCare, we're often faster and more affordable."
+      },
+      {
+        "q": "Can you help set up a new Mac for a home office?",
+        "a": "Yes. We handle data migration, peripheral setup, and optimisation to ensure your new Mac runs efficiently from day one."
+      },
+      {
+        "q": "How do I protect my Mac from construction dust?",
+        "a": "We recommend regular compressed air cleaning and keeping the Mac elevated. If dust has already entered, we do thorough internal cleaning."
+      },
+      {
+        "q": "Do you repair Macs on weekends?",
+        "a": "Contact us to arrange weekend drop-off or collection. We accommodate busy schedules wherever possible."
+      }
     ],
     "ctaText": "New area, new Mac problems? Get a same-day diagnosis and clear repair quote.",
     "description": "Schofields residents deserve the best Mac repair service close to home. Our certified Mac technicians provide affordable repairs with same-day service available. Whether you need MacBook battery replacement, screen repair, keyboard fixes, or help with a Mac that won't turn on, we're your local Apple computer repair specialists. Near the station for easy commuter access.",
@@ -464,16 +2228,38 @@
   },
   "blacktown": {
     "name": "Blacktown",
-    "anchors": ["Westpoint", "Main St", "Station"],
+    "anchors": [
+      "Westpoint",
+      "Main St",
+      "Station"
+    ],
     "titleDriver": "Affordable Mac Repair Hub",
     "introParagraph": "Our workshop runs proper diagnostics with schematics and microsocopy — not the \"replace and hope\" approach. A diverse community of students, professionals, and families needs a repair service that delivers value across every budget level.",
     "whatWeFix": [
-      {"name": "MacBook Battery", "desc": "Affordable replacement to restore full portable use."},
-      {"name": "Screen Replacement", "desc": "Budget and premium display options available."},
-      {"name": "Keyboard Repair", "desc": "Failed butterfly and scissor mechanisms rebuilt."},
-      {"name": "Logic Board", "desc": "Chip-level repair saving boards others would bin."},
-      {"name": "Water Damage", "desc": "Ultrasonic board cleaning and trace repair."},
-      {"name": "Data Recovery", "desc": "Urgent file extraction from failing or dead machines."}
+      {
+        "name": "MacBook Battery",
+        "desc": "Affordable replacement to restore full portable use."
+      },
+      {
+        "name": "Screen Replacement",
+        "desc": "Budget and premium display options available."
+      },
+      {
+        "name": "Keyboard Repair",
+        "desc": "Failed butterfly and scissor mechanisms rebuilt."
+      },
+      {
+        "name": "Logic Board",
+        "desc": "Chip-level repair saving boards others would bin."
+      },
+      {
+        "name": "Water Damage",
+        "desc": "Ultrasonic board cleaning and trace repair."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "Urgent file extraction from failing or dead machines."
+      }
     ],
     "commonIssues": [
       "University students with MacBooks failing during assignment deadlines",
@@ -489,10 +2275,22 @@
       "Urgent same-day service when you need it most"
     ],
     "faqs": [
-      {"q": "Do you offer student pricing?", "a": "We keep all repairs affordable. Our component-level approach means lower costs than shops that replace entire assemblies unnecessarily."},
-      {"q": "Can you fix a Mac that got wet?", "a": "Yes. Water damage requires immediate board-level cleaning to prevent corrosion spread. The sooner you bring it in, the better the outcome."},
-      {"q": "How do I get to you by public transport?", "a": "We're accessible from the station and major bus routes. Contact us for specific directions from your stop — it's straightforward."},
-      {"q": "What if the repair costs more than the Mac is worth?", "a": "We'll tell you honestly. If a repair doesn't make financial sense, we'll say so and help you recover your data instead."}
+      {
+        "q": "Do you offer student pricing?",
+        "a": "We keep all repairs affordable. Our component-level approach means lower costs than shops that replace entire assemblies unnecessarily."
+      },
+      {
+        "q": "Can you fix a Mac that got wet?",
+        "a": "Yes. Water damage requires immediate board-level cleaning to prevent corrosion spread. The sooner you bring it in, the better the outcome."
+      },
+      {
+        "q": "How do I get to you by public transport?",
+        "a": "We're accessible from the station and major bus routes. Contact us for specific directions from your stop — it's straightforward."
+      },
+      {
+        "q": "What if the repair costs more than the Mac is worth?",
+        "a": "We'll tell you honestly. If a repair doesn't make financial sense, we'll say so and help you recover your data instead."
+      }
     ],
     "ctaText": "Affordable Mac repair with proper diagnostics — book your assessment today.",
     "description": "Looking for affordable Mac repair in Blacktown? Our certified technicians offer the best MacBook and iMac repair services in the area. From same-day battery replacements to emergency repairs for Macs that won't turn on, we handle it all. Conveniently located for Blacktown residents, we're your trusted Apple computer repair specialists with transparent pricing.",
@@ -500,16 +2298,38 @@
   },
   "lalor-park": {
     "name": "Lalor Park",
-    "anchors": ["Doyle Rd", "Bungaree Rd", "Kings Langley border"],
+    "anchors": [
+      "Doyle Rd",
+      "Bungaree Rd",
+      "Kings Langley border"
+    ],
     "titleDriver": "Family Mac Repairs Done Right",
     "introParagraph": "We trace faults to the source — failed capacitors, burnt-out charging ICs, degraded display backlight circuits. Family households running multiple Apple devices need a technician who fixes things properly the first time, keeping repair costs predictable.",
     "whatWeFix": [
-      {"name": "MacBook Battery", "desc": "Worn cells replaced to last through a full day again."},
-      {"name": "Screen Damage", "desc": "Cracked or dim panels replaced with quality displays."},
-      {"name": "Keyboard Problems", "desc": "Sticky, dead, or repeating keys resolved permanently."},
-      {"name": "Mac Won't Turn On", "desc": "Charging IC and power button circuit diagnostics."},
-      {"name": "Slow Mac", "desc": "HDD-to-SSD conversions and clean macOS installs."},
-      {"name": "Data Recovery", "desc": "Photos, documents, and schoolwork recovered from dead Macs."}
+      {
+        "name": "MacBook Battery",
+        "desc": "Worn cells replaced to last through a full day again."
+      },
+      {
+        "name": "Screen Damage",
+        "desc": "Cracked or dim panels replaced with quality displays."
+      },
+      {
+        "name": "Keyboard Problems",
+        "desc": "Sticky, dead, or repeating keys resolved permanently."
+      },
+      {
+        "name": "Mac Won't Turn On",
+        "desc": "Charging IC and power button circuit diagnostics."
+      },
+      {
+        "name": "Slow Mac",
+        "desc": "HDD-to-SSD conversions and clean macOS installs."
+      },
+      {
+        "name": "Data Recovery",
+        "desc": "Photos, documents, and schoolwork recovered from dead Macs."
+      }
     ],
     "commonIssues": [
       "Family Macs shared between parents and kids wearing down keyboards faster",
@@ -524,10 +2344,22 @@
       "Durable repairs that don't need redoing"
     ],
     "faqs": [
-      {"q": "Can you fix multiple family Macs at once?", "a": "Yes. Bring them all in together. We can diagnose each one and give you a combined quote so you know the full picture upfront."},
-      {"q": "My kid's MacBook screen cracked — is it expensive?", "a": "Screen costs vary by model but we always quote before starting. MacBook Air screens are generally more affordable than Pro Retina displays."},
-      {"q": "Is it worth putting an SSD in my old iMac?", "a": "Almost always. An SSD transforms a slow iMac into a responsive machine. It's the single best upgrade for most older Macs."},
-      {"q": "Do you wipe data during repairs?", "a": "Not unless necessary. Most repairs don't touch your data at all. If a repair requires it, we'll warn you first and offer backup options."}
+      {
+        "q": "Can you fix multiple family Macs at once?",
+        "a": "Yes. Bring them all in together. We can diagnose each one and give you a combined quote so you know the full picture upfront."
+      },
+      {
+        "q": "My kid's MacBook screen cracked — is it expensive?",
+        "a": "Screen costs vary by model but we always quote before starting. MacBook Air screens are generally more affordable than Pro Retina displays."
+      },
+      {
+        "q": "Is it worth putting an SSD in my old iMac?",
+        "a": "Almost always. An SSD transforms a slow iMac into a responsive machine. It's the single best upgrade for most older Macs."
+      },
+      {
+        "q": "Do you wipe data during repairs?",
+        "a": "Not unless necessary. Most repairs don't touch your data at all. If a repair requires it, we'll warn you first and offer backup options."
+      }
     ],
     "ctaText": "Keep your family's Macs running strong — book a straightforward diagnostic today.",
     "description": "Lalor Park residents trust us for affordable Mac repairs with certified technicians. We offer same-day service for MacBook battery replacements, screen repairs, and emergency fixes when your Mac won't turn on. Near Kings Langley, we're accessible and convenient for all your Apple computer repair needs.",
