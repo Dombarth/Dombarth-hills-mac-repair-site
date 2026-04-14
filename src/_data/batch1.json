@@ -1,0 +1,285 @@
+{
+  "baulkham-hills": {
+    "name": "Baulkham Hills",
+    "anchors": ["Crestwood", "Windsor Rd", "M2 access"],
+    "description": "Looking for the best Mac repair in Baulkham Hills? Our certified technicians provide affordable MacBook and iMac repairs with same-day service available. Whether your MacBook battery needs replacement, your screen is cracked, or your Mac won't turn on, we offer emergency repairs when you need them most. Conveniently located near the M2, we're the trusted Apple computer repair specialists for Baulkham Hills residents.",
+    "localInfo": "We regularly service customers from the Crestwood area, along Windsor Road, and those commuting via the M2 motorway. Many Baulkham Hills families rely on their Macs for work-from-home setups and children's education. Our Mac technicians handle everything from water damage repair to data recovery, keyboard repairs, and SSD upgrades.",
+    "titleDriver": "Expert Mac Repairs for Busy Families",
+    "introParagraph": "Our technician diagnoses at component level — reflowing solder joints, replacing thermal paste, and swapping failed capacitors to restore full board function. Ideal for households juggling remote work and school devices simultaneously.",
+    "whatWeFix": [
+      { "name": "Battery Replacement", "desc": "Genuine cells fitted with calibration for full-day runtime on commuter laptops." },
+      { "name": "Screen Repair", "desc": "LCD and Retina panel swaps with pressure-tested seals to prevent dust ingress." },
+      { "name": "Logic Board Repair", "desc": "Component-level soldering to fix power and GPU failures without full board cost." },
+      { "name": "SSD Upgrade", "desc": "NVMe drive migration with cloned boot volume — zero data loss." },
+      { "name": "Keyboard Replacement", "desc": "Butterfly and scissor mechanism swaps including top-case transfers." },
+      { "name": "Water Damage Recovery", "desc": "Ultrasonic board cleaning and corroded connector replacement within 48 hours." }
+    ],
+    "commonIssues": [
+      "Mac randomly shuts down during video calls or heavy multitasking.",
+      "Battery drains within two hours despite low screen brightness.",
+      "Sticky or unresponsive keys after crumbs fall into the keyboard.",
+      "Spinning wheel and slow boot after macOS update.",
+      "Fan runs loud continuously even at idle desktop."
+    ],
+    "whyChoose": [
+      "90-day warranty on every part we install.",
+      "Free diagnostic before any paid work begins.",
+      "Same-day turnaround on most common repairs.",
+      "Transparent flat-rate pricing — no hidden charges."
+    ],
+    "faqs": [
+      { "q": "How long does a MacBook battery replacement take?", "a": "Most battery swaps are completed within 1-2 hours. We test charge cycles before returning your machine." },
+      { "q": "Can you recover data from a Mac that won't boot?", "a": "Yes. We pull data directly from the SSD or use donor boards to access encrypted volumes." },
+      { "q": "Do you use genuine Apple parts?", "a": "We use genuine or OEM-equivalent parts rated to Apple spec. Every component is tested before fitting." },
+      { "q": "Is there a pickup or drop-off option?", "a": "We offer local pickup and return for customers who can't visit during work hours." }
+    ],
+    "ctaText": "Book a free diagnostic and get your Mac fixed fast — most repairs done same day."
+  },
+  "bella-vista": {
+    "name": "Bella Vista",
+    "anchors": ["Norwest Blvd", "Farm", "Old Windsor Rd"],
+    "description": "Need the best Mac repair in Bella Vista? Our certified Mac technicians provide same-day service for MacBook and iMac repairs. Whether your Mac won't turn on, you need an affordable battery replacement, or require emergency screen repair, we're your trusted Apple computer repair specialists near Norwest Business Park. Fast turnaround for professionals who can't afford downtime.",
+    "localInfo": "Bella Vista's growing community of professionals and families depend on reliable technology. From Norwest Boulevard offices to home studios near Bella Vista Farm, we provide expert Mac repairs including data recovery, SSD upgrades, keyboard repairs, logic board repair, and water damage repair. Our Mac experts get you back to productivity quickly.",
+    "titleDriver": "Fast Mac Fixes for Working Professionals",
+    "introParagraph": "We trace faults to individual ICs and MOSFETs on your logic board, replacing failed voltage regulators and reflowing BGA chips under controlled heat. Built for dual-income households that need zero downtime on critical work machines.",
+    "whatWeFix": [
+      { "name": "Logic Board Repair", "desc": "Micro-soldering failed power ICs and GPU chips to restore full operation." },
+      { "name": "Screen Replacement", "desc": "Retina display and True Tone calibration for colour-accurate professional work." },
+      { "name": "Data Recovery", "desc": "Encrypted drive extraction and file recovery from failed or corrupted volumes." },
+      { "name": "Battery Service", "desc": "Full cell replacement with health diagnostics and charge cycle reset." },
+      { "name": "Thermal Repaste", "desc": "Premium compound application to eliminate throttling under sustained workloads." },
+      { "name": "Port Repair", "desc": "USB-C and Thunderbolt connector replacement for reliable peripheral connections." }
+    ],
+    "commonIssues": [
+      "MacBook overheats and throttles during long spreadsheet or CAD sessions.",
+      "External display flickering or not detected through USB-C hub.",
+      "Trackpad registers ghost clicks or stops responding entirely.",
+      "Startup chime plays but screen stays black with no backlight.",
+      "Wi-Fi drops repeatedly when switching between office and home networks."
+    ],
+    "whyChoose": [
+      "Priority turnaround for business-critical machines.",
+      "Component-level repair saves board replacement cost.",
+      "All work backed by a 90-day parts warranty.",
+      "Honest assessment — we recommend only needed repairs."
+    ],
+    "faqs": [
+      { "q": "Can you repair a Mac while I wait?", "a": "Simple fixes like battery and SSD swaps can often be done within an hour. Board repairs may take 24-48 hours." },
+      { "q": "My Mac overheats during Zoom — is that fixable?", "a": "Usually yes. Dried thermal paste or clogged fans are the most common cause, and both are straightforward to fix." },
+      { "q": "Do you offer corporate or bulk repair rates?", "a": "Yes, we provide volume pricing for businesses with multiple machines needing service." }
+    ],
+    "ctaText": "Get a no-obligation quote today — priority service for professionals who need their Mac back fast."
+  },
+  "beaumont-hills": {
+    "name": "Beaumont Hills",
+    "anchors": ["The Parkway", "Windsor Rd link"],
+    "description": "Beaumont Hills locals choose us for trusted Mac repairs with honest pricing. Our technicians handle everything from cracked MacBook screens to complex logic board repairs. We know your Mac is essential—whether for remote work or keeping the family connected.",
+    "localInfo": "The Beaumont Hills community along The Parkway and connecting streets values quality service. We've helped many local residents extend the life of their Macs rather than face expensive replacements.",
+    "titleDriver": "Reliable Mac Repairs for Remote Workers",
+    "introParagraph": "Our process starts with board-level fault isolation — probing voltage rails and testing individual capacitors to pinpoint the exact failed component. Perfect for remote workers who depend on a single machine and cannot tolerate extended downtime.",
+    "whatWeFix": [
+      { "name": "SSD Upgrade", "desc": "Faster storage with full system migration — boot in under ten seconds." },
+      { "name": "Battery Replacement", "desc": "Swollen or degraded cells replaced with capacity-matched units and testing." },
+      { "name": "Screen Repair", "desc": "Cracked glass and dead-pixel panel replacements for all MacBook models." },
+      { "name": "Charging Issues", "desc": "MagSafe and USB-C port diagnosis with DC-in board or connector swap." },
+      { "name": "RAM Upgrade", "desc": "Memory expansion on eligible iMacs and older MacBooks for smoother multitasking." },
+      { "name": "Logic Board Repair", "desc": "Targeted IC replacement instead of costly whole-board swaps." }
+    ],
+    "commonIssues": [
+      "MacBook won't charge or only charges intermittently with cable wiggling.",
+      "Slow performance and rainbow wheel after years without maintenance.",
+      "Distorted audio or no sound from internal speakers.",
+      "Screen flickers with horizontal lines during normal use."
+    ],
+    "whyChoose": [
+      "Extend your Mac's life instead of replacing it.",
+      "Free initial diagnosis with no obligation to proceed.",
+      "Parts sourced to Apple-spec quality standards.",
+      "Flexible scheduling around remote work hours."
+    ],
+    "faqs": [
+      { "q": "Is it worth repairing an older Mac?", "a": "Often yes. An SSD and battery swap can make a 2015 MacBook feel new for a fraction of replacement cost." },
+      { "q": "How do you handle data during repairs?", "a": "Your data stays on your drive. We never access personal files — repairs focus strictly on hardware." },
+      { "q": "Can you fix charging port issues?", "a": "Yes. We replace DC-in boards, USB-C ports, and MagSafe connectors regularly." },
+      { "q": "What if the repair costs more than expected?", "a": "We quote upfront after diagnosis. If costs change, we contact you before doing any additional work." }
+    ],
+    "ctaText": "Schedule your free Mac diagnostic — repairs done right so you can get back to work."
+  },
+  "box-hill": {
+    "name": "Box Hill",
+    "anchors": ["Terry Rd", "Carmel Village"],
+    "description": "Box Hill residents benefit from our convenient Mac repair services. From the Terry Road area to Carmel Village, we provide pickup options and fast diagnostics. Your MacBook Pro battery replacement or iMac repair is in experienced hands.",
+    "localInfo": "Box Hill's mix of established homes and new developments means diverse Mac repair needs. We service everything from older iMacs to the latest M-series MacBooks, always with genuine care for your device.",
+    "titleDriver": "Mac Repair for Every Model and Generation",
+    "introParagraph": "We work across every Mac generation — from vintage 2012 boards with discrete GPUs to M-series unified memory architectures. Component-level diagnostics let us isolate faults to specific chips, saving the cost of full replacements on any model.",
+    "whatWeFix": [
+      { "name": "iMac Repair", "desc": "Display, power supply, and hard drive upgrades for all iMac generations." },
+      { "name": "Battery Replacement", "desc": "Capacity-tested cells installed with adhesive resealing to factory standard." },
+      { "name": "Keyboard Repair", "desc": "Individual key and full top-case replacements for stuck or broken mechanisms." },
+      { "name": "Water Damage", "desc": "Board-level ultrasonic cleaning and corroded trace repair within 48 hours." },
+      { "name": "Screen Replacement", "desc": "Anti-reflective coating and LCD panel swaps for MacBook and iMac." },
+      { "name": "Startup Failure", "desc": "SMC, NVRAM, and firmware-level troubleshooting for Macs that won't power on." }
+    ],
+    "commonIssues": [
+      "iMac powers on but display stays dark — no chime or fan activity.",
+      "MacBook keyboard has dead keys or types repeated characters.",
+      "Severe screen coating delamination (staingate) obscuring display.",
+      "Hard drive clicking noise with frequent beachball on older iMacs.",
+      "Mac stuck on progress bar during startup and won't reach desktop."
+    ],
+    "whyChoose": [
+      "Pickup and return available for local residents.",
+      "We service both Intel and M-series machines.",
+      "Flat-rate quotes — no surprises on your invoice.",
+      "Experienced with iMac and MacBook repair equally."
+    ],
+    "faqs": [
+      { "q": "Can you upgrade my old iMac to an SSD?", "a": "Yes. We swap spinning drives for SSDs in most iMac models, dramatically improving speed and reliability." },
+      { "q": "Do you fix vintage or discontinued Mac models?", "a": "We repair Macs from 2012 onward. For older machines we can advise on cost-effectiveness before proceeding." },
+      { "q": "My Mac screen has a coating issue — can that be fixed?", "a": "Yes. We remove damaged anti-reflective coating or replace the full display panel depending on severity." }
+    ],
+    "ctaText": "Reach out for a free assessment — we handle every Mac model from vintage to current."
+  },
+  "castle-hill": {
+    "name": "Castle Hill",
+    "anchors": ["Castle Towers", "Old Northern Rd", "Showground"],
+    "description": "Looking for the best Mac repair in Castle Hill? As the heart of the Hills District, we're the trusted choice for affordable MacBook and iMac repairs. Our certified Mac technicians provide same-day service for battery replacements, screen repairs, and emergency fixes when your Mac won't turn on. Near Castle Towers and the Showground, we're your local Apple computer repair specialists.",
+    "localInfo": "Castle Hill residents have high expectations for service quality—and we deliver. Our Mac experts handle everything from water damage repair to data recovery, logic board repair, keyboard fixes, and SSD upgrades. Whether you need MacBook Pro screen replacement or iMac troubleshooting, we provide honest assessments, transparent pricing, and quality repairs with warranty.",
+    "titleDriver": "Trusted Mac Specialists in the Hills District",
+    "introParagraph": "Our technicians use schematic-guided diagnostics to trace faults across power rails, backlight circuits, and T2/M-series controllers at chip level. For a community with high standards, we match them with precision soldering and thorough post-repair testing.",
+    "whatWeFix": [
+      { "name": "Screen Repair", "desc": "Full Retina assembly replacement with hinge calibration and seal integrity check." },
+      { "name": "Logic Board Repair", "desc": "Schematic-guided chip-level diagnosis and micro-soldering of failed components." },
+      { "name": "Data Recovery", "desc": "T2-chip and FileVault encrypted drive recovery from non-booting Macs." },
+      { "name": "Battery Replacement", "desc": "Premium cells with post-install health calibration and cycle count verification." },
+      { "name": "Keyboard Replacement", "desc": "Top-case and individual mechanism swaps with backlight testing included." },
+      { "name": "Performance Upgrade", "desc": "SSD and RAM upgrades paired with clean macOS install for peak speed." }
+    ],
+    "commonIssues": [
+      "MacBook screen has a bright line or band across the display.",
+      "Mac asks for FileVault key on every restart unexpectedly.",
+      "Touchbar flickers or shows dead segments on MacBook Pro.",
+      "Sudden kernel panic reboots during resource-intensive tasks.",
+      "Bluetooth drops connection to mouse and keyboard intermittently."
+    ],
+    "whyChoose": [
+      "Highest-rated independent Mac repair in the district.",
+      "Warranty-backed parts on every single repair.",
+      "Emergency same-day service for urgent failures.",
+      "Detailed post-repair report for your records."
+    ],
+    "faqs": [
+      { "q": "Can you fix a MacBook Pro Touch Bar?", "a": "Yes. We replace failed Touch Bar flex cables and OLED strips. Full function testing is included before return." },
+      { "q": "How quickly can you diagnose my Mac?", "a": "Initial diagnosis usually takes 30-60 minutes. Complex board faults may require overnight component-level testing." },
+      { "q": "Do you provide a warranty on repairs?", "a": "Every repair comes with a 90-day warranty covering both parts and labour." },
+      { "q": "Can I drop off my Mac without an appointment?", "a": "Walk-ins are welcome during business hours. Appointments guarantee same-day assessment if booked early." }
+    ],
+    "ctaText": "Contact us now for same-day Mac diagnostics — expert repairs backed by warranty."
+  },
+  "crestwood": {
+    "name": "Crestwood",
+    "anchors": ["Crestwood Reserve", "Windsor Rd"],
+    "description": "Crestwood families and professionals trust us for reliable Mac repairs. Just off Windsor Road, our service is convenient and efficient. We specialise in MacBook battery replacements, screen repairs, and performance upgrades that breathe new life into your Apple devices.",
+    "localInfo": "The Crestwood community values local service providers who understand their needs. We've built lasting relationships with residents who return for all their Mac repair and maintenance needs.",
+    "titleDriver": "Community-Trusted Mac Repair Service",
+    "introParagraph": "We focus on extending Mac lifespan through targeted component repair — replacing individual SMD capacitors, re-balling BGA solder joints, and restoring trace damage rather than discarding repairable boards. A repair-first approach that repeat customers rely on year after year.",
+    "whatWeFix": [
+      { "name": "Battery Replacement", "desc": "Worn cells swapped and adhesive resealed to maintain structural integrity." },
+      { "name": "Screen Repair", "desc": "Cracked cover glass and full LCD assembly replacement on all portables." },
+      { "name": "Performance Tune-Up", "desc": "Thermal service, storage cleanup, and SSD migration for ageing machines." },
+      { "name": "Trackpad Repair", "desc": "Force Touch sensor calibration and swollen-battery trackpad fix." },
+      { "name": "Speaker Repair", "desc": "Blown or crackling speaker replacement for MacBook and iMac models." },
+      { "name": "macOS Recovery", "desc": "Corrupted install repair, firmware restore, and clean reinstallation." }
+    ],
+    "commonIssues": [
+      "Trackpad clicks on its own or won't register force clicks.",
+      "Speakers produce crackling or distorted audio at any volume.",
+      "macOS fails to install updates and rolls back repeatedly.",
+      "Mac runs hot and battery lasts under ninety minutes."
+    ],
+    "whyChoose": [
+      "Locals return to us year after year.",
+      "Repair-first philosophy — we never upsell replacements.",
+      "Transparent pricing agreed before work starts.",
+      "Quick turnaround even on complex board repairs."
+    ],
+    "faqs": [
+      { "q": "Why does my trackpad click by itself?", "a": "A swollen battery pushes against the trackpad from below. Replacing the battery resolves the false clicks immediately." },
+      { "q": "Can you speed up my old MacBook?", "a": "Yes. An SSD upgrade and fresh thermal paste typically make older models feel significantly faster." },
+      { "q": "Do I need to back up before bringing my Mac in?", "a": "We recommend backing up if possible, but we take care to preserve your data during all repairs." },
+      { "q": "How often should a Mac have maintenance?", "a": "A thermal clean and health check every 2-3 years keeps most Macs running well beyond their expected lifespan." }
+    ],
+    "ctaText": "Bring your Mac to the team locals trust — free diagnosis and honest pricing on every repair."
+  },
+  "kellyville": {
+    "name": "Kellyville",
+    "anchors": ["Memorial Ave", "Wrights Rd"],
+    "description": "Need affordable Mac repair in Kellyville? Our certified technicians provide the best MacBook and iMac repair services in the area. From same-day battery replacements and screen repairs to emergency fixes when your Mac won't turn on, we handle it all. Serving Memorial Avenue to Wrights Road, we're Kellyville's trusted Apple computer repair specialists.",
+    "localInfo": "Kellyville has transformed from farmland to a thriving suburb, and technology needs have grown with it. Our Mac technicians support local schools, home offices, and creative professionals with expert repairs including data recovery, water damage repair, keyboard fixes, logic board repair, and SSD upgrades. Same-day service available for urgent Mac repairs.",
+    "titleDriver": "Affordable Mac Repair for Growing Families",
+    "introParagraph": "From school-issued MacBooks to creative workstations, we handle every repair at board level — replacing power management ICs, reballing display connectors, and recovering data from encrypted APFS volumes. Built for families managing multiple Apple devices across work and education.",
+    "whatWeFix": [
+      { "name": "Water Damage", "desc": "Full board disassembly, ultrasonic bath, and corroded component replacement." },
+      { "name": "Screen Repair", "desc": "Retina and standard LCD swaps with factory-grade adhesive resealing." },
+      { "name": "Battery Replacement", "desc": "Cycle-tested cells installed with safe adhesive removal — no case damage." },
+      { "name": "Logic Board Repair", "desc": "Power management IC and GPU chip-level replacement under microscope." },
+      { "name": "SSD Upgrade", "desc": "Bootable clone migration to faster NVMe storage with zero downtime." },
+      { "name": "Keyboard Repair", "desc": "Butterfly and Magic Keyboard mechanism replacement with full backlight test." }
+    ],
+    "commonIssues": [
+      "Child spilled liquid on MacBook — keys unresponsive and screen dim.",
+      "Mac takes five or more minutes to boot from old spinning hard drive.",
+      "Multiple user accounts causing storage to fill up and slow the system.",
+      "Screen hinge is loose or cracks near the display cable.",
+      "AirDrop and Handoff stopped working after macOS update."
+    ],
+    "whyChoose": [
+      "Family-friendly pricing with no hidden fees.",
+      "Same-day service for most common Mac repairs.",
+      "Safe data handling — your files stay private.",
+      "90-day warranty on all parts and labour."
+    ],
+    "faqs": [
+      { "q": "My child spilled water on our MacBook — what should I do?", "a": "Power it off immediately and don't charge it. Bring it in as soon as possible — fast action improves recovery rates significantly." },
+      { "q": "Can you set up a Mac for multiple family users?", "a": "Yes. We configure separate accounts with parental controls and optimise storage allocation per user." },
+      { "q": "Is it cheaper to repair or replace an old Mac?", "a": "Repairs are typically 30-50% of replacement cost. We'll advise honestly after diagnosis." },
+      { "q": "Do you handle school or education-issued MacBooks?", "a": "Yes. We repair education models and can coordinate with school IT if needed for asset-tagged devices." }
+    ],
+    "ctaText": "Request a free quote — affordable Mac repairs with same-day service available."
+  },
+  "kellyville-ridge": {
+    "name": "Kellyville Ridge",
+    "anchors": ["The Ponds Blvd", "Stanhope Village"],
+    "description": "Kellyville Ridge residents enjoy convenient access to expert Mac repairs. Our services cover everything from MacBook keyboard issues to iMac display problems. We understand modern families rely heavily on their Apple devices for work, school, and entertainment.",
+    "localInfo": "This newer suburb has a high concentration of tech-savvy families. We frequently help Kellyville Ridge residents with MacBook Pro repairs, iMac upgrades, and data recovery from failing drives.",
+    "titleDriver": "Precision Mac Repair for Tech-Savvy Households",
+    "introParagraph": "We approach every repair with the technical depth modern users expect — thermal imaging for fault detection, schematic-referenced probing of signal lines, and firmware-level recovery for T2 and Apple Silicon Macs. Engineered for households that know their hardware and demand proper fixes.",
+    "whatWeFix": [
+      { "name": "Data Recovery", "desc": "APFS and T2-encrypted volume recovery from dead or failing drives." },
+      { "name": "Battery Replacement", "desc": "High-capacity cell fitting with post-install calibration and health report." },
+      { "name": "Logic Board Repair", "desc": "Signal-line tracing and IC replacement using thermal imaging for hidden faults." },
+      { "name": "Screen Repair", "desc": "Full display assembly including Touch ID cable and ambient sensor recalibration." },
+      { "name": "Firmware Recovery", "desc": "Bricked Mac restoration via DFU revive and Apple Configurator-based reflash." },
+      { "name": "Upgrade Service", "desc": "SSD, RAM, and thermal upgrades to maximise performance on eligible models." }
+    ],
+    "commonIssues": [
+      "Mac bricked after interrupted macOS update — won't enter recovery mode.",
+      "Touch ID stopped recognising fingerprints after screen replacement elsewhere.",
+      "Thunderbolt peripherals not detected or causing kernel panics.",
+      "Fan noise and thermal throttling during gaming or video editing."
+    ],
+    "whyChoose": [
+      "Technical depth beyond surface-level troubleshooting.",
+      "We explain exactly what failed and why.",
+      "Firmware and chip-level repair capability in-house.",
+      "Post-repair performance benchmarks provided free."
+    ],
+    "faqs": [
+      { "q": "Can you fix a Mac bricked by a failed update?", "a": "Yes. We use DFU restore and Apple Configurator to reflash firmware on T2 and Apple Silicon Macs." },
+      { "q": "Why did Touch ID stop working after a screen repair?", "a": "Touch ID is paired to the logic board. Improper screen swaps can break this pairing — we restore it correctly." },
+      { "q": "Do you benchmark Macs after repair?", "a": "Yes. We run CPU, GPU, and storage benchmarks post-repair to confirm your Mac performs to spec." },
+      { "q": "Can you upgrade an M-series Mac's storage?", "a": "M-series storage is soldered, but we can advise on external solutions and optimise existing capacity." }
+    ],
+    "ctaText": "Book your diagnostic today — thorough Mac repairs with benchmarked results before handback."
+  }
+}
