@@ -7,7 +7,7 @@ permalink: /privacy/
 
 # Privacy Policy
 
-**Last updated:** February 2025  
+**Last updated:** October 2026  
  
 
 This Privacy Policy explains how Hills District Mac Repair ("we", "us", or "our") collects, uses, discloses, and protects your personal information in accordance with the Australian Privacy Act 1988 (Cth) and the Australian Privacy Principles (APPs).
@@ -34,7 +34,7 @@ We may collect the following types of personal information:
 - Transaction records
 
 ### 1.4 Communication Records
-- Emails, SMS, and phone call records related to your repair
+- Emails and phone call records related to your repair
 - Repair notes and service history
 
 ---
@@ -44,7 +44,7 @@ We may collect the following types of personal information:
 We collect personal information:
 - Directly from you when you contact us, book a repair, or drop off a device
 - Through our website contact forms and booking system
-- Via phone calls, SMS, or email correspondence
+- Via phone calls or email correspondence
 - From third-party referrals (with your consent)
 
 ---
