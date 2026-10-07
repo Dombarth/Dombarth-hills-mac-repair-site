@@ -157,7 +157,7 @@ We encourage you to review this policy periodically.
 If you have questions about this Privacy Policy or wish to make a privacy-related request, please contact us:
 
 **Hills District Mac Repair**  
-📞 Phone: [0400 454 859](tel:0400454859)  
+📞 Phone: [02 4509 9248](tel:0245099248)  
 📧 Email: [Contact via website](/pages/contact.html)  
 📍 Service Area: Hills District, Sydney NSW
 

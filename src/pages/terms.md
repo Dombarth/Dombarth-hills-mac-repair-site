@@ -7,7 +7,7 @@ permalink: /terms/
 
 # Terms, Warranty & Conditions
 
-**Last updated:** February 2025  
+**Last updated:** October 2026  
 **Applies to:** All repairs, diagnostics and services performed by Hills District Mac Repair.
 
 Hills District Mac Repair is an independent technician service. **We are not affiliated with Apple Inc.**
@@ -34,7 +34,7 @@ All customers are required to read and accept the following terms before any wor
 
 ## 2. Repair Approval & Quotes
 
-- All repair work requires express customer approval — verbal, SMS, email or written.
+- All repair work requires express customer approval — verbal, email or written.
 - Quotes marked "from $X" indicate starting prices only. Final pricing depends on model, damage, and parts availability.
 - Prices may vary due to supplier stock, shipping costs, part quality or unforeseen component issues.
 - You consent to standard repair processes including disassembly, cleaning, testing and parts installation.
@@ -190,4 +190,4 @@ By leaving your device with Hills District Mac Repair, you agree to:
 
 ---
 
-<p style="margin-top: 2rem;"><a href="/pages/booking.html" class="btn">Book a Repair</a> <a href="tel:0400454859" class="btn ghost-dark">Call 0400 454 859</a></p>
+<p style="margin-top: 2rem;"><a href="/pages/booking.html" class="btn">Book a Repair</a> <a href="tel:0245099248" class="btn ghost-dark">Call 02 4509 9248</a></p>
