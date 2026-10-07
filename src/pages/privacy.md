@@ -22,7 +22,6 @@ We may collect the following types of personal information:
 - Name
 - Phone number
 - Email address
-- Physical address (for pickup/delivery services)
 
 ### 1.2 Device Information
 - Mac model and serial number
@@ -85,7 +84,6 @@ We take reasonable steps to protect your personal information from:
 We may disclose your personal information to:
 - Parts suppliers (device model only, no personal details)
 - Payment processors (for transaction processing)
-- Courier services (for pickup/delivery, address only)
 - Legal authorities (if required by law)
 
 We do **not** sell, rent, or trade your personal information to third parties for marketing purposes.

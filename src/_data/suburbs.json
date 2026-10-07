@@ -64,7 +64,7 @@
       },
       {
         "q": "Is there a pickup or drop-off option?",
-        "a": "We offer local pickup and return for customers who can't visit during work hours."
+        "a": "Drop-off only. We don't offer pickup: every repair is done back to base at our Hills District workshop, so drop your Mac off and collect it when it's ready."
       }
     ],
     "ctaText": "Book a free diagnostic and get your Mac fixed fast — most repairs done same day."
@@ -209,7 +209,7 @@
       "Terry Rd",
       "Carmel Village"
     ],
-    "description": "Box Hill residents benefit from our convenient Mac repair services. From the Terry Road area to Carmel Village, we provide pickup options and fast diagnostics. Your MacBook Pro battery replacement or iMac repair is in experienced hands.",
+    "description": "Box Hill residents benefit from our convenient Mac repair services. From the Terry Road area to Carmel Village, we provide fast diagnostics at our Hills District workshop. Your MacBook Pro battery replacement or iMac repair is in experienced hands.",
     "localInfo": "Box Hill's mix of established homes and new developments means diverse Mac repair needs. We service everything from older iMacs to the latest M-series MacBooks, always with genuine care for your device.",
     "titleDriver": "Mac Repair for Every Model and Generation",
     "introParagraph": "We work across every Mac generation — from vintage 2012 boards with discrete GPUs to M-series unified memory architectures. Component-level diagnostics let us isolate faults to specific chips, saving the cost of full replacements on any model.",
@@ -247,7 +247,7 @@
       "Mac stuck on progress bar during startup and won't reach desktop."
     ],
     "whyChoose": [
-      "Pickup and return available for local residents.",
+      "All repairs done back to base at our Hills District workshop.",
       "We service both Intel and M-series machines.",
       "Flat-rate quotes — no surprises on your invoice.",
       "Experienced with iMac and MacBook repair equally."
@@ -748,7 +748,7 @@
       "Lakeside"
     ],
     "description": "Norwest professionals count on us for fast Mac repairs that minimise business disruption. Our workshop understands the urgency when your MacBook is your livelihood. Same-day service available for common repairs.",
-    "localInfo": "Norwest Business Park is home to countless Mac users. We've built a reputation for quick, quality repairs that get professionals back to work fast. Corporate pickup and delivery available.",
+    "localInfo": "Norwest Business Park is home to countless Mac users. We've built a reputation for quick, quality repairs that get professionals back to work fast.",
     "titleDriver": "Corporate Mac Repair Express",
     "introParagraph": "We perform schematic-level diagnostics — isolating failed GPU die, shorted voltage rails, and degraded PCIe links. Corporate users losing billable hours to a dead Mac need precision repair, not a week-long wait at a retail queue.",
     "whatWeFix": [
@@ -785,7 +785,7 @@
     ],
     "whyChoose": [
       "Same-day service for business-critical machines",
-      "Corporate pickup and delivery available",
+      "Back-to-base repairs at our Hills District workshop",
       "NDA-compliant handling of sensitive devices",
       "Invoice and PO billing for businesses"
     ],
@@ -1350,13 +1350,13 @@
       "M2 corridor"
     ],
     "description": "North Rocks residents enjoy convenient Mac repairs near the Shopping Centre. Our M2 corridor location means easy access for commuters. Quick drop-off, expert repair, hassle-free collection.",
-    "localInfo": "North Rocks' convenient location attracts busy professionals. We cater to time-poor customers with efficient service, clear communication, and flexible pickup options.",
+    "localInfo": "North Rocks' convenient location attracts busy professionals. We cater to time-poor customers with efficient service and clear communication.",
     "titleDriver": "Commuter Mac Repair Experts",
     "introParagraph": "We use thermal imaging and microsocopy to pinpoint faults invisible to the naked eye — cracked solder joints, overheating voltage regulators, failing storage controllers. Professionals commuting via the M2 need a service that fits a repair into a workday, not one that demands a day off.",
     "whatWeFix": [
       {
         "name": "MacBook Battery",
-        "desc": "Replaced during your workday — ready by evening pickup."
+        "desc": "Replaced during your workday — ready to collect by evening."
       },
       {
         "name": "Retina Display",
