@@ -212,3 +212,9 @@ hr{border:0;border-top:1px solid var(--line);margin:32px 0}
 .contact-page .box h2{margin-top:0}
 @media(max-width:640px){.contact-cards{grid-template-columns:1fr}}
 .contact-page .box h2{font-size:24px}
+
+/* Logo image */
+.logo-img{display:block;height:72px;width:auto;margin:4px 0}
+.footer-logo{display:inline-block;background:#fff;border-radius:14px;padding:10px 14px;margin-bottom:14px}
+.footer-logo img{display:block;width:180px;height:auto}
+@media(max-width:860px){.logo-img{height:56px;margin:0}}
