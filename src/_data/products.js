@@ -4,20 +4,20 @@
 
 const CASES = {
   "macbook-air-2019-swollen-battery-trackpad-failure": "MacBook Air 2019: a swollen battery stopped the trackpad clicking",
-  "macbook-air-m1-2020-water-damage-data-recovery": "MacBook Air M1: dead after rain, thesis files saved in 2 days",
-  "macbook-air-m2-2022-screen-crack-replacement": "MacBook Air M2: cracked screen replaced",
-  "macbook-pro-13-2019-t2-chip-bridgeos-failure": "MacBook Pro 13\" 2019: stuck after an update, files saved, no new board",
+  "macbook-air-m1-2020-water-damage-data-recovery": "MacBook Air M1: dead after rain, files saved in 2 days for $450",
+  "macbook-air-m2-2022-screen-crack-replacement": "MacBook Air M2: cracked screen replaced for $590",
+  "macbook-pro-13-2019-t2-chip-bridgeos-failure": "MacBook Pro 13\" 2019: stuck after an update, fixed for $350, files saved",
   "macbook-pro-13-2020-intel-thermal-throttling-repair": "MacBook Pro 13\" 2020: slow from heat, fixed with paste and a fan service",
-  "macbook-pro-14-2021-display-cable-flexgate": "MacBook Pro 14\" 2021: dark screen was a small board, not the panel",
-  "macbook-pro-15-2019-kernel-panic-gpu-repair": "MacBook Pro 15\" 2019: random restarts fixed at chip level",
-  "macbook-pro-16-2019-liquid-damage-usb-c-repair": "MacBook Pro 16\" 2019: water killed the USB-C ports, about 65% less than Apple's quote",
-  "macbook-pro-16-2021-m1-max-no-charge-thunderbolt-repair": "MacBook Pro 16\" M1 Max: would not charge on any port",
-  "macbook-pro-m1-2020-no-power-pmic-repair": "MacBook Pro 13\" M1: completely dead, power chip replaced, data kept",
+  "macbook-pro-14-2021-display-cable-flexgate": "MacBook Pro 14\" 2021: dark screen fixed on the board for $350",
+  "macbook-pro-15-2019-kernel-panic-gpu-repair": "MacBook Pro 15\" 2019: random restarts fixed at chip level for $550",
+  "macbook-pro-16-2019-liquid-damage-usb-c-repair": "MacBook Pro 16\" 2019: water killed the USB-C ports, fixed for $580",
+  "macbook-pro-16-2021-m1-max-no-charge-thunderbolt-repair": "MacBook Pro 16\" M1 Max: would not charge on any port, fixed for $550",
+  "macbook-pro-m1-2020-no-power-pmic-repair": "MacBook Pro 13\" M1: completely dead, power chip replaced for $490, data kept",
   "imac-21-2013-hdd-to-ssd-upgrade": "iMac 21.5\" 2013: slow hard drive swapped for an SSD, files kept",
   "imac-27-2019-fusion-drive-failure-ssd-upgrade": "iMac 27\" 2019: failed Fusion Drive, data recovered, SSD fitted",
   "imac-27-2020-ram-upgrade-thermal-issues": "iMac 27\" 2020: 8GB to 64GB RAM and heat problems fixed",
   "imac-27-2015-backlight-failure-repair": "iMac 27\" 2015: black screen fixed without a new panel",
-  "imac-21-2017-gpu-failure-logic-board-repair": "iMac 21.5\" 2017: graphics fault fixed on the board",
+  "imac-21-2017-gpu-failure-logic-board-repair": "iMac 21.5\" 2017: graphics fault fixed on the board for $450",
   "imac-24-m1-2021-power-supply-failure": "iMac 24\" M1: power cuts traced to the power supply, not the board"
 };
 const caseList = (slugs) => slugs.map((s) => ({ slug: s, label: CASES[s] }));
@@ -47,13 +47,13 @@ const products = [
     icon: ICONS.battery,
     price: 129,
     title: "MacBook Battery Replacement Hills District: $129+, Same Day",
-    description: "MacBook battery replacement from $129 at our Hills District workshop. Often same day. Apple charges A$279 to A$439 out of warranty. 12-month warranty on new parts.",
+    description: "MacBook battery replacement from $129 at our Hills District workshop, much lower than Apple's out-of-warranty price. Often same day. 12-month warranty on new parts.",
     h1: "MacBook Battery Replacement in the Hills District",
     card: "Battery dies fast, says Service Recommended, or the case is bulging.",
     tldr: [
       "<strong>From $129</strong> for most MacBook Air and MacBook Pro models.",
       "Often done <strong>the same day</strong>, or within 48 hours.",
-      "Apple charges <strong>A$279 to A$439</strong> for a battery out of warranty.",
+      "<strong>Much lower than Apple's</strong> out-of-warranty battery price.",
       "New batteries come with a <strong>12-month warranty</strong>.",
       "Bulging case or trackpad that won't click? <strong>Stop using it and call us.</strong> A swollen battery is a fire risk."
     ],
@@ -73,11 +73,9 @@ const products = [
     ],
     priceRows: [
       ["MacBook battery replacement, our workshop", "From $129"],
-      ["Apple, MacBook Air (M1 to M3), out of warranty", "A$279"],
-      ["Apple, most MacBook Pro models, out of warranty", "A$439"],
       ["Hands-on check if we need to open it first", "$150, free if you go ahead"]
     ],
-    priceNote: "Apple prices are from Apple's Australian repair estimator, checked 24 October 2026. Your final price depends on your model. We confirm it before any work starts.",
+    priceNote: "Your final price depends on your model. We confirm it before any work starts.",
     asset: {
       title: "Check your battery in one minute",
       html: `<ol class="steps-list">
@@ -95,7 +93,7 @@ const products = [
     },
     models: ["MacBook Air 13\" and 15\", all years", "MacBook Pro 13\", all years", "MacBook Pro 14\" and 16\"", "MacBook Pro 15\" (2012 to 2019)", "MacBook 12\""],
     faqs: [
-      ["How much does it cost to replace a MacBook battery?", "From $129 at our workshop. Apple charges A$279 for a MacBook Air (M1 to M3) and A$439 for most MacBook Pro models out of warranty. We confirm your exact price before we start."],
+      ["How much does it cost to replace a MacBook battery?", "From $129 at our workshop, much lower than Apple's out-of-warranty price. We confirm your exact price before we start."],
       ["Is it worth replacing the battery on a MacBook?", "Usually yes, if the rest of the Mac works. A battery costs far less than a new Mac. If we find another fault that makes it not worth it, we tell you before you pay for anything."],
       ["Is it worth repairing a 7-year-old MacBook?", "It depends on what you use it for. If it still runs the apps you need, a new battery can give it years more. If it can no longer get macOS security updates, we will tell you, so you can decide."],
       ["How long does a MacBook battery last?", "Apple rates most MacBooks for 1,000 charge cycles. For most people that is about 3 to 5 years."],
@@ -141,11 +139,10 @@ const products = [
     ],
     priceRows: [
       ["MacBook screen repair, our workshop", "From $149"],
-      ["Apple with AppleCare+, screen damage", "A$149 service fee"],
-      ["Apple without AppleCare+", "Apple inspects it first, then quotes"],
+      ["Real job: MacBook Air M2, cracked screen", "$590"],
       ["Hands-on check if the cause is unclear", "$150, free if you go ahead"]
     ],
-    priceNote: "Apple prices are from Apple's Australian repair estimator, checked 24 October 2026. We confirm your exact price before any work starts.",
+    priceNote: "Real job prices are what those customers paid at our workshop. We confirm your exact price before any work starts.",
     asset: {
       id: "fault-finder",
       title: "Screen fault finder",
@@ -163,7 +160,7 @@ const products = [
     },
     models: ["MacBook Air 13\" and 15\"", "MacBook Pro 13\", 14\", 15\" and 16\"", "MacBook 12\"", "iMac 21.5\", 24\" and 27\""],
     faqs: [
-      ["How much does it cost to repair a MacBook screen?", "From $149 at our workshop. The final price depends on the model and whether the fault is the panel, the cable or the backlight. With AppleCare+, Apple charges A$149. Without it, Apple has to inspect the Mac before it gives a price."],
+      ["How much does it cost to repair a MacBook screen?", "From $149 at our workshop. The final price depends on the model and whether the fault is the panel, the cable or the backlight."],
       ["Is it worth fixing a broken Mac screen?", "If the rest of the Mac works, usually yes. A screen costs far less than a new MacBook. We check the Mac first, so you are not paying for a screen on a Mac with another fault."],
       ["Can you fix just the glass?", "On most MacBooks, no. The glass, panel and backlight are one sealed part, so we replace the whole display. On some faults, like a dark screen, we can fix the backlight instead."],
       ["My screen is dark but I can see a faint picture. Is it broken?", "Probably not the panel. A faint picture under a torch means the backlight has failed. That is often a fuse, a chip or a cable, and it can cost less than a new screen."],
@@ -390,7 +387,7 @@ const products = [
     card: "Won't turn on, won't charge, no picture. Fixed at chip level.",
     tldr: [
       "<strong>From $249.</strong> We fix the failed part on the board. We don't swap the whole board.",
-      "Apple usually replaces the board. Real quotes our customers got: <strong>$899</strong> (MacBook Air M1) and <strong>$1,650</strong> (MacBook Pro 16\" 2019).",
+      "Real jobs: a dead MacBook Pro 13\" M1 fixed for <strong>$490</strong>, and dead USB-C ports on a MacBook Pro 16\" fixed for <strong>$580</strong>. Much lower than a new board from Apple.",
       "On 2018+ and M1-and-newer Macs, <strong>a new board erases your files. A repair keeps them.</strong>",
       "We fix Macs that won't turn on, won't charge, have dead ports or no picture.",
       "Most jobs take <strong>2 to 7 days</strong>."
@@ -411,11 +408,12 @@ const products = [
     ],
     priceRows: [
       ["Logic board repair, our workshop", "From $249"],
-      ["Apple board replacement, MacBook Air M1 (a customer's quote)", "$899"],
-      ["Apple board replacement, MacBook Pro 16\" 2019 (a customer's quote)", "$1,650"],
+      ["Real job: MacBook Pro 13\" M1, completely dead", "$490"],
+      ["Real job: MacBook Pro 16\" M1 Max, won't charge", "$550"],
+      ["Real job: MacBook Pro 16\" 2019, dead USB-C ports", "$580"],
       ["Hands-on check", "$150, free if you go ahead"]
     ],
-    priceNote: "Apple figures are real quotes customers brought to us, from our case studies. Your price depends on the fault. We confirm it before any work starts.",
+    priceNote: "Real job prices are what those customers paid at our workshop. Your price depends on the fault. We confirm it before any work starts.",
     asset: {
       title: "Common board faults we fix",
       html: `<table class="data-table"><thead><tr><th>What the Mac does</th><th>Usual cause on the board</th><th>Real job</th></tr></thead><tbody>
@@ -430,7 +428,7 @@ const products = [
     },
     models: ["MacBook Air, all years", "MacBook Pro, all years", "iMac", "Mac mini"],
     faqs: [
-      ["How much does it cost to repair a MacBook logic board?", "From $249 at our workshop. Apple usually replaces the whole board instead. Customers have brought us Apple quotes of $899 for a MacBook Air M1 and $1,650 for a MacBook Pro 16\" 2019."],
+      ["How much does it cost to repair a MacBook logic board?", "From $249 at our workshop. Real jobs: $490 for a dead MacBook Pro 13\" M1 and $580 for dead USB-C ports on a MacBook Pro 16\" 2019. That is much lower than a new board from Apple."],
       ["Can a MacBook logic board be repaired?", "Often, yes. Most dead boards have one or a few failed parts, like a power chip or a port controller. We find the failed part and replace it."],
       ["Will I lose my files?", "Not with a repair. With a new board, yes, on 2018+ and M1-and-newer Macs, because the storage is locked to the original board."],
       ["Is it worth repairing an old MacBook's board?", "We tell you after we test it. If the repair costs more than the Mac is worth, we say so, and we can still try to save your files."],
@@ -460,7 +458,7 @@ const products = [
       "<strong>Call 02 4509 9248</strong> and bring it in as soon as you can. Liquid keeps eating the board until it is cleaned out.",
       "<strong>Spill clean from $150.</strong> Chip-level repair from $249. The $150 inspection comes off the repair if you go ahead.",
       "We <strong>repair the board, not swap it</strong>, so your files stay. A new board wipes the files on 2018+ and M1-and-newer Macs.",
-      "Apple's warranty doesn't cover liquid. With AppleCare+, Apple charges A$429. Need an <strong>insurance report</strong>? $149."
+      "Apple's warranty doesn't cover liquid. Need an <strong>insurance report</strong>? $149."
     ],
     priceRows: [
       ["Inspection: we open it, check it and quote", "$150, comes off the repair if you go ahead"],
@@ -470,12 +468,12 @@ const products = [
       ["Screen after a spill", "From $149"],
       ["Files only, from a dead or wet Mac", "From $199"],
       ["Insurance report for your claim", "$149"],
-      ["Apple, with AppleCare+ (\"other accidental damage\")", "A$429 fee"],
-      ["Apple, no AppleCare+", "Not covered by warranty. Usually a new board. Customer quotes we've seen: $899 and $1,650"]
+      ["Real job: MacBook Air M1, dead after rain, files saved", "$450"],
+      ["Real job: MacBook Pro 16\" 2019, dead USB-C ports", "$580"]
     ],
     faqs: [
       ["Can a MacBook be repaired after water damage?", "Often, yes. The best chances come when it was turned off fast and brought in within a day or two, before corrosion spreads. After the inspection we tell you if it can be fixed and what it will cost."],
-      ["How much does it cost to fix MacBook water damage?", "A spill clean starts from $150 and chip-level board repair from $249. The $150 inspection comes off the repair if you go ahead. With AppleCare+, Apple charges A$429. Without it, Apple usually replaces the board. Customers have shown us Apple quotes of $899 and $1,650."],
+      ["How much does it cost to fix MacBook water damage?", "A spill clean starts from $150 and chip-level board repair from $249. The $150 inspection comes off the repair if you go ahead. Real jobs: $450 to save a student's files from a dead MacBook Air M1, and $580 to fix dead USB-C ports on a MacBook Pro 16\". Much lower than a new board from Apple."],
       ["Can a MacBook survive water damage?", "Yes, if the power is cut quickly and the board is cleaned before corrosion takes hold. A Mac that still works after a spill can still fail weeks later, so have it cleaned."],
       ["What do I do if my Mac has water damage?", "Hold the power button for 10 seconds to turn it off. Unplug the charger and everything else. Wipe the outside. Stand it upside down like a tent, keyboard facing down. Don't turn it on or charge it. Then call 02 4509 9248."],
       ["How long does MacBook water damage repair take?", "Most jobs take 2 to 7 days. A clean with no parts can be quicker. On one real job we had a student's files back in 2 days."],
