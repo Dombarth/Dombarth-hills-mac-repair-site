@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Contact
+title: "Contact Hills Mac Repair: Call 02 4509 9248"
 hero: false
 ---
 

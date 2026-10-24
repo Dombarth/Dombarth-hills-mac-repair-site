@@ -1,0 +1,97 @@
+---
+layout: base
+pagination:
+  data: shop.standard
+  size: 1
+  alias: p
+permalink: "product/{{ p.slug }}/index.html"
+eleventyComputed:
+  title: "{{ p.title | safe }}"
+  description: "{{ p.description | safe }}"
+fullBleed: true
+---
+{% include "product-hero.njk" %}
+
+<div class="wrap product-body">
+
+  <section class="pb-section" id="signs">
+    <h2>Signs you need this repair</h2>
+    <ul class="check-list">
+      {% for s in p.signs %}<li>{{ s | safe }}</li>{% endfor %}
+    </ul>
+  </section>
+
+  <section class="pb-section" id="price">
+    <h2>What it costs</h2>
+    <table class="data-table price-table">
+      <tbody>
+        {% for row in p.priceRows %}<tr><td>{{ row[0] | safe }}</td><td class="num">{{ row[1] | safe }}</td></tr>{% endfor %}
+      </tbody>
+    </table>
+    <p class="fine">{{ p.priceNote | safe }}</p>
+  </section>
+
+  {% if p.asset %}
+  <section class="pb-section asset" id="{{ p.asset.id or 'guide' }}">
+    <h2>{{ p.asset.title }}</h2>
+    {{ p.asset.html | safe }}
+  </section>
+  {% endif %}
+
+  <section class="pb-section" id="included">
+    <h2>What's included</h2>
+    <ul class="check-list">
+      {% for s in p.includes %}<li>{{ s | safe }}</li>{% endfor %}
+    </ul>
+    <div class="facts-row">
+      <div><span class="k">Turnaround</span><span class="v">{{ p.turnaround }}</span></div>
+      <div><span class="k">Warranty</span><span class="v">12 months on new parts, 30 days on used or aftermarket parts</span></div>
+      <div><span class="k">Where</span><span class="v">Drop-off at our Hills District workshop. Ring first.</span></div>
+    </div>
+  </section>
+
+  <section class="pb-section" id="models">
+    <h2>Models we fix</h2>
+    <ul class="tag-list">
+      {% for m in p.models %}<li>{{ m }}</li>{% endfor %}
+    </ul>
+  </section>
+
+  {% if p.cases and p.cases.length %}
+  <section class="pb-section" id="real-jobs">
+    <h2>Real jobs from our workshop</h2>
+    <div class="case-cards">
+      {% for c in p.cases %}
+      <a class="case-card" href="/repair-case-studies/{{ c.slug }}/"><span class="tag">Case study</span><span class="cc-label-text">{{ c.label }}</span><span class="go">Read the job →</span></a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="pb-section" id="faq">
+    <h2>Questions people ask</h2>
+    <div class="faq">
+      {% for f in p.faqs %}
+      <details{% if loop.first %} open{% endif %}><summary>{{ f[0] }}</summary><p>{{ f[1] | safe }}</p></details>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="pb-section" id="related">
+    <h2>Related repairs</h2>
+    <div class="shop-grid small">
+      {% for item in p.relatedItems %}{% include "product-card.njk" %}{% endfor %}
+    </div>
+  </section>
+
+  <div class="cta-box" style="text-align:center">
+    <h2>Get a price in one call</h2>
+    <p>Have your Mac's model ready. It is under the Apple menu, in About This Mac.</p>
+    <p style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:0">
+      <a class="btn large light" href="tel:0245099248">Call 02 4509 9248</a>
+      <a class="btn large ghost" href="/pages/booking/">Book this repair</a>
+    </p>
+  </div>
+</div>
+
+<script type="application/ld+json">{{ p.schema | dump | safe }}</script>

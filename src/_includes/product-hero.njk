@@ -1,0 +1,30 @@
+<section class="product-hero">
+  <div class="wrap">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/shop/">Repairs</a> › <span>{{ p.name }}</span></nav>
+    <div class="ph-grid">
+      <div class="ph-main">
+        <span class="eyebrow">{{ p.category }} repair · Hills District workshop</span>
+        <h1>{{ p.h1 }}</h1>
+        <div class="tldr" role="note" aria-label="Quick answer">
+          <span class="tldr-label">TL;DR</span>
+          <ul>
+            {% for t in p.tldr %}<li>{{ t | safe }}</li>{% endfor %}
+          </ul>
+        </div>
+      </div>
+      <aside class="ph-buy" aria-label="Price and booking">
+        <div class="ph-icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">{{ p.icon | safe }}</svg></div>
+        <p class="ph-from">From</p>
+        <p class="ph-price">${{ p.price }}</p>
+        <p class="ph-note">Final price confirmed before any work starts.</p>
+        <a class="btn large block" href="/pages/booking/">Book this repair</a>
+        <a class="btn large ghost block" href="tel:0245099248">Call 02 4509 9248</a>
+        <ul class="ph-facts">
+          <li><strong>Turnaround:</strong> {{ p.turnaround }}</li>
+          <li><strong>Warranty:</strong> 12 months on new parts</li>
+          <li><strong>Free phone estimate</strong></li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>

@@ -6,12 +6,25 @@ pagination:
   alias: suburb
 permalink: "suburbs/{{ suburb.slug }}/index.html"
 eleventyComputed:
-  title: "Mac Repair {{ suburb.name }} | {{ suburb.titleDriver }}"
+  # Title test (24 Oct 2026): new "xxxx: xxxx" format on 2 pages first; roll out if they hold.
+  title: "{% if suburb.slug == 'rouse-hill' or suburb.slug == 'cherrybrook' %}Mac Repair {{ suburb.name }}: MacBook & iMac, From $119{% else %}Mac Repair {{ suburb.name }} | {{ suburb.titleDriver }}{% endif %}"
   description: "Mac repair in {{ suburb.name }}. MacBook and iMac repairs with honest diagnostics and transparent pricing. Battery, screen, data recovery, logic board repair. Workshop based service."
 hero: false
 ---
 
 <h1>Mac Repair in {{ suburb.name }}</h1>
+{% if suburb.slug == 'rouse-hill' or suburb.slug == 'cherrybrook' %}
+<div class="tldr" role="note" aria-label="Quick answer" style="margin:0 0 24px">
+  <span class="tldr-label">TL;DR</span>
+  <ul>
+    <li>Mac repair for {{ suburb.name }}: drop-off at our workshop near Castle Hill. <strong>Ring first.</strong></li>
+    <li><strong>Free phone estimate: <a href="tel:0245099248">02 4509 9248</a>.</strong> You approve the price before we start.</li>
+    <li>Battery from $129, screen from $149, water damage from $150, logic board from $249. <a href="/shop/">See all prices</a>.</li>
+    <li>Spilled on your Mac? Turn it off and read <a href="/product/macbook-water-damage-repair/">what to do next</a>.</li>
+    <li>12-month warranty on new parts.</li>
+  </ul>
+</div>
+{% endif %}
 
 <section class="intro-section">
 <p class="intro">If your MacBook or iMac has stopped working properly and you live in {{ suburb.name }}, our independent repair workshop can help. We fix batteries that no longer hold a charge, cracked or flickering screens, keyboards with dead keys, and Macs that won't turn on. Every repair starts with a hands-on diagnostic so you know exactly what's wrong and what it costs before we touch anything.</p>
@@ -63,7 +76,7 @@ hero: false
   <h3>Need Your Mac Repaired?</h3>
   <p>{{ suburb.ctaText }}</p>
   <p class="cta-buttons">
-    <a class="btn" href="/pages/booking.html">Book Assessment</a>
+    <a class="btn" href="/pages/booking/">Book Assessment</a>
     <a class="btn ghost" href="tel:0245099248">Call 02 4509 9248</a>
   </p>
 </div>

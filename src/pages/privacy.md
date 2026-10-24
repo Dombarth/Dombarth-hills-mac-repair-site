@@ -1,6 +1,6 @@
 ---
 layout: base
-title: "Privacy Policy | Hills Mac Repair"
+title: "Privacy Policy: Hills Mac Repair"
 description: "Privacy policy for Hills District Mac Repair. How we collect, use, and protect your personal information."
 permalink: /privacy/
 ---
@@ -156,7 +156,7 @@ If you have questions about this Privacy Policy or wish to make a privacy-relate
 
 **Hills District Mac Repair**  
 📞 Phone: [02 4509 9248](tel:0245099248)  
-📧 Email: [Contact via website](/pages/contact.html)  
+📧 Email: [Contact via website](/pages/contact/)  
 📍 Service Area: Hills District, Sydney NSW
 
 ---

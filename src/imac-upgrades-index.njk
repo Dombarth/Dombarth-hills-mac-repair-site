@@ -1,123 +1,46 @@
 ---
 layout: base
-title: "iMac Upgrades | RAM SSD by Model | Hills Mac Repair"
-description: "Complete iMac upgrade guide by model. See which iMacs can be upgraded with RAM and SSD. Professional installation with 12 month warranty. Workshop based service."
+title: "iMac Upgrades Hills District: RAM $89+, SSD $149+ by Model"
+description: "iMac RAM upgrades from $89 and SSD upgrades from $149 in the Hills District. Check your iMac model in our table: what can be upgraded, the maximum, and the price."
 permalink: /imac-upgrades/index.html
 hero: false
 ---
 
 <h1>iMac RAM & SSD Upgrade Services</h1>
 
-<p class="page-intro">Professional iMac upgrade services in the Hills District. We upgrade RAM, replace Fusion Drives with fast SSDs, and breathe new life into your iMac. Find your model below to see available upgrades and pricing.</p>
-
-<div class="upgrade-overview">
-  <div class="overview-item">
-    <span class="overview-icon">🧠</span>
-    <span><strong>RAM Upgrades</strong> from $89</span>
-  </div>
-  <div class="overview-item">
-    <span class="overview-icon">💾</span>
-    <span><strong>SSD Upgrades</strong> from $149</span>
-  </div>
-  <div class="overview-item">
-    <span class="overview-icon">✓</span>
-    <span><strong>12-Month Warranty</strong> on all upgrades</span>
-  </div>
+<div class="tldr" role="note" aria-label="Quick answer" style="margin:0 0 24px">
+  <span class="tldr-label">TL;DR</span>
+  <ul>
+    <li><strong>RAM from $89. SSD from $149.</strong> Fitted at our Hills District workshop.</li>
+    <li><strong>Intel iMacs (2012 to 2020) can be upgraded.</strong> M1, M3 and M4 iMacs can't: their memory and storage are soldered.</li>
+    <li>A slow iMac with a Fusion Drive or hard drive usually gets much faster with an SSD. <strong>We copy your files across.</strong></li>
+    <li>Find your model in the table below. Apple menu &gt; About This Mac shows it.</li>
+    <li>12-month warranty on new parts.</li>
+  </ul>
 </div>
 
-<h2>Select Your iMac Model</h2>
-<p>Click on your iMac model to see detailed upgrade options, specifications, and pricing.</p>
-
-<h3>iMac 27" Models (Upgradeable)</h3>
-<p>All 27" iMacs from 2012-2020 have user-accessible RAM slots. SSD upgrades require professional installation.</p>
-
-<div class="imac-grid">
-  {% for imac in imacModelsList %}
-  {% if imac.size == '27"' and not imac.notUpgradeable %}
-  <a href="/imac-upgrades/{{ imac.slug }}/" class="imac-card upgradeable">
-    <div class="imac-card-header">
-      <h4>{{ imac.name }}</h4>
-      <span class="year-badge">{{ imac.year }}</span>
-    </div>
-    <div class="imac-card-body">
-      <div class="upgrade-badges">
-        {% if imac.upgrades.ram.upgradeable %}
-        <span class="badge ram">RAM to {{ imac.upgrades.ram.maxRam }}</span>
-        {% endif %}
-        {% if imac.upgrades.ssd.upgradeable %}
-        <span class="badge ssd">SSD to {{ imac.upgrades.ssd.maxStorage }}</span>
-        {% endif %}
-      </div>
-      <p class="imac-desc">{{ imac.description | truncate(100) }}</p>
-      <div class="imac-meta">
-        <span>{{ imac.processors[0] }}</span>
-        {% if imac.upgrades.ram.userServiceable %}
-        <span class="diy-badge">DIY RAM ✓</span>
-        {% endif %}
-      </div>
-    </div>
-    <span class="view-link">View {{ imac.name }} upgrade options →</span>
-  </a>
-  {% endif %}
-  {% endfor %}
+<h2 id="models">Find your iMac: what can be upgraded, and the price</h2>
+<div class="table-scroll">
+<table class="data-table imac-table">
+  <thead><tr><th>iMac</th><th>RAM upgrade</th><th>SSD upgrade</th><th>Notes</th></tr></thead>
+  <tbody>
+  {% for group in [false, true] %}{% for imac in imacModelsList %}{% if (imac.notUpgradeable or false) == group %}
+    <tr id="{{ imac.slug }}">
+      <td><strong>{{ imac.name }}</strong>{% if imac.modelNumbers %}<br><span class="fine">{{ imac.modelNumbers | join(", ") }}</span>{% endif %}</td>
+      {% if imac.notUpgradeable %}
+      <td class="no">Not possible</td><td class="no">Not possible</td>
+      <td>Memory and storage are soldered. We can set up an external SSD.</td>
+      {% else %}
+      <td>{% if imac.upgrades.ram.upgradeable %}<span class="yes">Up to {{ imac.upgrades.ram.maxRam }}</span>{% if imac.upgrades.ram.price %}<br>from ${{ imac.upgrades.ram.price }}{% endif %}{% else %}<span class="no">Not possible</span>{% endif %}</td>
+      <td>{% if imac.upgrades.ssd.upgradeable %}<span class="yes">Up to {{ imac.upgrades.ssd.maxStorage }}</span>{% if imac.upgrades.ssd.price %}<br>from ${{ imac.upgrades.ssd.price }}{% endif %}{% else %}<span class="no">Not possible</span>{% endif %}</td>
+      <td>{% if imac.upgrades.ram.userServiceable %}RAM door on the back. {% endif %}{{ imac.upgrades.ssd.notes or imac.description }}</td>
+      {% endif %}
+    </tr>
+  {% endif %}{% endfor %}{% endfor %}
+  </tbody>
+</table>
 </div>
-
-<h3>iMac 21.5" Models (Upgradeable)</h3>
-<p>21.5" iMacs require display removal for upgrades - professional installation recommended.</p>
-
-<div class="imac-grid">
-  {% for imac in imacModelsList %}
-  {% if imac.size == '21.5"' and not imac.notUpgradeable %}
-  <a href="/imac-upgrades/{{ imac.slug }}/" class="imac-card upgradeable">
-    <div class="imac-card-header">
-      <h4>{{ imac.name }}</h4>
-      <span class="year-badge">{{ imac.year }}</span>
-    </div>
-    <div class="imac-card-body">
-      <div class="upgrade-badges">
-        {% if imac.upgrades.ram.upgradeable %}
-        <span class="badge ram">RAM to {{ imac.upgrades.ram.maxRam }}</span>
-        {% endif %}
-        {% if imac.upgrades.ssd.upgradeable %}
-        <span class="badge ssd">SSD to {{ imac.upgrades.ssd.maxStorage }}</span>
-        {% endif %}
-      </div>
-      <p class="imac-desc">{{ imac.description | truncate(100) }}</p>
-      <div class="imac-meta">
-        <span>{{ imac.processors[0] }}</span>
-      </div>
-    </div>
-    <span class="view-link">View {{ imac.name }} upgrade options →</span>
-  </a>
-  {% endif %}
-  {% endfor %}
-</div>
-
-<h3>Apple Silicon iMacs (Not Upgradeable)</h3>
-<p>M1, M3, and M4 iMacs have soldered RAM and storage that cannot be upgraded after purchase.</p>
-
-<div class="imac-grid">
-  {% for imac in imacModelsList %}
-  {% if imac.notUpgradeable %}
-  <a href="/imac-upgrades/{{ imac.slug }}/" class="imac-card not-upgradeable">
-    <div class="imac-card-header">
-      <h4>{{ imac.name }}</h4>
-      <span class="year-badge">{{ imac.year }}</span>
-    </div>
-    <div class="imac-card-body">
-      <div class="upgrade-badges">
-        <span class="badge none">No upgrades available</span>
-      </div>
-      <p class="imac-desc">{{ imac.description | truncate(100) }}</p>
-      <div class="imac-meta">
-        <span>{{ imac.processors[0] }}</span>
-      </div>
-    </div>
-    <span class="view-link">View {{ imac.name }} specifications →</span>
-  </a>
-  {% endif %}
-  {% endfor %}
-</div>
+<p class="fine">Prices are "from" prices for the part and fitting. We confirm your exact price before any work starts.</p>
 
 <h2>Why Upgrade Instead of Replace?</h2>
 
@@ -199,7 +122,7 @@ hero: false
   <h2>Ready to Upgrade Your iMac?</h2>
   <p>Contact us for a free quote. We'll help you choose the right upgrades for your needs and budget.</p>
   <p>
-    <a class="btn large" href="/pages/booking.html">Get a Free iMac Upgrade Quote</a>
+    <a class="btn large" href="/pages/booking/">Get a Free iMac Upgrade Quote</a>
     <a class="btn large ghost" href="tel:0245099248">Call 02 4509 9248</a>
   </p>
 </div>

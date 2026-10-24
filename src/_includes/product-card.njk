@@ -1,0 +1,7 @@
+<a class="shop-card" href="{{ item.url }}">
+  <span class="sc-icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{{ item.icon | safe }}</svg></span>
+  <span class="sc-cat">{{ item.category }}</span>
+  <span class="sc-name">{{ item.name }}</span>
+  <span class="sc-desc">{{ item.card }}</span>
+  <span class="sc-foot"><span class="sc-price">From ${{ item.price }}</span><span class="sc-go">View →</span></span>
+</a>

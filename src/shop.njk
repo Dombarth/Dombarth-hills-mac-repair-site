@@ -1,0 +1,72 @@
+---
+layout: base
+title: "Mac Repair Prices Hills District: Every MacBook & iMac Fix"
+description: "Every Mac repair we do, with prices. Battery from $129, screen from $149, water damage from $150, logic board from $249. Hills District workshop, call 02 4509 9248."
+permalink: /shop/index.html
+fullBleed: true
+---
+<section class="product-hero shop-hero">
+  <div class="wrap">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> › <span>Repairs</span></nav>
+    <h1>Mac Repair Prices in the Hills District</h1>
+    <div class="tldr" role="note" aria-label="Quick answer">
+      <span class="tldr-label">TL;DR</span>
+      <ul>
+        <li>Every repair below shows a <strong>"from" price</strong>. You get the final price before any work starts.</li>
+        <li>Not sure what's wrong? Use the <a href="#finder">problem finder</a>, or call for a <strong>free phone estimate</strong>.</li>
+        <li>If we need to open your Mac to find the fault, the check is <strong>$150, and it comes off the repair</strong> if you go ahead.</li>
+        <li>Drop-off at our Hills District workshop, near Castle Hill. <strong>Ring first: 02 4509 9248.</strong></li>
+        <li><strong>12-month warranty</strong> on new parts. 30 days on used or aftermarket parts.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="wrap product-body">
+  <section class="pb-section" id="repairs">
+    <h2>All repairs</h2>
+    <div class="shop-grid">
+      {% for item in shop.cards %}{% include "product-card.njk" %}{% endfor %}
+    </div>
+  </section>
+
+  <section class="pb-section asset" id="finder">
+    <h2>Problem finder: which repair do I need?</h2>
+    <table class="data-table">
+      <thead><tr><th>What your Mac does</th><th>Start here</th></tr></thead>
+      <tbody>
+        <tr><td>Got wet, or anything was spilled on it</td><td><a href="/product/macbook-water-damage-repair/">Water damage repair</a> (call now)</td></tr>
+        <tr><td>Won't turn on at all</td><td><a href="/product/macbook-logic-board-repair/">Logic board repair</a></td></tr>
+        <tr><td>Won't charge, or the plug is loose</td><td><a href="/product/macbook-charging-port-repair/">Charging port repair</a></td></tr>
+        <tr><td>Battery dies fast, or the case is bulging</td><td><a href="/product/macbook-battery-replacement/">Battery replacement</a></td></tr>
+        <tr><td>Cracked, dark, flickering or lined screen</td><td><a href="/product/macbook-screen-repair/">Screen repair</a></td></tr>
+        <tr><td>Keys stick or don't work, trackpad won't click</td><td><a href="/product/macbook-keyboard-trackpad-repair/">Keyboard and trackpad repair</a></td></tr>
+        <tr><td>Hot, loud fan, slows down when warm</td><td><a href="/product/macbook-fan-cleaning/">Overheating and fan clean</a></td></tr>
+        <tr><td>Out of space, or slow to start</td><td><a href="/product/macbook-ssd-upgrade/">SSD upgrade</a> or <a href="/imac-upgrades/">iMac upgrades</a></td></tr>
+        <tr><td>Slow, crashing, stuck on the Apple logo, failed update</td><td><a href="/product/macos-reinstall/">macOS reinstall</a></td></tr>
+        <tr><td>Dead or broken, and you need the files</td><td><a href="/product/macbook-data-recovery/">Data recovery</a></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="pb-section" id="how-it-works">
+    <h2>How a repair works</h2>
+    <ol class="big-steps">
+      <li><span class="n">1</span><div><strong>Call for a free phone estimate.</strong> Have your Mac's model ready (Apple menu &gt; About This Mac).</div></li>
+      <li><span class="n">2</span><div><strong>Drop it at the workshop.</strong> Ring first so we're ready. We don't do onsite visits.</div></li>
+      <li><span class="n">3</span><div><strong>We confirm the price.</strong> Nothing is done until you say yes.</div></li>
+      <li><span class="n">4</span><div><strong>Collect it.</strong> Repaired, tested and under warranty.</div></li>
+    </ol>
+  </section>
+
+  <div class="cta-box" style="text-align:center">
+    <h2>Not sure which repair you need?</h2>
+    <p>Call and tell us what your Mac is doing. The estimate is free.</p>
+    <p style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:0">
+      <a class="btn large light" href="tel:0245099248">Call 02 4509 9248</a>
+      <a class="btn large ghost" href="/pages/booking/">Book a repair</a>
+    </p>
+  </div>
+</div>
+
+<script type="application/ld+json">{{ shop.shopSchema | dump | safe }}</script>

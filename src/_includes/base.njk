@@ -13,9 +13,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/style.css?v=20261024">
+  <link rel="stylesheet" href="/assets/css/style.css?v=20261025">
   <title>{{ title or 'Hills District Mac Repair' }}</title>
-  <meta name="description" content="{{ description or 'Professional Mac repair services in the Hills District Sydney. MacBook, iMac repairs with same-day service. Battery, screen, keyboard, data recovery. Call 02 4509 9248.' }}">
+  <meta name="description" content="{{ description or 'MacBook and iMac repairs at our Hills District workshop. Battery, screen, water damage, logic board and data recovery. Call 02 4509 9248.' }}">
 </head>
 <body>
 <header class="site-header">
@@ -26,18 +26,16 @@
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="bars" aria-hidden="true"></span>Menu</button>
     <nav class="nav" id="site-nav" aria-label="Main">
       <a href="/">Home</a>
-      <a href="/macbook-problems/">MacBook Problems</a>
       <div class="dropdown">
-        <a href="/services/" class="dropdown-trigger">Services ▾</a>
+        <a href="/shop/" class="dropdown-trigger">Repairs &amp; Prices ▾</a>
         <div class="dropdown-menu">
-          <a href="/services/">All Services</a>
-          {% for service in servicesList %}
-          <a href="/services/{{ service.slug }}/">{{ service.shortName }}</a>
+          <a href="/shop/">All repairs and prices</a>
+          {% for item in shop.cards %}
+          <a href="{{ item.url }}">{{ item.name }}</a>
           {% endfor %}
-          <div class="dropdown-divider"></div>
-          <a href="/imac-upgrades/">iMac Upgrades</a>
         </div>
       </div>
+      <a href="/product/macbook-water-damage-repair/">Water Damage</a>
       <a href="/suburbs/">Suburbs</a>
       <a href="/pages/booking/">Booking</a>
       <a href="/pages/contact/">Contact</a>
@@ -69,17 +67,18 @@
       <div>
         <h4>Repairs</h4>
         <ul>
-          {% for service in servicesList %}
-          <li><a href="/services/{{ service.slug }}/">{{ service.shortName }}</a></li>
+          {% for item in shop.cards %}
+          <li><a href="{{ item.url }}">{{ item.name }}</a></li>
           {% endfor %}
         </ul>
       </div>
       <div>
         <h4>Help</h4>
         <ul>
-          <li><a href="/macbook-problems/">MacBook problems</a></li>
+          <li><a href="/shop/">Repair prices</a></li>
+          <li><a href="/repair-case-studies/">Real repair jobs</a></li>
           <li><a href="/imac-upgrades/">iMac upgrades</a></li>
-          <li><a href="/suburbs/">Suburbs we cover</a></li>
+          <li><a href="/suburbs/">Areas we cover</a></li>
           <li><a href="/pages/booking/">Book a repair</a></li>
           <li><a href="/pages/contact/">Contact</a></li>
         </ul>

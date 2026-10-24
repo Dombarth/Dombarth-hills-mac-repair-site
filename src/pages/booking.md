@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Booking
+title: "Book a Mac Repair: Free Phone Estimate, Hills District"
 hero: false
 ---
 

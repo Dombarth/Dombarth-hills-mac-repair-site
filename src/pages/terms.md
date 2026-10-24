@@ -1,6 +1,6 @@
 ---
 layout: base
-title: "Terms, Warranty & Conditions | Hills Mac Repair"
+title: "Hills Mac Repair Terms: Warranty, Quotes & Conditions"
 description: "Terms and conditions for Mac repair services at Hills District Mac Repair. Warranty information and repair policies."
 permalink: /terms/
 ---
@@ -190,4 +190,4 @@ By leaving your device with Hills District Mac Repair, you agree to:
 
 ---
 
-<p style="margin-top: 2rem;"><a href="/pages/booking.html" class="btn">Book a Repair</a> <a href="tel:0245099248" class="btn ghost-dark">Call 02 4509 9248</a></p>
+<p style="margin-top: 2rem;"><a href="/pages/booking/" class="btn">Book a Repair</a> <a href="tel:0245099248" class="btn ghost-dark">Call 02 4509 9248</a></p>

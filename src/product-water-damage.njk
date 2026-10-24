@@ -1,0 +1,417 @@
+---
+layout: base
+permalink: "product/macbook-water-damage-repair/index.html"
+eleventyComputed:
+  title: "{{ shop.bySlug['macbook-water-damage-repair'].title | safe }}"
+  description: "{{ shop.bySlug['macbook-water-damage-repair'].description | safe }}"
+fullBleed: true
+---
+{% set p = shop.bySlug['macbook-water-damage-repair'] %}
+
+<div class="urgent-bar" role="alert">
+  <div class="wrap">
+    <strong>Spilled right now?</strong> Hold the power button for 10 seconds. Unplug it. Don't charge it.
+    <a href="tel:0245099248">Call 02 4509 9248</a>
+  </div>
+</div>
+
+{% include "product-hero.njk" %}
+
+<div class="wrap product-body">
+
+  <nav class="toc" aria-label="On this page">
+    <strong>On this page</strong>
+    <a href="#first-10-minutes">First 10 minutes</a>
+    <a href="#dont">What not to do</a>
+    <a href="#spill-checker">Spill checker</a>
+    <a href="#price">Prices</a>
+    <a href="#how-we-repair">How we repair it</a>
+    <a href="#files">Your files</a>
+    <a href="#applecare-insurance">AppleCare and insurance</a>
+    <a href="#real-jobs">Real jobs</a>
+    <a href="#faq">Questions</a>
+  </nav>
+
+  <!-- 1. First 10 minutes -->
+  <section class="pb-section" id="first-10-minutes">
+    <h2>Spilled on your MacBook? Do this in the first 10 minutes</h2>
+    <p class="lead-in"><strong>Cut the power, drain it, and keep it off.</strong> These six steps give your Mac the best chance.</p>
+    <ol class="big-steps">
+      <li><span class="n">1</span><div><strong>Turn it off.</strong> Hold the power button (or Touch ID) for 10 seconds until the screen goes black. Don't stop to save your work.</div></li>
+      <li><span class="n">2</span><div><strong>Unplug everything.</strong> The charger first, then USB drives, hubs and screens.</div></li>
+      <li><span class="n">3</span><div><strong>Wipe the outside.</strong> Use a dry towel or paper towel. Don't press the keys. That pushes liquid deeper.</div></li>
+      <li><span class="n">4</span><div><strong>Tent it.</strong> Open the lid wide and stand it upside down like a tent, keyboard facing down, so liquid can run out.</div></li>
+      <li><span class="n">5</span><div><strong>Leave it off.</strong> Don't turn it on to test it. Don't charge it. Even off, the battery keeps part of the board powered, and that power speeds up corrosion.</div></li>
+      <li><span class="n">6</span><div><strong>Call us and bring it in.</strong> Ring <a href="tel:0245099248">02 4509 9248</a>. Tell us what spilled and when. The sooner we open it, the more we can save.</div></li>
+    </ol>
+  </section>
+
+  <!-- 2. Don't -->
+  <section class="pb-section" id="dont">
+    <h2>What not to do after a spill</h2>
+    <p class="lead-in"><strong>Don't use rice, heat or air, and don't test it.</strong> Each one can turn a small fix into a big one.</p>
+    <table class="data-table">
+      <thead><tr><th>Don't</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>Put it in rice</td><td>Rice can't reach inside, it doesn't stop corrosion, and its dust gets in. Apple says the same for wet iPhones.</td></tr>
+        <tr><td>Use a hair dryer or heater</td><td>Heat can damage parts and push liquid further in. Apple warns against external heat.</td></tr>
+        <tr><td>Blow compressed air into it</td><td>It drives liquid deeper under the keys and chips.</td></tr>
+        <tr><td>Turn it on "to check"</td><td>Power plus liquid can short chips that were still fine.</td></tr>
+        <tr><td>Charge it</td><td>Charging feeds power straight into the wet board.</td></tr>
+        <tr><td>Wait for it to "dry out"</td><td>The outside dries in a day. Liquid trapped under chips does not, and the residue keeps corroding.</td></tr>
+        <tr><td>Shake it</td><td>Shaking spreads liquid to parts it hadn't reached.</td></tr>
+      </tbody>
+    </table>
+    <p class="source">Apple's advice on rice, heat and compressed air: <a href="https://support.apple.com/en-au/102643" rel="nofollow noopener" target="_blank">Apple Support</a>.</p>
+  </section>
+
+  <!-- 3. Spill checker -->
+  <section class="pb-section asset" id="spill-checker">
+    <h2>Spill checker: how serious is it?</h2>
+    <p class="lead-in"><strong>Answer five questions to see the risk, what to do now, and the likely repair.</strong> It is a guide, not a diagnosis.</p>
+    <form class="checker" id="spillForm" onsubmit="return false">
+      <fieldset><legend>1. What was spilled?</legend>
+        <label><input type="radio" name="liquid" value="0"> Plain water</label>
+        <label><input type="radio" name="liquid" value="1"> Black coffee or tea</label>
+        <label><input type="radio" name="liquid" value="2"> Milk, sugar, juice, soft drink, beer or wine</label>
+        <label><input type="radio" name="liquid" value="3"> Salt water or pool water</label>
+        <label><input type="radio" name="liquid" value="2"> Not sure</label>
+      </fieldset>
+      <fieldset><legend>2. When did it happen?</legend>
+        <label><input type="radio" name="time" value="0"> Less than an hour ago</label>
+        <label><input type="radio" name="time" value="1"> Earlier today</label>
+        <label><input type="radio" name="time" value="2"> 1 to 3 days ago</label>
+        <label><input type="radio" name="time" value="3"> More than 3 days ago</label>
+      </fieldset>
+      <fieldset><legend>3. Was it turned off quickly?</legend>
+        <label><input type="radio" name="power" value="0"> Yes, within a minute</label>
+        <label><input type="radio" name="power" value="2"> No, it kept running or charging</label>
+        <label><input type="radio" name="power" value="1"> Not sure</label>
+      </fieldset>
+      <fieldset><legend>4. How much went in?</legend>
+        <label><input type="radio" name="amount" value="0"> A few drops</label>
+        <label><input type="radio" name="amount" value="1"> A splash</label>
+        <label><input type="radio" name="amount" value="2"> A cup or more</label>
+      </fieldset>
+      <fieldset><legend>5. What does it do now?</legend>
+        <label><input type="radio" name="state" value="fine"> Works normally</label>
+        <label><input type="radio" name="state" value="partial"> Some keys, ports, sound or screen not working</label>
+        <label><input type="radio" name="state" value="dead"> Won't turn on or charge</label>
+        <label><input type="radio" name="state" value="untested"> I haven't tried (good)</label>
+      </fieldset>
+      <button type="button" class="btn large" id="spillGo">Show my result</button>
+      <p class="checker-msg" id="spillMsg" hidden>Please answer all five questions.</p>
+    </form>
+    <div class="checker-result" id="spillResult" hidden aria-live="polite"></div>
+    <noscript><p><strong>Turn it off, unplug it, tent it keyboard-down and call 02 4509 9248.</strong> A clean starts from $150 and board repair from $249.</p></noscript>
+  </section>
+
+  <!-- 4. What liquid does -->
+  <section class="pb-section" id="what-happens">
+    <h2>What water does inside a MacBook</h2>
+    <p class="lead-in"><strong>Liquid harms a Mac in two ways: it shorts parts while there is power, and it corrodes the board for days or weeks after.</strong></p>
+    <div class="two-col">
+      <div>
+        <ul class="check-list">
+          <li><strong>Short circuits.</strong> Liquid joins tiny points on the board that should never touch. With power on, chips can burn out in seconds.</li>
+          <li><strong>Corrosion.</strong> Minerals, sugar and salt stay behind when the water dries. With a little power and moisture, they eat the metal. You may see green or white crust.</li>
+          <li><strong>It hides.</strong> Liquid gets trapped under chips and connectors, where you can't see it or dry it.</li>
+          <li><strong>It spreads.</strong> On one real job, corrosion moved from the ports on one side of a MacBook Pro to the other side in three weeks.</li>
+        </ul>
+      </div>
+      <figure class="diagram">
+        <svg viewBox="0 0 360 250" role="img" aria-labelledby="dgTitle dgDesc">
+          <title id="dgTitle">Where liquid goes in a MacBook</title>
+          <desc id="dgDesc">Simplified top view of a MacBook base. Liquid on the keyboard runs down onto the main board under the keyboard, and liquid near the ports reaches the port chips.</desc>
+          <rect x="10" y="10" width="340" height="230" rx="18" fill="#F5F7FA" stroke="#94A3B8" stroke-width="2"/>
+          <rect x="40" y="28" width="280" height="110" rx="8" fill="#fff" stroke="#CBD5E1" stroke-width="2"/>
+          <g fill="#E2E8F0">
+            <rect x="52" y="40" width="256" height="16" rx="3"/><rect x="52" y="62" width="256" height="16" rx="3"/><rect x="52" y="84" width="256" height="16" rx="3"/><rect x="52" y="106" width="256" height="20" rx="3"/>
+          </g>
+          <rect x="95" y="36" width="170" height="70" rx="6" fill="none" stroke="#1D4ED8" stroke-width="2.5" stroke-dasharray="6 5"/>
+          <text x="165" y="92" text-anchor="middle" font-size="12" font-weight="700" fill="#1D4ED8">Main board (under keys)</text>
+          <rect x="110" y="150" width="140" height="70" rx="8" fill="#fff" stroke="#CBD5E1" stroke-width="2"/>
+          <text x="180" y="190" text-anchor="middle" font-size="11" fill="#475569">Trackpad, battery below</text>
+          <rect x="10" y="60" width="14" height="22" rx="3" fill="#0F172A"/><rect x="10" y="90" width="14" height="22" rx="3" fill="#0F172A"/>
+          <text x="30" y="128" font-size="10" fill="#0F172A">Ports</text>
+          <path d="M248 14c0 0-8 10-8 15a8 8 0 0 0 16 0c0-5-8-15-8-15z" fill="#38BDF8"/>
+          <path d="M248 40 L244 64" stroke="#0EA5E9" stroke-width="3" marker-end="url(#arr)"/>
+          <path d="M40 74 L26 74" stroke="#0EA5E9" stroke-width="3" marker-end="url(#arr)"/>
+          <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 0 8 4 0 8z" fill="#0EA5E9"/></marker></defs>
+        </svg>
+        <figcaption>Simplified layout. On MacBooks the main board sits under the keyboard, so a keyboard spill can reach it in seconds. Liquid near the side ports often kills the chips that run USB-C and charging.</figcaption>
+      </figure>
+    </div>
+
+    <h3>Which liquids do the most damage</h3>
+    <table class="data-table">
+      <thead><tr><th>Liquid</th><th>Why it hurts</th><th>Risk</th></tr></thead>
+      <tbody>
+        <tr><td>Plain water</td><td>Shorts live parts. Tap and rain water leave minerals behind.</td><td><span class="risk r1">Lower</span></td></tr>
+        <tr><td>Black coffee or tea</td><td>Mildly acidic, leaves a stain and residue.</td><td><span class="risk r2">Medium</span></td></tr>
+        <tr><td>Coffee with milk or sugar, juice, soft drink</td><td>Sticky sugar and fat hold moisture against the board.</td><td><span class="risk r3">High</span></td></tr>
+        <tr><td>Beer or wine</td><td>Sugar and acid, and often a big spill.</td><td><span class="risk r3">High</span></td></tr>
+        <tr><td>Salt water or pool water</td><td>Salt and chlorine carry current well and corrode fastest.</td><td><span class="risk r4">Very high</span></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- 5. Delayed signs -->
+  <section class="pb-section" id="signs">
+    <h2>Signs of water damage, even weeks later</h2>
+    <p class="lead-in"><strong>A Mac that works after a spill is not safe yet.</strong> Watch for these signs, and get it cleaned before they start.</p>
+    <ul class="check-list cols">
+      <li>Keys stop working one by one</li>
+      <li>A USB-C port stops charging</li>
+      <li>The battery drains fast or won't charge</li>
+      <li>The screen flickers or goes dark</li>
+      <li>Speakers crackle or go quiet</li>
+      <li>The trackpad clicks on its own</li>
+      <li>Fans run all the time</li>
+      <li>Random shutdowns</li>
+      <li>It won't turn on at all</li>
+    </ul>
+  </section>
+
+  <!-- 6. Prices -->
+  <section class="pb-section" id="price">
+    <h2>What MacBook water damage repair costs</h2>
+    <p class="lead-in"><strong>A clean starts from $150. Board repair starts from $249.</strong> We can't give an exact price on the phone, because nobody can see the corrosion until the Mac is open.</p>
+    <table class="data-table price-table">
+      <tbody>
+        {% for row in p.priceRows %}<tr><td>{{ row[0] | safe }}</td><td class="num">{{ row[1] | safe }}</td></tr>{% endfor %}
+      </tbody>
+    </table>
+    <p class="fine">Apple fees are from Apple's Australian repair estimator, checked 24 October 2026. The $899 (MacBook Air M1) and $1,650 (MacBook Pro 16" 2019) figures are Apple quotes our customers brought to us. You approve every price before we start.</p>
+  </section>
+
+  <!-- 7. How we repair -->
+  <section class="pb-section" id="how-we-repair">
+    <h2>How we repair a water-damaged MacBook</h2>
+    <p class="lead-in"><strong>We stop the corrosion first, then find and replace only the parts that failed.</strong> That is why it often costs a lot less than a new board.</p>
+    <ol class="big-steps">
+      <li><span class="n">1</span><div><strong>Battery off.</strong> We open the Mac and disconnect the battery first. This cuts the power that feeds corrosion.</div></li>
+      <li><span class="n">2</span><div><strong>Look closely.</strong> We check the liquid indicators and map every spot of corrosion under a microscope.</div></li>
+      <li><span class="n">3</span><div><strong>Ultrasonic clean.</strong> The board goes into an ultrasonic bath with a board-safe solution. It reaches under the chips where a brush can't. Then it is fully dried.</div></li>
+      <li><span class="n">4</span><div><strong>Find the dead parts.</strong> Power readings, circuit diagrams and board maps show which chips have failed.</div></li>
+      <li><span class="n">5</span><div><strong>Replace only what failed.</strong> Common ones after a spill: USB-C controller chips, charging chips, backlight chips and audio chips.</div></li>
+      <li><span class="n">6</span><div><strong>Test everything.</strong> Charging, every port, keyboard, trackpad, screen, speakers, microphones, camera, Wi-Fi and the battery.</div></li>
+      <li><span class="n">7</span><div><strong>You get a report.</strong> What we found, what we fixed, and anything that may still be at risk. Need it for insurance? We write a formal report for $149.</div></li>
+    </ol>
+    <div class="honest-box">
+      <h3>What we can't promise</h3>
+      <ul>
+        <li>Liquid damage is hard to predict. Two spills that look the same can end very differently.</li>
+        <li>Hidden corrosion can cause a new fault later. We warranty the parts we replace, but there is no long-term guarantee on a liquid-damaged Mac. See our <a href="/terms/">terms</a>.</li>
+        <li>If a repair costs more than your Mac is worth, we tell you, and we focus on your files.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 8. Decide -->
+  <section class="pb-section" id="decide">
+    <h2>Repair it, replace it, or just save the files?</h2>
+    <p class="lead-in"><strong>It depends on what still works, whether you have a backup, and whether you have AppleCare+.</strong></p>
+    <table class="data-table">
+      <thead><tr><th>Your situation</th><th>Our advice</th></tr></thead>
+      <tbody>
+        <tr><td>It still works after a spill</td><td>Back up, then have it cleaned. This is the cheapest time to act.</td></tr>
+        <tr><td>Some keys, ports or sound have stopped</td><td>Clean and replace the failed parts. Usually worth it if the Mac is otherwise good.</td></tr>
+        <tr><td>It won't turn on and you need the files</td><td>Board repair to reach the files. Files first, then decide on the Mac.</td></tr>
+        <tr><td>It won't turn on, files are backed up, you have AppleCare+</td><td>Apple may be cheaper: A$429. Go to Apple.</td></tr>
+        <tr><td>Old Mac and the repair costs more than it's worth</td><td>We save your files and move them to your new Mac.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- 9. Files -->
+  <section class="pb-section" id="files">
+    <h2>Will you lose your files after a spill?</h2>
+    <p class="lead-in"><strong>Not if the board is repaired. A new board means your files are gone on most newer Macs.</strong></p>
+    <ul class="check-list">
+      <li><strong>Macs with a T2 chip (2018 to 2020) and all M1-and-newer Macs</strong> keep their storage soldered to the board, and it is always encrypted. The key lives in the chip on that board.</li>
+      <li>So if a shop or Apple swaps the board, <strong>the old files can't be read</strong>, even if the storage chips were fine.</li>
+      <li>That is why we repair the original board. Even when the Mac is not worth fixing, we fix it enough to start, then copy your files off.</li>
+      <li><strong>Older Macs</strong> (MacBook Air to 2017, MacBook Pro to 2015) have a removable drive, so the files can often be read in another machine.</li>
+      <li>Know your Mac login password. With FileVault on, we need it to unlock your files.</li>
+    </ul>
+    <p class="source">Source: <a href="https://support.apple.com/en-au/guide/security/sec4c6dc1b6e/web" rel="nofollow noopener" target="_blank">Apple Platform Security: volume encryption on Apple silicon and T2 Macs</a>.</p>
+  </section>
+
+  <!-- 10. By model -->
+  <section class="pb-section" id="models">
+    <h2>Water damage by MacBook model</h2>
+    <p class="lead-in"><strong>Every MacBook is at risk, because the main board sits under the keyboard.</strong> Here is what we look for on each type.</p>
+    <table class="data-table">
+      <thead><tr><th>Model</th><th>What a spill often hits</th><th>Files</th></tr></thead>
+      <tbody>
+        <tr><td>MacBook Air M1, M2, M3, M4</td><td>Power and charging parts on the board under the keyboard</td><td>Locked to the board</td></tr>
+        <tr><td>MacBook Pro 14" and 16" (2021 and newer)</td><td>The board under the keyboard, and the keyboard itself</td><td>Locked to the board</td></tr>
+        <tr><td>MacBook Pro 13", 15", 16" and MacBook Air (Intel, 2018 to 2020)</td><td>USB-C controller chips near the ports, and charging parts</td><td>Locked to the T2 chip</td></tr>
+        <tr><td>Butterfly keyboard models (2015 to 2019)</td><td>Liquid sits under the keys, so the keyboard often needs replacing too</td><td>Locked on 2018 to 2019 models</td></tr>
+        <tr><td>MacBook Air to 2017, MacBook Pro to 2015</td><td>The board under the keyboard</td><td>Removable drive, easier to save</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- 11. AppleCare & insurance -->
+  <section class="pb-section" id="applecare-insurance">
+    <h2>Does AppleCare+, warranty or insurance cover water damage?</h2>
+    <p class="lead-in"><strong>Apple's warranty: no. AppleCare+: yes, for a A$429 fee. Home insurance: only if you have accidental damage cover.</strong></p>
+    <div class="cover-grid">
+      <div class="cover-card no"><h3>Apple's 1-year warranty</h3><p><strong>Not covered.</strong> Apple says liquid damage to Macs is not covered by its warranty. Mac laptops have liquid contact indicators inside that show it.</p><p class="source"><a href="https://support.apple.com/en-au/102249" rel="nofollow noopener" target="_blank">Apple Support</a></p></div>
+      <div class="cover-card yes"><h3>AppleCare+</h3><p><strong>Covered</strong> as accidental damage. Apple's Australian estimate for MacBook Air and Pro "other accidental damage" is <strong>A$429</strong>. If you have it, Apple is often the cheaper choice. Get your files out first if you have no backup.</p><p class="source"><a href="https://support.apple.com/en-au/mac-laptops/repair?services=applecare" rel="nofollow noopener" target="_blank">Apple repair estimator</a></p></div>
+      <div class="cover-card maybe"><h3>Home contents insurance</h3><p><strong>Maybe.</strong> Many policies only cover a spill if you added accidental damage cover. Outside the home you usually need portable items cover. Check your policy wording.</p><p class="source"><a href="https://www.racv.com.au/royalauto/property/insurance/insurance-for-laptops-guide.html" rel="nofollow noopener" target="_blank">RACV example</a></p></div>
+    </div>
+    <h3>Making an insurance claim? Our report costs $149</h3>
+    <ul class="check-list">
+      <li>What happened and what we found inside</li>
+      <li>Which parts are damaged, with photos</li>
+      <li>The cost to repair, or why it is not worth repairing</li>
+      <li>Your Mac's model and serial number</li>
+    </ul>
+  </section>
+
+  <!-- 12. Real jobs -->
+  <section class="pb-section" id="real-jobs">
+    <h2>Real water damage jobs from our workshop</h2>
+    <div class="job-cards">
+      <article class="job-card">
+        <p class="job-meta">MacBook Air M1 2020 (A2337) · Baulkham Hills · February 2025</p>
+        <h3>Dead after rain. Thesis saved in 2 days.</h3>
+        <ul>
+          <li><strong>Problem:</strong> caught in the rain, completely dead, no backup of a thesis.</li>
+          <li><strong>Apple's answer:</strong> a new board for $899. That would have wiped the files.</li>
+          <li><strong>What we found:</strong> corrosion over the board and a shorted charging chip. The storage area was clean.</li>
+          <li><strong>What we did:</strong> ultrasonic clean, then a new charging chip and two power parts, so the Mac could start again.</li>
+          <li><strong>Result:</strong> every file recovered in 2 days. The Mac was not worth fully repairing, so we moved her files to her new MacBook Air.</li>
+        </ul>
+        <a href="/repair-case-studies/macbook-air-m1-2020-water-damage-data-recovery/">Read the full job →</a>
+      </article>
+      <article class="job-card">
+        <p class="job-meta">MacBook Pro 16" 2019 (A2141) · Castle Hill · October 2024</p>
+        <h3>Water on the keyboard killed the USB-C ports.</h3>
+        <ul>
+          <li><strong>Problem:</strong> two ports dead, two cutting in and out.</li>
+          <li><strong>Apple's answer:</strong> a new board for $1,650.</li>
+          <li><strong>What we found:</strong> corrosion on both USB-C controller chips. She had waited three weeks, and it had spread from the left side to the right.</li>
+          <li><strong>What we did:</strong> ultrasonic clean, both chips replaced, and two lifted pads rebuilt with fine wire.</li>
+          <li><strong>Result:</strong> all four ports and charging working, in 3 business days, for about 65% less than Apple's quote. Still working six months later.</li>
+        </ul>
+        <a href="/repair-case-studies/macbook-pro-16-2019-liquid-damage-usb-c-repair/">Read the full job →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- 13. Local -->
+  <section class="pb-section" id="near-you">
+    <h2>MacBook water damage repair near you</h2>
+    <p class="lead-in"><strong>Our workshop is near Castle Hill in the Hills District. It is drop-off only, so ring first and we'll be ready for you.</strong></p>
+    <ul class="check-list">
+      <li><strong>Bring:</strong> the Mac, its charger, your login password, and what spilled and when.</li>
+      <li><strong>If you're claiming insurance,</strong> bring your claim number and ask for the $149 report.</li>
+      <li><strong>Close by?</strong> A short drive now beats a long repair later. Corrosion does not wait.</li>
+    </ul>
+    <p>We see spill jobs from right across the Hills and north-west:</p>
+    <div class="chips">
+      <a href="/suburbs/castle-hill/">Castle Hill</a>
+      <a href="/suburbs/baulkham-hills/">Baulkham Hills</a>
+      <a href="/suburbs/kellyville/">Kellyville</a>
+      <a href="/suburbs/rouse-hill/">Rouse Hill</a>
+      <a href="/suburbs/bella-vista/">Bella Vista</a>
+      <a href="/suburbs/norwest/">Norwest</a>
+      <a href="/suburbs/cherrybrook/">Cherrybrook</a>
+      <a href="/suburbs/dural/">Dural</a>
+      <a href="/suburbs/pennant-hills/">Pennant Hills</a>
+      <a href="/suburbs/west-pennant-hills/">West Pennant Hills</a>
+      <a href="/suburbs/winston-hills/">Winston Hills</a>
+      <a href="/suburbs/north-rocks/">North Rocks</a>
+      <a href="/suburbs/carlingford/">Carlingford</a>
+      <a href="/suburbs/beaumont-hills/">Beaumont Hills</a>
+      <a href="/suburbs/the-ponds/">The Ponds</a>
+      <a href="/suburbs/box-hill/">Box Hill</a>
+      <a href="/suburbs/kings-langley/">Kings Langley</a>
+      <a href="/suburbs/seven-hills/">Seven Hills</a>
+      <a href="/suburbs/blacktown/">Blacktown</a>
+      <a href="/suburbs/" class="strong">All areas →</a>
+    </div>
+  </section>
+
+  <!-- 14. FAQ -->
+  <section class="pb-section" id="faq">
+    <h2>Questions people ask about MacBook water damage</h2>
+    <div class="faq">
+      {% for f in p.faqs %}
+      <details{% if loop.index < 3 %} open{% endif %}><summary>{{ f[0] }}</summary><p>{{ f[1] | safe }}</p></details>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="pb-section" id="related">
+    <h2>Related repairs</h2>
+    <div class="shop-grid small">
+      {% for item in p.relatedItems %}{% include "product-card.njk" %}{% endfor %}
+    </div>
+  </section>
+
+  <div class="cta-box" style="text-align:center">
+    <h2>Spilled on your Mac? Call now.</h2>
+    <p>Turn it off, keep it off, and ring us. The sooner it is open, the more we can save.</p>
+    <p style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:0">
+      <a class="btn large light" href="tel:0245099248">Call 02 4509 9248</a>
+      <a class="btn large ghost" href="mailto:info@hillsmacrepair.com.au?subject=Spill%20on%20my%20MacBook">Email us</a>
+    </p>
+  </div>
+
+  <section class="pb-section sources">
+    <h2>Sources</h2>
+    <ul>
+      <li><a href="https://support.apple.com/en-au/102249" rel="nofollow noopener" target="_blank">Apple: liquid damage to Mac computers is not covered by warranty</a></li>
+      <li><a href="https://support.apple.com/en-au/mac-laptops/repair?services=applecare" rel="nofollow noopener" target="_blank">Apple: AppleCare service fees for Mac laptops (Australia)</a></li>
+      <li><a href="https://support.apple.com/en-au/102643" rel="nofollow noopener" target="_blank">Apple: what not to do with a wet iPhone (rice, heat, compressed air)</a></li>
+      <li><a href="https://support.apple.com/en-au/guide/security/sec4c6dc1b6e/web" rel="nofollow noopener" target="_blank">Apple Platform Security: volume encryption</a></li>
+      <li><a href="https://www.racv.com.au/royalauto/property/insurance/insurance-for-laptops-guide.html" rel="nofollow noopener" target="_blank">RACV: insurance for laptops</a></li>
+    </ul>
+  </section>
+</div>
+
+<script>
+(function () {
+  var go = document.getElementById('spillGo');
+  if (!go) return;
+  function val(name) { var el = document.querySelector('input[name="' + name + '"]:checked'); return el ? el.value : null; }
+  go.addEventListener('click', function () {
+    var liquid = val('liquid'), time = val('time'), power = val('power'), amount = val('amount'), state = val('state');
+    var msg = document.getElementById('spillMsg'), out = document.getElementById('spillResult');
+    if ([liquid, time, power, amount, state].indexOf(null) !== -1) { msg.hidden = false; return; }
+    msg.hidden = true;
+    var stateScore = { fine: 0, untested: 1, partial: 2, dead: 3 }[state];
+    var score = (+liquid) + (+time) + (+power) + (+amount) + stateScore;
+    var level, cls;
+    if (score <= 3) { level = 'Lower risk'; cls = 'r1'; }
+    else if (score <= 6) { level = 'Medium risk'; cls = 'r2'; }
+    else if (score <= 9) { level = 'High risk'; cls = 'r3'; }
+    else { level = 'Very high risk'; cls = 'r4'; }
+    var todo = [];
+    if (power !== '0' || state === 'untested' || state === 'fine') todo.push('Turn it off now: hold the power button for 10 seconds. Don’t charge it.');
+    todo.push('Unplug everything, then stand it upside down like a tent, keyboard facing down.');
+    if (state === 'fine') todo.push('If your files aren’t backed up, copy only the most important ones first, then turn it off. Keep the charger out.');
+    if (liquid === '3') todo.push('Salt and pool water corrode fastest. Bring it in today.');
+    if (+time >= 2) todo.push('Corrosion has had time to start. Book it in this week, even if it seems fine.');
+    todo.push('Call 02 4509 9248. Tell us what spilled and when.');
+    var repair;
+    if (state === 'dead') repair = 'Board repair is likely: from $249. If you need the files and have no backup, we get those out first (from $199).';
+    else if (state === 'partial') repair = 'A clean plus replacing the parts that failed. Keyboard or trackpad from $129. Ports or board parts from $249.';
+    else repair = 'If we find no failed parts, an ultrasonic clean and dry: from $150.';
+    var html = '<p class="res-level"><span class="risk ' + cls + '">' + level + '</span></p>' +
+      '<h3>Do this now</h3><ol>' + todo.map(function (t) { return '<li>' + t + '</li>'; }).join('') + '</ol>' +
+      '<h3>Likely repair</h3><p>' + repair + ' The $150 inspection comes off the repair if you go ahead.</p>' +
+      '<p class="fine">This is a guide only. We confirm the real fault and price after we open it.</p>' +
+      '<p><a class="btn large" href="tel:0245099248">Call 02 4509 9248</a></p>';
+    out.innerHTML = html; out.hidden = false;
+    out.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  });
+})();
+</script>
+
+<script type="application/ld+json">{{ p.schema | dump | safe }}</script>
