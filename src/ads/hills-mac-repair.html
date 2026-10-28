@@ -78,9 +78,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Ar
 .contact-phone p{color:#9ca3af;font-size:1rem}
 .contact-form{background:#fff;border-radius:16px;padding:32px 28px;max-width:500px;margin:0 auto}
 .contact-form label{display:block;font-weight:600;margin-bottom:8px;font-size:0.9rem;color:#374151}
-.contact-form input,.contact-form textarea{width:100%;padding:16px;font-size:1rem;border:2px solid #e5e7eb;border-radius:10px;margin-bottom:20px;font-family:inherit;transition:border-color 0.2s;background:#fff;color:#0F172A}
-.contact-form input:focus,.contact-form textarea:focus{outline:none;border-color:#1D4ED8}
+.contact-form input,.contact-form select,.contact-form textarea{width:100%;padding:16px;font-size:1rem;border:2px solid #e5e7eb;border-radius:10px;margin-bottom:20px;font-family:inherit;transition:border-color 0.2s;background:#fff;color:#0F172A}
+.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{outline:none;border-color:#1D4ED8}
 .contact-form textarea{min-height:120px;resize:vertical}
+.contact-form .hint{font-weight:400}
 .contact-form button{width:100%;background:#1D4ED8;color:#fff;padding:20px;font-size:1.15rem;font-weight:700;border:none;border-radius:12px;cursor:pointer}
 
 @media(min-width:600px){
@@ -218,6 +219,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Ar
 <input type="text" id="name" name="name" required>
 <label for="phone">Phone</label>
 <input type="tel" id="phone" name="phone" required>
+<label for="found">How did you find us?</label>
+<select id="found" name="how_found_us" required><option value="">Choose one</option><option>Google search</option><option>Google Maps</option><option>AI assistant (ChatGPT, Gemini, Copilot)</option><option>Bing or another search engine</option><option>Facebook or Instagram</option><option>YouTube</option><option>Friend, family or workmate</option><option>Returning customer</option><option>Other</option></select>
+<label for="search">What did you type into the search bar? <span class="hint">(didn't search? type &quot;didn't search&quot;)</span></label>
+<input type="text" id="search" name="search_words" maxlength="150" required placeholder="e.g. mac repair castle hill">
 <label for="message">Message</label>
 <textarea id="message" name="message" required placeholder="Describe your Mac issue..."></textarea>
 <button type="submit">Book My Repair</button>
